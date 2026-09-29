@@ -1,0 +1,29 @@
+name: Skill request
+description: Suggest (or offer to write) a new growth skill
+labels: ["skill-request"]
+body:
+  - type: input
+    id: task
+    attributes:
+      label: The growth task
+      description: One concrete job, e.g. "write App Store screenshot captions", not "marketing".
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [ASO, Launch, Monetization, Other / new area]
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Your product and situation
+      description: What are you building, and what did you try?
+  - type: checkboxes
+    id: write
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd like to write this skill myself

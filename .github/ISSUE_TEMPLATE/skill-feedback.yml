@@ -1,0 +1,23 @@
+name: Skill feedback
+description: You used a skill and something was wrong, missing or great
+labels: ["feedback"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      placeholder: aso-keyword-research
+    validations:
+      required: true
+  - type: dropdown
+    id: tool
+    attributes:
+      label: How you used it
+      options: [Read it and did it by hand, Pasted the prompt into a chat AI, Installed as an agent skill]
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened
+      description: What worked, what didn't, and what you would change. Real numbers are very welcome.
+    validations:
+      required: true

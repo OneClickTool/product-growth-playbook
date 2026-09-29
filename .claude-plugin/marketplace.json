@@ -1,0 +1,23 @@
+{
+  "name": "product-growth-playbook",
+  "owner": {
+    "name": "Tu Nguyen",
+    "url": "https://github.com/nvminhtu"
+  },
+  "metadata": {
+    "description": "Free, open-source growth skills for people building digital products: ASO, launch, monetization and more.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "product-growth-playbook",
+      "description": "Growth skills for apps, SaaS, games and AI products: ASO keyword research, launch and monetization.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/growth",
+        "./skills/aso/aso-keyword-research"
+      ]
+    }
+  ]
+}
