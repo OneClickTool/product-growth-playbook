@@ -1,6 +1,6 @@
 # Product Growth Playbook
 
-**Free, open-source growth skills for people building digital products: ASO, launch, monetization and more.**
+**100% free AI growth skills, research templates and a free Markdown app for people building apps, SaaS, games and AI tools: research, ASO, launch and monetization.**
 
 [![Free forever](https://img.shields.io/badge/price-free%20forever-brightgreen)](#what-you-get-all-free)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
