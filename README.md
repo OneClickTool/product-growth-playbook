@@ -31,7 +31,7 @@ it as an agent skill.
 
 **Playbooks:** [Launch a Product](playbooks/launch-a-product.md)
 
-**Roadmap:** SEO · Content · Retention · Analytics · Competitor research, prioritized by what people ask for
+**[Roadmap](ROADMAP.md):** SEO · Content · Retention · Analytics · Competitor research, prioritized by what people ask for
 in [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions).
 
 ## Three ways to use a skill

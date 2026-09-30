@@ -5,7 +5,7 @@ Thanks for helping! This repo gets better with every real-world lesson people ad
 ## Ways to help
 - **Improve a skill:** fix something that's wrong, add a missing step, or add a common mistake you've actually made.
 - **Share a real example:** numbers from your own launch, ASO test or pricing change. Anonymize them if you need to.
-- **Write a new skill:** first check the [plan](docs/PLAN.md#3-danh-sách-skill-giai-đoạn-1-theo-thứ-tự-viết)
+- **Write a new skill:** first check the [roadmap](ROADMAP.md)
   and open issues, then open a *Skill request* issue so nobody duplicates work.
 - **Test a skill:** run it on your product and leave feedback with the *Skill feedback* issue template.
 

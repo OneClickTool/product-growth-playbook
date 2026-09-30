@@ -5,7 +5,7 @@ Rules for AI agents working in this repository. [AGENTS.md](AGENTS.md) points he
 ## What this repo is
 A library of **growth skills** for people building digital products. Every skill is an Agent Skill
 (`skills/<area>/<name>/SKILL.md`) that a human can read on GitHub and an agent can install.
-The plan and roadmap live in [docs/PLAN.md](docs/PLAN.md) (Vietnamese). Public content is in English.
+The public roadmap is [ROADMAP.md](ROADMAP.md). All content is in English.
 
 ## Hard rules
 - Follow [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md) exactly: frontmatter, section order, four-backtick prompt fence.
@@ -15,6 +15,7 @@ The plan and roadmap live in [docs/PLAN.md](docs/PLAN.md) (Vietnamese). Public c
 - Don't create empty folders or list planned skills as if they exist. Mark them *planned*.
 - When you add or rename a skill, update `.claude-plugin/marketplace.json`, the area README,
   the router table in `skills/growth/SKILL.md` and the root README.
+- Never commit `.private/` (maintainer notes) or personal account details, emails or payment/tax info.
 - Scripts in `skills/**/scripts/` use the Python standard library only.
 - Maintainer products (ShotMatic, Markdown Viewer, OneClickTool) may be mentioned **only** in flows about managing
   projects/repos or Markdown files (currently: README, CONTRIBUTING, `launch-pre-launch-checklist`,
