@@ -14,5 +14,5 @@ Then keep your research in tidy Markdown files that you, your team and your AI a
 
 **Suggested order:** organize your folder → where users ask → review mining → source finding for each open question.
 
-> 📖 Tip: a research folder is just Markdown files. Open it in [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=research)
+> 📖 Tip: a research folder is just Markdown files. Open it in [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=research)
 > (free, Mac, made by the maintainer) to see notes as a table, a link map or Finder-style folders, with ★ favorites.

@@ -13,5 +13,5 @@ Decide what to charge, what's free, and how to ask for the money.
 
 **Open for contributors:** pricing experiments. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
-> 📖 Tip: see how these skills link to each other in [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=monetization)
+> 📖 Tip: see how these skills link to each other in [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=monetization)
 > (free, Mac, made by the maintainer): map, table or Finder-style folders, plus ★ favorites.

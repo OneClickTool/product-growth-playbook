@@ -117,5 +117,5 @@ and Chrome Web Store Program Policies. Re-check them before each launch, because
 
 **Tools (made by the maintainer at [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=launch-pre-launch-checklist)):** launching several products at once?
 [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=launch-pre-launch-checklist) (Mac) shows every repo's next steps, blockers and uncommitted changes on
-one screen, and reopens the right Claude session. [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=launch-pre-launch-checklist) (free) reads
+one screen, and reopens the right Claude session. [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=launch-pre-launch-checklist) (free) reads
 a folder of `LAUNCH.md` and plan files at a glance.

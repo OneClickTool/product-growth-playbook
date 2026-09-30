@@ -15,5 +15,5 @@ Get found in App Store and Google Play search, and turn store visitors into inst
 
 **Open for contributors:** competitor ASO audit. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
-> 📖 Tip: see how these skills link to each other in [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=aso)
+> 📖 Tip: see how these skills link to each other in [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=aso)
 > (free, Mac, made by the maintainer): map, table or Finder-style folders, plus ★ favorites.

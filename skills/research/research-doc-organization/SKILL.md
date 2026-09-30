@@ -119,6 +119,6 @@ sources: [notion-pricing, obsidian-pricing, r-productivity-export-thread]
 Written by [@nvminhtu](https://github.com/nvminhtu).
 
 **Tool (made by the maintainer at [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=research-doc-organization)):**
-[Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=research-doc-organization)
+[Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=research-doc-organization)
 (free, Mac) opens a `research/` folder as a table, a map of which note links to which, or Finder-style columns,
 with ★ favorites for the notes you use most.

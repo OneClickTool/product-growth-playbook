@@ -45,7 +45,7 @@ Not sure? Ask in [Discussions](https://github.com/OneClickTool/product-growth-pl
 7. **Open a pull request** and tick the checklist.
 
 Tip: to see how your skill links to the others, open the `skills/` folder in
-[Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=contributing&utm_campaign=growth-playbook&utm_content=link-map)
+[Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=contributing&utm_campaign=growth-playbook&utm_content=link-map)
 (free, Mac, made by the maintainer) and look at the link map.
 
 ## When is a skill "done"?

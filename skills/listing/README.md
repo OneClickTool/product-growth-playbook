@@ -32,5 +32,5 @@ Level 2 of the store listing once you're approved.
 **How this differs from [ASO](../aso/):** Listing is *getting published correctly*. ASO is *getting found and
 chosen* once you're live. The listing skills link to the ASO skills at Level 2.
 
-> 📖 Tip: keep your listing sheets and launch kit as Markdown in your repo, and open them in [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=listing)
+> 📖 Tip: keep your listing sheets and launch kit as Markdown in your repo, and open them in [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=listing)
 > (free, Mac, made by the maintainer) to see every store's sheet side by side.
