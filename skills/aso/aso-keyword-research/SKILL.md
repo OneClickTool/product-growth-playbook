@@ -23,8 +23,8 @@ actually indexes them. A new app does better ranking #3 for a narrow term than #
 - Before the first release, or before a big listing update.
 - Search installs are flat even though the app itself is good.
 - Adding a new country or language.
-- **Not for:** writing the title copy itself → `aso-title-subtitle-optimization` (planned).
-  Visuals → `aso-screenshot-strategy` (planned).
+- **Not for:** writing the title copy itself → [aso-title-subtitle-optimization](../aso-title-subtitle-optimization/SKILL.md).
+  Visuals → [aso-screenshot-strategy](../aso-screenshot-strategy/SKILL.md).
 
 ## Inputs
 - A one-paragraph description of the app and who it is for.
@@ -149,8 +149,8 @@ Four weeks later: #4 for "water log", #11 for "drink water tracker", still outsi
   update, not a one-time task.
 
 ## Related skills
-- `aso-title-subtitle-optimization` (planned): turn the chosen phrases into copy that converts.
-- `aso-competitor-audit` (planned): a deeper look at competitors' listings.
+- [aso-title-subtitle-optimization](../aso-title-subtitle-optimization/SKILL.md): turn the chosen phrases into copy that converts.
+- [aso-screenshot-strategy](../aso-screenshot-strategy/SKILL.md): the visuals people see next to your title.
 - [growth](../../growth/SKILL.md): pick the next skill for your stage.
 
 ## Credits

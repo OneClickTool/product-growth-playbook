@@ -101,18 +101,23 @@ product-growth-playbook/
 |---|---|---|---|
 | 0 | `growth` (router) | — | 1 ✅ |
 | 1 | `aso-keyword-research` | ASO | 1 ✅ bản nháp, **cần thay ví dụ minh họa bằng case thật** |
-| 2 | `launch-pre-launch-checklist` | Launch | 2 |
-| 3 | `monetization-pricing-strategy` | Monetization | 2 |
-| 4 | `aso-title-subtitle-optimization` | ASO | 3 |
-| 5 | `launch-get-first-100-users` | Launch | 3 |
-| 6 | `monetization-paywall-design` | Monetization | 4 |
-| 7 | `aso-screenshot-strategy` (có gợi ý Shotmatic, nói rõ là sản phẩm của mình) | ASO | 4 |
-| 8 | `launch-product-hunt-launch` | Launch | 5 |
-| 9 | `monetization-free-trial-vs-freemium` | Monetization | 6 |
-| 10 | `aso-review-and-rating-strategy` | ASO | 7 |
-| 11 | `launch-launch-post-writing` | Launch | 8 |
-| 12 | `monetization-subscription-tiers` | Monetization | 9 |
+| 2 | `launch-pre-launch-checklist` | Launch | 2 → ✅ bản nháp 30/09 |
+| 3 | `monetization-pricing-strategy` | Monetization | 2 → ✅ bản nháp 30/09 |
+| 4 | `aso-title-subtitle-optimization` | ASO | 3 → ✅ bản nháp 30/09 |
+| 5 | `launch-get-first-100-users` | Launch | 3 → ✅ bản nháp 30/09 |
+| 6 | `monetization-paywall-design` | Monetization | 4 → ✅ bản nháp 30/09 |
+| 7 | `aso-screenshot-strategy` | ASO | 4 → ✅ bản nháp 30/09 |
+| 8 | `launch-product-hunt-launch` | Launch | 5 → ✅ bản nháp 30/09 |
+| 9 | `monetization-free-trial-vs-freemium` | Monetization | 6 → ✅ bản nháp 30/09 |
+| 10 | `aso-review-and-rating-strategy` | ASO | 7 → ✅ bản nháp 30/09 |
+| 11 | `launch-post-writing` | Launch | 8 → ✅ bản nháp 30/09 |
+| 12 | `monetization-subscription-tiers` | Monetization | 9 → ✅ bản nháp 30/09 |
 | — | `aso-competitor-audit`, `launch-community-seeding`, `monetization-pricing-experiments` | | dự phòng / cho contributor (`good first issue`) |
+
+> **Cập nhật 30/09:** cả 12 skill đã có bản nháp (viết sớm hơn lịch). Việc của các tuần tới đổi thành:
+> (1) chạy thử từng skill với AI trên sản phẩm thật, (2) thay ví dụ `Illustrative` bằng số liệu thật,
+> (3) phân phối theo mục 5. **ShotMatic không phải công cụ làm screenshot** (nó là "một màn hình cho mọi repo
+> AI-agent"), nên không gắn vào `aso-screenshot-strategy`. Link ShotMatic và Markdown Viewer chỉ để ở cuối README.
 
 Viết xen kẽ các mảng để mảng nào cũng sớm có ít nhất 1 skill. Một mảng chỉ có README mà không có skill thì nhìn như khung rỗng.
 
@@ -157,18 +162,20 @@ Viết xen kẽ các mảng để mảng nào cũng sớm có ít nhất 1 skill
 - [ ] Nhờ review skill #1 để chốt chuẩn chất lượng trước khi viết hàng loạt
 
 ### Ngày 8–30 (06/10 – 29/10): Mỗi mảng có skill
-- [ ] Skill #2 → #7 (2 skill/tuần)
-- [ ] Playbook `playbooks/launch-a-product.md`
+- [x] Skill #2 → #7 (viết sớm, xong 30/09)
+- [x] Playbook `playbooks/launch-a-product.md`
 - [ ] Gửi vào skill directories. Bắt đầu nhịp 1 bài/tuần trên Reddit và X
 
 ### Ngày 31–60 (30/10 – 28/11): Đẩy phân phối
-- [ ] Skill #8 → #11, playbook `aso-optimization.md`
+- [x] Skill #8 → #11 (xong 30/09)
+- [ ] Playbook `aso-optimization.md`
 - [ ] `examples/` với ≥ 2 case thật
 - [ ] Mở 3–5 `good first issue` (các skill dự phòng)
 - [ ] PR vào awesome-list. Show HN khi đủ 10 skill
 
 ### Ngày 61–90 (29/11 – 28/12): Mở rộng có căn cứ
-- [ ] Skill #12. Dựa vào traffic, issue và Discussions để chọn 1–2 mảng mới từ Backlog
+- [x] Skill #12 (xong 30/09).
+- [ ] Dựa vào traffic, issue và Discussions để chọn 1–2 mảng mới từ Backlog
 - [ ] `case-studies/` khi có ≥ 3 case thật. Cân nhắc newsletter / landing
 - [ ] Nếu mỗi mảng ≥ 6 skill: tách `marketplace.json` thành plugin theo từng mảng (`growth-aso`, `growth-launch`…)
 

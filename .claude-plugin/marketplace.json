@@ -6,17 +6,28 @@
   },
   "metadata": {
     "description": "Free, open-source growth skills for people building digital products: ASO, launch, monetization and more.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "Growth skills for apps, SaaS, games and AI products: ASO keyword research, launch and monetization.",
+      "description": "12 growth skills for apps, SaaS, games and AI products: ASO, launch and monetization.",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/growth",
-        "./skills/aso/aso-keyword-research"
+        "./skills/aso/aso-keyword-research",
+        "./skills/aso/aso-review-and-rating-strategy",
+        "./skills/aso/aso-screenshot-strategy",
+        "./skills/aso/aso-title-subtitle-optimization",
+        "./skills/launch/launch-get-first-100-users",
+        "./skills/launch/launch-post-writing",
+        "./skills/launch/launch-pre-launch-checklist",
+        "./skills/launch/launch-product-hunt-launch",
+        "./skills/monetization/monetization-free-trial-vs-freemium",
+        "./skills/monetization/monetization-paywall-design",
+        "./skills/monetization/monetization-pricing-strategy",
+        "./skills/monetization/monetization-subscription-tiers"
       ]
     }
   ]

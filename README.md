@@ -16,15 +16,20 @@ it as an agent skill.
 | You want to… | Start here |
 |---|---|
 | Not sure where to start | [`growth`](skills/growth/SKILL.md): answer 4 questions, get one next step |
+| Launching soon | [Playbook: Launch a Product](playbooks/launch-a-product.md), a 6-week route |
+| Launched, but nobody's using it | [Get Your First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
 | Get more installs from App Store / Google Play search | [ASO Keyword Research](skills/aso/aso-keyword-research/SKILL.md) |
+| Start making money | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) → [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) |
 
 ## Skills
 
-| Area | Skills | Status |
-|---|---|---|
-| 📱 [ASO](skills/aso/) | [Keyword Research](skills/aso/aso-keyword-research/SKILL.md) | 1 available · 4 planned |
-| 🚀 Launch | Pre-launch checklist · First 100 users · Product Hunt · Launch post | planned |
-| 💰 Monetization | Pricing strategy · Paywall design · Free trial vs freemium · Tiers | planned |
+| Area | Skills |
+|---|---|
+| 📱 [ASO](skills/aso/) | [Keyword Research](skills/aso/aso-keyword-research/SKILL.md) · [Title & Subtitle](skills/aso/aso-title-subtitle-optimization/SKILL.md) · [Screenshot Strategy](skills/aso/aso-screenshot-strategy/SKILL.md) · [Reviews & Ratings](skills/aso/aso-review-and-rating-strategy/SKILL.md) |
+| 🚀 [Launch](skills/launch/) | [Pre-launch Checklist](skills/launch/launch-pre-launch-checklist/SKILL.md) · [Launch Post Writing](skills/launch/launch-post-writing/SKILL.md) · [Product Hunt Launch](skills/launch/launch-product-hunt-launch/SKILL.md) · [First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
+| 💰 [Monetization](skills/monetization/) | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) · [Paywall Design](skills/monetization/monetization-paywall-design/SKILL.md) · [Subscription Tiers](skills/monetization/monetization-subscription-tiers/SKILL.md) |
+
+**Playbooks:** [Launch a Product](playbooks/launch-a-product.md)
 
 **Roadmap:** SEO · Content · Retention · Analytics · Competitor research, prioritized by what people ask for
 in [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions).
@@ -63,11 +68,12 @@ and [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md), or pick a [`good first issue`](https
 
 ## Author
 
-Maintained by [Tu Nguyen (@nvminhtu)](https://github.com/nvminhtu), who builds and ships small apps and tools.
+Maintained by [Tu Nguyen (@nvminhtu)](https://github.com/nvminhtu), who builds and ships small apps and tools
+at [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook).
 
-<!-- TODO: add product links with UTM once URLs are final, e.g.
-Working with lots of Markdown? Try [Markdown Viewer](URL?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook). (I made it.)
--->
+Two tools I made that fit this repo:
+- Reading lots of skills and Markdown files? [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac) shows a whole folder at a glance.
+- Running many AI-agent repos like this one? [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) puts them all on one screen.
 
 ## License
 
