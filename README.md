@@ -2,20 +2,46 @@
 
 **Free, open-source growth skills for people building digital products: ASO, launch, monetization and more.**
 
+[![Free forever](https://img.shields.io/badge/price-free%20forever-brightgreen)](#what-you-get-all-free)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-8A2BE2)](https://agentskills.io)
 
-For people building apps, SaaS, games, AI products, websites and browser extensions.
-Each skill does **one concrete growth task in under an hour** and gives you an output you can use right away:
-a keyword list, a launch plan, a price. Read it like a guide, paste its prompt into any AI chat, or install
-it as an agent skill.
+You can build the product. This repo helps with the part after that: **finding out what users want, getting found,
+launching, and getting paid.** Every skill is a short, step-by-step guide with a copy-paste AI prompt. Follow it in
+under an hour and you end up with something real: a keyword list, a launch plan, a price, a research report.
 
-## Quick start
+## What you get (all free)
+
+| | What | Why it helps you |
+|---|---|---|
+| 🧠 | **16 free AI growth skills** | Research, ASO, launch and monetization, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
+| 🔎 | **A tidy research system** | Where to find trustworthy sources, where users ask for software (with links), how to mine competitor reviews, and templates to keep notes, sources and decisions organized in Markdown. |
+| 🗺️ | **Step-by-step playbooks** | A 6-week route from "almost ready" to your first 100 users, built from the skills. |
+| 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. |
+
+No sign-up, no paywall, no email list. MIT licensed: use it, fork it, teach with it.
+
+## Who it's for
+Indie developers, solo founders and small teams building **apps, SaaS, games, AI tools, websites or browser
+extensions**, especially if you're a builder, not a marketer.
+
+## Why use this instead of blog posts or courses
+- **Actionable.** Each skill is one task, under an hour, with a concrete output. No theory dumps, no "10 generic tips".
+- **Works with any AI, or none.** Copy the prompt into any chat, install the skills in an AI agent, or follow the steps yourself.
+- **Honest.** Store rules cite official sources. Example numbers are real, or clearly labelled *Illustrative*.
+- **Yours.** Everything is plain Markdown you can copy into your own repo, where your AI agent can read it next time.
+
+## New here? Start in 3 steps
+1. **Find your situation** in the table below. Not sure? Start with [`growth`](skills/growth/SKILL.md): 4 questions, one next step.
+2. **Open the skill** and copy its *Prompt* block into your AI chat. Fill in the `{{ }}` parts.
+3. **Follow the steps** and save the result as a `.md` file in your project, so you can build on it later.
 
 | You want to… | Start here |
 |---|---|
-| Not sure where to start | [`growth`](skills/growth/SKILL.md): answer 4 questions, get one next step |
+| Check an idea before building | [Where Users Ask About Software](skills/research/research-where-users-ask/SKILL.md) → [Review Mining](skills/research/research-review-mining/SKILL.md) |
+| Find facts you can trust | [Source Finding](skills/research/research-source-finding/SKILL.md) |
+| Stop losing research in tabs and chats | [Research Doc Organization](skills/research/research-doc-organization/SKILL.md) |
 | Launching soon | [Playbook: Launch a Product](playbooks/launch-a-product.md), a 6-week route |
 | Launched, but nobody's using it | [Get Your First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
 | Get more installs from App Store / Google Play search | [ASO Keyword Research](skills/aso/aso-keyword-research/SKILL.md) |
@@ -25,15 +51,16 @@ it as an agent skill.
 
 | Area | Skills |
 |---|---|
+| 🔎 [Research](skills/research/) | [Source Finding](skills/research/research-source-finding/SKILL.md) · [Research Doc Organization](skills/research/research-doc-organization/SKILL.md) · [Where Users Ask](skills/research/research-where-users-ask/SKILL.md) · [Review Mining](skills/research/research-review-mining/SKILL.md) |
 | 📱 [ASO](skills/aso/) | [Keyword Research](skills/aso/aso-keyword-research/SKILL.md) · [Title & Subtitle](skills/aso/aso-title-subtitle-optimization/SKILL.md) · [Screenshot Strategy](skills/aso/aso-screenshot-strategy/SKILL.md) · [Reviews & Ratings](skills/aso/aso-review-and-rating-strategy/SKILL.md) |
 | 🚀 [Launch](skills/launch/) | [Pre-launch Checklist](skills/launch/launch-pre-launch-checklist/SKILL.md) · [Launch Post Writing](skills/launch/launch-post-writing/SKILL.md) · [Product Hunt Launch](skills/launch/launch-product-hunt-launch/SKILL.md) · [First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
 | 💰 [Monetization](skills/monetization/) | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) · [Paywall Design](skills/monetization/monetization-paywall-design/SKILL.md) · [Subscription Tiers](skills/monetization/monetization-subscription-tiers/SKILL.md) |
 
-**Playbooks:** [Launch a Product](playbooks/launch-a-product.md)
+**Playbooks:** [Launch a Product](playbooks/launch-a-product.md) · **Roadmap:** [what's next](ROADMAP.md)
 
 ### 📖 Read the whole playbook as a map
 
-27 Markdown files link to each other here. Open the repo in **[Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook)**
+35+ Markdown files link to each other here. Open the repo in **[Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook)**
 (free, Mac) and you can see which skill leads to which, browse folders like in Finder, and ★ star the skills you
 use most. It's read-only, and nothing leaves your computer.
 
@@ -49,9 +76,6 @@ use most. It's read-only, and nothing leaves your computer.
 </details>
 
 <sub>I made Markdown Viewer. It's free, and it's how I keep this repo organized. → [Download Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook-cta)</sub>
-
-**[Roadmap](ROADMAP.md):** SEO · Content · Retention · Analytics · Competitor research, prioritized by what people ask for
-in [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions).
 
 ## Three ways to use a skill
 
@@ -84,10 +108,14 @@ Every skill has the same parts: **Goal · When to use · Inputs · Steps · Prom
 No theory dumps, no "10 generic tips". If you can't finish it in an hour and end up with something concrete,
 it isn't done. Example numbers are either real or clearly labelled *Illustrative*.
 
-## Contributing
+## Contributing (no coding needed)
 
-New skills, real-world examples and corrections are all welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md)
-and [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md), or pick a [`good first issue`](https://github.com/OneClickTool/product-growth-playbook/labels/good%20first%20issue).
+The easiest ways to help, from 2 minutes to an hour:
+1. **⭐ Star the repo** so more builders find it.
+2. **Tried a skill?** Tell us what worked or didn't with a [Skill feedback](https://github.com/OneClickTool/product-growth-playbook/issues/new?template=skill-feedback.yml) issue.
+3. **Know a great community, source or tool** that's missing? Open an issue or edit the file on GitHub (the ✏️ button).
+4. **Share real numbers** from your launch, ASO test or price change. Real examples are the most valuable thing here.
+5. **Write a skill.** Copy the [template](SKILL_TEMPLATE.md) and follow [CONTRIBUTING.md](CONTRIBUTING.md), which has a step-by-step guide for first-timers.
 
 ## Author
 

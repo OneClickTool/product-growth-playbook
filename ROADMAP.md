@@ -3,10 +3,11 @@
 What exists, what's next, and where you can help. Suggest changes in
 [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions) or with a *Skill request* issue.
 
-## Now: 3 areas, 12 skills
+## Now: 4 areas, 16 skills
 
 | Area | Skills |
 |---|---|
+| 🔎 Research | source finding · research doc organization · where users ask · review mining |
 | 📱 ASO | keyword research · title & subtitle · screenshot strategy · reviews & ratings |
 | 🚀 Launch | pre-launch checklist · launch post writing · Product Hunt launch · first 100 users |
 | 💰 Monetization | free trial vs freemium · pricing strategy · paywall design · subscription tiers |
@@ -30,7 +31,7 @@ These skills are planned and nobody has claimed them yet. Comment on the issue o
 
 ## Later (by demand)
 New areas open once people ask for them: SEO · content marketing · social growth · conversion · retention ·
-analytics · competitor research · user research. More playbooks: *get your first 1,000 users*, *grow an app*.
+analytics. More research skills: user interviews, market sizing, competitor audits. More playbooks: *get your first 1,000 users*, *grow an app*.
 Translations (Vietnamese first) are welcome once the English skills are stable.
 
 ## Principles

@@ -5,6 +5,7 @@ It works for apps, SaaS, AI tools and browser extensions. Skip the ASO steps if 
 
 | Week | Goal | Skill | You end the week with |
 |---|---|---|---|
+| Before T-6 *(optional)* | Make sure people want it | [research-where-users-ask](../skills/research/research-where-users-ask/SKILL.md) → [research-review-mining](../skills/research/research-review-mining/SKILL.md) | Top 3 unmet needs, user phrases |
 | T-6 → T-4 | Nothing blocks the launch | [launch-pre-launch-checklist](../skills/launch/launch-pre-launch-checklist/SKILL.md) | Dated checklist; store testing / review started |
 | T-4 | Decide how you'll make money | [monetization-free-trial-vs-freemium](../skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) → [monetization-pricing-strategy](../skills/monetization/monetization-pricing-strategy/SKILL.md) | Model + prices |
 | T-3 | Paywall ready and compliant | [monetization-paywall-design](../skills/monetization/monetization-paywall-design/SKILL.md) | Paywall copy + checklist passed |

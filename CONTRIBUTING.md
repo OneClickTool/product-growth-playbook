@@ -1,49 +1,70 @@
 # Contributing
 
 Thanks for helping! This repo gets better with every real-world lesson people add.
+**You don't need to code**, and you don't need to have contributed to open source before.
 
-## Ways to help
-- **Improve a skill:** fix something that's wrong, add a missing step, or add a common mistake you've actually made.
-- **Share a real example:** numbers from your own launch, ASO test or pricing change. Anonymize them if you need to.
-- **Write a new skill:** first check the [roadmap](ROADMAP.md)
-  and open issues, then open a *Skill request* issue so nobody duplicates work.
-- **Test a skill:** run it on your product and leave feedback with the *Skill feedback* issue template.
+## How this repo works (in 30 seconds)
+- A **skill** is one Markdown file (`SKILL.md`) that teaches one growth task: goal, steps, a copy-paste AI prompt,
+  and an example. Skills live in `skills/<area>/<skill-name>/`.
+- **Areas** group skills: `research`, `aso`, `launch`, `monetization`. Each area has a `README.md` listing its skills.
+- **Playbooks** (`playbooks/`) chain several skills into a route, like a 6-week launch.
+- Everything is plain text, so you can edit it right on GitHub.
 
-## Adding a skill
-1. Copy [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md) to `skills/<area>/<area>-<task>/SKILL.md`.
-   The folder name must equal the `name` field.
-2. Put templates in `assets/`, long reference material in `references/`, and helper scripts in `scripts/`.
-   Scripts must use the standard library only.
-3. Add the skill to:
-   - the `skills` list in [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json)
-   - the area's `README.md` table
-   - the router table in [skills/growth/SKILL.md](skills/growth/SKILL.md)
-   - the root [README.md](README.md)
-4. Run `python3 scripts/validate_skills.py` and fix anything it reports.
-   To eyeball how your new `SKILL.md` links to the others, open the `skills/` folder in
-   [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=contributing&utm_campaign=growth-playbook&utm_content=link-map) and look at its link map (free, Mac, made by the maintainer).
-5. Open a PR and complete the checklist.
+## Pick how you want to help
 
-## Definition of done
-- [ ] `name` matches the folder. `description` says what the skill does **and when to use it** (≤ 1024 chars).
-- [ ] Has every section: Goal · When to use · Inputs · Steps · Prompt · Example output · Common mistakes · Related skills.
-- [ ] At least one copy-paste prompt, fenced with four backticks.
-- [ ] The example output is real, or starts with an **Illustrative example** label.
-- [ ] A reader can finish it in ≤ 1 hour and ends up with a concrete output.
-- [ ] Every step is a concrete action. No generic tips.
-- [ ] You ran it with at least one AI assistant on a real product.
-- [ ] `SKILL.md` ≤ 500 lines. Validator passes.
+| Time | What | How |
+|---|---|---|
+| 2 min | Star the repo | ⭐ at the top of the page |
+| 5 min | Report what worked or didn't | Open a [Skill feedback](https://github.com/OneClickTool/product-growth-playbook/issues/new?template=skill-feedback.yml) issue |
+| 10 min | Fix a typo, a broken link or an outdated rule | Open the file on GitHub → ✏️ *Edit* → *Propose changes* (GitHub makes the fork and PR for you) |
+| 15 min | Add a community, source or tool to a list | Same ✏️ edit, e.g. the map in [research-where-users-ask](skills/research/research-where-users-ask/SKILL.md) |
+| 30 min | Share a real example with numbers | Edit a skill's *Example output*, or open an issue and we'll add it with credit |
+| 1–2 h | Write a new skill | Follow the guide below. Check the [roadmap](ROADMAP.md) for skills nobody has claimed |
+
+Not sure? Ask in [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions). No question is too basic.
+
+## Your first edit on GitHub (no tools needed)
+1. Open the file you want to change on github.com.
+2. Click the ✏️ pencil (*Edit this file*).
+3. Make your change. The *Preview* tab shows how it will look.
+4. Scroll down, write one line about what you changed, and click **Propose changes**, then **Create pull request**.
+5. We'll review it within about 48 hours, and may suggest small edits. That's normal, not a rejection.
+
+## Writing a new skill (step by step)
+1. **Claim it.** Open a *Skill request* issue (or comment on an existing one) so nobody writes the same skill twice.
+2. **Copy the template.** Create `skills/<area>/<area>-<task>/SKILL.md` from [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md).
+   The folder name must equal the `name` field, e.g. `skills/aso/aso-competitor-audit/SKILL.md`.
+3. **Fill every section.** Goal · When to use · Inputs · Steps · Prompt · Example output · Common mistakes · Related skills.
+   Look at [aso-keyword-research](skills/aso/aso-keyword-research/SKILL.md) as a model.
+4. **Test it.** Run the prompt in an AI assistant on a real product. Does the output match your *Example output*?
+5. **List it.** Add the skill to the area `README.md`. If you can, also add it to
+   [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json), the router in
+   [skills/growth/SKILL.md](skills/growth/SKILL.md) and the root [README.md](README.md). If you can't, maintainers will.
+6. **Check it (optional, needs Python 3).** Run `python3 scripts/validate_skills.py`. It checks names, sections and links.
+   If you can't run it, just open the PR and we'll run it for you.
+7. **Open a pull request** and tick the checklist.
+
+Tip: to see how your skill links to the others, open the `skills/` folder in
+[Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=contributing&utm_campaign=growth-playbook&utm_content=link-map)
+(free, Mac, made by the maintainer) and look at the link map.
+
+## When is a skill "done"?
+- [ ] `name` matches the folder. `description` says what the skill does **and when to use it** ("Use when…").
+- [ ] Every section is there, with at least one copy-paste prompt fenced with four backticks (` ```` `).
+- [ ] The example is real, or starts with `> **Illustrative example.**`
+- [ ] Someone new to the topic can finish it in about an hour and ends up with something concrete.
+- [ ] Every step is an action ("Write 20 seed keywords"), not advice ("Think about keywords").
+- [ ] Facts like store rules, limits and prices link to an official source.
 
 ## Style
 - English, plain words, short sentences. Write for someone smart but new to the topic.
-- Give numbers and limits (character counts, time frames, thresholds) and cite the source.
-- If you mention your own product, say it's yours. At most one mention per skill, and only where it genuinely helps.
+- Numbers beat adjectives: "30 characters", "2–4 weeks", "at least 12 testers".
+- Mentioning your own product is fine if it genuinely helps: say it's yours, once, at the end.
 
-## Using an AI to write a skill
-Welcome. [CLAUDE.md](CLAUDE.md) / [AGENTS.md](AGENTS.md) tell the agent the rules. You're still responsible
-for every claim, so check the facts and test the prompt yourself.
+## Using an AI to write or edit
+Welcome. [CLAUDE.md](CLAUDE.md) / [AGENTS.md](AGENTS.md) give the agent the rules. You're still responsible for every
+claim, so check the facts and test the prompt yourself.
 
-## Review
-Maintainers aim to respond within 48 hours. Please run `python3 scripts/validate_skills.py` before opening a PR; PRs that fail it will be sent back.
-By contributing you agree that your contribution is licensed under the [MIT License](LICENSE) and that you
-follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+## The fine print
+By contributing you agree that your contribution is licensed under the [MIT License](LICENSE) and that you follow the
+[Code of Conduct](CODE_OF_CONDUCT.md). Contributors are credited in the skill's `author` field and its *Credits* section.

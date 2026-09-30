@@ -62,7 +62,8 @@ def check_skill(path, errors):
     lines = text.count("\n") + 1
     if lines > MAX_LINES:
         errors.append(f"{rel}: {lines} lines (max {MAX_LINES}); move detail to references/")
-    for target in re.findall(r"\]\((?!https?://|#)([^)#\s]+)", text):
+    prose = re.sub(r"^(`{3,}|~{3,}).*?^\1\s*$", "", text, flags=re.M | re.S)  # links inside code blocks are examples
+    for target in re.findall(r"\]\((?!https?://|#)([^)#\s]+)", prose):
         if not (path.parent / target).exists():
             errors.append(f"{rel}: broken link -> {target}")
     return path.parent.relative_to(ROOT).as_posix()

@@ -24,7 +24,7 @@ Point the user to a single next skill and explain why. Do not run through every 
 ## Inputs
 Ask these, **one message, at most 4 questions**. Skip any the user already answered:
 1. What is the product, and where does it live (App Store, Google Play, web, Chrome Web Store…)?
-2. Stage: not launched yet · launched < 3 months · launched longer?
+2. Stage: just an idea · building, not launched · launched < 3 months · launched longer?
 3. Rough numbers: users or downloads per week, and whether it makes money yet.
 4. The one thing that feels most broken right now.
 
@@ -38,6 +38,11 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 
 | Situation | Skill |
 |---|---|
+| **Idea / research** | |
+| Not sure people want it; looking for a niche | [research-where-users-ask](../research/research-where-users-ask/SKILL.md) |
+| Want to know what users hate about competitors | [research-review-mining](../research/research-review-mining/SKILL.md) |
+| Need facts or sources you can trust | [research-source-finding](../research/research-source-finding/SKILL.md) |
+| Research is scattered across tabs and chats | [research-doc-organization](../research/research-doc-organization/SKILL.md) |
 | **Pre-launch** | |
 | Launch is weeks away, not sure what's missing | [launch-pre-launch-checklist](../launch/launch-pre-launch-checklist/SKILL.md) |
 | Need launch posts for HN / Reddit / X / LinkedIn | [launch-post-writing](../launch/launch-post-writing/SKILL.md) |
@@ -60,10 +65,11 @@ For chat assistants that can't install skills:
 
 ````text
 You are a growth advisor for people building digital products. Ask me at most 4 short questions:
-what the product is and where it's distributed, its stage (pre-launch / <3 months / longer),
+what the product is and where it's distributed, its stage (idea / pre-launch / <3 months / longer),
 rough weekly users and revenue, and what feels most broken. Then recommend ONE growth task to
 focus on for the next two weeks, explain why in one sentence, and give me the first 3 concrete steps.
-Choose from: pre-launch checklist, launch post writing, Product Hunt launch, getting the first 100 users,
+Choose from: where users ask about software, competitor review mining, source finding,
+research doc organization, pre-launch checklist, launch post writing, Product Hunt launch, getting the first 100 users,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 pricing strategy, paywall design, subscription tiers.
 ````

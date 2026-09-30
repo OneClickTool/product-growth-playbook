@@ -5,13 +5,13 @@
     "url": "https://github.com/nvminhtu"
   },
   "metadata": {
-    "description": "Free, open-source growth skills for people building digital products: ASO, launch, monetization and more.",
-    "version": "0.2.0"
+    "description": "Free, open-source growth skills for people building digital products: research, ASO, launch, monetization and more.",
+    "version": "0.3.0"
   },
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "12 growth skills for apps, SaaS, games and AI products: ASO, launch and monetization.",
+      "description": "16 free growth skills for apps, SaaS, games and AI products: research, ASO, launch and monetization.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -27,7 +27,11 @@
         "./skills/monetization/monetization-free-trial-vs-freemium",
         "./skills/monetization/monetization-paywall-design",
         "./skills/monetization/monetization-pricing-strategy",
-        "./skills/monetization/monetization-subscription-tiers"
+        "./skills/monetization/monetization-subscription-tiers",
+        "./skills/research/research-doc-organization",
+        "./skills/research/research-review-mining",
+        "./skills/research/research-source-finding",
+        "./skills/research/research-where-users-ask"
       ]
     }
   ]
