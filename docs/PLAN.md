@@ -206,3 +206,35 @@ Viết xen kẽ các mảng để mảng nào cũng sớm có ít nhất 1 skill
 | Không có traffic | Phân phối chạy song song ngay từ tuần 2 |
 | Format lộn xộn khi có contributor | Validator + `CLAUDE.md` / `AGENTS.md` |
 | Bỏ dở | 1–2 skill/tuần, có ngày cụ thể ở mục 6 |
+
+---
+
+## 10. Sponsor & donate (thêm 30/09)
+
+**Hiện trạng đã kiểm tra:**
+- Các Chrome extension của mình (darkmode-chrome, draw-on-web, oneclicktool.app) đã dùng **Ko-fi**: `ko-fi.com/icecraftdigital`.
+- **GitHub Sponsors chưa bật** ở cả `nvminhtu`, `OneClickTool` và `tucarmd`. Việt Nam nằm trong danh sách được hỗ trợ.
+- **Không thêm Buy Me a Coffee.** Ko-fi làm đúng việc đó (tip một lần, không cần tài khoản) và đã có sẵn. Thêm một nền tảng nữa
+  chỉ chia nhỏ người ủng hộ và thêm một tài khoản phải quản lý.
+
+**Giai đoạn 1: làm ngay ✅**
+- [x] `.github/FUNDING.yml` với `ko_fi` và link OneClickTool, để repo hiện nút **Sponsor**.
+- [x] README có mục "Support this project" (badge Ko-fi, cách ủng hộ miễn phí), đặt ngay trước License.
+- [ ] **Bạn:** kiểm tra trang Ko-fi `icecraftdigital` còn hoạt động và tên hiển thị hợp với thương hiệu OneClickTool.
+  Nếu muốn đổi handle, đổi ở Ko-fi trước rồi sửa `FUNDING.yml` và README.
+
+**Giai đoạn 2: GitHub Sponsors (khi repo có ~100 star hoặc có người hỏi)**
+- [ ] Chọn account nhận tiền: **`nvminhtu`** (cá nhân, dễ duyệt nhất) hoặc org `OneClickTool` (phải là owner).
+- [ ] Đăng ký tại github.com/sponsors: bật 2FA, kết nối Stripe Connect / tài khoản ngân hàng, điền form thuế (W-8BEN cho
+  cá nhân ngoài Mỹ), chờ GitHub duyệt.
+- [ ] Tạo 3 bậc: $3/tháng (cảm ơn trong README), $10/tháng (logo/tên trong mục Sponsors), $5 một lần.
+- [ ] Bỏ comment dòng `github:` trong `FUNDING.yml` và badge GitHub Sponsors trong README.
+- Phí: sponsor từ tài khoản cá nhân thì GitHub không lấy phí. Từ tài khoản tổ chức thì tối đa 6%.
+
+**Giai đoạn 3: dùng cho cả hệ repo**
+- [ ] Tạo repo `OneClickTool/.github` chứa `FUNDING.yml` dùng chung, để mọi repo của org đều có nút Sponsor.
+- [ ] Mục "Sponsors" trong README liệt kê người ủng hộ (khi có ≥ 3 người).
+
+**Nguyên tắc:** mục ủng hộ nằm ở cuối README, giọng khiêm tốn, không đặt trong skill hay prompt.
+Ko-fi và GitHub Sponsors chỉ nhận tip, không bán gì, nên không đụng tới các quy định in-app purchase của store.
+

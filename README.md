@@ -79,6 +79,21 @@ Two tools I made that fit this repo:
 - Reading lots of skills and Markdown files? [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac) shows a whole folder at a glance.
 - Running many projects with AI agents? [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (Mac) shows every repo's next steps, blockers and uncommitted changes on one screen, and reopens the right Claude session.
 
+## Support this project
+
+The playbook is free and always will be. If a skill saved you time or helped you ship, you can support the work:
+
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20this%20project-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/icecraftdigital)
+<!-- Add once GitHub Sponsors is approved:
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Sponsor-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/nvminhtu)
+-->
+
+- [Ko-fi](https://ko-fi.com/icecraftdigital): one-time support, no account needed.
+- Use a [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=support) app. *Free knowledge, paid tools.*
+- Free ways that help just as much: ⭐ star the repo, share a skill that worked, or add a real example.
+
+Support pays for the time spent writing new skills, keeping store rules up to date, and answering issues.
+
 ## License
 
 [MIT](LICENSE). Use it, fork it, teach with it.
