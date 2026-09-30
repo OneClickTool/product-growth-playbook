@@ -8,3 +8,4 @@ __pycache__/
 
 # Private maintainer notes (never commit)
 .private/
+.claude/launch.json

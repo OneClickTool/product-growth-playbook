@@ -31,6 +31,25 @@ it as an agent skill.
 
 **Playbooks:** [Launch a Product](playbooks/launch-a-product.md)
 
+### 📖 Read the whole playbook as a map
+
+27 Markdown files link to each other here. Open the repo in **[Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook)**
+(free, Mac) and you can see which skill leads to which, browse folders like in Finder, and ★ star the skills you
+use most. It's read-only, and nothing leaves your computer.
+
+[![This repo in Markdown Viewer: every skill and the links between them](docs/images/mv-map.png)](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=screenshot-map)
+
+<details>
+<summary>More screenshots: table view · Finder-style folders + reader with Favorites</summary>
+
+[![Table view: every file with links in and out, and when it last changed](docs/images/mv-table.png)](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=screenshot-table)
+
+[![Folder view and reader: drill into skills like Finder, read the rendered skill, star it](docs/images/mv-reader.png)](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=screenshot-reader)
+
+</details>
+
+<sub>I made Markdown Viewer. It's free, and it's how I keep this repo organized. → [Download Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook-cta)</sub>
+
 **[Roadmap](ROADMAP.md):** SEO · Content · Retention · Analytics · Competitor research, prioritized by what people ask for
 in [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions).
 

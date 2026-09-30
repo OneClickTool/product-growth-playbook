@@ -12,3 +12,6 @@ Decide what to charge, what's free, and how to ask for the money.
 **Suggested order:** trial vs freemium → pricing → paywall → tiers (once you have paying users).
 
 **Open for contributors:** pricing experiments. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
+
+> 📖 Tip: see how these skills link to each other in [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=monetization)
+> (free, Mac, made by the maintainer): map, table or Finder-style folders, plus ★ favorites.
