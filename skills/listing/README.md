@@ -9,6 +9,9 @@ Each skill is split into **levels**: do Level 1 to get live, and come back for L
 | [listing-google-play](listing-google-play/SKILL.md) | Play Console, field by field, incl. the 12-tester / 14-day closed test, plus a listing sheet | 1 · 2 · 3 | 2–3 h + 14 days |
 | [listing-free-directories](listing-free-directories/SKILL.md) | 25+ free launch platforms, directories and alternative stores, with links, a launch kit and a tracker | 1 · 2 · 3 | 2 h + 15 min/site |
 
+> 🗂️ **[Open the Listing Desk](https://htmlpreview.github.io/?https://github.com/OneClickTool/product-growth-playbook/blob/main/skills/listing/listing-free-directories/assets/listing-desk.html)**: every launch platform, directory, AI directory, store and newsletter
+> in one page, grouped by area and tier S/A/B/C. Filter, sort and track each site per product, right in your browser.
+
 ## By niche: small products
 
 Pick the skill for what you're shipping. Each one lists the marketplaces, fees, review steps and assets for that niche, in 3 levels.

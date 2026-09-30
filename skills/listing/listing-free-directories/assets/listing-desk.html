@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Listing Desk</title>
+<meta name="description" content="Every place to list a new product, grouped by area and tier (S, A, B, C), with a per-product submission tracker. Part of Product Growth Playbook.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a working desk. Sticky control bar, tier scoreboard, then one sortable ledger per area. */
+:root{
+  --bg:#eef1f4; --panel:#ffffff; --ink:#15202b; --muted:#5b6876; --line:#d6dde4; --soft:#e4e9ee;
+  --accent:#2446c7; --accent-ink:#ffffff;
+  --tS:#b7791f; --tS-bg:#fbf0dc; --tA:#0f7b6c; --tA-bg:#dcf2ee; --tB:#3358c4; --tB-bg:#e1e8fa; --tC:#6b7480; --tC-bg:#e9ecef;
+  --ok:#1f8a4c; --ok-bg:#dff3e7; --warn:#a86a00; --warn-bg:#fbeecd; --bad:#b83232; --bad-bg:#f8e0e0; --info:#2446c7; --info-bg:#e2e8fb;
+  --f-display:"Unbounded","Arial Black",sans-serif;
+  --f-body:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f141a; --panel:#171e26; --ink:#e6ebf0; --muted:#94a1ae; --line:#2a3440; --soft:#1f2832;
+  --accent:#7d97ff; --accent-ink:#0b1020;
+  --tS:#f0b653; --tS-bg:#3a2c12; --tA:#4fd1bd; --tA-bg:#12332e; --tB:#8aa6ff; --tB-bg:#1c2745; --tC:#a7b0ba; --tC-bg:#252d36;
+  --ok:#5dd18f; --ok-bg:#133222; --warn:#f0b653; --warn-bg:#3a2c12; --bad:#ff8080; --bad-bg:#3d1b1b; --info:#8aa6ff; --info-bg:#1c2745;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f141a; --panel:#171e26; --ink:#e6ebf0; --muted:#94a1ae; --line:#2a3440; --soft:#1f2832;
+  --accent:#7d97ff; --accent-ink:#0b1020;
+  --tS:#f0b653; --tS-bg:#3a2c12; --tA:#4fd1bd; --tA-bg:#12332e; --tB:#8aa6ff; --tB-bg:#1c2745; --tC:#a7b0ba; --tC-bg:#252d36;
+  --ok:#5dd18f; --ok-bg:#133222; --warn:#f0b653; --warn-bg:#3a2c12; --bad:#ff8080; --bad-bg:#3d1b1b; --info:#8aa6ff; --info-bg:#1c2745;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 60px}
+a{color:var(--accent)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+header.top{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 24px;margin-bottom:16px}
+h1{font:700 clamp(22px,3.4vw,30px)/1.1 var(--f-display);letter-spacing:-.01em;margin:0}
+.sub{color:var(--muted);margin:6px 0 0;max-width:66ch}
+.crumbs{font:12px var(--f-mono);color:var(--muted);margin-bottom:6px}
+.crumbs a{color:var(--muted)}
+
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.lbl{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+select,input[type=text],input[type=url]{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 10px;min-width:0}
+input[type=search]{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 10px;flex:1 1 200px;min-width:0}
+.btn{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 12px;cursor:pointer;font-weight:600}
+.btn:hover{border-color:var(--accent)}
+.btn.pri{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .n{font:11px var(--f-mono);opacity:.7;margin-left:4px}
+
+.board{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:16px 0 8px}
+.tier-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.tier-card h3{margin:0;display:flex;align-items:center;gap:8px;font-size:14px}
+.meter{height:6px;background:var(--soft);border-radius:4px;overflow:hidden;display:flex}
+.meter i{display:block;height:100%}
+.nums{font:12px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+
+.badge{display:inline-grid;place-items:center;min-width:24px;height:22px;padding:0 6px;border-radius:6px;font:700 12px var(--f-mono)}
+.t-S{color:var(--tS);background:var(--tS-bg)} .t-A{color:var(--tA);background:var(--tA-bg)}
+.t-B{color:var(--tB);background:var(--tB-bg)} .t-C{color:var(--tC);background:var(--tC-bg)}
+
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:14px 16px;margin:12px 0;color:var(--muted)}
+.empty b{color:var(--ink)}
+
+section.zone{margin-top:26px}
+.zone-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 16px;margin-bottom:8px}
+.zone-h h2{font:600 17px/1.2 var(--f-display);margin:0}
+.zone-h p{margin:2px 0 0;color:var(--muted);font-size:13px}
+.ledger{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.line{display:grid;grid-template-columns:34px minmax(0,1.6fr) minmax(0,.9fr) minmax(0,.8fr) 150px 28px;gap:10px;align-items:center;padding:9px 12px}
+.head{background:var(--soft);padding-block:6px}
+.head button{background:none;border:0;padding:0;cursor:pointer;font:600 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left}
+.head button[aria-sort]{color:var(--ink)}
+.item{border-top:1px solid var(--line)}
+.name{min-width:0}
+.name a{font-weight:600;text-decoration:none;color:var(--ink)}
+.name a:hover{color:var(--accent);text-decoration:underline}
+.name small{display:block;color:var(--muted);font-size:12.5px;line-height:1.35;overflow-wrap:anywhere}
+.meta{font:12px var(--f-mono);color:var(--muted);min-width:0}
+.price{font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--soft);white-space:nowrap}
+.status{width:100%;font-size:13px;font-weight:600;padding:5px 8px;border-radius:7px;border:1px solid var(--line)}
+.s-ready{background:var(--info-bg);color:var(--info)} .s-sent,.s-wait{background:var(--warn-bg);color:var(--warn)}
+.s-live{background:var(--ok-bg);color:var(--ok)} .s-no{background:var(--bad-bg);color:var(--bad)} .s-skip{color:var(--muted);text-decoration:line-through}
+.more{background:none;border:0;cursor:pointer;color:var(--muted);font-size:16px;padding:4px;border-radius:6px}
+.more[aria-expanded="true"]{transform:rotate(90deg)}
+.detail{padding:0 12px 12px 56px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.detail label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted);min-width:0}
+.detail .tip{grid-column:1/-1;font-size:13px;color:var(--ink);background:var(--soft);border-radius:8px;padding:8px 10px}
+.stamp{font:11px var(--f-mono);color:var(--muted);grid-column:1/-1}
+
+details.adder{margin-top:28px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+details.adder summary{cursor:pointer;font-weight:600}
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px;margin-top:10px}
+.legend{margin-top:28px;color:var(--muted);font-size:13px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:6px 20px}
+.legend div{display:flex;gap:8px;align-items:flex-start}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px}
+
+@media (max-width:760px){
+  .head{display:none}
+  .line{grid-template-columns:30px minmax(0,1fr) 28px;grid-template-areas:"t n m" "t p p" "t s s"}
+  .line>.badge{grid-area:t;align-self:start} .line>.name{grid-area:n} .line>.more{grid-area:m;align-self:start}
+  .line>.meta{grid-area:p} .line>.meta2{display:none} .line>.status{grid-area:s}
+  .detail{padding-left:12px;grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="crumbs"><a href="https://github.com/OneClickTool/product-growth-playbook">Product Growth Playbook</a> / <a href="https://github.com/OneClickTool/product-growth-playbook/blob/main/skills/listing/listing-free-directories/SKILL.md">listing-free-directories</a></div>
+      <h1>Listing Desk</h1>
+      <p class="sub">Every place to list a new product, grouped by area and ranked S · A · B · C. Add your product, then mark each site as you go. Your progress stays in this browser.</p>
+    </div>
+    <div class="row">
+      <button class="btn" id="exportCsv">Export CSV</button>
+    </div>
+  </header>
+
+  <div class="bar">
+    <div class="row">
+      <span class="lbl">Product</span>
+      <select id="prodSel" aria-label="Choose product"></select>
+      <input type="text" id="newProd" placeholder="New product name" aria-label="New product name" style="flex:1 1 160px">
+      <input type="url" id="newProdUrl" placeholder="https://…" aria-label="Product URL" style="flex:1 1 160px">
+      <button class="btn pri" id="addProd">Add</button>
+    </div>
+    <div class="row">
+      <input type="search" id="q" placeholder="Search: product hunt, ai, reddit…" aria-label="Search listings">
+      <select id="fPhase" aria-label="Phase">
+        <option value="">Any phase</option>
+        <option value="pre">Before launch</option>
+        <option value="day">Launch day</option>
+        <option value="post">After launch</option>
+      </select>
+      <select id="fPrice" aria-label="Cost">
+        <option value="">Any cost</option>
+        <option value="free">Free</option>
+        <option value="fp">Free + paid option</option>
+        <option value="paid">Paid</option>
+      </select>
+      <select id="fStatus" aria-label="Status">
+        <option value="">Any status</option>
+        <option value="open">Still to do</option>
+      </select>
+      <select id="sortSel" aria-label="Sort by">
+        <option value="tier">Sort: tier</option>
+        <option value="name">Sort: name A–Z</option>
+        <option value="price">Sort: cost (free first)</option>
+        <option value="phase">Sort: phase</option>
+        <option value="status">Sort: status</option>
+      </select>
+    </div>
+    <div class="row" id="tierChips"></div>
+    <div class="row" id="zoneChips"></div>
+  </div>
+
+  <div id="empty" class="empty" hidden><b>No product yet.</b> Type a product name above and press Add. You can browse the list without one; statuses are saved per product.</div>
+  <div class="board" id="board"></div>
+  <div id="zones"></div>
+
+  <details class="adder">
+    <summary>Add a site that isn't listed (your niche)</summary>
+    <form class="form" id="customForm">
+      <input type="text" id="cName" placeholder="Name, e.g. SaaSworthy" required aria-label="Site name">
+      <input type="url" id="cUrl" placeholder="Submit URL" required aria-label="Submit URL">
+      <select id="cZone" aria-label="Area"></select>
+      <select id="cTier" aria-label="Tier"><option>S</option><option>A</option><option selected>B</option><option>C</option></select>
+      <select id="cPrice" aria-label="Cost"><option value="free">Free</option><option value="fp">Free + paid option</option><option value="paid">Paid</option></select>
+      <select id="cPhase" aria-label="Phase"><option value="pre">Before launch</option><option value="day">Launch day</option><option value="post" selected>After launch</option></select>
+      <input type="text" id="cNote" placeholder="Note" aria-label="Note">
+      <button class="btn pri" type="submit">Save site</button>
+    </form>
+  </details>
+
+  <div class="legend">
+    <div><span class="badge t-S">S</span><span>Big channels with the most reach. Prepare assets carefully and pick the day.</span></div>
+    <div><span class="badge t-A">A</span><span>Worth doing early. Real users, selective review.</span></div>
+    <div><span class="badge t-B">B</span><span>Do during launch week. Moderate traffic, easy to get on.</span></div>
+    <div><span class="badge t-C">C</span><span>Mostly backlinks. Batch them in one sitting after launch.</span></div>
+  </div>
+  <p class="sub" style="margin-top:14px;font-size:12.5px">Tiers are the maintainer's judgement, not measured traffic. Prices and rules change often: open the site and check before you pay. Rows last reviewed 2026-10-01. Missing a site? Open a pull request.</p>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const ZONES = [
+  {id:"launch", name:"Launch platforms", desc:"Daily or weekly launch boards with votes and rankings."},
+  {id:"startup", name:"Startup & software directories", desc:"Directories, comparisons and \"alternative to X\" pages."},
+  {id:"ai", name:"AI tool directories", desc:"Built for AI products. Many charge to submit, but the audience fits."},
+  {id:"review", name:"SaaS reviews & marketplaces", desc:"B2B review sites and deal marketplaces. They need real customer reviews."},
+  {id:"community", name:"Communities & social", desc:"Tell the story, don't drop links. Read each community's rules first."},
+  {id:"dev", name:"Developer & open source", desc:"For dev tools, libraries and open-source projects."},
+  {id:"store", name:"App stores", desc:"Official stores for mobile, desktop and browser extensions."},
+  {id:"altstore", name:"Alternative stores", desc:"Stores that reach users the big stores miss."},
+  {id:"newsletter", name:"Newsletters & media", desc:"Newsletters with large audiences. Pitch for free or buy a slot."},
+  {id:"design", name:"Design & landing page galleries", desc:"Worth it when your website design stands out."}
+];
+const TIERS = {S:"Big channel", A:"Do early", B:"Launch week", C:"Backlink"};
+const PRICE = {free:"Free", fp:"Free + paid", paid:"Paid"};
+const PHASE = {pre:"Before launch", day:"Launch day", post:"After launch"};
+const STATUS = [["todo","To do"],["ready","Prepared"],["sent","Submitted"],["wait","In review"],["live","Live"],["no","Rejected"],["skip","Skipped"]];
+const DONE = new Set(["live","skip","no"]);
+
+// id, area, tier, name, url, cost, phase, note
+const BASE = [
+  ["producthunt","launch","S","Product Hunt","https://www.producthunt.com/","free","day","Launches reset at 00:01 Pacific time. Prepare thumbnail, gallery, first comment and supporters in advance."],
+  ["showhn","launch","S","Show HN (Hacker News)","https://news.ycombinator.com/showhn.html","free","day","Title starts with 'Show HN:'. Must be something people can try. Stay to answer comments."],
+  ["betalist","launch","A","BetaList","https://betalist.com/","fp","pre","For pre-launch and beta startups. Long free queue, paid option to skip it."],
+  ["indiehackers","launch","A","Indie Hackers","https://www.indiehackers.com/products","free","day","Create a product page and post the story of how you built it."],
+  ["uneed","launch","A","Uneed","https://www.uneed.best/","fp","day","Daily launches with a free queue. Active maker community."],
+  ["peerlist","launch","B","Peerlist Launchpad","https://peerlist.io/launchpad","free","day","Weekly launches. Needs a Peerlist profile; audience of developers and designers."],
+  ["devhunt","launch","B","DevHunt","https://devhunt.org/","fp","day","Developer tools only. Check the submit page for current options."],
+  ["microlaunch","launch","B","MicroLaunch","https://microlaunch.net/","fp","day","Month-long launches, good for small products."],
+  ["fazier","launch","B","Fazier","https://fazier.com/","fp","day","Daily launches with an embeddable badge."],
+  ["tinylaunch","launch","C","TinyLaunch","https://tinylaunch.com/","fp","post","Free launch, paid extras."],
+  ["launchingnext","launch","C","Launching Next","https://www.launchingnext.com/","fp","post","Daily list of new startups. Mostly a backlink."],
+  ["sideprojectors","launch","C","SideProjectors","https://www.sideprojectors.com/","free","post","Show side projects; also a marketplace to sell them."],
+
+  ["alternativeto","startup","A","AlternativeTo","https://alternativeto.net/","free","pre","List yourself as an alternative to a well-known app. Long-lasting search traffic."],
+  ["saashub","startup","A","SaaSHub","https://www.saashub.com/","fp","pre","Software directory with alternatives pages. Free listing."],
+  ["crunchbase","startup","A","Crunchbase","https://www.crunchbase.com/","free","pre","Company profile that investors and press look up."],
+  ["wellfound","startup","B","Wellfound (AngelList)","https://wellfound.com/","free","post","Startup profile; also useful for hiring."],
+  ["stackshare","startup","B","StackShare","https://stackshare.io/","free","post","Good for dev tools and technical SaaS."],
+  ["startupstash","startup","B","Startup Stash","https://startupstash.com/","fp","post","Curated tools for startups, by category."],
+  ["betapage","startup","B","BetaPage","https://betapage.co/","fp","pre","Directory for beta products."],
+  ["f6s","startup","B","F6S","https://www.f6s.com/","free","post","Startup community with deals and accelerator listings."],
+  ["slant","startup","C","Slant","https://www.slant.co/","free","post","\"What is the best tool for…\" Q&A pages."],
+  ["startupbuffer","startup","C","Startup Buffer","https://startupbuffer.com/","fp","post","Quick backlink."],
+
+  ["taaft","ai","S","There's An AI For That","https://theresanaiforthat.com/","paid","day","The largest AI directory. Paid submission; check the current price."],
+  ["futurepedia","ai","A","Futurepedia","https://www.futurepedia.io/","paid","day","Large AI directory with a review step."],
+  ["toolify","ai","A","Toolify","https://www.toolify.ai/","paid","day","Lots of search traffic and monthly AI rankings."],
+  ["futuretools","ai","A","Future Tools","https://www.futuretools.io/","free","pre","Free but curated. Tied to a large YouTube channel."],
+  ["topai","ai","B","TopAI.tools","https://topai.tools/","fp","day","Long-running AI directory."],
+  ["dangai","ai","B","Dang.ai","https://dang.ai/","fp","day","AI directory with featured slots."],
+  ["aivalley","ai","B","AI Valley","https://aivalley.ai/","fp","post","AI directory with a newsletter."],
+  ["easywithai","ai","C","Easy With AI","https://easywithai.com/","fp","post","AI backlink."],
+
+  ["g2","review","S","G2","https://sell.g2.com/","free","post","The biggest B2B review site. Free profile; you need real customer reviews."],
+  ["capterra","review","S","Capterra","https://www.capterra.com/vendors/","fp","post","One profile also covers GetApp and Software Advice. Paid placements are pay-per-click."],
+  ["trustpilot","review","A","Trustpilot","https://business.trustpilot.com/","fp","post","Reviews for any product, shown in Google results."],
+  ["trustradius","review","A","TrustRadius","https://www.trustradius.com/vendors","free","post","Detailed B2B reviews."],
+  ["sourceforge","review","A","SourceForge","https://sourceforge.net/","free","post","Large traffic; takes commercial and open-source software."],
+  ["appsumo","review","A","AppSumo","https://sell.appsumo.com/","paid","post","Sell a lifetime deal. Fast revenue, large revenue share to the marketplace."],
+  ["softpedia","review","B","Softpedia","https://www.softpedia.com/","free","post","Windows, Mac, Linux and mobile software downloads."],
+
+  ["r-sideproject","community","A","r/SideProject","https://www.reddit.com/r/SideProject/","free","day","Tell how you built it and ask for feedback. Reddit hates ads."],
+  ["r-iib","community","A","r/InternetIsBeautiful","https://www.reddit.com/r/InternetIsBeautiful/","free","post","Web apps people can use right away, no sign-up."],
+  ["x-bip","community","A","X / Twitter (build in public)","https://x.com/","free","pre","Share progress for weeks before launch with #buildinpublic."],
+  ["linkedin","community","A","LinkedIn","https://www.linkedin.com/","free","day","Best for B2B. Company page plus a personal launch post."],
+  ["r-startups","community","B","r/startups","https://www.reddit.com/r/startups/","free","post","Strict rules. Self-promotion only in allowed threads."],
+  ["devto","community","B","DEV Community","https://dev.to/","free","post","Write a technical post about how you built it."],
+  ["designernews","community","B","Designer News","https://www.designernews.co/","free","day","Good for tools aimed at designers."],
+  ["lobsters","community","B","Lobsters","https://lobste.rs/","free","post","Invite-only, high-quality technical community."],
+
+  ["github","dev","A","GitHub (README + topics)","https://github.com/","free","pre","A clear README and the right topics. Can reach Trending."],
+  ["awesome","dev","A","Awesome lists","https://github.com/sindresorhus/awesome","free","post","Open a pull request to the awesome-* lists in your category."],
+  ["openalternative","dev","B","OpenAlternative","https://openalternative.co/","fp","post","Open-source alternatives to paid software."],
+  ["libhunt","dev","B","LibHunt","https://www.libhunt.com/","free","post","Library comparisons by language."],
+  ["consoledev","dev","B","Console.dev","https://console.dev/","free","post","Weekly curated newsletter of dev tools."],
+  ["changelog","dev","B","Changelog News","https://changelog.com/news","free","post","Submit news to the Changelog newsletter and podcast."],
+
+  ["appstore","store","S","Apple App Store","https://developer.apple.com/programs/","paid","pre","Apple Developer Program membership is paid yearly. See the listing-app-store skill."],
+  ["googleplay","store","S","Google Play","https://play.google.com/console/","paid","pre","One-time registration fee. New personal accounts must run a closed test first."],
+  ["chromestore","store","S","Chrome Web Store","https://chrome.google.com/webstore/devconsole","paid","pre","One-time developer fee. Review is strict about permissions."],
+  ["macappstore","store","A","Mac App Store","https://developer.apple.com/macos/","paid","pre","Same Apple Developer account as iOS."],
+  ["msstore","store","A","Microsoft Store","https://storedeveloper.microsoft.com/","free","post","Free for individual developers (ID verification). Takes PWAs too."],
+  ["firefox","store","A","Firefox Add-ons","https://addons.mozilla.org/developers/","free","post","Porting a Chrome extension is usually easy."],
+  ["edge","store","B","Microsoft Edge Add-ons","https://partner.microsoft.com/dashboard/microsoftedge","free","post","Reuse your Chrome extension package."],
+  ["setapp","store","B","Setapp","https://setapp.com/developers","free","post","Curated Mac subscription marketplace with revenue share."],
+
+  ["galaxy","altstore","B","Samsung Galaxy Store","https://seller.samsungapps.com/","free","post","Android apps and games. Free registration."],
+  ["appgallery","altstore","B","Huawei AppGallery","https://developer.huawei.com/consumer/en/appgallery","free","post","Android apps for Huawei devices."],
+  ["getapps","altstore","C","Xiaomi GetApps","https://global.developer.mi.com/","free","post","Android apps for Xiaomi devices."],
+  ["aptoide","altstore","C","Aptoide","https://www.aptoide.com/","free","post","Independent Android store."],
+  ["fdroid","altstore","B","F-Droid","https://f-droid.org/","free","post","Free and open-source Android apps only."],
+  ["itch","altstore","A","itch.io","https://itch.io/","free","pre","Games and creative tools. You choose the revenue share."],
+  ["macupdate","altstore","C","MacUpdate","https://www.macupdate.com/","free","post","Long-running Mac app directory."],
+
+  ["bensbites","newsletter","A","Ben's Bites","https://www.bensbites.com/","fp","day","Large AI newsletter. Pitch for free or buy a slot."],
+  ["rundown","newsletter","A","The Rundown AI","https://www.therundown.ai/","paid","day","Very large AI newsletter; mostly paid sponsorship."],
+  ["tldr","newsletter","A","TLDR","https://tldr.tech/","paid","day","Tech newsletters by topic (web dev, AI, founders)."],
+  ["starterstory","newsletter","B","Starter Story","https://www.starterstory.com/","free","post","Share your story if the product makes money."],
+  ["hackernewsletter","newsletter","B","Hacker Newsletter","https://hackernewsletter.com/","paid","post","Weekly Hacker News digest with sponsor slots."],
+  ["sidebar","newsletter","B","Sidebar.io","https://sidebar.io/","free","post","Five design links a day."],
+
+  ["awwwards","design","B","Awwwards","https://www.awwwards.com/","paid","post","Web design awards with a submission fee."],
+  ["onepagelove","design","C","One Page Love","https://onepagelove.com/","fp","post","Gallery of one-page sites."],
+  ["landbook","design","C","Land-book","https://land-book.com/","free","post","Landing page gallery."],
+  ["lapaninja","design","C","Lapa Ninja","https://www.lapa.ninja/","free","post","Landing page gallery."]
+];
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const LS = {get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch{return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
+function toast(t){const el=$("#toast");el.textContent=t;el.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>el.hidden=true,1800)}
+
+const ui = Object.assign({prod:"",phase:"",price:"",status:"",sort:"tier",dir:1,tiers:[],zones:[]}, LS.get("pgp.ld.ui",{}), {open:null,q:""});
+const state = Object.assign({products:[],subs:{},custom:[]}, LS.get("pgp.ld.data",{}));
+const save = () => LS.set("pgp.ld.data",{products:state.products,subs:state.subs,custom:state.custom});
+if(!state.products.find(p=>p.id===ui.prod)) ui.prod = state.products.length ? state.products[state.products.length-1].id : "";
+
+function allDirs(){
+  const base = BASE.map(([id,zone,tier,name,url,price,phase,note])=>({id,zone,tier,name,url,price,phase,note}));
+  return base.concat(state.custom.map(c=>({...c,note:c.note||"Added by you"})));
+}
+const subOf = id => (ui.prod && state.subs[ui.prod+"__"+id]) || {status:"todo"};
+function setSub(id,patch){const k=ui.prod+"__"+id;state.subs[k]={...(state.subs[k]||{status:"todo"}),...patch,updatedAt:Date.now()};save()}
+function passes(d, ignore){
+  if(ignore!=="tier" && ui.tiers.length && !ui.tiers.includes(d.tier)) return false;
+  if(ignore!=="zone" && ui.zones.length && !ui.zones.includes(d.zone)) return false;
+  if(ui.phase && d.phase!==ui.phase) return false;
+  if(ui.price && d.price!==ui.price) return false;
+  const st=subOf(d.id).status;
+  if(ui.status==="open" && DONE.has(st)) return false;
+  if(ui.status && ui.status!=="open" && st!==ui.status) return false;
+  if(ui.q){const q=ui.q.toLowerCase(); if(!(d.name+" "+d.note+" "+d.zone).toLowerCase().includes(q)) return false}
+  return true;
+}
+const ORD = {
+  tier:d=>"SABC".indexOf(d.tier), name:d=>d.name.toLowerCase(), price:d=>["free","fp","paid"].indexOf(d.price),
+  phase:d=>["pre","day","post"].indexOf(d.phase), status:d=>STATUS.findIndex(s=>s[0]===subOf(d.id).status)
+};
+function sorter(a,b){
+  const f=ORD[ui.sort], x=f(a), y=f(b);
+  const c = x<y?-1:x>y?1:0;
+  return c*ui.dir || "SABC".indexOf(a.tier)-"SABC".indexOf(b.tier) || a.name.localeCompare(b.name);
+}
+
+function render(){
+  LS.set("pgp.ld.ui",{prod:ui.prod,phase:ui.phase,price:ui.price,status:ui.status,sort:ui.sort,dir:ui.dir,tiers:ui.tiers,zones:ui.zones});
+  const dirs = allDirs();
+
+  const ps=$("#prodSel");
+  ps.innerHTML = state.products.length ? state.products.map(p=>`<option value="${esc(p.id)}"${p.id===ui.prod?" selected":""}>${esc(p.name)}</option>`).join("") : `<option value="">No product yet</option>`;
+  ps.disabled = !state.products.length;
+  $("#empty").hidden = !!state.products.length;
+
+  const fs=$("#fStatus"); if(fs.options.length<3) STATUS.forEach(([v,t])=>fs.add(new Option(t,v)));
+  fs.value=ui.status; $("#fPhase").value=ui.phase; $("#fPrice").value=ui.price; $("#sortSel").value=ui.sort;
+
+  $("#tierChips").innerHTML = `<span class="lbl">Tier</span>` + Object.keys(TIERS).map(t=>{
+    const n=dirs.filter(d=>d.tier===t&&passes(d,"tier")).length;
+    return `<button class="chip" data-tier="${t}" aria-pressed="${ui.tiers.includes(t)}"><span class="badge t-${t}" style="height:18px;min-width:18px;font-size:11px">${t}</span> ${TIERS[t]}<span class="n">${n}</span></button>`}).join("");
+  $("#zoneChips").innerHTML = `<span class="lbl">Area</span>` + ZONES.map(z=>{
+    const n=dirs.filter(d=>d.zone===z.id&&passes(d,"zone")).length;
+    return `<button class="chip" data-zone="${z.id}" aria-pressed="${ui.zones.includes(z.id)}">${esc(z.name)}<span class="n">${n}</span></button>`}).join("");
+  if(!$("#cZone").options.length) ZONES.forEach(z=>$("#cZone").add(new Option(z.name,z.id)));
+
+  $("#board").innerHTML = Object.keys(TIERS).map(t=>{
+    const list=dirs.filter(d=>d.tier===t), c={live:0,prog:0,skip:0};
+    list.forEach(d=>{const s=subOf(d.id).status; if(s==="live")c.live++; else if(["ready","sent","wait"].includes(s))c.prog++; else if(s==="skip"||s==="no")c.skip++;});
+    const w=v=>list.length?(v/list.length*100).toFixed(1):0;
+    return `<div class="tier-card"><h3><span class="badge t-${t}">${t}</span>${TIERS[t]}</h3>
+      <div class="meter" role="img" aria-label="${c.live} live, ${c.prog} in progress of ${list.length}"><i style="width:${w(c.live)}%;background:var(--ok)"></i><i style="width:${w(c.prog)}%;background:var(--warn)"></i><i style="width:${w(c.skip)}%;background:var(--tC)"></i></div>
+      <div class="nums">${c.live} live · ${c.prog} in progress · ${list.length-c.live-c.prog-c.skip} left / ${list.length}</div></div>`}).join("");
+
+  const head = `<div class="line head">${[["tier","Tier"],["name","Site"],["price","Cost"],["phase","Phase"],["status","Status"]].map(([k,t])=>`<button data-sort="${k}"${ui.sort===k?` aria-sort="${ui.dir>0?"ascending":"descending"}"`:""}>${t}${ui.sort===k?(ui.dir>0?" ↑":" ↓"):""}</button>`).join("")}<span></span></div>`;
+  $("#zones").innerHTML = ZONES.map(z=>{
+    const list=dirs.filter(d=>d.zone===z.id&&passes(d)).sort(sorter);
+    if(!list.length) return "";
+    const all=dirs.filter(d=>d.zone===z.id), live=all.filter(d=>subOf(d.id).status==="live").length;
+    return `<section class="zone"><div class="zone-h"><div><h2>${esc(z.name)}</h2><p>${esc(z.desc)}</p></div><span class="nums">${ui.prod?`${live}/${all.length} live`:`${all.length} sites`}</span></div>
+      <div class="ledger">${head}${list.map(rowHtml).join("")}</div></section>`}).join("") || `<div class="empty">Nothing matches these filters. Clear a tier or area.</div>`;
+}
+function rowHtml(d){
+  const s=subOf(d.id), open=ui.open===d.id, dis=ui.prod?"":" disabled";
+  return `<div class="item" data-id="${esc(d.id)}">
+    <div class="line">
+      <span class="badge t-${d.tier}" title="Tier ${d.tier}: ${TIERS[d.tier]}">${d.tier}</span>
+      <div class="name"><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.name)} ↗</a><small>${esc(d.note)}</small></div>
+      <div class="meta"><span class="price">${PRICE[d.price]||""}</span></div>
+      <div class="meta meta2">${PHASE[d.phase]||""}</div>
+      <select class="status s-${s.status}" data-act="status" aria-label="Status for ${esc(d.name)}"${dis}>${STATUS.map(([v,t])=>`<option value="${v}"${v===s.status?" selected":""}>${t}</option>`).join("")}</select>
+      <button class="more" data-act="toggle" aria-expanded="${open}" aria-label="Details for ${esc(d.name)}">›</button>
+    </div>
+    ${open?`<div class="detail">
+      <div class="tip"><b>${PHASE[d.phase]||""}</b> · ${PRICE[d.price]||""} · ${esc(d.note)}</div>
+      <label>Live listing URL<input type="url" id="live-${esc(d.id)}" data-act="liveUrl" value="${esc(s.liveUrl||"")}" placeholder="https://…"${dis}></label>
+      <label>Your note<input type="text" id="note-${esc(d.id)}" data-act="myNote" value="${esc(s.myNote||"")}" placeholder="Account, date, UTM, owner…"${dis}></label>
+      ${s.updatedAt?`<span class="stamp">Updated ${new Date(s.updatedAt).toLocaleString()}</span>`:""}
+      ${ui.prod?"":`<span class="stamp">Add a product to save statuses.</span>`}
+    </div>`:""}
+  </div>`;
+}
+
+document.addEventListener("click",e=>{
+  const t=e.target.closest("[data-tier],[data-zone],[data-sort],[data-act='toggle']"); if(!t) return;
+  if(t.dataset.tier){const v=t.dataset.tier;ui.tiers=ui.tiers.includes(v)?ui.tiers.filter(x=>x!==v):[...ui.tiers,v]}
+  else if(t.dataset.zone){const v=t.dataset.zone;ui.zones=ui.zones.includes(v)?ui.zones.filter(x=>x!==v):[...ui.zones,v]}
+  else if(t.dataset.sort){const k=t.dataset.sort; ui.dir = ui.sort===k ? -ui.dir : 1; ui.sort=k}
+  else {const id=t.closest(".item").dataset.id;ui.open=ui.open===id?null:id}
+  render();
+});
+document.addEventListener("change",e=>{
+  const el=e.target, item=el.closest(".item");
+  if(item){
+    if(!ui.prod) return;
+    const id=item.dataset.id;
+    if(el.dataset.act==="status"){setSub(id,{status:el.value});render();toast("Saved: "+STATUS.find(x=>x[0]===el.value)[1])}
+    if(el.dataset.act==="liveUrl"){const p={liveUrl:el.value.trim()}; if(p.liveUrl)p.status="live"; setSub(id,p);render();toast("Link saved")}
+    if(el.dataset.act==="myNote"){setSub(id,{myNote:el.value});toast("Note saved")}
+    return;
+  }
+  if(el.id==="prodSel"){ui.prod=el.value;ui.open=null}
+  else if(el.id==="fPhase") ui.phase=el.value;
+  else if(el.id==="fPrice") ui.price=el.value;
+  else if(el.id==="fStatus") ui.status=el.value;
+  else if(el.id==="sortSel"){ui.sort=el.value;ui.dir=1}
+  else return;
+  render();
+});
+let qT; $("#q").addEventListener("input",e=>{clearTimeout(qT);qT=setTimeout(()=>{ui.q=e.target.value.trim();render()},120)});
+$("#addProd").addEventListener("click",()=>{
+  const name=$("#newProd").value.trim(); if(!name){$("#newProd").focus();toast("Type a product name first");return}
+  const id="p"+Date.now().toString(36);
+  state.products.push({id,name,url:$("#newProdUrl").value.trim(),createdAt:Date.now()}); save();
+  ui.prod=id; $("#newProd").value=""; $("#newProdUrl").value=""; render(); toast("Added "+name);
+});
+$("#newProd").addEventListener("keydown",e=>{if(e.key==="Enter")$("#addProd").click()});
+$("#customForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  state.custom.push({id:"c-"+Date.now().toString(36),name:$("#cName").value.trim(),url:$("#cUrl").value.trim(),zone:$("#cZone").value,tier:$("#cTier").value,price:$("#cPrice").value,phase:$("#cPhase").value,note:$("#cNote").value.trim()});
+  save(); e.target.reset(); render(); toast("Site added");
+});
+// Same columns as directory-tracker.csv, plus tier and area
+$("#exportCsv").addEventListener("click",()=>{
+  const p=state.products.find(x=>x.id===ui.prod);
+  const q=v=>`"${String(v??"").replace(/"/g,'""')}"`;
+  const rows=[["tier","area","site","url","cost","phase","status","live_url","updated","notes"]];
+  allDirs().forEach(d=>{const s=subOf(d.id);rows.push([d.tier,d.zone,d.name,d.url,PRICE[d.price],PHASE[d.phase],STATUS.find(x=>x[0]===s.status)[1],s.liveUrl||"",s.updatedAt?new Date(s.updatedAt).toISOString().slice(0,10):"",s.myNote||""])});
+  const blob=new Blob([rows.map(r=>r.map(q).join(",")).join("\n")],{type:"text/csv"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  a.download=`listing-desk-${(p?p.name:"all").replace(/[^a-z0-9]+/gi,"-").toLowerCase()}.csv`; a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+});
+
+render();
+</script>
+</body>
+</html>

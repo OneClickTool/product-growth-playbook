@@ -28,6 +28,9 @@ and backlinks for your website. Spend the time on sites that fit your product, n
 ## Inputs
 - A live product with a URL people can try.
 - `assets/launch-kit.md` filled once, and `assets/directory-tracker.csv`.
+- Or use the **[Listing Desk](https://htmlpreview.github.io/?https://github.com/OneClickTool/product-growth-playbook/blob/main/skills/listing/listing-free-directories/assets/listing-desk.html)** (opens in your browser, no install): 75+ sites grouped by area and
+  tier S/A/B/C, with filters, sorting, a status per site for each product and CSV export. Progress stays in your
+  browser. Source: [`assets/listing-desk.html`](assets/listing-desk.html).
 
 ## The list
 Free options and rules change often. Each row was checked on **2026-09-30**. Confirm pricing on the site before you
