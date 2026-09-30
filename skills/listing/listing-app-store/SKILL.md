@@ -83,7 +83,8 @@ Fill the listing sheet first, then enter it in this order in [App Store Connect]
 - **Custom product pages:** up to 70 variants with their own screenshots, promo text and deep link. Point ads and
   links at them, and assign keywords so a matching page can appear in organic search.
 - **In-App Events:** time-limited events shown on your page and in search.
-- **Offer codes** for subscriptions and in-app purchases. Apple is phasing out the old promo codes.
+- **Offer codes** for subscriptions and in-app purchases. Since 26 March 2026 you can't create new *in-app purchase*
+  promo codes. **Promo codes for a free app download** still work.
 - **Phased release** for updates (rolls out over 7 days, can pause), and **pre-orders** for a new app.
 - **Featuring nominations** in App Store Connect: tell Apple's editors about a launch or a big update.
 

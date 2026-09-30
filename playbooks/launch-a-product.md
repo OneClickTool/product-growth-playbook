@@ -12,7 +12,7 @@ It works for apps, SaaS, AI tools and browser extensions. Skip the ASO steps if 
 | T-3 → T-2 | Store listing submitted *(apps)* | [listing-app-store](../skills/listing/listing-app-store/SKILL.md) / [listing-google-play](../skills/listing/listing-google-play/SKILL.md) (Level 1), with copy from [aso-keyword-research](../skills/aso/aso-keyword-research/SKILL.md) → [aso-title-subtitle-optimization](../skills/aso/aso-title-subtitle-optimization/SKILL.md) → [aso-screenshot-strategy](../skills/aso/aso-screenshot-strategy/SKILL.md) | Listing submitted |
 | T-1 | Posts ready, supporters warmed up | [launch-post-writing](../skills/launch/launch-post-writing/SKILL.md), [launch-product-hunt-launch](../skills/launch/launch-product-hunt-launch/SKILL.md) (optional) | Posts per channel, supporter list |
 | T-0 | Launch day | same + [listing-free-directories](../skills/listing/listing-free-directories/SKILL.md) (Level 1) | Posts live, every comment answered |
-| T+1 → T+4 | First 100 users | [launch-get-first-100-users](../skills/launch/launch-get-first-100-users/SKILL.md) | 100 users, learning log |
+| T+1 → T+4 | First 100 users | [launch-quick-download-wins](../skills/launch/launch-quick-download-wins/SKILL.md) (week 1) → [launch-get-first-100-users](../skills/launch/launch-get-first-100-users/SKILL.md) | 100 users, learning log |
 | T+2 onwards | Ratings that help, not hurt *(apps)* | [aso-review-and-rating-strategy](../skills/aso/aso-review-and-rating-strategy/SKILL.md) | Review prompt live, replies sent |
 
 ## Rules of the road

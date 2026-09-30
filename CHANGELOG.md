@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.5.0] - 2026-09-30
+### Added
+- `launch-quick-download-wins`: 16 low-effort channels for fast downloads, ranked in 3 levels by effort and speed.
+### Fixed
+- `listing-app-store`: only in-app purchase promo codes were retired (March 2026). App download promo codes still work.
+
 ## [0.4.0] - 2026-09-30
 ### Added
 - New **Listing** area, each skill in 3 levels: `listing-app-store` and `listing-google-play` (step by step, with

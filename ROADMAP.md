@@ -3,14 +3,14 @@
 What exists, what's next, and where you can help. Suggest changes in
 [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions) or with a *Skill request* issue.
 
-## Now: 5 areas, 19 skills
+## Now: 5 areas, 20 skills
 
 | Area | Skills |
 |---|---|
 | 🔎 Research | source finding · research doc organization · where users ask · review mining |
 | 📦 Listing | App Store listing · Google Play listing · free directories & alternative stores (each in 3 levels) |
 | 📱 ASO | keyword research · title & subtitle · screenshot strategy · reviews & ratings |
-| 🚀 Launch | pre-launch checklist · launch post writing · Product Hunt launch · first 100 users |
+| 🚀 Launch | pre-launch checklist · launch post writing · Product Hunt launch · quick download wins · first 100 users |
 | 💰 Monetization | free trial vs freemium · pricing strategy · paywall design · subscription tiers |
 
 Playbook: [Launch a Product](playbooks/launch-a-product.md).
