@@ -20,6 +20,8 @@ Thanks for helping! This repo gets better with every real-world lesson people ad
    - the router table in [skills/growth/SKILL.md](skills/growth/SKILL.md)
    - the root [README.md](README.md)
 4. Run `python3 scripts/validate_skills.py` and fix anything it reports.
+   To eyeball how your new `SKILL.md` links to the others, open the `skills/` folder in
+   [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=contributing&utm_campaign=growth-playbook&utm_content=link-map) and look at its link map (free, Mac, made by the maintainer).
 5. Open a PR and complete the checklist.
 
 ## Definition of done

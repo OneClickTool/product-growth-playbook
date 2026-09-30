@@ -55,6 +55,10 @@ npx skills add OneClickTool/product-growth-playbook
 
 Or copy a skill folder into your agent's skills directory (for example `~/.claude/skills/`).
 
+> **Tip:** every skill is a Markdown file, and most produce one (a checklist, a keyword sheet, a plan). To browse a folder
+> of them as a table or a map of links, try [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=how-to-use) (free, Mac). I made it at
+> [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=how-to-use).
+
 ## What makes a skill here
 
 Every skill has the same parts: **Goal · When to use · Inputs · Steps · Prompt · Example output · Common mistakes**.
@@ -73,7 +77,7 @@ at [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&
 
 Two tools I made that fit this repo:
 - Reading lots of skills and Markdown files? [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac) shows a whole folder at a glance.
-- Running many AI-agent repos like this one? [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) puts them all on one screen.
+- Running many projects with AI agents? [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (Mac) shows every repo's next steps, blockers and uncommitted changes on one screen, and reopens the right Claude session.
 
 ## License
 

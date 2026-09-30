@@ -23,3 +23,12 @@ It works for apps, SaaS, AI tools and browser extensions. Skip the ASO steps if 
 ## With an AI agent
 Installed the skills? Tell your agent: *"Follow the launch-a-product playbook for my product, starting at week T-6."*
 Using a chat AI? Open each skill in order and paste its prompt.
+
+## Keep the launch in your repo
+Save each week's output as a Markdown file in a `growth/` folder next to your code (`growth/LAUNCH.md`,
+`growth/pricing.md`, `growth/keywords.md`…). Your AI agent can read them next session, and nothing gets lost in chat history.
+
+*Tools I made for this (disclosure: I'm the maintainer, [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=playbook&utm_campaign=growth-playbook&utm_content=launch-a-product)):*
+- [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=playbook&utm_campaign=growth-playbook&utm_content=launch-a-product) (Mac): all your product repos on one screen, with next steps, blockers,
+  uncommitted changes, and the Claude session to resume.
+- [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=playbook&utm_campaign=growth-playbook&utm_content=launch-a-product) (free, Mac): read the whole `growth/` folder as a table or a link map.

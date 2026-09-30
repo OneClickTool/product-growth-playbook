@@ -16,8 +16,10 @@ The plan and roadmap live in [docs/PLAN.md](docs/PLAN.md) (Vietnamese). Public c
 - When you add or rename a skill, update `.claude-plugin/marketplace.json`, the area README,
   the router table in `skills/growth/SKILL.md` and the root README.
 - Scripts in `skills/**/scripts/` use the Python standard library only.
-- Product mentions from the maintainer (Markdown Viewer, Shotmatic) appear only where the plan allows, are
-  disclosed as the maintainer's own, and go at the end.
+- Maintainer products (ShotMatic, Markdown Viewer, OneClickTool) may be mentioned **only** in flows about managing
+  projects/repos or Markdown files (currently: README, CONTRIBUTING, `launch-pre-launch-checklist`,
+  `playbooks/launch-a-product.md`). Always disclose they're the maintainer's, keep it to 1–3 lines at the end of the
+  section or skill, and tag links with `utm_source=github&utm_campaign=growth-playbook`. Never in the Prompt block.
 
 ## Before you finish
 ```bash

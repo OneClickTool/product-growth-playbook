@@ -53,6 +53,7 @@ analytics, an empty waitlist, or no post ready to publish.
    one launch post per channel ([launch-post-writing](../launch-post-writing/SKILL.md)), an FAQ with answers to the
    5 objections you expect, and a support inbox someone watches.
 6. **Assign and date every line.** Every line gets an owner and a T-date. Anything without both won't get done.
+   Save it as `LAUNCH.md` in the product's repo, next to the code, so you and your AI agent work from the same list.
 7. **Dry run at T-2.** Install from the store build or production URL on a clean device or browser profile.
    Sign up, pay (test mode if possible), get the email, and click every launch link.
 
@@ -112,3 +113,8 @@ Only include tasks for my platforms. Keep it under 30 lines.
 Written by [@nvminhtu](https://github.com/nvminhtu). Requirements from Google Play Console Help
 ("App testing requirements for new personal developer accounts"), App Store Connect Help ("Submit an app"),
 and Chrome Web Store Program Policies. Re-check them before each launch, because they change.
+
+**Tools (made by the maintainer at [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=launch-pre-launch-checklist)):** launching several products at once?
+[ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=launch-pre-launch-checklist) (Mac) shows every repo's next steps, blockers and uncommitted changes on
+one screen, and reopens the right Claude session. [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=skill&utm_campaign=growth-playbook&utm_content=launch-pre-launch-checklist) (free) reads
+a folder of `LAUNCH.md` and plan files at a glance.
