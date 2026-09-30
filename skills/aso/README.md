@@ -9,6 +9,8 @@ Get found in App Store and Google Play search, and turn store visitors into inst
 | [aso-screenshot-strategy](aso-screenshot-strategy/SKILL.md) | Shot list with captions, visual direction and one A/B test | Intermediate | 45–60 min |
 | [aso-review-and-rating-strategy](aso-review-and-rating-strategy/SKILL.md) | Review-prompt plan within store rules + reply templates | Beginner | 45–60 min |
 
+**First time on the stores?** Start with [Listing](../listing/) to get published, then optimize here.
+
 **Suggested order:** keyword research → title & subtitle → screenshots → ratings.
 
 **Open for contributors:** competitor ASO audit. See [CONTRIBUTING.md](../../CONTRIBUTING.md).

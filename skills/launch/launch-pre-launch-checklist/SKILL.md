@@ -107,6 +107,7 @@ Only include tasks for my platforms. Keep it under 30 lines.
 ## Related skills
 - [launch-post-writing](../launch-post-writing/SKILL.md): write the posts for launch day.
 - [launch-product-hunt-launch](../launch-product-hunt-launch/SKILL.md): if Product Hunt is one of the channels.
+- [listing-app-store](../../listing/listing-app-store/SKILL.md) / [listing-google-play](../../listing/listing-google-play/SKILL.md): every store field, step by step.
 - [aso-keyword-research](../../aso/aso-keyword-research/SKILL.md): get the store listing right before submitting.
 
 ## Credits

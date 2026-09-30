@@ -47,6 +47,10 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Launch is weeks away, not sure what's missing | [launch-pre-launch-checklist](../launch/launch-pre-launch-checklist/SKILL.md) |
 | Need launch posts for HN / Reddit / X / LinkedIn | [launch-post-writing](../launch/launch-post-writing/SKILL.md) |
 | Considering Product Hunt | [launch-product-hunt-launch](../launch/launch-product-hunt-launch/SKILL.md) |
+| **Publishing** | |
+| Submitting to the App Store (first time or update) | [listing-app-store](../listing/listing-app-store/SKILL.md) |
+| Submitting to Google Play (incl. 12 testers / 14 days) | [listing-google-play](../listing/listing-google-play/SKILL.md) |
+| Want free places to list the product | [listing-free-directories](../listing/listing-free-directories/SKILL.md) |
 | **Just launched** | |
 | Fewer than 100 real users | [launch-get-first-100-users](../launch/launch-get-first-100-users/SKILL.md) |
 | **App store growth** | |
@@ -69,7 +73,7 @@ what the product is and where it's distributed, its stage (idea / pre-launch / <
 rough weekly users and revenue, and what feels most broken. Then recommend ONE growth task to
 focus on for the next two weeks, explain why in one sentence, and give me the first 3 concrete steps.
 Choose from: where users ask about software, competitor review mining, source finding,
-research doc organization, pre-launch checklist, launch post writing, Product Hunt launch, getting the first 100 users,
+research doc organization, App Store listing, Google Play listing, free directories, pre-launch checklist, launch post writing, Product Hunt launch, getting the first 100 users,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 pricing strategy, paywall design, subscription tiers.
 ````

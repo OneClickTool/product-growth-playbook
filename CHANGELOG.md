@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0] - 2026-09-30
+### Added
+- New **Listing** area, each skill in 3 levels: `listing-app-store` and `listing-google-play` (step by step, with
+  fill-in listing sheets), `listing-free-directories` (25+ free launch platforms, directories and alternative stores,
+  with a launch kit and tracker).
+### Changed
+- Router, README, playbook and pre-launch checklist link to the listing skills.
+
 ## [0.3.0] - 2026-09-30
 ### Added
 - New **Research** area: `research-source-finding`, `research-doc-organization` (with note, sources and decision
