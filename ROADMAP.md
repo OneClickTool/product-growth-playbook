@@ -3,13 +3,13 @@
 What exists, what's next, and where you can help. Suggest changes in
 [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions) or with a *Skill request* issue.
 
-## Now: 6 areas, 23 skills
+## Now: 6 areas, 28 skills
 
 | Area | Skills |
 |---|---|
 | 🔎 Research | source finding · research doc organization · where users ask · review mining |
 | 🧪 Case Study | competitor teardown (learn from the enemy) · success story analysis · write your own case study |
-| 📦 Listing | App Store listing · Google Play listing · free directories & alternative stores (each in 3 levels) |
+| 📦 Listing | App Store · Google Play · by niche: browser extension, Mac app, indie game, plugin & dev tool, AI product · free directories (each in 3 levels) |
 | 📱 ASO | keyword research · title & subtitle · screenshot strategy · reviews & ratings |
 | 🚀 Launch | pre-launch checklist · launch post writing · Product Hunt launch · quick download wins · first 100 users |
 | 💰 Monetization | free trial vs freemium · pricing strategy · paywall design · subscription tiers |
@@ -30,6 +30,9 @@ These skills are planned and nobody has claimed them yet. Comment on the issue o
 | `aso-competitor-audit` | ASO |
 | `launch-community-seeding` | Launch |
 | `monetization-pricing-experiments` | Monetization |
+| `listing-digital-template` (Notion, Gumroad, Framer) | Listing |
+| `listing-wordpress-plugin` | Listing |
+| `listing-shopify-app` | Listing |
 
 ## Later (by demand)
 New areas open once people ask for them: SEO · content marketing · social growth · conversion · retention ·

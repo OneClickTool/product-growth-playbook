@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0] - 2026-09-30
+### Added
+- Listing by niche, each in 3 levels: `listing-browser-extension` (Chrome, Edge, Firefox), `listing-mac-app`
+  (Mac App Store, direct + notarization, Setapp, Homebrew), `listing-indie-game` (itch.io, Steam, CrazyGames, Poki),
+  `listing-dev-plugin` (VS Code + Open VSX, JetBrains, Raycast, Obsidian, Figma, npm), `listing-ai-product`
+  (AI directories, GPT Store, skills.sh, Claude Code plugins, MCP Registry).
+
 ## [0.6.0] - 2026-09-30
 ### Added
 - New **Case Study** area: `case-study-competitor-teardown` (learn from the enemy, with a teardown sheet),

@@ -134,6 +134,7 @@ Remind me to check each site's current pricing. Don't claim a site is free if yo
 - **Listing the wrong product type,** such as a closed-source app on F-Droid or a consumer app on DevHunt. It gets rejected, or worse, ignored.
 
 ## Related skills
+- Niche listing skills: [browser extension](../listing-browser-extension/SKILL.md) · [Mac app](../listing-mac-app/SKILL.md) · [indie game](../listing-indie-game/SKILL.md) · [plugin & dev tool](../listing-dev-plugin/SKILL.md) · [AI product](../listing-ai-product/SKILL.md).
 - [launch-quick-download-wins](../../launch/launch-quick-download-wins/SKILL.md): directories alongside 15 other low-effort channels, ranked.
 - [launch-product-hunt-launch](../../launch/launch-product-hunt-launch/SKILL.md): the biggest Level 1 site, in detail.
 - [launch-post-writing](../../launch/launch-post-writing/SKILL.md): posts for Show HN and communities.

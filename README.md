@@ -1,6 +1,6 @@
 # Product Growth Playbook
 
-**100% free AI growth skills, research templates and a free Markdown app for people building apps, SaaS, games and AI tools: research, case studies, store listing, ASO, launch and monetization.**
+**100% free AI growth skills, research templates and a free Markdown app for people building apps, extensions, games, plugins and AI tools: research, case studies, store listing by niche, ASO, launch and monetization.**
 
 [![Free forever](https://img.shields.io/badge/price-free%20forever-brightgreen)](#what-you-get-all-free)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -15,7 +15,7 @@ under an hour and you end up with something real: a keyword list, a launch plan,
 
 | | What | Why it helps you |
 |---|---|---|
-| 🧠 | **23 free AI growth skills** | Research, case studies, store listing, ASO, launch and monetization, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
+| 🧠 | **28 free AI growth skills** | Research, case studies, store listing by niche, ASO, launch and monetization, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
 | 🔎 | **A tidy research system** | Where to find trustworthy sources, where users ask for software (with links), how to mine competitor reviews, and templates to keep notes, sources and decisions organized in Markdown. |
 | 🗺️ | **Step-by-step playbooks** | A 6-week route from "almost ready" to your first 100 users, built from the skills. |
 | 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. |
@@ -23,7 +23,7 @@ under an hour and you end up with something real: a keyword list, a launch plan,
 No sign-up, no paywall, no email list. MIT licensed: use it, fork it, teach with it.
 
 ## Who it's for
-Indie developers, solo founders and small teams building **apps, SaaS, games, AI tools, websites or browser
+Indie developers, solo founders and small teams building **apps, SaaS, games, AI tools, plugins, websites or browser
 extensions**, especially if you're a builder, not a marketer.
 
 ## Why use this instead of blog posts or courses
@@ -44,6 +44,7 @@ extensions**, especially if you're a builder, not a marketer.
 | Find facts you can trust | [Source Finding](skills/research/research-source-finding/SKILL.md) |
 | Stop losing research in tabs and chats | [Research Doc Organization](skills/research/research-doc-organization/SKILL.md) |
 | Publish on the App Store / Google Play, step by step | [App Store Listing](skills/listing/listing-app-store/SKILL.md) · [Google Play Listing](skills/listing/listing-google-play/SKILL.md) |
+| Publish a small product: extension, Mac app, game, plugin, AI tool | [Listing by niche](skills/listing/README.md#by-niche-small-products) |
 | List the app for free in more places | [Free Directories & Alternative Stores](skills/listing/listing-free-directories/SKILL.md) |
 | Launching soon | [Playbook: Launch a Product](playbooks/launch-a-product.md), a 6-week route |
 | Need downloads this week, with little time and no budget | [Quick Download Wins](skills/launch/launch-quick-download-wins/SKILL.md), 16 channels ranked by effort |
@@ -57,7 +58,7 @@ extensions**, especially if you're a builder, not a marketer.
 |---|---|
 | 🔎 [Research](skills/research/) | [Source Finding](skills/research/research-source-finding/SKILL.md) · [Research Doc Organization](skills/research/research-doc-organization/SKILL.md) · [Where Users Ask](skills/research/research-where-users-ask/SKILL.md) · [Review Mining](skills/research/research-review-mining/SKILL.md) |
 | 🧪 [Case Study](skills/case-study/) | [Competitor Teardown](skills/case-study/case-study-competitor-teardown/SKILL.md) · [Success Story Analysis](skills/case-study/case-study-success-story-analysis/SKILL.md) · [Write Your Own Case Study](skills/case-study/case-study-write-your-own/SKILL.md) |
-| 📦 [Listing](skills/listing/) | [App Store Listing](skills/listing/listing-app-store/SKILL.md) · [Google Play Listing](skills/listing/listing-google-play/SKILL.md) · [Free Directories & Alternative Stores](skills/listing/listing-free-directories/SKILL.md) |
+| 📦 [Listing](skills/listing/) | [App Store](skills/listing/listing-app-store/SKILL.md) · [Google Play](skills/listing/listing-google-play/SKILL.md) · [Browser Extension](skills/listing/listing-browser-extension/SKILL.md) · [Mac App](skills/listing/listing-mac-app/SKILL.md) · [Indie Game](skills/listing/listing-indie-game/SKILL.md) · [Plugin & Dev Tool](skills/listing/listing-dev-plugin/SKILL.md) · [AI Product](skills/listing/listing-ai-product/SKILL.md) · [Free Directories & Alternative Stores](skills/listing/listing-free-directories/SKILL.md) |
 | 📱 [ASO](skills/aso/) | [Keyword Research](skills/aso/aso-keyword-research/SKILL.md) · [Title & Subtitle](skills/aso/aso-title-subtitle-optimization/SKILL.md) · [Screenshot Strategy](skills/aso/aso-screenshot-strategy/SKILL.md) · [Reviews & Ratings](skills/aso/aso-review-and-rating-strategy/SKILL.md) |
 | 🚀 [Launch](skills/launch/) | [Pre-launch Checklist](skills/launch/launch-pre-launch-checklist/SKILL.md) · [Launch Post Writing](skills/launch/launch-post-writing/SKILL.md) · [Product Hunt Launch](skills/launch/launch-product-hunt-launch/SKILL.md) · [Quick Download Wins](skills/launch/launch-quick-download-wins/SKILL.md) · [First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
 | 💰 [Monetization](skills/monetization/) | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) · [Paywall Design](skills/monetization/monetization-paywall-design/SKILL.md) · [Subscription Tiers](skills/monetization/monetization-subscription-tiers/SKILL.md) |

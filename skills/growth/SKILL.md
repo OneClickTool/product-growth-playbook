@@ -53,6 +53,11 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | **Publishing** | |
 | Submitting to the App Store (first time or update) | [listing-app-store](../listing/listing-app-store/SKILL.md) |
 | Submitting to Google Play (incl. 12 testers / 14 days) | [listing-google-play](../listing/listing-google-play/SKILL.md) |
+| Publishing a browser extension | [listing-browser-extension](../listing/listing-browser-extension/SKILL.md) |
+| Publishing a Mac app | [listing-mac-app](../listing/listing-mac-app/SKILL.md) |
+| Publishing an indie game | [listing-indie-game](../listing/listing-indie-game/SKILL.md) |
+| Publishing a plugin, CLI or dev tool | [listing-dev-plugin](../listing/listing-dev-plugin/SKILL.md) |
+| Publishing an AI tool, GPT, agent skill or MCP server | [listing-ai-product](../listing/listing-ai-product/SKILL.md) |
 | Want free places to list the product | [listing-free-directories](../listing/listing-free-directories/SKILL.md) |
 | **Just launched** | |
 | Live, but almost no downloads; need some this week | [launch-quick-download-wins](../launch/launch-quick-download-wins/SKILL.md) |
@@ -77,7 +82,7 @@ what the product is and where it's distributed, its stage (idea / pre-launch / <
 rough weekly users and revenue, and what feels most broken. Then recommend ONE growth task to
 focus on for the next two weeks, explain why in one sentence, and give me the first 3 concrete steps.
 Choose from: where users ask about software, competitor review mining, source finding,
-research doc organization, competitor teardown, success story analysis, writing a case study, App Store listing, Google Play listing, free directories, pre-launch checklist, launch post writing, Product Hunt launch, quick download wins, getting the first 100 users,
+research doc organization, competitor teardown, success story analysis, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product listing, free directories, pre-launch checklist, launch post writing, Product Hunt launch, quick download wins, getting the first 100 users,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 pricing strategy, paywall design, subscription tiers.
 ````

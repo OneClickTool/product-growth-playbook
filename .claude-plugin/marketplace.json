@@ -6,12 +6,12 @@
   },
   "metadata": {
     "description": "Free, open-source growth skills for people building digital products: research, case studies, store listing, ASO, launch, monetization and more.",
-    "version": "0.6.0"
+    "version": "0.7.0"
   },
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "23 free growth skills for apps, SaaS, games and AI products: research, case studies, store listing, ASO, launch and monetization.",
+      "description": "28 free growth skills for apps, extensions, games, plugins and AI products: research, case studies, store listing by niche, ASO, launch and monetization.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -28,9 +28,14 @@
         "./skills/launch/launch-pre-launch-checklist",
         "./skills/launch/launch-product-hunt-launch",
         "./skills/launch/launch-quick-download-wins",
+        "./skills/listing/listing-ai-product",
         "./skills/listing/listing-app-store",
+        "./skills/listing/listing-browser-extension",
+        "./skills/listing/listing-dev-plugin",
         "./skills/listing/listing-free-directories",
         "./skills/listing/listing-google-play",
+        "./skills/listing/listing-indie-game",
+        "./skills/listing/listing-mac-app",
         "./skills/monetization/monetization-free-trial-vs-freemium",
         "./skills/monetization/monetization-paywall-design",
         "./skills/monetization/monetization-pricing-strategy",
