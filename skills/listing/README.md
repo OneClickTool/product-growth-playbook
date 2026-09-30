@@ -20,10 +20,11 @@ Pick the skill for what you're shipping. Each one lists the marketplaces, fees, 
 | 🎮 An indie game | [listing-indie-game](listing-indie-game/SKILL.md) | itch.io · Steam · CrazyGames · Poki · Game Jolt · Newgrounds · jams |
 | 🔌 A plugin or dev tool | [listing-dev-plugin](listing-dev-plugin/SKILL.md) | VS Code + Open VSX · JetBrains · Raycast · Obsidian · Figma · npm · Homebrew |
 | 🤖 An AI product | [listing-ai-product](listing-ai-product/SKILL.md) | AI directories · GPT Store · skills.sh · Claude Code plugins · MCP Registry |
+| 📝 A Notion template or digital download | [listing-digital-template](listing-digital-template/SKILL.md) | Notion Marketplace · Gumroad (direct + Discover) |
 | 📱 A mobile app | [listing-app-store](listing-app-store/SKILL.md) · [listing-google-play](listing-google-play/SKILL.md) | App Store · Google Play |
 | 🌐 Anything, for extra free reach | [listing-free-directories](listing-free-directories/SKILL.md) | 25+ free launch platforms and alternative stores |
 
-**Open for contributors:** digital templates (Notion, Gumroad, Framer), WordPress plugins, Shopify apps.
+**Open for contributors:** Framer / Webflow templates, WordPress plugins, Shopify apps.
 
 **Suggested order:** fill the listing sheet → submit to the store (Level 1) → free directories in launch week →
 Level 2 of the store listing once you're approved.

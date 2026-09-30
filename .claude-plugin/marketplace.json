@@ -6,12 +6,12 @@
   },
   "metadata": {
     "description": "Free, open-source growth skills for people building digital products: research, case studies, store listing, ASO, launch, monetization and more.",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "28 free growth skills for apps, extensions, games, plugins and AI products: research, case studies, store listing by niche, ASO, launch and monetization.",
+      "description": "29 free growth skills for apps, extensions, games, plugins, templates and AI products: research, case studies, store listing by niche, ASO, launch and monetization.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -32,6 +32,7 @@
         "./skills/listing/listing-app-store",
         "./skills/listing/listing-browser-extension",
         "./skills/listing/listing-dev-plugin",
+        "./skills/listing/listing-digital-template",
         "./skills/listing/listing-free-directories",
         "./skills/listing/listing-google-play",
         "./skills/listing/listing-indie-game",

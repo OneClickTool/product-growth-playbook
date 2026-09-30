@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.8.0] - 2026-09-30
+### Added
+- `listing-digital-template`: Notion Marketplace + Gumroad in 3 levels (free template → paid → Discover, bundles,
+  affiliates), with current fees, the Notion paid-seller waitlist, safe delivery of duplicate links, and a listing sheet.
+
 ## [0.7.0] - 2026-09-30
 ### Added
 - Listing by niche, each in 3 levels: `listing-browser-extension` (Chrome, Edge, Firefox), `listing-mac-app`
