@@ -1,6 +1,6 @@
 # Product Growth Playbook
 
-**100% free AI growth skills, research templates and a free Markdown app for people building apps, SaaS, games and AI tools: research, store listing, ASO, launch and monetization.**
+**100% free AI growth skills, research templates and a free Markdown app for people building apps, SaaS, games and AI tools: research, case studies, store listing, ASO, launch and monetization.**
 
 [![Free forever](https://img.shields.io/badge/price-free%20forever-brightgreen)](#what-you-get-all-free)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -15,7 +15,7 @@ under an hour and you end up with something real: a keyword list, a launch plan,
 
 | | What | Why it helps you |
 |---|---|---|
-| 🧠 | **20 free AI growth skills** | Research, store listing, ASO, launch and monetization, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
+| 🧠 | **23 free AI growth skills** | Research, case studies, store listing, ASO, launch and monetization, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
 | 🔎 | **A tidy research system** | Where to find trustworthy sources, where users ask for software (with links), how to mine competitor reviews, and templates to keep notes, sources and decisions organized in Markdown. |
 | 🗺️ | **Step-by-step playbooks** | A 6-week route from "almost ready" to your first 100 users, built from the skills. |
 | 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. |
@@ -40,6 +40,7 @@ extensions**, especially if you're a builder, not a marketer.
 | You want to… | Start here |
 |---|---|
 | Check an idea before building | [Where Users Ask About Software](skills/research/research-where-users-ask/SKILL.md) → [Review Mining](skills/research/research-review-mining/SKILL.md) |
+| Learn from competitors ("learn from the enemy") | [Competitor Teardown](skills/case-study/case-study-competitor-teardown/SKILL.md) → [Success Story Analysis](skills/case-study/case-study-success-story-analysis/SKILL.md) |
 | Find facts you can trust | [Source Finding](skills/research/research-source-finding/SKILL.md) |
 | Stop losing research in tabs and chats | [Research Doc Organization](skills/research/research-doc-organization/SKILL.md) |
 | Publish on the App Store / Google Play, step by step | [App Store Listing](skills/listing/listing-app-store/SKILL.md) · [Google Play Listing](skills/listing/listing-google-play/SKILL.md) |
@@ -55,6 +56,7 @@ extensions**, especially if you're a builder, not a marketer.
 | Area | Skills |
 |---|---|
 | 🔎 [Research](skills/research/) | [Source Finding](skills/research/research-source-finding/SKILL.md) · [Research Doc Organization](skills/research/research-doc-organization/SKILL.md) · [Where Users Ask](skills/research/research-where-users-ask/SKILL.md) · [Review Mining](skills/research/research-review-mining/SKILL.md) |
+| 🧪 [Case Study](skills/case-study/) | [Competitor Teardown](skills/case-study/case-study-competitor-teardown/SKILL.md) · [Success Story Analysis](skills/case-study/case-study-success-story-analysis/SKILL.md) · [Write Your Own Case Study](skills/case-study/case-study-write-your-own/SKILL.md) |
 | 📦 [Listing](skills/listing/) | [App Store Listing](skills/listing/listing-app-store/SKILL.md) · [Google Play Listing](skills/listing/listing-google-play/SKILL.md) · [Free Directories & Alternative Stores](skills/listing/listing-free-directories/SKILL.md) |
 | 📱 [ASO](skills/aso/) | [Keyword Research](skills/aso/aso-keyword-research/SKILL.md) · [Title & Subtitle](skills/aso/aso-title-subtitle-optimization/SKILL.md) · [Screenshot Strategy](skills/aso/aso-screenshot-strategy/SKILL.md) · [Reviews & Ratings](skills/aso/aso-review-and-rating-strategy/SKILL.md) |
 | 🚀 [Launch](skills/launch/) | [Pre-launch Checklist](skills/launch/launch-pre-launch-checklist/SKILL.md) · [Launch Post Writing](skills/launch/launch-post-writing/SKILL.md) · [Product Hunt Launch](skills/launch/launch-product-hunt-launch/SKILL.md) · [Quick Download Wins](skills/launch/launch-quick-download-wins/SKILL.md) · [First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
@@ -118,7 +120,7 @@ The easiest ways to help, from 2 minutes to an hour:
 1. **⭐ Star the repo** so more builders find it.
 2. **Tried a skill?** Tell us what worked or didn't with a [Skill feedback](https://github.com/OneClickTool/product-growth-playbook/issues/new?template=skill-feedback.yml) issue.
 3. **Know a great community, source or tool** that's missing? Open an issue or edit the file on GitHub (the ✏️ button).
-4. **Share real numbers** from your launch, ASO test or price change. Real examples are the most valuable thing here.
+4. **Share real numbers** from your launch, ASO test or price change as a [case study](skills/case-study/case-study-write-your-own/SKILL.md). Real examples are the most valuable thing here.
 5. **Write a skill.** Copy the [template](SKILL_TEMPLATE.md) and follow [CONTRIBUTING.md](CONTRIBUTING.md), which has a step-by-step guide for first-timers.
 
 ## Author

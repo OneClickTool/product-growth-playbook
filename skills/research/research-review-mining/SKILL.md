@@ -96,6 +96,7 @@ Only use what's in the reviews. Don't invent quotes or numbers.
 - **Ignoring dates.** A complaint from 3 years ago may already be fixed.
 
 ## Related skills
+- [case-study-competitor-teardown](../../case-study/case-study-competitor-teardown/SKILL.md): reviews plus everything else competitors do.
 - [research-where-users-ask](../research-where-users-ask/SKILL.md): threads where people compare tools.
 - [aso-keyword-research](../../aso/aso-keyword-research/SKILL.md): user phrases become keyword seeds.
 - [monetization-free-trial-vs-freemium](../../monetization/monetization-free-trial-vs-freemium/SKILL.md): price complaints tell you where the free/paid line hurts.

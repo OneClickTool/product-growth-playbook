@@ -6,7 +6,7 @@ Thanks for helping! This repo gets better with every real-world lesson people ad
 ## How this repo works (in 30 seconds)
 - A **skill** is one Markdown file (`SKILL.md`) that teaches one growth task: goal, steps, a copy-paste AI prompt,
   and an example. Skills live in `skills/<area>/<skill-name>/`.
-- **Areas** group skills: `research`, `listing`, `aso`, `launch`, `monetization`. Each area has a `README.md` listing its skills.
+- **Areas** group skills: `research`, `case-study`, `listing`, `aso`, `launch`, `monetization`. Each area has a `README.md` listing its skills.
 - **Playbooks** (`playbooks/`) chain several skills into a route, like a 6-week launch.
 - Everything is plain text, so you can edit it right on GitHub.
 
@@ -18,7 +18,7 @@ Thanks for helping! This repo gets better with every real-world lesson people ad
 | 5 min | Report what worked or didn't | Open a [Skill feedback](https://github.com/OneClickTool/product-growth-playbook/issues/new?template=skill-feedback.yml) issue |
 | 10 min | Fix a typo, a broken link or an outdated rule | Open the file on GitHub → ✏️ *Edit* → *Propose changes* (GitHub makes the fork and PR for you) |
 | 15 min | Add a community, source or tool to a list | Same ✏️ edit, e.g. the map in [research-where-users-ask](skills/research/research-where-users-ask/SKILL.md) |
-| 30 min | Share a real example with numbers | Edit a skill's *Example output*, or open an issue and we'll add it with credit |
+| 30 min | Share a real example with numbers | Write a [case study](skills/case-study/case-study-write-your-own/SKILL.md), edit a skill's *Example output*, or open an issue and we'll add it with credit |
 | 1–2 h | Write a new skill | Follow the guide below. Check the [roadmap](ROADMAP.md) for skills nobody has claimed |
 
 Not sure? Ask in [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions). No question is too basic.

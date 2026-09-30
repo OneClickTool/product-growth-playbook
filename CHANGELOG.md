@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.6.0] - 2026-09-30
+### Added
+- New **Case Study** area: `case-study-competitor-teardown` (learn from the enemy, with a teardown sheet),
+  `case-study-success-story-analysis` (5 successes and 2 failures, bias-checked),
+  `case-study-write-your-own` (an honest case study template, ready to contribute).
+
 ## [0.5.0] - 2026-09-30
 ### Added
 - `launch-quick-download-wins`: 16 low-effort channels for fast downloads, ranked in 3 levels by effort and speed.

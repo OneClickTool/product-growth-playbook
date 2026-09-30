@@ -3,11 +3,12 @@
 What exists, what's next, and where you can help. Suggest changes in
 [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions) or with a *Skill request* issue.
 
-## Now: 5 areas, 20 skills
+## Now: 6 areas, 23 skills
 
 | Area | Skills |
 |---|---|
 | 🔎 Research | source finding · research doc organization · where users ask · review mining |
+| 🧪 Case Study | competitor teardown (learn from the enemy) · success story analysis · write your own case study |
 | 📦 Listing | App Store listing · Google Play listing · free directories & alternative stores (each in 3 levels) |
 | 📱 ASO | keyword research · title & subtitle · screenshot strategy · reviews & ratings |
 | 🚀 Launch | pre-launch checklist · launch post writing · Product Hunt launch · quick download wins · first 100 users |
@@ -19,7 +20,7 @@ Playbook: [Launch a Product](playbooks/launch-a-product.md).
 - **Real examples.** Replace the *Illustrative* examples with real, anonymized numbers. This is the most valuable
   contribution right now.
 - **Playbook:** ASO optimization (keyword research → title → screenshots → ratings, with a measurement loop).
-- **`examples/`:** real case write-ups (launch results, ASO before/after, pricing changes).
+- **`case-studies/`:** real case studies from the community, written with [case-study-write-your-own](skills/case-study/case-study-write-your-own/SKILL.md). The folder is created by the first contribution.
 
 ## Open for contributors
 These skills are planned and nobody has claimed them yet. Comment on the issue or open one before starting.
@@ -32,7 +33,7 @@ These skills are planned and nobody has claimed them yet. Comment on the issue o
 
 ## Later (by demand)
 New areas open once people ask for them: SEO · content marketing · social growth · conversion · retention ·
-analytics. More research skills: user interviews, market sizing, competitor audits. More playbooks: *get your first 1,000 users*, *grow an app*.
+analytics. More research skills: user interviews, market sizing. More playbooks: *get your first 1,000 users*, *grow an app*.
 Translations (Vietnamese first) are welcome once the English skills are stable.
 
 ## Principles
