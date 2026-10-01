@@ -40,7 +40,7 @@ not because you told them to.
 | Channel | Format | Must know |
 |---|---|---|
 | **Show HN** | Title `Show HN: <Name> – <what it does>`, plain text, link to the product | For things people can try. Make it easy: no signup wall if possible. Technical detail and honest limits do well, marketing language does badly. Stay and answer comments. |
-| **Reddit** | Story/lesson post, link at the end or in a comment if the sub prefers | Every subreddit has its own self-promotion rules. Read them first. Many only allow promotion on specific days or threads. Post from an account with real history in that community. |
+| **Reddit** | Story/lesson post, link at the end or in a comment if the sub prefers | Every subreddit has its own self-promotion rules. Read them first ([launch-reddit-posting](../launch-reddit-posting/SKILL.md) picks subreddits by product type and fetches their rules). Many only allow promotion on specific days or threads. Post from an account with real history in that community. |
 | **X / Twitter** | Thread: hook tweet → 4–7 tweets → link in the last tweet | The first tweet must stand alone. A screenshot or 15-second demo video beats text. |
 | **LinkedIn** | 1,000–1,300 characters, short lines, lesson-first | The first 2 lines show before "…see more". Put the link in the post or first comment. |
 | **Indie Hackers / communities** | Milestone or lesson post with real numbers | Numbers and transparency (revenue, what failed) get engagement. |

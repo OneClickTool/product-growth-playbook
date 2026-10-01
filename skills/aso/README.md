@@ -12,6 +12,7 @@ Get found in App Store and Google Play search, and turn store visitors into inst
 **First time on the stores?** Start with [Listing](../listing/) to get published, then optimize here.
 
 **Suggested order:** keyword research → title & subtitle → screenshots → ratings.
+The full route, with a baseline and a monthly measurement loop, is in [playbooks/aso-optimization.md](../../playbooks/aso-optimization.md).
 
 **Open for contributors:** competitor ASO audit. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
 

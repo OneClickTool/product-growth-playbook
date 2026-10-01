@@ -1,5 +1,56 @@
 # Changelog
 
+## [0.11.0] - 2026-10-01
+### Added
+- New area **📧 Email** with 4 skills:
+  - `email-list-and-deliverability`: waitlist and opt-in form, own-domain sending, SPF/DKIM/DMARC with a
+    verification step, one-click unsubscribe, and a compliance table sourced from the Gmail and Yahoo sender
+    guidelines, the FTC CAN-SPAM guide and the UK ICO.
+  - `email-beta-program`: recruit and track beta testers, invite them through TestFlight, Google Play testing tracks
+    or Chrome Web Store trusted testers (official limits cited), nudge rules, 5 email templates, and ending the beta
+    with a tester offer.
+  - `email-onboarding-sequence`: welcome + onboarding emails built around one activation event, with
+    activated/not-activated branches and exit rules.
+  - `email-trial-sequence`: trial emails with timing for 7-, 14- and 30-day trials, a billing reminder for
+    card-up-front trials, cancellation and one win-back email, plus what to do instead for App Store / Google Play trials.
+
+## [0.10.0] - 2026-10-01
+### Added
+- `launch-reddit-posting`: subreddits by product type (with a macOS deep dive), Reddit-wide rules, title formulas,
+  a body template and first comment, a one-subreddit-per-day schedule, and `scripts/fetch_subreddit_rules.py`, which
+  pulls each subreddit's current rules and pinned posts into Markdown (rules aren't copied into the repo because they change).
+- `case-study-award-winning-design`: study Apple Design Awards, App Store Awards, Google Play Best of, Product
+  Hunt (Golden Kitty and leaderboard) and Chrome Web Store Featured winners at one growth moment (store page,
+  onboarding, paywall, launch page, shareable moment), compare them with controls, check public growth signals, and
+  apply up to 3 patterns. Includes a sourced list of award programs, a pattern taxonomy, a result report and an
+  apply plan.
+- Playbook: [Growth Map](playbooks/growth-map.md), the whole playbook on one page in 7 chapters (research → learn
+  from others → get paid → publish → launch → grow in stores → share results). Each chapter lists its skills, research,
+  tools, official references, templates and prompt. The App Store chapter is split part by part: signing files
+  (CSR, `.cer`, `.p12`, provisioning profile, API key), text, images (icon, screenshots, preview), privacy and submit.
+- `monetization-payment-setup`: pick a payment provider that works from your country and get a first payout, in 3
+  levels (a real payment this week → verified checkout → lower fees, local payments, taxes). Covers Stripe and Stripe
+  Managed Payments (not in Vietnam), Paddle, Lemon Squeezy, Polar, Creem, Dodo, Gumroad, PayPal, App Store and Google
+  Play payouts, and Vietnamese gateways (payOS, SePay, VNPay, MoMo, ZaloPay), with a sourced country/fee/review-time
+  reference and a setup sheet.
+- `monetization-in-app-purchase-setup`: in-app purchases on iOS, macOS and Android, choosing between coding
+  StoreKit 2 + Play Billing Library yourself, a free wrapper (Flutter, React Native, Expo, Capacitor, Unity) or a
+  subscription SDK (RevenueCat, Adapty, Qonversion, Superwall), in 3 levels (first sandbox purchase →
+  production-ready with restore, acknowledge, server notifications and an App Review checklist → offers, paywall
+  tests, web purchases). Includes minimal StoreKit 2 and Kotlin code and a sourced facts file (PBL 8+ required since
+  31 Aug 2026, verifyReceipt deprecated).
+
+## [0.9.0] - 2026-09-30
+### Added
+- `launch-github-repo-seeding`: seed an open-source repo in 3 levels (star-worthy repo → 7-day seeding via your
+  circle, awesome lists and bigger repos' ecosystems → weekly habits), what GitHub bans (bought or exchanged stars),
+  and how to reach classic developers vs vibe coders.
+- Playbook: [ASO Optimization](playbooks/aso-optimization.md), a 4-week route (baseline → keywords → title → screenshots
+  → ratings) plus a monthly one-change-at-a-time measurement loop.
+### Changed
+- Launch a Product playbook now routes non-app products to their niche listing skill, open-source repos to
+  GitHub repo seeding, and apps to the ASO playbook after launch.
+
 ## [0.8.0] - 2026-09-30
 ### Added
 - `listing-digital-template`: Notion Marketplace + Gumroad in 3 levels (free template → paid → Discover, bundles,

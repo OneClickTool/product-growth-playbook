@@ -1,6 +1,6 @@
 ---
 name: growth
-description: Entry point for the Product Growth Playbook. Asks what stage a digital product (app, SaaS, game, AI tool, website, browser extension) is at and routes to the right growth skill: ASO, launch or monetization. Use when someone says "how do I grow my app", "get more users", "where do I start with marketing", "I just launched and nobody downloads it", or is unsure which growth skill to use.
+description: Entry point for the Product Growth Playbook. Asks what stage a digital product (app, SaaS, game, AI tool, website, browser extension) is at and routes to the right growth skill: research, listing, ASO, launch, monetization or email. Use when someone says "how do I grow my app", "get more users", "where do I start with marketing", "I just launched and nobody downloads it", or is unsure which growth skill to use.
 license: MIT
 metadata:
   category: router
@@ -34,7 +34,9 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 3. If nothing in the table fits (SEO, retention, analytics…), say the repo doesn't cover it yet, give the 3–5 most
    important actions from general knowledge, and point to the repo's issues page so the user can request it.
 4. When the user finishes a skill, come back here and pick the next one. For a full launch route, suggest
-   [playbooks/launch-a-product.md](../../playbooks/launch-a-product.md).
+   [playbooks/launch-a-product.md](../../playbooks/launch-a-product.md). For a live app that needs more store installs,
+   suggest [playbooks/aso-optimization.md](../../playbooks/aso-optimization.md). For the whole picture (skills, tools,
+   official references and templates per stage), point to [playbooks/growth-map.md](../../playbooks/growth-map.md).
 
 | Situation | Skill |
 |---|---|
@@ -46,9 +48,11 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | **Pre-launch** | |
 | Launch is weeks away, not sure what's missing | [launch-pre-launch-checklist](../launch/launch-pre-launch-checklist/SKILL.md) |
 | Need launch posts for HN / Reddit / X / LinkedIn | [launch-post-writing](../launch/launch-post-writing/SKILL.md) |
+| Want to post on Reddit without getting removed; which subreddits fit | [launch-reddit-posting](../launch/launch-reddit-posting/SKILL.md) |
 | Considering Product Hunt | [launch-product-hunt-launch](../launch/launch-product-hunt-launch/SKILL.md) |
 | A competitor is winning and you want to know why | [case-study-competitor-teardown](../case-study/case-study-competitor-teardown/SKILL.md) |
 | Want proven tactics from products like yours | [case-study-success-story-analysis](../case-study/case-study-success-story-analysis/SKILL.md) |
+| Redesigning onboarding, a paywall, the store page or a launch page; want to learn from award winners | [case-study-award-winning-design](../case-study/case-study-award-winning-design/SKILL.md) |
 | An experiment or launch just finished | [case-study-write-your-own](../case-study/case-study-write-your-own/SKILL.md) |
 | **Publishing** | |
 | Submitting to the App Store (first time or update) | [listing-app-store](../listing/listing-app-store/SKILL.md) |
@@ -63,6 +67,7 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | **Just launched** | |
 | Live, but almost no downloads; need some this week | [launch-quick-download-wins](../launch/launch-quick-download-wins/SKILL.md) |
 | Fewer than 100 real users | [launch-get-first-100-users](../launch/launch-get-first-100-users/SKILL.md) |
+| Open-source repo with few stars; want to seed it | [launch-github-repo-seeding](../launch/launch-github-repo-seeding/SKILL.md) |
 | **App store growth** | |
 | Few installs from store search | [aso-keyword-research](../aso/aso-keyword-research/SKILL.md) |
 | Has keywords, needs a better name / subtitle | [aso-title-subtitle-optimization](../aso/aso-title-subtitle-optimization/SKILL.md) |
@@ -70,9 +75,16 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Low rating or few ratings | [aso-review-and-rating-strategy](../aso/aso-review-and-rating-strategy/SKILL.md) |
 | **Making money** | |
 | Unsure what should be free / trial length | [monetization-free-trial-vs-freemium](../monetization/monetization-free-trial-vs-freemium/SKILL.md) |
+| Need to get paid; Stripe not in your country; which provider | [monetization-payment-setup](../monetization/monetization-payment-setup/SKILL.md) |
+| Adding in-app purchases / subscriptions to an iOS or Android app | [monetization-in-app-purchase-setup](../monetization/monetization-in-app-purchase-setup/SKILL.md) |
 | Unsure what to charge | [monetization-pricing-strategy](../monetization/monetization-pricing-strategy/SKILL.md) |
 | Has a paywall, low conversion or rejected | [monetization-paywall-design](../monetization/monetization-paywall-design/SKILL.md) |
 | One plan, very different customers | [monetization-subscription-tiers](../monetization/monetization-subscription-tiers/SKILL.md) |
+| **Email & beta** | |
+| Starting a waitlist; emails land in spam; SPF / DKIM / DMARC; consent | [email-list-and-deliverability](../email/email-list-and-deliverability/SKILL.md) |
+| Need beta testers; TestFlight / Play closed test / Chrome trusted testers; testers go silent | [email-beta-program](../email/email-beta-program/SKILL.md) |
+| Users sign up but never come back; welcome / onboarding emails | [email-onboarding-sequence](../email/email-onboarding-sequence/SKILL.md) |
+| Trials don't convert; trial ending / expired / win-back emails | [email-trial-sequence](../email/email-trial-sequence/SKILL.md) |
 
 ## Prompt (copy-paste)
 For chat assistants that can't install skills:
@@ -83,9 +95,10 @@ what the product is and where it's distributed, its stage (idea / pre-launch / <
 rough weekly users and revenue, and what feels most broken. Then recommend ONE growth task to
 focus on for the next two weeks, explain why in one sentence, and give me the first 3 concrete steps.
 Choose from: where users ask about software, competitor review mining, source finding,
-research doc organization, competitor teardown, success story analysis, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Product Hunt launch, quick download wins, getting the first 100 users,
+research doc organization, competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
-pricing strategy, paywall design, subscription tiers.
+payment setup (which provider works from my country), in-app purchase setup (StoreKit 2 / Play Billing / RevenueCat), pricing strategy, paywall design, subscription tiers,
+email list & deliverability, beta program by email, onboarding email sequence, free-trial email sequence.
 ````
 
 ## Example output

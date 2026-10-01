@@ -41,7 +41,7 @@ analytics, an empty waitlist, or no post ready to publish.
    - **Google Play:** Data safety form, privacy policy, content rating questionnaire, target audience.
    - **Chrome Web Store:** a single-purpose description, a justification for every permission, and a privacy policy
      if you handle user data.
-   - **Web / SaaS:** terms, privacy policy, a working payment flow in live mode, and transactional email that
+   - **Web / SaaS:** terms, privacy policy, a working payment flow in live mode ([payment setup](../../monetization/monetization-payment-setup/SKILL.md)), and transactional email that
      doesn't land in spam.
 3. **Measurement (10 min).** Before launch, decide the 3 numbers you will look at on day 1 and day 7
    (for example: visits, sign-ups/installs, activated users). Make sure the events fire, crash reporting is on, and every

@@ -114,7 +114,7 @@ the tracking link to use, and the community rule to check. Skip channels that do
 but they don't need weekly time.
 
 ## Common mistakes
-- **Spamming every subreddit with a link.** You'll be banned. Use promo threads and communities that allow it, and give value first.
+- **Spamming every subreddit with a link.** You'll be banned. Use promo threads and communities that allow it, and give value first → [launch-reddit-posting](../launch-reddit-posting/SKILL.md).
 - **Trading codes or rewards for reviews.** Both stores prohibit incentivized reviews, and it can get the app removed.
 - **No tracking links,** so you can't tell which of the 10 channels worked.
 - **Chasing downloads the app can't keep.** If day-1 retention is poor, fix onboarding before buying more installs.

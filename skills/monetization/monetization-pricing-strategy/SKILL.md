@@ -108,6 +108,7 @@ paywall viewers start a trial and fewer than 1 in 10 cancellations mention price
 - [monetization-paywall-design](../monetization-paywall-design/SKILL.md): how the price is presented.
 - [monetization-subscription-tiers](../monetization-subscription-tiers/SKILL.md): when one plan isn't enough.
 - [monetization-free-trial-vs-freemium](../monetization-free-trial-vs-freemium/SKILL.md): what's free.
+- [monetization-payment-setup](../monetization-payment-setup/SKILL.md): a provider that can actually pay you from your country.
 
 ## Credits
 Written by [@nvminhtu](https://github.com/nvminhtu). Commission rates from Apple (App Store Small Business Program,

@@ -5,13 +5,13 @@
     "url": "https://github.com/nvminhtu"
   },
   "metadata": {
-    "description": "Free, open-source growth skills for people building digital products: research, case studies, store listing, ASO, launch, monetization and more.",
-    "version": "0.8.0"
+    "description": "Free, open-source growth skills for people building digital products: research, case studies, store listing, ASO, launch, monetization, email and more.",
+    "version": "0.11.0"
   },
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "29 free growth skills for apps, extensions, games, plugins, templates and AI products: research, case studies, store listing by niche, ASO, launch and monetization.",
+      "description": "38 free growth skills for apps, extensions, games, plugins, templates and AI products: research, case studies (incl. award-winning design patterns), store listing by niche, ASO, launch (incl. GitHub repo seeding and Reddit posting by product type) and monetization (incl. payment setup for countries Stripe doesn't support, and in-app purchases with StoreKit 2, Play Billing or RevenueCat) and email (list & deliverability, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,
       "skills": [
@@ -20,12 +20,19 @@
         "./skills/aso/aso-review-and-rating-strategy",
         "./skills/aso/aso-screenshot-strategy",
         "./skills/aso/aso-title-subtitle-optimization",
+        "./skills/case-study/case-study-award-winning-design",
         "./skills/case-study/case-study-competitor-teardown",
         "./skills/case-study/case-study-success-story-analysis",
         "./skills/case-study/case-study-write-your-own",
+        "./skills/email/email-beta-program",
+        "./skills/email/email-list-and-deliverability",
+        "./skills/email/email-onboarding-sequence",
+        "./skills/email/email-trial-sequence",
         "./skills/launch/launch-get-first-100-users",
+        "./skills/launch/launch-github-repo-seeding",
         "./skills/launch/launch-post-writing",
         "./skills/launch/launch-pre-launch-checklist",
+        "./skills/launch/launch-reddit-posting",
         "./skills/launch/launch-product-hunt-launch",
         "./skills/launch/launch-quick-download-wins",
         "./skills/listing/listing-ai-product",
@@ -38,6 +45,8 @@
         "./skills/listing/listing-indie-game",
         "./skills/listing/listing-mac-app",
         "./skills/monetization/monetization-free-trial-vs-freemium",
+        "./skills/monetization/monetization-in-app-purchase-setup",
+        "./skills/monetization/monetization-payment-setup",
         "./skills/monetization/monetization-paywall-design",
         "./skills/monetization/monetization-pricing-strategy",
         "./skills/monetization/monetization-subscription-tiers",

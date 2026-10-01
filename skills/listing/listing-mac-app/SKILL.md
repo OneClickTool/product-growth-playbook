@@ -71,7 +71,7 @@ Many indie Mac apps do **both**: the App Store for reach, and direct sales for p
 ### Level 2: Get found
 1. **Landing page:** one sentence, a 20-second GIF, the price, the download button, and system requirements.
 2. **List on MacUpdate, AlternativeTo** (as an alternative to 3 known apps) **and Product Hunt**.
-3. **Post on r/macapps** following its rules. Mac users there love menu-bar utilities with a clear demo.
+3. **Post on r/macapps** following its rules ([launch-reddit-posting](../../launch/launch-reddit-posting/SKILL.md) has the Mac subreddit plan and a rules fetcher). Mac users there love menu-bar utilities with a clear demo.
 4. **Mac App Store:** keywords and screenshots → [aso-keyword-research](../../aso/aso-keyword-research/SKILL.md),
    [aso-screenshot-strategy](../../aso/aso-screenshot-strategy/SKILL.md).
 
