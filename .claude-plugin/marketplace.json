@@ -5,13 +5,13 @@
     "url": "https://github.com/nvminhtu"
   },
   "metadata": {
-    "description": "Free, open-source growth skills for people building digital products: research, case studies, store listing, ASO, launch, monetization, email and more.",
-    "version": "0.11.0"
+    "description": "Free, open-source growth skills for people building digital products: strategy, research, case studies, store listing, ASO, launch, social, monetization, email and more.",
+    "version": "0.12.0"
   },
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "38 free growth skills for apps, extensions, games, plugins, templates and AI products: research, case studies (incl. award-winning design patterns), store listing by niche, ASO, launch (incl. GitHub repo seeding and Reddit posting by product type) and monetization (incl. payment setup for countries Stripe doesn't support, and in-app purchases with StoreKit 2, Play Billing or RevenueCat) and email (list & deliverability, onboarding and trial sequences, beta programs).",
+      "description": "48 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public), monetization (payment setup by country, in-app purchases) and email (list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,
       "skills": [
@@ -27,14 +27,17 @@
         "./skills/email/email-beta-program",
         "./skills/email/email-list-and-deliverability",
         "./skills/email/email-onboarding-sequence",
+        "./skills/email/email-segments-and-tools",
         "./skills/email/email-trial-sequence",
         "./skills/launch/launch-get-first-100-users",
         "./skills/launch/launch-github-repo-seeding",
+        "./skills/launch/launch-growth-stack-setup",
+        "./skills/launch/launch-open-source-funnel",
         "./skills/launch/launch-post-writing",
         "./skills/launch/launch-pre-launch-checklist",
-        "./skills/launch/launch-reddit-posting",
         "./skills/launch/launch-product-hunt-launch",
         "./skills/launch/launch-quick-download-wins",
+        "./skills/launch/launch-reddit-posting",
         "./skills/listing/listing-ai-product",
         "./skills/listing/listing-app-store",
         "./skills/listing/listing-browser-extension",
@@ -53,7 +56,14 @@
         "./skills/research/research-doc-organization",
         "./skills/research/research-review-mining",
         "./skills/research/research-source-finding",
-        "./skills/research/research-where-users-ask"
+        "./skills/research/research-where-users-ask",
+        "./skills/social/social-build-in-public",
+        "./skills/social/social-credible-posting",
+        "./skills/social/social-short-video",
+        "./skills/strategy/strategy-contrarian-marketing",
+        "./skills/strategy/strategy-product-as-funnel",
+        "./skills/strategy/strategy-revenue-target",
+        "./skills/strategy/strategy-spend-and-timing"
       ]
     }
   ]

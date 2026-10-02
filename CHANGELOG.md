@@ -1,5 +1,39 @@
 # Changelog
 
+## [Unreleased]
+### Changed
+- `listing-mac-app` 1.1.0: more places Mac users look for apps (MacNative, Awesome Native macOS Apps, awesome-mac,
+  MenuBarApps, macmenubar.com, PayOnceApps, IndieAppCircle), App Store featuring nominations and Apple Ads, plus
+  mistakes on dormant Reddit accounts, posting outside US hours and sending web-wrapper apps to native-only lists.
+
+## [0.12.0] - 2026-10-02
+### Added
+- New area **🧭 Strategy** with 4 skills, the thinking behind every other skill:
+  - `strategy-revenue-target`: turn "$X in N months" into a weekly funnel worked backward from the target, with a
+    reality check, go / fix / kill rules and `scripts/revenue_backsolve.py`.
+  - `strategy-spend-and-timing`: sort costs into must-pay / pays-back / skip, fund the one bottleneck, read momentum
+    and slump signals, and run a 2-week finishing sprint behind what works.
+  - `strategy-contrarian-marketing`: map what the herd does, invert it through 6 lenses (channel, audience, side door,
+    free-tool bait, offer inversion, unscalable), filter for honesty, and run 3 experiments with pass numbers.
+  - `strategy-product-as-funnel`: treat apps and games as entry points to an owned audience: give → get per product,
+    one capture point at the moment of value, honest cross-promotion, owned-audience tracking.
+- New area **📣 Social** with 3 skills:
+  - `social-short-video`: TikTok, Reels and Shorts with fewer, better videos: one format, 10 hooks, 3 scripts, a 3-week
+    test and a keep/kill rule, with TikTok and FTC disclosure rules.
+  - `social-credible-posting`: posts on X, Threads, Facebook and LinkedIn that people trust: the proof ladder, 5 trust
+    formats, a red-flag list and FTC Endorsement Guides disclosure rules.
+  - `social-build-in-public`: a weekly update habit, what to share and keep private, followers → email list.
+- `launch-open-source-funnel`: a free repo as the front door to a product (open core, free tool → paid app,
+  hosted, content → product, sponsorware), with honest, UTM-tagged hand-off points.
+- `launch-growth-stack-setup`: Firebase Analytics (5–8 events), Crashlytics, Remote Config, AdMob (test ads,
+  app-ads.txt, UMP consent, ATT, placement), one real payment and matching privacy labels, with a verified checklist.
+- `email-segments-and-tools`: lifecycle, product, source and interest segments driven by events, one retention email
+  per segment, monthly list cleanup, and choosing an email tool by situation.
+### Changed
+- `launch-reddit-posting` 1.1.0: new step 6, *Fewer posts, more users*: a 5-point quality bar, post types ranked by
+  users per post, and a monthly rhythm of 2–4 strong posts.
+- The `growth` router, Growth Map, README and ROADMAP now include strategy and social, so every skill sits on one route.
+
 ## [0.11.0] - 2026-10-01
 ### Added
 - New area **📧 Email** with 4 skills:

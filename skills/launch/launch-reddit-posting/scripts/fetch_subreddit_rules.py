@@ -10,6 +10,9 @@ Standard library only. Uses Reddit's public JSON endpoints, 2 seconds apart.
 """
 import argparse
 import json
+import shutil
+import ssl
+import subprocess
 import sys
 import time
 import urllib.error
@@ -43,10 +46,24 @@ ALL = [
 UA = "growth-playbook-rules-fetcher/1.0 (read-only; github.com/OneClickTool/product-growth-playbook)"
 
 
+FAILED = 0
+
+
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.load(r)
+    except urllib.error.URLError as e:
+        # python.org builds on macOS ship without CA certificates. Fall back to the system curl,
+        # which uses the OS trust store and still verifies TLS.
+        if isinstance(e.reason, ssl.SSLCertVerificationError) and shutil.which("curl"):
+            out = subprocess.run(["curl", "-sfL", "--max-time", "20", "-A", UA, url],
+                                 capture_output=True, text=True)
+            if out.returncode == 0:
+                return json.loads(out.stdout)
+            raise urllib.error.URLError(f"curl exit {out.returncode}") from e
+        raise
 
 
 def one_line(text, limit=400):
@@ -72,6 +89,8 @@ def fetch(sub):
             desc = one_line(r.get("description"))
             out.append(f"{i}. **{r.get('short_name', '').strip()}**" + (f": {desc}" if desc else ""))
     except (urllib.error.URLError, ValueError) as e:
+        global FAILED
+        FAILED += 1
         out.append(f"- Rules: could not load ({e})")
     for n in (1, 2):
         try:
@@ -103,6 +122,10 @@ def main():
         with open(args.output, "w", encoding="utf-8") as f:
             f.write(text)
         print(f"Wrote {args.output}", file=sys.stderr)
+    if FAILED:
+        print(f"Warning: rules could not be loaded for {FAILED} of {len(subs)} subreddits. "
+              "If the error is CERTIFICATE_VERIFY_FAILED, run 'Install Certificates.command' "
+              "from your Python folder in /Applications.", file=sys.stderr)
     else:
         print(text)
 

@@ -1,12 +1,12 @@
 ---
 name: growth
-description: Entry point for the Product Growth Playbook. Asks what stage a digital product (app, SaaS, game, AI tool, website, browser extension) is at and routes to the right growth skill: research, listing, ASO, launch, monetization or email. Use when someone says "how do I grow my app", "get more users", "where do I start with marketing", "I just launched and nobody downloads it", or is unsure which growth skill to use.
+description: Entry point for the Product Growth Playbook. Asks what stage a digital product (app, SaaS, game, AI tool, website, browser extension) is at and routes to the right growth skill: strategy, research, listing, ASO, launch, social, monetization or email. Use when someone says "how do I grow my app", "get more users", "where do I start with marketing", "I just launched and nobody downloads it", "I want to make $X in N months", or is unsure which growth skill to use.
 license: MIT
 metadata:
   category: router
   difficulty: beginner
   time: 5 min
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -40,6 +40,11 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 
 | Situation | Skill |
 |---|---|
+| **Strategy (any stage, start here if there's no target)** | |
+| No clear money goal; "I want $X in N months" | [strategy-revenue-target](../strategy/strategy-revenue-target/SKILL.md) |
+| Small budget, too many options; something suddenly worked or is sliding | [strategy-spend-and-timing](../strategy/strategy-spend-and-timing/SKILL.md) |
+| Crowded niche; the usual channels didn't work; wants unconventional ideas | [strategy-contrarian-marketing](../strategy/strategy-contrarian-marketing/SKILL.md) |
+| Several apps or games, every launch starts from zero; wants long-term users | [strategy-product-as-funnel](../strategy/strategy-product-as-funnel/SKILL.md) |
 | **Idea / research** | |
 | Not sure people want it; looking for a niche | [research-where-users-ask](../research/research-where-users-ask/SKILL.md) |
 | Want to know what users hate about competitors | [research-review-mining](../research/research-review-mining/SKILL.md) |
@@ -47,8 +52,9 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Research is scattered across tabs and chats | [research-doc-organization](../research/research-doc-organization/SKILL.md) |
 | **Pre-launch** | |
 | Launch is weeks away, not sure what's missing | [launch-pre-launch-checklist](../launch/launch-pre-launch-checklist/SKILL.md) |
+| App needs Firebase analytics, Crashlytics, AdMob, consent and payments set up and verified | [launch-growth-stack-setup](../launch/launch-growth-stack-setup/SKILL.md) |
 | Need launch posts for HN / Reddit / X / LinkedIn | [launch-post-writing](../launch/launch-post-writing/SKILL.md) |
-| Want to post on Reddit without getting removed; which subreddits fit | [launch-reddit-posting](../launch/launch-reddit-posting/SKILL.md) |
+| Want to post on Reddit without getting removed; which subreddits fit; more users from fewer posts | [launch-reddit-posting](../launch/launch-reddit-posting/SKILL.md) |
 | Considering Product Hunt | [launch-product-hunt-launch](../launch/launch-product-hunt-launch/SKILL.md) |
 | A competitor is winning and you want to know why | [case-study-competitor-teardown](../case-study/case-study-competitor-teardown/SKILL.md) |
 | Want proven tactics from products like yours | [case-study-success-story-analysis](../case-study/case-study-success-story-analysis/SKILL.md) |
@@ -68,6 +74,11 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Live, but almost no downloads; need some this week | [launch-quick-download-wins](../launch/launch-quick-download-wins/SKILL.md) |
 | Fewer than 100 real users | [launch-get-first-100-users](../launch/launch-get-first-100-users/SKILL.md) |
 | Open-source repo with few stars; want to seed it | [launch-github-repo-seeding](../launch/launch-github-repo-seeding/SKILL.md) |
+| Repo has stars but no business; wants a free repo to bring users to a product | [launch-open-source-funnel](../launch/launch-open-source-funnel/SKILL.md) |
+| **Audience & social** | |
+| Wants users from TikTok, Reels or Shorts; videos get few views | [social-short-video](../social/social-short-video/SKILL.md) |
+| Posts on X, Threads, Facebook or LinkedIn sound salesy or get ignored | [social-credible-posting](../social/social-credible-posting/SKILL.md) |
+| Building, wants an audience waiting on launch day | [social-build-in-public](../social/social-build-in-public/SKILL.md) |
 | **App store growth** | |
 | Few installs from store search | [aso-keyword-research](../aso/aso-keyword-research/SKILL.md) |
 | Has keywords, needs a better name / subtitle | [aso-title-subtitle-optimization](../aso/aso-title-subtitle-optimization/SKILL.md) |
@@ -83,6 +94,7 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | **Email & beta** | |
 | Starting a waitlist; emails land in spam; SPF / DKIM / DMARC; consent | [email-list-and-deliverability](../email/email-list-and-deliverability/SKILL.md) |
 | Need beta testers; TestFlight / Play closed test / Chrome trusted testers; testers go silent | [email-beta-program](../email/email-beta-program/SKILL.md) |
+| One big list gets the same email; which email tool; segments by product or plan | [email-segments-and-tools](../email/email-segments-and-tools/SKILL.md) |
 | Users sign up but never come back; welcome / onboarding emails | [email-onboarding-sequence](../email/email-onboarding-sequence/SKILL.md) |
 | Trials don't convert; trial ending / expired / win-back emails | [email-trial-sequence](../email/email-trial-sequence/SKILL.md) |
 
@@ -94,11 +106,13 @@ You are a growth advisor for people building digital products. Ask me at most 4 
 what the product is and where it's distributed, its stage (idea / pre-launch / <3 months / longer),
 rough weekly users and revenue, and what feels most broken. Then recommend ONE growth task to
 focus on for the next two weeks, explain why in one sentence, and give me the first 3 concrete steps.
-Choose from: where users ask about software, competitor review mining, source finding,
-research doc organization, competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding,
+Choose from: revenue target (work backward from $X in N months), spend and timing (what to pay for, when to push),
+contrarian marketing, products as a funnel to an owned audience, where users ask about software, competitor review mining, source finding,
+research doc organization, competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding, open-source funnel (free repo → users),
+Firebase + AdMob + payments setup, short video (TikTok / Reels / Shorts), credible social posts, build in public,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 payment setup (which provider works from my country), in-app purchase setup (StoreKit 2 / Play Billing / RevenueCat), pricing strategy, paywall design, subscription tiers,
-email list & deliverability, beta program by email, onboarding email sequence, free-trial email sequence.
+email list & deliverability, email segments and tools, beta program by email, onboarding email sequence, free-trial email sequence.
 ````
 
 ## Example output

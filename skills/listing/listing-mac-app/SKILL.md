@@ -7,7 +7,7 @@ metadata:
   niche: Mac apps
   difficulty: beginner → advanced (3 levels)
   time: "Level 1: 2-4 h · Level 2: 1-2 h · Level 3: ongoing"
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -47,6 +47,15 @@ Many indie Mac apps do **both**: the App Store for reach, and direct sales for p
 | Mac App Store | Developer Program | [App Store Connect](https://appstoreconnect.apple.com/) |
 | Setapp (subscription bundle, curated, revenue share) | Free to apply | [setapp.com/developers](https://setapp.com/developers) |
 | MacUpdate | Free listing | [macupdate.com](https://www.macupdate.com/) |
+| MacNative (curated; **native only**: no Electron, no browser wrappers; reviewed by hand) | Free (optional paid Pro tier) | [macnative.io/submit](https://macnative.io/submit) |
+| Awesome Native macOS Apps (GitHub list run by MacNative; paid apps welcome) | Free, via pull request | [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) |
+| awesome-mac (large GitHub list, marks free / open source / App Store apps) | Free, via pull request | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |
+| MenuBarApps (**menu-bar apps only**, no account, reviewed by hand) | Free | [macosmenubar.com/submitapp](https://www.macosmenubar.com/submitapp) |
+| macmenubar.com (**menu-bar apps only**) | Free | [macmenubar.com](https://macmenubar.com/submit-your-menu-bar-app/) |
+| PayOnceApps (**one-time purchase apps only**, no subscriptions) | Sign in to submit | [payonceapps.com](https://payonceapps.com/) |
+| IndieAppCircle (beta testers for direct-download Mac apps, not a launch site) | Free, credit exchange | [indieappcircle.com](https://www.indieappcircle.com/apps/macos) |
+| App Store featuring nomination (ask Apple's editors to feature a launch or big update) | Free | [Nominate your app](https://developer.apple.com/help/app-store-connect/manage-featuring-nominations/nominate-your-app-for-featuring) |
+| Apple Ads (search ads on the App Store, pick countries and keywords) | Pay per tap | [ads.apple.com](https://ads.apple.com/app-store) |
 | r/macapps | Free (read the self-promo rules) | [reddit.com/r/macapps](https://www.reddit.com/r/macapps/) |
 | Homebrew Cask (`brew install --cask`) | Free, via pull request, must meet the acceptance criteria | [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) |
 | AlternativeTo, Product Hunt, Softpedia | Free | → [listing-free-directories](../listing-free-directories/SKILL.md) |
@@ -70,13 +79,19 @@ Many indie Mac apps do **both**: the App Store for reach, and direct sales for p
 
 ### Level 2: Get found
 1. **Landing page:** one sentence, a 20-second GIF, the price, the download button, and system requirements.
-2. **List on MacUpdate, AlternativeTo** (as an alternative to 3 known apps) **and Product Hunt**.
-3. **Post on r/macapps** following its rules ([launch-reddit-posting](../../launch/launch-reddit-posting/SKILL.md) has the Mac subreddit plan and a rules fetcher). Mac users there love menu-bar utilities with a clear demo.
-4. **Mac App Store:** keywords and screenshots → [aso-keyword-research](../../aso/aso-keyword-research/SKILL.md),
+2. **List on MacUpdate, AlternativeTo** (as an alternative to 3 known apps) **and Product Hunt**. If the app is built
+   natively (Swift, AppKit, SwiftUI…), also submit to **MacNative** and open a pull request on **Awesome Native macOS Apps**.
+   Only send menu-bar directories a real menu-bar app, and PayOnceApps a one-time-purchase app.
+3. **Mac App Store apps: send a featuring nomination** in App Store Connect (Apps → your app → Featuring → Nominations).
+   Choose App Launch, App Enhancements or New Content, and submit **at least 3 weeks** before the date you want.
+4. **Post on r/macapps** following its rules ([launch-reddit-posting](../../launch/launch-reddit-posting/SKILL.md) has the Mac subreddit plan and a rules fetcher). Mac users there love menu-bar utilities with a clear demo.
+5. **Mac App Store:** keywords and screenshots → [aso-keyword-research](../../aso/aso-keyword-research/SKILL.md),
    [aso-screenshot-strategy](../../aso/aso-screenshot-strategy/SKILL.md).
 
 ### Level 3: Grow
 - **Apply to Setapp** once the app is polished and has a clear use case.
+- **Apple Ads** with a small daily cap on your brand name and a few exact-match keywords, limited to the countries you
+  want (e.g. US, GB). It's the only way here to pick the country.
 - **Homebrew Cask** for developer audiences (check the notability and acceptance rules first).
 - **Launch discounts** on deal communities → [launch-quick-download-wins](../../launch/launch-quick-download-wins/SKILL.md).
 - **Both channels:** keep feature parity clear on your site ("App Store version" vs "Direct version").
@@ -113,6 +128,11 @@ with a 15-second GIF.
 - **Discovering sandbox limits after building.** Check whether the APIs you need work in the sandbox before choosing the Mac App Store.
 - **Direct sales without an updater.** Users stay on buggy versions forever.
 - **Dumping a link on r/macapps.** Follow the rules and show a demo.
+- **Posting with a brand-new or dormant Reddit account.** Reddit's spam filter removes link posts from accounts with
+  almost no karma. Spend 1–3 weeks answering questions first.
+- **Posting while your target market sleeps.** For US + UK, post around 8–10 a.m. US Eastern (early afternoon in the UK).
+  Reddit can't limit a normal post to one country.
+- **Sending an Electron or web-wrapper app to MacNative.** It's rejected by their rules. Use MacUpdate, AlternativeTo and Product Hunt instead.
 
 ## Related skills
 - [listing-app-store](../listing-app-store/SKILL.md): the App Store Connect fields in detail.
@@ -121,4 +141,7 @@ with a 15-second GIF.
 
 ## Credits
 Written by [@nvminhtu](https://github.com/nvminhtu). Sources: Apple [screenshot specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/),
-Apple Developer documentation on notarizing macOS software and App Sandbox.
+Apple Developer documentation on notarizing macOS software and App Sandbox, Apple's
+[featuring nominations guide](https://developer.apple.com/help/app-store-connect/manage-featuring-nominations/nominate-your-app-for-featuring),
+submission pages of [MacNative](https://macnative.io/submit), [MenuBarApps](https://www.macosmenubar.com/submitapp) and the
+[Awesome Native macOS Apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) contributing rules (checked 2026-10-02).

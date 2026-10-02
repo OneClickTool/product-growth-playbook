@@ -1,12 +1,12 @@
 ---
 name: launch-reddit-posting
-description: Share a product on Reddit without getting removed or banned. Pick the right subreddits for your product type (macOS app, iOS, Android, browser extension, SaaS, dev tool or open source, indie game, AI tool, Notion template, Windows app), pull each subreddit's current rules with a script, write a post in the format Reddit rewards (title formulas, body template, first comment), and follow a posting schedule that builds karma instead of burning the account. Use when posting on Reddit, "which subreddit should I post my app in", "r/macapps post", "how to promote on Reddit without getting banned", "Reddit self-promotion rules", "my Reddit post got removed", or planning a Reddit launch.
+description: Share a product on Reddit without getting removed or banned. Pick the right subreddits for your product type (macOS app, iOS, Android, browser extension, SaaS, dev tool or open source, indie game, AI tool, Notion template, Windows app), pull each subreddit's current rules with a script, write a post in the format Reddit rewards (title formulas, body template, first comment), follow a posting schedule that builds karma instead of burning the account, and get more users from fewer posts (a quality bar, the post types that convert, and a monthly rhythm of 2-4 strong posts plus useful comments). Use when posting on Reddit, "which subreddit should I post my app in", "r/macapps post", "how to promote on Reddit without getting banned", "Reddit self-promotion rules", "my Reddit post got removed", "how to get users from Reddit with few posts", "which Reddit posts bring signups", or planning a Reddit launch.
 license: MIT
 metadata:
   category: launch
   difficulty: beginner
   time: "Setup 30-45 min · each post 30 min · ongoing 15 min/day"
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -150,6 +150,30 @@ next on the roadmap. It gives early readers something to reply to.
 - Come back with **updates that are news**: a big version, a milestone with numbers, an honest lesson. Not the same
   post again.
 
+### Step 6: Fewer posts, more users (the monthly rhythm)
+One strong post in the right subreddit usually brings more users than ten average ones, and it doesn't use up the
+community's patience. Aim for **2–4 high-effort posts a month in total**, plus daily useful comments.
+
+**Quality bar: post only if you can tick all five.**
+- [ ] It would still be upvoted **with the link removed**: the story, lesson or demo is worth reading on its own.
+- [ ] It has one specific thing: a number, a before/after, a mistake, a technical detail.
+- [ ] The demo (GIF/video/screenshot) is in the post, not behind the link.
+- [ ] It answers the obvious questions (price, platform, privacy, "why not X?") before they're asked.
+- [ ] You'll be online for the next 2 hours.
+
+**Post types ranked by users per post** (watch your own numbers, but start here):
+
+| Type | Where | Why it converts |
+|---|---|---|
+| **Answering a "looking for a tool that…" thread** | Wherever users ask ([research-where-users-ask](../../research/research-where-users-ask/SKILL.md)) | The reader already wants the tool; say you're the developer |
+| **"I made X" with a demo** | One showcase subreddit | Clear, visual, invites feedback |
+| **Lesson or how-to** with the product mentioned once | Builder/developer subreddits | Gets saved and searched for months |
+| **Milestone with real numbers** (1–2 months later) | Builder subreddits, or the same showcase if allowed | A new story, not a repost |
+| **Deal / free promo code** | Deal subreddits only, in their format | Spikes installs, fewer long-term users |
+
+**Measure per post:** upvotes, comments, link clicks (UTM) and sign-ups or installs. After 3–4 posts, the best type and
+subreddit are obvious: repeat that type with a new story, and stop the ones that bring upvotes but no users.
+
 ## Prompt (copy-paste)
 Replace everything in `{{ }}`. Paste the rules you fetched in step 2.
 
@@ -173,6 +197,9 @@ Rules of the subreddits I'm considering (pasted from the subreddits' rules pages
 3. List the questions commenters will probably ask (for a Mac app: native or Electron, price model, privacy, macOS
    version, App Store or direct) and a short honest answer for each.
 4. Give a 7-day schedule: one subreddit per day, best time, and what to do in the first 2 hours.
+5. Check each post against this bar and rewrite it if it fails: worth upvoting with the link removed, one specific
+   number or lesson, demo in the post, obvious questions answered. Then suggest a monthly rhythm of 2-4 posts
+   (which post types, which subreddits) plus where to answer "looking for a tool" threads.
 Never suggest vote manipulation, multiple accounts or hiding that I'm the developer.
 ````
 
@@ -205,6 +232,7 @@ Body for r/macapps (excerpt):
 - **Arguing with critics.** Thank them, fix what's real, and reply with what you changed.
 - **Asking for upvotes anywhere.** It's vote manipulation under Reddit's rules.
 - **Trusting an old rules list** (including the table in this skill). Re-run the script before you post.
+- **Posting often instead of posting well.** Ten weak posts spend the community's goodwill; three strong ones build it.
 
 ## Related skills
 - [launch-post-writing](../launch-post-writing/SKILL.md): the core story, and versions for HN, X and LinkedIn.

@@ -6,7 +6,7 @@ Thanks for helping! This repo gets better with every real-world lesson people ad
 ## How this repo works (in 30 seconds)
 - A **skill** is one Markdown file (`SKILL.md`) that teaches one growth task: goal, steps, a copy-paste AI prompt,
   and an example. Skills live in `skills/<area>/<skill-name>/`.
-- **Areas** group skills: `research`, `case-study`, `listing`, `aso`, `launch`, `monetization`. Each area has a `README.md` listing its skills.
+- **Areas** group skills: `strategy`, `research`, `case-study`, `listing`, `aso`, `launch`, `social`, `monetization`, `email`. Each area has a `README.md` listing its skills.
 - **Playbooks** (`playbooks/`) chain several skills into a route, like a 6-week launch.
 - Everything is plain text, so you can edit it right on GitHub.
 

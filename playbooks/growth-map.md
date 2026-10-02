@@ -18,18 +18,36 @@ Want a dated route instead of a map? Use [Launch a Product](launch-a-product.md)
 
 ```mermaid
 flowchart LR
-    A["1 · Research<br/>is it wanted?"] --> B["2 · Learn from others<br/>teardowns"]
+    Z["0 · Set the target<br/>strategy"] --> A["1 · Research<br/>is it wanted?"]
+    A --> B["2 · Learn from others<br/>teardowns"]
     B --> C["3 · Get paid<br/>price + payments"]
     C --> D["4 · Publish<br/>store listing"]
     D --> E["5 · Launch<br/>first 100 users"]
-    E --> F["6 · Grow in stores<br/>ASO loop"]
-    F --> G["7 · Share results<br/>case study"]
+    E --> H["6 · Grow an audience<br/>social + email"]
+    H --> F["7 · Grow in stores<br/>ASO loop"]
+    F --> G["8 · Share results<br/>case study"]
     F -. monthly .-> F
+    H -. weekly .-> Z
 ```
+
+Chapter 0 is the growth-hack loop that runs above everything else: set a number, spend only where it's behind,
+try what competitors don't, and make every product feed one audience you own. Come back to it every Monday.
 
 Tools listed here are examples that are free or have a free tier, not endorsements. Check each one's current terms.
 
 ---
+
+## 0. Set the target: strategy
+
+| Part | |
+|---|---|
+| 🧠 Skills | [strategy-revenue-target](../skills/strategy/strategy-revenue-target/SKILL.md) → [strategy-product-as-funnel](../skills/strategy/strategy-product-as-funnel/SKILL.md) · [strategy-contrarian-marketing](../skills/strategy/strategy-contrarian-marketing/SKILL.md) (when the usual channels stall) · [strategy-spend-and-timing](../skills/strategy/strategy-spend-and-timing/SKILL.md) (every Monday) |
+| 🔎 Research | Your current funnel numbers, what each channel brought in the last 4 weeks, what competitors all do the same way |
+| 🛠️ Tools | [revenue_backsolve.py](../skills/strategy/strategy-revenue-target/scripts/revenue_backsolve.py) · your store dashboards and payment provider · a spreadsheet |
+| 📚 References | Your own data first. Fees: your store's or payment provider's official pages ([payment-providers-by-country.md](../skills/monetization/monetization-payment-setup/references/payment-providers-by-country.md)) |
+| 📄 Templates | `growth/revenue-target.md` · `growth/spend-and-timing.md` · `growth/contrarian-bets.md` · `growth/audience.md` (formats in each skill) |
+| 💬 Prompt | [Revenue target](../skills/strategy/strategy-revenue-target/SKILL.md#prompt-copy-paste) · [Spend and timing](../skills/strategy/strategy-spend-and-timing/SKILL.md#prompt-copy-paste) |
+| ✅ You end with | "$X by <date>" as a weekly funnel, one bottleneck to fund, and a Monday go / fix / kill rule |
 
 ## 1. Research: is it wanted?
 
@@ -136,7 +154,7 @@ Play App Signing holds the real app signing key. See [Play App Signing](https://
 3. **Add captions and frames** in a design file ([Apple Design Resources](https://developer.apple.com/design/resources/)
    has device frames), or automate it with [fastlane frameit](https://docs.fastlane.tools/actions/frameit/).
 4. **Export at the exact pixel size** and check the set as thumbnails: can you read each caption?
-5. **Upload**, then test one variable later with Product Page Optimization (chapter 6).
+5. **Upload**, then test one variable later with Product Page Optimization (chapter 7).
 
 | Part | |
 |---|---|
@@ -162,15 +180,27 @@ Leave time for one rejection round: schedule it with [launch-pre-launch-checklis
 
 | Part | |
 |---|---|
-| 🧠 Skills | [launch-pre-launch-checklist](../skills/launch/launch-pre-launch-checklist/SKILL.md) → [launch-post-writing](../skills/launch/launch-post-writing/SKILL.md) → [launch-product-hunt-launch](../skills/launch/launch-product-hunt-launch/SKILL.md) (optional) → [launch-quick-download-wins](../skills/launch/launch-quick-download-wins/SKILL.md) → [launch-get-first-100-users](../skills/launch/launch-get-first-100-users/SKILL.md) · open source: [launch-github-repo-seeding](../skills/launch/launch-github-repo-seeding/SKILL.md) |
+| 🧠 Skills | [launch-pre-launch-checklist](../skills/launch/launch-pre-launch-checklist/SKILL.md) → [launch-growth-stack-setup](../skills/launch/launch-growth-stack-setup/SKILL.md) (apps: Firebase, AdMob, payments) → [launch-post-writing](../skills/launch/launch-post-writing/SKILL.md) → [launch-reddit-posting](../skills/launch/launch-reddit-posting/SKILL.md) → [launch-product-hunt-launch](../skills/launch/launch-product-hunt-launch/SKILL.md) (optional) → [launch-quick-download-wins](../skills/launch/launch-quick-download-wins/SKILL.md) → [launch-get-first-100-users](../skills/launch/launch-get-first-100-users/SKILL.md) · open source: [launch-github-repo-seeding](../skills/launch/launch-github-repo-seeding/SKILL.md) → [launch-open-source-funnel](../skills/launch/launch-open-source-funnel/SKILL.md) |
 | 🔎 Research | Each channel's self-promotion rules; where your users gather (chapter 1) |
 | 🛠️ Tools | [Hacker News](https://news.ycombinator.com/) · [Indie Hackers](https://www.indiehackers.com/) · [Listing Desk](../skills/listing/listing-free-directories/assets/listing-desk.html) |
-| 📚 References | [Show HN guidelines](https://news.ycombinator.com/showhn.html) · [GitHub Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) |
+| 📚 References | [Firebase DebugView](https://firebase.google.com/docs/analytics/debugview) · [AdMob test ads](https://developers.google.com/admob/android/test-ads) · [Show HN guidelines](https://news.ycombinator.com/showhn.html) · [GitHub Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) |
 | 📄 Templates | [launch-kit.md](../skills/listing/listing-free-directories/assets/launch-kit.md) · [directory-tracker.csv](../skills/listing/listing-free-directories/assets/directory-tracker.csv) |
 | 💬 Prompt | [Pre-launch checklist](../skills/launch/launch-pre-launch-checklist/SKILL.md#prompt-copy-paste) · [Launch posts](../skills/launch/launch-post-writing/SKILL.md#prompt-copy-paste) |
 | ✅ You end with | Posts live, every comment answered, a log of which channel brought *activated* users |
 
-## 6. Grow in stores: the ASO loop
+## 6. Grow an audience: social and email
+
+| Part | |
+|---|---|
+| 🧠 Skills | [social-credible-posting](../skills/social/social-credible-posting/SKILL.md) → [social-build-in-public](../skills/social/social-build-in-public/SKILL.md) → [social-short-video](../skills/social/social-short-video/SKILL.md) · [email-segments-and-tools](../skills/email/email-segments-and-tools/SKILL.md) |
+| 🔎 Research | Your product's "wow moment" on screen, which platform your users watch, where your contacts come from |
+| 🛠️ Tools | Built-in screen recorders · any free video editor · an email tool chosen in [email-segments-and-tools](../skills/email/email-segments-and-tools/SKILL.md) |
+| 📚 References | [FTC Endorsement Guides FAQ](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) · [TikTok Branded Content Policy](https://www.tiktok.com/legal/page/global/bc-policy/en) · [Gmail sender guidelines](https://support.google.com/a/answer/81126) |
+| 📄 Templates | Weekly update in [social-build-in-public](../skills/social/social-build-in-public/SKILL.md) · `growth/email-segments.md` |
+| 💬 Prompt | [Short video](../skills/social/social-short-video/SKILL.md#prompt-copy-paste) · [Credible posting](../skills/social/social-credible-posting/SKILL.md#prompt-copy-paste) · [Email segments](../skills/email/email-segments-and-tools/SKILL.md#prompt-copy-paste) |
+| ✅ You end with | One video format that brings installs, a weekly posting habit, and followers moving to a segmented email list you own |
+
+## 7. Grow in stores: the ASO loop
 
 | Part | |
 |---|---|
@@ -182,7 +212,7 @@ Leave time for one rejection round: schedule it with [launch-pre-launch-checklis
 | 💬 Prompt | [Review & rating strategy](../skills/aso/aso-review-and-rating-strategy/SKILL.md#prompt-copy-paste) |
 | ✅ You end with | One change per month, logged with before/after numbers |
 
-## 7. Share results: write a case study
+## 8. Share results: write a case study
 
 | Part | |
 |---|---|
@@ -196,12 +226,14 @@ Leave time for one rejection round: schedule it with [launch-pre-launch-checklis
 Paste this into any AI chat to find where you are and what to do next.
 
 ````text
-You are a growth coach for small digital products. Use this 7-chapter map:
-1 Research · 2 Learn from others · 3 Get paid · 4 Publish (listing) · 5 Launch · 6 Grow in stores · 7 Share results.
+You are a growth coach for small digital products. Use this 9-chapter map:
+0 Set the target (strategy) · 1 Research · 2 Learn from others · 3 Get paid · 4 Publish (listing) · 5 Launch ·
+6 Grow an audience (social + email) · 7 Grow in stores · 8 Share results.
 
 My product: {{what it is, who for, where it lives (App Store, Google Play, web, Chrome Web Store...)}}
 Stage: {{idea / building / launched < 3 months / launched longer}}
 Numbers: {{users or downloads per week, revenue if any}}
+Target: {{$X by <date>, or "none yet"}}
 Done so far: {{e.g. keyword sheet, pricing, listing submitted}}
 What feels most broken: {{...}}
 
@@ -212,6 +244,6 @@ Don't invent facts about my product; mark unknowns as TODO.
 ````
 
 ## Keep it in your repo
-Save every output next to your code, one folder per chapter: `research/`, `growth/pricing.md`,
+Save every output next to your code, one folder per chapter: `growth/revenue-target.md`, `research/`, `growth/pricing.md`,
 `growth/listing.md`, `growth/screenshots.md`, `growth/LAUNCH.md`, `growth/aso-log.md`. Your AI agent can read
 them next session and pick up where you left off.
