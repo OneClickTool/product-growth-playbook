@@ -18,7 +18,7 @@ under an hour and you end up with something real: a keyword list, a launch plan,
 | 🧠 | **48 free AI growth skills** | Strategy, research, case studies, store listing by niche, ASO, launch, social, monetization and email, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
 | 🔎 | **A tidy research system** | Where to find trustworthy sources, where users ask for software (with links), how to mine competitor reviews, and templates to keep notes, sources and decisions organized in Markdown. |
 | 🗺️ | **Step-by-step playbooks** | A 6-week route from "almost ready" to your first 100 users, and a 4-week ASO route with a monthly measurement loop, built from the skills. |
-| 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac & Windows) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. |
+| 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac & Windows) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. Downloads and install steps: [GitHub](https://github.com/nvminhtu/markdown-viewer#readme). |
 
 No sign-up, no paywall, no email list. MIT licensed: use it, fork it, teach with it.
 
@@ -147,7 +147,7 @@ Maintained by [Tu Nguyen (@nvminhtu)](https://github.com/nvminhtu), who builds a
 at [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook).
 
 Two tools I made that fit this repo:
-- Reading lots of skills and Markdown files? [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac & Windows) shows a whole folder at a glance.
+- Reading lots of skills and Markdown files? [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac & Windows) shows a whole folder at a glance. Downloads on [GitHub](https://github.com/nvminhtu/markdown-viewer#readme).
 - Running many projects with AI agents? [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (Mac) shows every repo's next steps, blockers and uncommitted changes on one screen, and reopens the right Claude session.
 
 ## Support this project
