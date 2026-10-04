@@ -150,6 +150,18 @@ Two tools I made that fit this repo:
 - Reading lots of skills and Markdown files? [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac & Windows) shows a whole folder at a glance. Downloads on [GitHub](https://github.com/nvminhtu/markdown-viewer#readme).
 - Running many projects with AI agents? [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (Mac) shows every repo's next steps, blockers and uncommitted changes on one screen, and reopens the right Claude session.
 
+## Free apps
+
+Free, open-source apps from the developer behind [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=free-apps).
+No account, no paywall. Source, downloads and install steps are on each GitHub page.
+
+| App | Platform | What it does |
+|---|---|---|
+| [Markdown Viewer](https://github.com/nvminhtu/markdown-viewer#readme) | Mac & Windows | Opens a folder of Markdown files as a table, a link map or Finder-style folders, with a clean reader. |
+| [Server Hub](https://github.com/nvminhtu/server-hub#readme) | macOS | Shows every localhost server on your Mac, checks whether each one actually answers, and lets you open, stop or start them in one click. |
+
+<sub>Both are made by the maintainer of this repo. Issues and pull requests are welcome on each repo.</sub>
+
 ## Support this project
 
 The playbook is free and always will be. If a skill saved you time or helped you ship, you can support the work:
