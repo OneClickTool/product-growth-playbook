@@ -1,5 +1,5 @@
 ---
-summary: "Self-promotion allowed; title must be "[Project name] - [Short description]""
+summary: "Self-promotion allowed; title must be '[Project name] - [Short description]'"
 link: direct
 flair: none required (check)
 difficulty: 1 easy

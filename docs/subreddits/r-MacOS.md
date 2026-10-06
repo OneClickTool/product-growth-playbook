@@ -1,5 +1,5 @@
 ---
-summary: "No general promotion allowance; "I made…" showcase only after modmail"
+summary: "No general promotion allowance; 'I made…' showcase only after modmail"
 link: direct
 flair: check the sidebar
 difficulty: 3 hard
