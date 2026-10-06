@@ -3,7 +3,7 @@
 What exists, what's next, and where you can help. Suggest changes in
 [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions) or with a *Skill request* issue.
 
-## Now: 9 areas, 48 skills
+## Now: 9 areas, 49 skills
 
 | Area | Skills |
 |---|---|
@@ -15,7 +15,7 @@ What exists, what's next, and where you can help. Suggest changes in
 | 🚀 Launch | pre-launch checklist · launch post writing · Reddit posting by product type · Product Hunt launch · quick download wins · first 100 users · GitHub repo seeding · open-source funnel (free repo → users) · growth stack setup (Firebase, AdMob, payments) |
 | 📣 Social | short video (TikTok, Reels, Shorts) · credible posting (X, Threads, Facebook, LinkedIn) · build in public |
 | 💰 Monetization | free trial vs freemium · pricing strategy · payment setup (provider by country, verification, payouts) · in-app purchase setup (StoreKit 2, Play Billing, SDKs) · paywall design · subscription tiers |
-| 📧 Email | list & deliverability (SPF/DKIM/DMARC, Gmail/Yahoo rules, consent) · segments & tools · beta program (TestFlight, Play testing, Chrome trusted testers) · onboarding sequence · free-trial sequence |
+| 📧 Email | cold outreach (legal sources, separate domain, 3–4 email sequence) · list & deliverability (SPF/DKIM/DMARC, Gmail/Yahoo rules, consent) · segments & tools · beta program (TestFlight, Play testing, Chrome trusted testers) · onboarding sequence · free-trial sequence |
 
 Playbooks: [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md).
 
@@ -36,6 +36,8 @@ These skills are planned and nobody has claimed them yet. Comment on the issue o
 | `listing-framer-webflow-template` | Listing |
 | `listing-wordpress-plugin` | Listing |
 | `listing-shopify-app` | Listing |
+| `social-linkedin-outreach` | Social |
+| `social-facebook-groups` | Social |
 
 ## Later (by demand)
 New areas open once people ask for them: SEO · content marketing (incl. newsletters) · conversion · retention ·

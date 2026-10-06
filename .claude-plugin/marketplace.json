@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "48 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public), monetization (payment setup by country, in-app purchases) and email (list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
+      "description": "49 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public), monetization (payment setup by country, in-app purchases) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,
       "skills": [
@@ -25,6 +25,7 @@
         "./skills/case-study/case-study-success-story-analysis",
         "./skills/case-study/case-study-write-your-own",
         "./skills/email/email-beta-program",
+        "./skills/email/email-cold-outreach",
         "./skills/email/email-list-and-deliverability",
         "./skills/email/email-onboarding-sequence",
         "./skills/email/email-segments-and-tools",

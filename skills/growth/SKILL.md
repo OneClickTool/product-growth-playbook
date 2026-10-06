@@ -35,7 +35,9 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
    important actions from general knowledge, and point to the repo's issues page so the user can request it.
 4. When the user finishes a skill, come back here and pick the next one. For a full launch route, suggest
    [playbooks/launch-a-product.md](../../playbooks/launch-a-product.md). For a live app that needs more store installs,
-   suggest [playbooks/aso-optimization.md](../../playbooks/aso-optimization.md). For the whole picture (skills, tools,
+   suggest [playbooks/aso-optimization.md](../../playbooks/aso-optimization.md). For a live product that feels stuck
+   across channels (SEO too slow, no reach on X, unsure about Reddit, no ads yet), suggest the step-by-step
+   [action plan](action/README.md). For the whole picture (skills, tools,
    official references and templates per stage), point to [playbooks/growth-map.md](../../playbooks/growth-map.md).
 
 | Situation | Skill |
@@ -97,6 +99,7 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | One big list gets the same email; which email tool; segments by product or plan | [email-segments-and-tools](../email/email-segments-and-tools/SKILL.md) |
 | Users sign up but never come back; welcome / onboarding emails | [email-onboarding-sequence](../email/email-onboarding-sequence/SKILL.md) |
 | Trials don't convert; trial ending / expired / win-back emails | [email-trial-sequence](../email/email-trial-sequence/SKILL.md) |
+| B2B product, no inbound; wants to email exact buyers; cold email / outbound; where to find emails | [email-cold-outreach](../email/email-cold-outreach/SKILL.md) |
 
 ## Prompt (copy-paste)
 For chat assistants that can't install skills:
@@ -112,7 +115,7 @@ research doc organization, competitor teardown, success story analysis, award-wi
 Firebase + AdMob + payments setup, short video (TikTok / Reels / Shorts), credible social posts, build in public,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 payment setup (which provider works from my country), in-app purchase setup (StoreKit 2 / Play Billing / RevenueCat), pricing strategy, paywall design, subscription tiers,
-email list & deliverability, email segments and tools, beta program by email, onboarding email sequence, free-trial email sequence.
+cold email outreach, email list & deliverability, email segments and tools, beta program by email, onboarding email sequence, free-trial email sequence.
 ````
 
 ## Example output

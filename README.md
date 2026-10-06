@@ -15,7 +15,7 @@ under an hour and you end up with something real: a keyword list, a launch plan,
 
 | | What | Why it helps you |
 |---|---|---|
-| 🧠 | **48 free AI growth skills** | Strategy, research, case studies, store listing by niche, ASO, launch, social, monetization and email, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
+| 🧠 | **49 free AI growth skills** | Strategy, research, case studies, store listing by niche, ASO, launch, social, monetization and email, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
 | 🔎 | **A tidy research system** | Where to find trustworthy sources, where users ask for software (with links), how to mine competitor reviews, and templates to keep notes, sources and decisions organized in Markdown. |
 | 🗺️ | **Step-by-step playbooks** | A 6-week route from "almost ready" to your first 100 users, and a 4-week ASO route with a monthly measurement loop, built from the skills. |
 | 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac & Windows) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. Downloads and install steps: [GitHub](https://github.com/nvminhtu/markdown-viewer#readme). |
@@ -59,12 +59,42 @@ extensions**, especially if you're a builder, not a marketer.
 | Set up Firebase, Crashlytics, AdMob, consent and payments before launch, and check they work | [Growth Stack Setup](skills/launch/launch-growth-stack-setup/SKILL.md) |
 | Get users from TikTok, Reels or Shorts with fewer, better videos | [Short Video](skills/social/social-short-video/SKILL.md) |
 | Post on X, Threads or Facebook without sounding like a scam | [Credible Posting](skills/social/social-credible-posting/SKILL.md) → [Build in Public](skills/social/social-build-in-public/SKILL.md) |
+| Reach the exact buyers by email (B2B), legally and without burning your domain | [Cold Email Outreach](skills/email/email-cold-outreach/SKILL.md) |
 | Send the right emails to free, paying and lapsed users; pick an email tool | [Email Segments and Tools](skills/email/email-segments-and-tools/SKILL.md) |
 | Launched, but nobody's using it | [Get Your First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
 | Get more installs from App Store / Google Play search | [ASO Keyword Research](skills/aso/aso-keyword-research/SKILL.md), or the full [Playbook: ASO Optimization](playbooks/aso-optimization.md) |
 | Get paid (Stripe not in your country? Vietnam, etc.) | [Payment Setup](skills/monetization/monetization-payment-setup/SKILL.md): which provider works, what to prepare, how long it takes |
 | Add in-app purchases: StoreKit 2, Play Billing or RevenueCat? | [In-App Purchase Setup](skills/monetization/monetization-in-app-purchase-setup/SKILL.md) |
 | Start making money | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) → [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) |
+
+## Marketing channels, 1 → n
+
+Every channel in one list: the tactic that works for small products, who it reaches, and the skill to run.
+Pick **one or two**, run them for 4 weeks, measure, then add the next.
+Not sure which? The [action plan](skills/growth/action/README.md) gives the order.
+*Planned* means the skill doesn't exist yet: [claim it](ROADMAP.md#open-for-contributors).
+
+| # | Channel | Tactic | Reaches | Skills |
+|---|---|---|---|---|
+| 1 | 📧 **Email: cold outreach** | A narrow list with a visible trigger, a separate sending domain, 3–4 short emails | The exact business buyer, by name | [Cold Email Outreach](skills/email/email-cold-outreach/SKILL.md) · [List & Deliverability](skills/email/email-list-and-deliverability/SKILL.md) |
+| 2 | 📧 **Email: your own list** | Waitlist → onboarding → trial → win-back, by segment | People who already said yes | [Onboarding](skills/email/email-onboarding-sequence/SKILL.md) · [Trial](skills/email/email-trial-sequence/SKILL.md) · [Segments & Tools](skills/email/email-segments-and-tools/SKILL.md) · [Beta](skills/email/email-beta-program/SKILL.md) |
+| 3 | 📘 **Facebook** | Helpful posts in niche groups (after reading the rules), a page that looks real | Hobby and local communities, non-tech buyers | [Credible Posting](skills/social/social-credible-posting/SKILL.md) · Facebook groups: *planned* |
+| 4 | 💼 **LinkedIn** | Founder posts with real numbers, then manual 1-to-1 conversations (no scraping tools) | B2B decision makers, recruiters, agencies | [Credible Posting](skills/social/social-credible-posting/SKILL.md) · [Launch Posts](skills/launch/launch-post-writing/SKILL.md) · LinkedIn outreach: *planned* |
+| 5 | 🟠 **Reddit** | Answer existing questions daily; one rule-checked post a week in the right subreddit | Users actively asking for a tool like yours | [Reddit Posting](skills/launch/launch-reddit-posting/SKILL.md) · [Where Users Ask](skills/research/research-where-users-ask/SKILL.md) |
+| 6 | 🐦 **X / Threads** | Build in public: progress, numbers, lessons | Other makers, early adopters | [Build in Public](skills/social/social-build-in-public/SKILL.md) · [Credible Posting](skills/social/social-credible-posting/SKILL.md) |
+| 7 | 🎬 **Short video** (TikTok, Reels, Shorts) | Batch 9 videos, keep the one format that works | Consumers, app and game players | [Short Video](skills/social/social-short-video/SKILL.md) |
+| 8 | 📱 **App store search (ASO)** | Keywords, title, screenshots, ratings: one change at a time | People searching the store right now | [Keywords](skills/aso/aso-keyword-research/SKILL.md) · [Title](skills/aso/aso-title-subtitle-optimization/SKILL.md) · [Screenshots](skills/aso/aso-screenshot-strategy/SKILL.md) · [Ratings](skills/aso/aso-review-and-rating-strategy/SKILL.md) |
+| 9 | 📦 **Stores, directories and launch sites** | List everywhere your product type is browsed; one Product Hunt day | Early adopters, deal hunters, backlinks | [Free Directories](skills/listing/listing-free-directories/SKILL.md) · [Product Hunt](skills/launch/launch-product-hunt-launch/SKILL.md) · [Listing by niche](skills/listing/README.md) |
+| 10 | 🔍 **Search (SEO)** | 3–5 high-intent pages ("X alternative", "how to do Y on Mac") instead of many blog posts | Google searchers with a problem | [Intent pages](skills/growth/action/04-listings-and-intent-pages.md) · SEO area: *planned* |
+| 11 | 💬 **Communities** (Discord, Slack, Indie Hackers, Hacker News) | Be a member first, share when it helps | Niche power users | [First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) · [Community posting](skills/growth/action/06-community-posting.md) |
+| 12 | 🐙 **GitHub / open source** | A useful free repo that points to the paid product | Developers | [Repo Seeding](skills/launch/launch-github-repo-seeding/SKILL.md) · [Open-Source Funnel](skills/launch/launch-open-source-funnel/SKILL.md) |
+| 13 | 🔁 **Your other products** | Cross-promo and one email capture in every app | Users you already have | [Product as Funnel](skills/strategy/strategy-product-as-funnel/SKILL.md) |
+| 14 | 🧲 **Contrarian plays** | Do what competitors don't (a free tool, a stunt, a niche nobody serves) | Whoever the crowd ignores | [Contrarian Marketing](skills/strategy/strategy-contrarian-marketing/SKILL.md) |
+| 15 | 🎤 **Influencers and creators** | Pay or partner with small creators in your niche | Their audience, borrowed trust | *planned* |
+| 16 | 🤝 **Partnerships and affiliates** | Bundles, integrations, a revenue share for people who refer | Partners' customers | *planned* |
+| 17 | 💸 **Paid ads** | A capped test only after you know your conversion rate | Anyone, at a price | [Paid ads gate](skills/growth/action/08-paid-ads-gate.md) · [Spend and Timing](skills/strategy/strategy-spend-and-timing/SKILL.md) |
+
+Before any channel: [measure first](skills/growth/action/01-measure-first.md), so you can tell which one worked.
 
 ## Skills
 
@@ -78,9 +108,9 @@ extensions**, especially if you're a builder, not a marketer.
 | 🚀 [Launch](skills/launch/) | [Pre-launch Checklist](skills/launch/launch-pre-launch-checklist/SKILL.md) · [Launch Post Writing](skills/launch/launch-post-writing/SKILL.md) · [Reddit Posting](skills/launch/launch-reddit-posting/SKILL.md) · [Product Hunt Launch](skills/launch/launch-product-hunt-launch/SKILL.md) · [Quick Download Wins](skills/launch/launch-quick-download-wins/SKILL.md) · [First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) · [GitHub Repo Seeding](skills/launch/launch-github-repo-seeding/SKILL.md) · [Open-Source Funnel](skills/launch/launch-open-source-funnel/SKILL.md) · [Growth Stack Setup (Firebase, AdMob, payments)](skills/launch/launch-growth-stack-setup/SKILL.md) |
 | 📣 [Social](skills/social/) | [Short Video](skills/social/social-short-video/SKILL.md) · [Credible Posting](skills/social/social-credible-posting/SKILL.md) · [Build in Public](skills/social/social-build-in-public/SKILL.md) |
 | 💰 [Monetization](skills/monetization/) | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) · [Payment Setup](skills/monetization/monetization-payment-setup/SKILL.md) · [In-App Purchase Setup](skills/monetization/monetization-in-app-purchase-setup/SKILL.md) · [Paywall Design](skills/monetization/monetization-paywall-design/SKILL.md) · [Subscription Tiers](skills/monetization/monetization-subscription-tiers/SKILL.md) |
-| 📧 [Email](skills/email/) | [List & Deliverability](skills/email/email-list-and-deliverability/SKILL.md) · [Segments & Tools](skills/email/email-segments-and-tools/SKILL.md) · [Beta Program](skills/email/email-beta-program/SKILL.md) · [Onboarding Sequence](skills/email/email-onboarding-sequence/SKILL.md) · [Trial Sequence](skills/email/email-trial-sequence/SKILL.md) |
+| 📧 [Email](skills/email/) | [List & Deliverability](skills/email/email-list-and-deliverability/SKILL.md) · [Segments & Tools](skills/email/email-segments-and-tools/SKILL.md) · [Beta Program](skills/email/email-beta-program/SKILL.md) · [Onboarding Sequence](skills/email/email-onboarding-sequence/SKILL.md) · [Trial Sequence](skills/email/email-trial-sequence/SKILL.md) · [Cold Email Outreach](skills/email/email-cold-outreach/SKILL.md) |
 
-**Playbooks:** [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · **Roadmap:** [what's next](ROADMAP.md)
+**Playbooks:** [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · [Action plan: long-term users without ads](skills/growth/action/README.md) · **Roadmap:** [what's next](ROADMAP.md)
 
 ### 📖 Read the whole playbook as a map
 
