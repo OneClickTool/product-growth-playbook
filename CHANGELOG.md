@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 ### Changed
+- `launch-reddit-posting` 1.2.0: save one rules profile per subreddit (`assets/subreddit-profile.md`), shared by every
+  product and re-checked after 60 days; write one post per request and log posts in the order you asked for them.
 - `listing-mac-app` 1.1.0: more places Mac users look for apps (MacNative, Awesome Native macOS Apps, awesome-mac,
   MenuBarApps, macmenubar.com, PayOnceApps, IndieAppCircle), App Store featuring nominations and Apple Ads, plus
   mistakes on dormant Reddit accounts, posting outside US hours and sending web-wrapper apps to native-only lists.

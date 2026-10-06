@@ -23,9 +23,11 @@ One per product. Keep it next to `subreddit-rules.md` (from `scripts/fetch_subre
 | r/ | | | | | | |
 
 ## Posts
-| Date | Subreddit | Title | Removed? (reason) | Upvotes | Comments | Clicks / installs | Lesson |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
+One row per request, in the order you asked for the posts.
+
+| # | Asked (date) | Request | Subreddit | Profile checked | Posted (date) | Removed? (reason) | Upvotes | Comments | Clicks / installs | Lesson |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | | | r/ | | | | | | | |
 
 ## Questions people asked (answer them in the next post or the FAQ)
 -

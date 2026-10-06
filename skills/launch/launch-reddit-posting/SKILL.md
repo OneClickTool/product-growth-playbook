@@ -6,7 +6,7 @@ metadata:
   category: launch
   difficulty: beginner
   time: "Setup 30-45 min · each post 30 min · ongoing 15 min/day"
-  version: 1.1.0
+  version: 1.2.0
   author: nvminhtu
 ---
 
@@ -103,7 +103,16 @@ fill one row of the checklist in `assets/reddit-post-plan.md`:
 If the script can't reach Reddit (blocked network), open `https://old.reddit.com/r/<name>/about/rules` and the
 pinned posts by hand.
 
+**Save a profile per subreddit, once.** Copy `assets/subreddit-profile.md` to `r-<Name>.md` for each subreddit: the
+one rule that matters most, link rule, flair, title format, what readers want, the date you checked and the source.
+Rules belong to the subreddit, not to your product, so keep these files in one shared folder and reuse them for every
+product you post. Re-check a profile when it's older than 60 days. Never fill one from memory.
+
 ### Step 3: Write the post
+Write **one post per request**: "a post for r/A about X" gives one file, written against r/A's profile. Note the date
+you asked for it and the request in one line at the top of the file. The list of posts then reads in the order you
+asked (post 1 → r/A, post 2 → r/B…), and each one shows which rules shaped it.
+
 **Title formulas** (pick one, keep it plain, no emoji, no ALL CAPS):
 - *Made-a-thing:* `I made [what it is] that [does one specific thing] for [who]`
 - *Problem-first:* `I was tired of [specific annoyance], so I built [name]`
@@ -185,7 +194,7 @@ Type and platform: {{macOS app / iOS / Android / extension / SaaS / dev tool / g
 Price: {{...}}   Link: {{...}}   Demo: {{GIF/video yes/no}}
 Story: {{why I built it, one real number or moment}}
 My Reddit account: {{age, karma, subreddits I already comment in}}
-Rules of the subreddits I'm considering (pasted from the subreddits' rules pages):
+Rules of the subreddits I'm considering (pasted from the subreddits' rules pages, or my saved r-<Name>.md profiles):
 {{paste here}}
 
 1. From these subreddits, pick the best 3–5 for my product type and order them (showcase first). For each, say
@@ -232,6 +241,8 @@ Body for r/macapps (excerpt):
 - **Arguing with critics.** Thank them, fix what's real, and reply with what you changed.
 - **Asking for upvotes anywhere.** It's vote manipulation under Reddit's rules.
 - **Trusting an old rules list** (including the table in this skill). Re-run the script before you post.
+- **Writing the post before opening the subreddit's profile.** Title format, flair and link rule decide whether it
+  survives the first minute; check them first, not after.
 - **Posting often instead of posting well.** Ten weak posts spend the community's goodwill; three strong ones build it.
 
 ## Related skills
