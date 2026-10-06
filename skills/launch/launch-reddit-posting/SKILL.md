@@ -6,7 +6,7 @@ metadata:
   category: launch
   difficulty: beginner
   time: "Setup 30-45 min · each post 30 min · ongoing 15 min/day"
-  version: 1.3.0
+  version: 1.4.0
   author: nvminhtu
 ---
 
@@ -95,6 +95,10 @@ What Mac readers check in the comments: native (SwiftUI/AppKit) or Electron, pri
 privacy (offline? telemetry?), macOS version, App Store or direct download, and Apple Silicon. **Answer these in the post.**
 
 ### Step 2: Get the current rules (10 min)
+**Read the wiki first.** [docs/subreddits](../../../docs/subreddits/README.md) has one page per common subreddit
+(rules, post format, voice, images, what readers want, with `checked:` date and sources), plus a ranked list for Mac
+apps. If the page exists and is under 60 days old, use it and skip the fetch. Otherwise fetch and add a page.
+
 Rules, flairs and promo days change every few months, so don't trust a copy, including this skill.
 
 ```bash
@@ -114,7 +118,8 @@ If the script can't reach Reddit (blocked network), open `https://old.reddit.com
 pinned posts by hand.
 
 **Save a profile per subreddit, once.** Copy `assets/subreddit-profile.md` to `r-<Name>.md` for each subreddit: the
-one rule that matters most, link rule, flair, title format, what readers want, the date you checked and the source.
+one rule that matters most, link rule, flair, title format, voice, images, what readers want, the date you checked
+and the source.
 Rules belong to the subreddit, not to your product, so keep these files in one shared folder and reuse them for every
 product you post. Re-check a profile when it's older than 60 days. Never fill one from memory.
 

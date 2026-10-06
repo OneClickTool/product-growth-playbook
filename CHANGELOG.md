@@ -1,7 +1,14 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- `docs/subreddits/`: a wiki page per subreddit (13 Mac-related to start: r/macapps, r/MacOSApps, r/MacOS, r/apple,
+  r/SideProject, r/SwiftUI, r/indiehackers, r/AppHookup, r/shortcuts, r/applehelp, r/mac, r/macbookpro, r/MacBook)
+  with self-promotion rules, post format, voice, images, readers and sources, plus a ranked list for Mac apps.
+
 ### Changed
+- `launch-reddit-posting` 1.4.0: read the subreddit wiki before fetching rules; the profile template gains voice,
+  images, difficulty, audience and `verified:`.
 - `launch-reddit-posting` 1.3.0: macOS ladder from easy to hard (comments in Mac help subreddits → r/MacOSApps →
   r/SwiftUI → r/macapps → r/apple on Sundays / r/MacOS after modmail), and which subreddits hold buyers vs builders.
 - `launch-reddit-posting` 1.2.0: save one rules profile per subreddit (`assets/subreddit-profile.md`), shared by every
