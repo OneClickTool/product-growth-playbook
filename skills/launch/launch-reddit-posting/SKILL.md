@@ -6,7 +6,7 @@ metadata:
   category: launch
   difficulty: beginner
   time: "Setup 30-45 min · each post 30 min · ongoing 15 min/day"
-  version: 1.2.0
+  version: 1.3.0
   author: nvminhtu
 ---
 
@@ -60,7 +60,7 @@ not for users.
 
 | Product | Showcase (sharing allowed, check format) | Audience (strict, read the rules) | Developers (build story only) |
 |---|---|---|---|
-| **macOS app** | r/macapps | r/MacOS · r/mac · r/apple | r/SwiftUI · r/swift · r/iOSProgramming |
+| **macOS app** | r/macapps · r/MacOSApps | r/MacOS · r/mac · r/apple | r/SwiftUI · r/swift · r/iOSProgramming |
 | **iOS app** | r/iosapps · r/AppHookup (deals: free or discounted) | r/iphone · r/ios · r/shortcuts (if it supports Shortcuts) | r/iOSProgramming · r/SwiftUI |
 | **Android app** | r/androidapps | r/Android | r/androiddev |
 | **Browser extension** | r/chrome_extensions | r/chrome · r/firefox · r/browsers | r/webdev |
@@ -73,13 +73,23 @@ not for users.
 
 #### macOS in detail
 Mac users on Reddit are picky and generous at the same time: they try small utilities, and they ask about price,
-privacy and native-ness straight away. In order:
-1. **r/macapps:** the main showcase for Mac apps. Run the script, check whether it requires a post template or flair,
-   and follow it exactly.
-2. **r/SwiftUI or r/swift:** a "how I built X in SwiftUI" post with code or a technical lesson. The product link goes at the end.
-3. **r/MacOS / r/mac / r/apple:** only as a genuinely useful tip ("how to …"), or in their weekly/self-promo thread
-   if they have one. Don't post a bare app link.
-4. **Off Reddit, same week:** MacUpdate, AlternativeTo → [listing-mac-app](../../listing/listing-mac-app/SKILL.md).
+privacy and native-ness straight away. **Buyers read r/macapps, r/MacOSApps, r/MacOS, r/apple and the Mac help
+subreddits; r/SideProject, r/SwiftUI and r/indiehackers are read by builders** (good for feedback and karma, not sales).
+Climb from easy to hard, one subreddit per day:
+1. **Weeks 1–2, comments only** in r/macapps, r/MacOS, r/applehelp, r/macbookpro: answer the exact question people ask
+   (full disk, slow Mac, "is there an app that…"). The Mac help subreddits don't state a promotion policy; treat that as
+   *no*, and mention your app only when it answers the question, saying you made it.
+2. **r/MacOSApps:** smaller Mac showcase; say you're the developer and put price and download link in the post.
+3. **r/SwiftUI or r/swift:** a "how I built X in SwiftUI" post with code or a technical lesson. The product link goes at the end.
+4. **r/macapps:** the main showcase for Mac apps and the most Mac buyers. Run the script: it has asked for subreddit
+   karma before self-promotion, limits developers to one post per 30 days and requires its flair and post template
+   (secondary sources checked 2026-10). Save your best post for it.
+5. **r/apple / r/MacOS:** r/apple has allowed developer self-promotion only as Sunday self-posts; r/MacOS has no general
+   promotion allowance, so message the moderators first. Don't post a bare app link.
+6. **Off Reddit, same week:** MacUpdate, AlternativeTo → [listing-mac-app](../../listing/listing-mac-app/SKILL.md).
+
+On r/macapps, "alternative to / comparison" posts had the highest average score in one analysis of 496 top posts, and
+free vs paid apps scored about the same ([upvote.net, 2026](https://upvote.net/blog/macapps-reddit-analysis)).
 
 What Mac readers check in the comments: native (SwiftUI/AppKit) or Electron, price model (one-time vs subscription),
 privacy (offline? telemetry?), macOS version, App Store or direct download, and Apple Silicon. **Answer these in the post.**

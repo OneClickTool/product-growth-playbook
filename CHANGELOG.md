@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 ### Changed
+- `launch-reddit-posting` 1.3.0: macOS ladder from easy to hard (comments in Mac help subreddits → r/MacOSApps →
+  r/SwiftUI → r/macapps → r/apple on Sundays / r/MacOS after modmail), and which subreddits hold buyers vs builders.
 - `launch-reddit-posting` 1.2.0: save one rules profile per subreddit (`assets/subreddit-profile.md`), shared by every
   product and re-checked after 60 days; write one post per request and log posts in the order you asked for them.
 - `listing-mac-app` 1.1.0: more places Mac users look for apps (MacNative, Awesome Native macOS Apps, awesome-mac,
