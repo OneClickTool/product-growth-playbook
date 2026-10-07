@@ -1,12 +1,12 @@
 ---
 name: social-short-video
-description: Get users from short vertical video (TikTok, Instagram Reels, YouTube Shorts) by making fewer videos that each have a better chance to spread. Picks one repeatable format for your product type (app, game, extension, SaaS, AI tool), writes hooks for the first 1-2 seconds, scripts 15-45 second videos you can film on a phone or as a screen recording, tests 3 formats against each other, then repeats only the winner and reposts it across platforms. Covers disclosure rules for promoting your own product and how to send viewers to an install or sign-up. Use when someone asks "how do I market my app on TikTok", "make a viral video for my app", "TikTok for indie developers", "Reels or Shorts for my product", "faceless app videos", "my TikToks get 200 views", "video viral trên TikTok", "làm ít mà viral nhiều", or wants short-video growth without posting 3 times a day.
+description: Get users from short vertical video (TikTok, Instagram Reels, YouTube Shorts) by making fewer videos that each have a better chance to spread. Picks one repeatable format for your product type (app, game, extension, SaaS, AI tool), writes hooks for the first 1-2 seconds, scripts 15-45 second videos you can film on a phone or as a screen recording, tests 3 formats against each other, then repeats only the winner and reposts it across platforms. Includes 17 formats (which ones an AI agent can render from a screen recording, stock clips and free music) and a script-to-video pipeline. Covers disclosure rules for promoting your own product and how to send viewers to an install or sign-up. Use when someone asks "how do I market my app on TikTok", "make a viral video for my app", "TikTok for indie developers", "Reels or Shorts for my product", "faceless app videos", "video viral trên TikTok", "làm ít mà viral nhiều", "AI làm video tự động", "auto render short video", or wants short-video growth without posting 3 times a day.
 license: MIT
 metadata:
   category: social
   difficulty: beginner
   time: "Setup 60 min · each video 30-60 min · 3-week test"
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -46,9 +46,14 @@ about 9 videos, then spend your time only on the format that works.
   [TikTok Community Guidelines](https://www.tiktok.com/community-guidelines/en)) and the platform's ranking learns
   from fake viewers who don't care about your product.
 - **Use sounds you have the rights to.** Business accounts usually get a smaller, commercially cleared music library.
+  Free music (Pixabay Music, YouTube Audio Library) can go into the file; trending songs are added only inside the app.
+- **Never re-upload someone else's video**, even a viral one that fits your topic perfectly. Use licensed stock clips
+  (Pexels, Pixabay) for the "frustrated person" moment, Stitch / Duet inside the app, or recreate the trend with your own
+  footage. Sources and licenses: [references/formats.md](references/formats.md#footage-and-music-you-may-use).
 
 ## Steps
-1. **Pick your format family (10 min).** Choose the one that shows your wow moment fastest:
+1. **Pick your format family (10 min).** Choose the one that shows your wow moment fastest. The full list of 17
+   formats, with which ones an AI agent can render for you, is in [references/formats.md](references/formats.md):
 
    | Product | Formats that usually fit | The first 2 seconds show… |
    |---|---|---|
@@ -68,9 +73,12 @@ about 9 videos, then spend your time only on the format that works.
 3. **Script 3 videos, one per format** (15–45 seconds each):
    `Hook (0–2 s) → problem shown (2–6 s) → product does it (6–20 s) → result + one-line CTA (last 3 s)`.
    Text on screen for every line (many people watch without sound). One idea per video.
-4. **Film in batches.** Record all 3 in one session: screen recording + a phone shot of a real hand or real
+4. **Film in batches, or render.** Record all 3 in one session: screen recording + a phone shot of a real hand or real
    screen if you can, since real-looking footage often reads as more native than polished ads. Edit in any free
-   editor; captions on.
+   editor; captions on. For the **Auto** formats (silent demo, pain hook, before/after, satisfying, loop, challenge,
+   race, carousel), let an agent write a render spec next to the script and build the file with a code-based video
+   tool: [references/auto-render.md](references/auto-render.md). Tag each post `format:`, and for a test `test:` +
+   `variant: A|B|C`, so results line up per format.
 5. **Post and test (3 weeks, ~9 videos).** Week 1: one video per format. Weeks 2–3: two more of each, changing only
    the hook. Post the same video to TikTok, Reels and Shorts (remove other platforms' watermarks). Write the
    disclosure and one specific CTA in the caption: "Free on the App Store, link in bio".
@@ -96,14 +104,18 @@ The wow moment (what the user sees when it works): {{...}}
 What I can film: {{screen recording / phone footage / my face / gameplay}}
 Videos I've posted and their results: {{views, watch time, clicks, or "none yet"}}
 
-1. Pick the 3 best formats for this product from: before/after, stop-doing-X, speed run, real input → output,
-   satisfying clip, can-you-beat-it, transformation, day N of building. Say why each fits.
+1. Pick the 3 best formats for this product from: silent demo, pain hook (licensed stock clip of the problem),
+   before/after, satisfying, loop, challenge, race, photo carousel, how-to, hot take, Gen Z voice-over, POV,
+   trend remix, listicle, dev story, green screen, reply to a comment. Prefer formats I can render without filming
+   if I say so. Say why each fits.
 2. Write 10 hooks (on-screen text + spoken line), each under 12 words, specific and visual.
 3. Write one 15–45 second script per format, with a timeline:
    hook (0–2s) → problem (2–6s) → product (6–20s) → result + CTA. Include on-screen text for every line.
 4. Give me a 3-week posting plan (~9 videos) and a log table with: views, % watched to end, shares, profile
    visits, link clicks, installs.
 5. Write the rule for keeping one format and dropping the others.
+6. For each script, list the footage: my screen-recording scenes, licensed stock clips (Pexels / Pixabay) and free
+   music. Never suggest re-uploading other creators' videos or baking a copyrighted song into the file.
 ````
 
 ## Example output
@@ -128,6 +140,10 @@ few installs: the wrong viewers. Next 2 weeks: 6 before → after videos with di
 - **Posting daily, burning out in 2 weeks.** 2–3 good videos a week for months beats 30 rushed ones.
 - **Hiding that it's your product.** Disclose it; "I made this" is also a stronger hook than pretending to be a fan.
 - **Sending viewers to a desktop-only page.** They're on a phone. Link to the store or a mobile page.
+- **Borrowing a viral clip.** Re-uploading someone else's video gets the post taken down and the account struck. Use a
+  licensed stock clip of the same feeling, or Stitch / Duet in the app.
+- **Automating the wrong formats.** Auto-render is great for demos and before/after; story and reply formats still
+  need a real person.
 
 ## Related skills
 - [social-build-in-public](../social-build-in-public/SKILL.md): the "day N of building" format as a weekly habit.

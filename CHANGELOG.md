@@ -7,6 +7,10 @@
   with self-promotion rules, post format, voice, images, readers and sources, plus a ranked list for Mac apps.
 
 ### Changed
+- `social-short-video` 1.1.0: a 17-format catalog (`references/formats.md`) marking which formats an AI agent can
+  render on its own, which need one in-app step and which need a person; which footage and music are safe (stock
+  clips and free music yes, re-uploading other creators' videos no); a script → render spec → video pipeline
+  (`references/auto-render.md`); `format`, `test` and `variant` tags for A/B tests.
 - `launch-reddit-posting` 1.4.0: read the subreddit wiki before fetching rules; the profile template gains voice,
   images, difficulty, audience and `verified:`.
 - `launch-reddit-posting` 1.3.0: macOS ladder from easy to hard (comments in Mac help subreddits → r/MacOSApps →
