@@ -4,7 +4,7 @@ Grow an audience on short video and social feeds with fewer, better posts, witho
 
 | Skill | What you get | Level | Time |
 |---|---|---|---|
-| [social-short-video](social-short-video/SKILL.md) | One video format for your product (TikTok, Reels, Shorts), 10 hooks, 3 scripts, a 3-week test and a keep/kill rule | Beginner | 60 min + 30–60 min/video |
+| [social-short-video](social-short-video/SKILL.md) | One video format for your product (TikTok, Reels, Shorts), 10 hooks, 3 scripts, a 3-week test and a keep/kill rule, plus [ready-made pipelines](social-short-video/references/ready-made-pipelines.md) to follow | Beginner | 60 min + 30–60 min/video |
 | [social-credible-posting](social-credible-posting/SKILL.md) | The proof ladder, 5 trust formats, a red-flag list, FTC disclosure rules and per-platform notes for X, Threads, Facebook, LinkedIn | Beginner | 30 min + 15–30 min/post |
 | [social-build-in-public](social-build-in-public/SKILL.md) | A share/keep-private list, a 30-minute weekly update template, milestone and countdown posts, followers → email list | Beginner | 30 min/week |
 

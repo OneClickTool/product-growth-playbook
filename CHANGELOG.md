@@ -8,6 +8,10 @@
   with self-promotion rules, post format, voice, images, readers and sources, plus a ranked list for Mac apps.
 
 ### Changed
+- `social-short-video` 1.2.0: `references/ready-made-pipelines.md`, open-source short-video pipelines to follow,
+  starting with video-mkt-agents (HyperFrames): its genres (app promo, AI tips, AI news, book debates, finance,
+  long-form), reusable blocks, publish log and cover helpers, mapped to this skill's formats, with license and
+  auto-upload cautions.
 - `social-short-video` 1.1.0: a 17-format catalog (`references/formats.md`) marking which formats an AI agent can
   render on its own, which need one in-app step and which need a person; which footage and music are safe (stock
   clips and free music yes, re-uploading other creators' videos no); a script → render spec → video pipeline

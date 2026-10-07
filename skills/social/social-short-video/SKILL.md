@@ -6,7 +6,7 @@ metadata:
   category: social
   difficulty: beginner
   time: "Setup 60 min · each video 30-60 min · 3-week test"
-  version: 1.1.0
+  version: 1.2.0
   author: nvminhtu
 ---
 
@@ -77,7 +77,9 @@ about 9 videos, then spend your time only on the format that works.
    screen if you can, since real-looking footage often reads as more native than polished ads. Edit in any free
    editor; captions on. For the **Auto** formats (silent demo, pain hook, before/after, satisfying, loop, challenge,
    race, carousel), let an agent write a render spec next to the script and build the file with a code-based video
-   tool: [references/auto-render.md](references/auto-render.md). Tag each post `format:`, and for a test `test:` +
+   tool: [references/auto-render.md](references/auto-render.md). To see a full pipeline with one rule file per genre
+   (app promo, AI tips, AI news, book debates, finance), study
+   [references/ready-made-pipelines.md](references/ready-made-pipelines.md). Tag each post `format:`, and for a test `test:` +
    `variant: A|B|C`, so results line up per format.
 5. **Post and test (3 weeks, ~9 videos).** Week 1: one video per format. Weeks 2–3: two more of each, changing only
    the hook. Post the same video to TikTok, Reels and Shorts (remove other platforms' watermarks). Write the
