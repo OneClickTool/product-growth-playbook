@@ -189,8 +189,9 @@ No account, no paywall. Source, downloads and install steps are on each GitHub p
 |---|---|---|
 | [Markdown Viewer](https://github.com/nvminhtu/markdown-viewer#readme) | Mac & Windows | Opens a folder of Markdown files as a table, a link map or Finder-style folders, with a clean reader. |
 | [Server Hub](https://github.com/nvminhtu/server-hub#readme) | macOS | Shows every localhost server on your Mac, checks whether each one actually answers, and lets you open, stop or start them in one click. |
+| [TapRec](https://github.com/nvminhtu/taprec#readme) | Android | Records your screen in one tap with mic or phone sound, pause/resume and a floating button, then cuts, mutes, crops or adds captions to the video. APK download with QR code. |
 
-<sub>Both are made by the maintainer of this repo. Issues and pull requests are welcome on each repo.</sub>
+<sub>All are made by the maintainer of this repo. Issues and pull requests are welcome on each repo.</sub>
 
 ## Support this project
 

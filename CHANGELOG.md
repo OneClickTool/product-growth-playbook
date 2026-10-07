@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Added
+- README "Free apps": TapRec, a free Android screen recorder with a simple editor (APK + QR on its GitHub page).
 - `docs/subreddits/`: a wiki page per subreddit (13 Mac-related to start: r/macapps, r/MacOSApps, r/MacOS, r/apple,
   r/SideProject, r/SwiftUI, r/indiehackers, r/AppHookup, r/shortcuts, r/applehelp, r/mac, r/macbookpro, r/MacBook)
   with self-promotion rules, post format, voice, images, readers and sources, plus a ranked list for Mac apps.
