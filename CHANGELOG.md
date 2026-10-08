@@ -8,6 +8,11 @@
   with self-promotion rules, post format, voice, images, readers and sources, plus a ranked list for Mac apps.
 
 ### Changed
+- `research-source-finding` 1.1.0: verified competitor revenue from TrustMRR's public Markdown profiles
+  (`/startup/<slug>.md`, slugs from the sitemap, fetch slowly), and reading a competitor's SEO plan from the URL
+  patterns in its sitemap (`/vs/`, `/alternatives/`, `/uses/`).
+- `research-where-users-ask` 1.1.0: a step for event-driven waves (new cheap device, end of support, a product
+  shutting down): track rising "how to <task> on <device>" queries in Google Trends and autocomplete.
 - `social-short-video` 1.2.0: `references/ready-made-pipelines.md`, open-source short-video pipelines to follow,
   starting with video-mkt-agents (HyperFrames): its genres (app promo, AI tips, AI news, book debates, finance,
   long-form), reusable blocks, publish log and cover helpers, mapped to this skill's formats, with license and

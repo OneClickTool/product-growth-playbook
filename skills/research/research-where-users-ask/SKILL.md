@@ -6,7 +6,7 @@ metadata:
   category: research
   difficulty: beginner
   time: 45-60 min
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -84,7 +84,12 @@ Communities come and go, and rules change. Open each one and read its rules and 
    which one gets complaints? Which exact words do people use? Those are your keywords and your landing-page headline.
 5. **Set up free alerts (5 min).** [F5Bot](https://f5bot.com/) emails you when a keyword appears on Reddit or Hacker
    News. Google Alerts works for forums and blogs. Add your product name, competitors, and 2–3 "alternative to" phrases.
-6. **Participate the right way.** Answer questions helpfully, and mention your product only when it genuinely fits,
+6. **Watch for event-driven waves (10 min).** A cheap new device, an OS end-of-support date or a popular product
+   shutting down creates a crowd of new users at once. They rarely search "best apps for…". They search
+   "how to <task> on <device>" or "<old product> alternative". Check Google Trends → *Related queries → Rising* for
+   the event's name, and Google autocomplete for `<device> how to`, `how to <task> on <device>`. Each rising query is
+   a question to answer (a help page, a short video) and, if the answer is "the OS can't do it well", a product.
+7. **Participate the right way.** Answer questions helpfully, and mention your product only when it genuinely fits,
    saying that you made it. Follow each community's self-promotion rules. Many ban links from new accounts.
 
 ## Prompt (copy-paste)
@@ -125,6 +130,7 @@ Users' language + country: {{e.g. English, US; Vietnamese, VN}}
 - **Drive-by self-promotion.** Posting your link in every "recommend an app" thread gets you banned and remembered badly.
 - **Reading only the top answer.** The complaints are in the replies ("I tried X but…").
 - **Old threads.** Software changes fast. Prefer the last 12 months and check dates.
+- **Searching only "best apps for X".** First-time users type "how to …" questions. Track those too.
 - **Counting upvotes as market size.** Threads show problems and words, not how many people will pay.
 
 ## Related skills

@@ -6,7 +6,7 @@ metadata:
   category: research
   difficulty: beginner
   time: 30-45 min
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -34,7 +34,7 @@ wins when two disagree.
 | Level | What | Examples |
 |---|---|---|
 | 1. Official | The platform or company that makes the rule | [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/), [App Store Connect Help](https://developer.apple.com/help/app-store-connect/), [Play Console Help](https://support.google.com/googleplay/android-developer/), [Chrome Web Store docs](https://developer.chrome.com/docs/webstore/), pricing pages |
-| 2. Data | Numbers you can check yourself | [Google Trends](https://trends.google.com/), store charts and search autocomplete, your own analytics, public company reports |
+| 2. Data | Numbers you can check yourself | [Google Trends](https://trends.google.com/), store charts and search autocomplete, your own analytics, public company reports, revenue directories that pull numbers straight from the payment provider (e.g. [TrustMRR](https://trustmrr.com/)) |
 | 3. Real users | What people actually say and do | Reviews, forums, Reddit, [Hacker News](https://news.ycombinator.com/), communities → [research-where-users-ask](../research-where-users-ask/SKILL.md) |
 | 4. Practitioners | People who did it and share numbers | Indie Hackers posts, founder blogs, conference talks, industry reports that show their method |
 | 5. Articles | Summaries by others | Blog posts, listicles, AI answers. Use them to **find** level 1–4 sources, never as the final source |
@@ -51,6 +51,13 @@ When sources disagree, the higher level wins. When sources on the same level dis
    - `filetype:pdf "state of"`: reports.
    - `before:2026-01-01` / `after:2025-06-01`: limit by date (Google).
    - `-word`: exclude results.
+   - **Competitors' revenue, the verified way.** On TrustMRR every profile has a plain-Markdown twin at
+     `trustmrr.com/startup/<slug>.md` (revenue for 30 days / 12 months / all time, provider, price, founder's X
+     followers). Find slugs by keyword in `trustmrr.com/startup-sitemap.xml`. It rate-limits bulk downloads (HTTP 429),
+     so fetch one page every second or two. Revenue someone posts on Reddit or X is self-reported: level 4, not 2.
+   - **Which keywords a competitor targets.** Open `<their-site>/sitemap.xml` and look at URL patterns:
+     `/vs/<rival>`, `/alternatives/<rival>`, `/uses/<task>`, `/<format>-to-<format>`. The pattern is their SEO plan;
+     the URL count shows how hard they work it.
 4. **Check every source (5 min).** Who wrote it? When (no date means low trust)? Is it first-hand? Does a second
    source agree?
 5. **Record it (5 min).** For each source: link, date published, date you checked, level (1–5), and a one-line
