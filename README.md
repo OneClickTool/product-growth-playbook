@@ -15,7 +15,7 @@ under an hour and you end up with something real: a keyword list, a launch plan,
 
 | | What | Why it helps you |
 |---|---|---|
-| 🧠 | **49 free AI growth skills** | Strategy, research, case studies, store listing by niche, ASO, launch, social, monetization and email, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
+| 🧠 | **50 free AI growth skills** | Strategy, research, case studies, store listing by niche, ASO, launch, social, monetization and email, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
 | 🔎 | **A tidy research system** | Where to find trustworthy sources, where users ask for software (with links), how to mine competitor reviews, and templates to keep notes, sources and decisions organized in Markdown. |
 | 🗺️ | **Step-by-step playbooks** | A 6-week route from "almost ready" to your first 100 users, and a 4-week ASO route with a monthly measurement loop, built from the skills. |
 | 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac & Windows) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. Downloads and install steps: [GitHub](https://github.com/nvminhtu/markdown-viewer#readme). |
@@ -65,6 +65,7 @@ extensions**, especially if you're a builder, not a marketer.
 | Get more installs from App Store / Google Play search | [ASO Keyword Research](skills/aso/aso-keyword-research/SKILL.md), or the full [Playbook: ASO Optimization](playbooks/aso-optimization.md) |
 | Get paid (Stripe not in your country? Vietnam, etc.) | [Payment Setup](skills/monetization/monetization-payment-setup/SKILL.md): which provider works, what to prepare, how long it takes |
 | Add in-app purchases: StoreKit 2, Play Billing or RevenueCat? | [In-App Purchase Setup](skills/monetization/monetization-in-app-purchase-setup/SKILL.md) |
+| Free repo or app: add a Sponsor / Ko-fi button | [Open-Source Funding](skills/monetization/monetization-open-source-funding/SKILL.md): FUNDING.yml, README support section, what stores allow |
 | Start making money | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) → [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) |
 
 ## Marketing channels, 1 → n
@@ -107,7 +108,7 @@ Before any channel: [measure first](skills/growth/action/01-measure-first.md), s
 | 📱 [ASO](skills/aso/) | [Keyword Research](skills/aso/aso-keyword-research/SKILL.md) · [Title & Subtitle](skills/aso/aso-title-subtitle-optimization/SKILL.md) · [Screenshot Strategy](skills/aso/aso-screenshot-strategy/SKILL.md) · [Reviews & Ratings](skills/aso/aso-review-and-rating-strategy/SKILL.md) |
 | 🚀 [Launch](skills/launch/) | [Pre-launch Checklist](skills/launch/launch-pre-launch-checklist/SKILL.md) · [Launch Post Writing](skills/launch/launch-post-writing/SKILL.md) · [Reddit Posting](skills/launch/launch-reddit-posting/SKILL.md) · [Product Hunt Launch](skills/launch/launch-product-hunt-launch/SKILL.md) · [Quick Download Wins](skills/launch/launch-quick-download-wins/SKILL.md) · [First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) · [GitHub Repo Seeding](skills/launch/launch-github-repo-seeding/SKILL.md) · [Open-Source Funnel](skills/launch/launch-open-source-funnel/SKILL.md) · [Growth Stack Setup (Firebase, AdMob, payments)](skills/launch/launch-growth-stack-setup/SKILL.md) |
 | 📣 [Social](skills/social/) | [Short Video](skills/social/social-short-video/SKILL.md) · [Credible Posting](skills/social/social-credible-posting/SKILL.md) · [Build in Public](skills/social/social-build-in-public/SKILL.md) |
-| 💰 [Monetization](skills/monetization/) | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) · [Payment Setup](skills/monetization/monetization-payment-setup/SKILL.md) · [In-App Purchase Setup](skills/monetization/monetization-in-app-purchase-setup/SKILL.md) · [Paywall Design](skills/monetization/monetization-paywall-design/SKILL.md) · [Subscription Tiers](skills/monetization/monetization-subscription-tiers/SKILL.md) |
+| 💰 [Monetization](skills/monetization/) | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) · [Payment Setup](skills/monetization/monetization-payment-setup/SKILL.md) · [In-App Purchase Setup](skills/monetization/monetization-in-app-purchase-setup/SKILL.md) · [Open-Source Funding](skills/monetization/monetization-open-source-funding/SKILL.md) · [Paywall Design](skills/monetization/monetization-paywall-design/SKILL.md) · [Subscription Tiers](skills/monetization/monetization-subscription-tiers/SKILL.md) |
 | 📧 [Email](skills/email/) | [List & Deliverability](skills/email/email-list-and-deliverability/SKILL.md) · [Segments & Tools](skills/email/email-segments-and-tools/SKILL.md) · [Beta Program](skills/email/email-beta-program/SKILL.md) · [Onboarding Sequence](skills/email/email-onboarding-sequence/SKILL.md) · [Trial Sequence](skills/email/email-trial-sequence/SKILL.md) · [Cold Email Outreach](skills/email/email-cold-outreach/SKILL.md) |
 
 **Playbooks:** [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · [Action plan: long-term users without ads](skills/growth/action/README.md) · **Roadmap:** [what's next](ROADMAP.md)
@@ -207,6 +208,8 @@ The playbook is free and always will be. If a skill saved you time or helped you
 - Free ways that help just as much: ⭐ star the repo, share a skill that worked, or add a real example.
 
 Support pays for the time spent writing new skills, keeping store rules up to date, and answering issues.
+
+Want the same Sponsor button on your own free repo or app? Follow [Open-Source Funding](skills/monetization/monetization-open-source-funding/SKILL.md).
 
 ## License
 

@@ -90,6 +90,7 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Unsure what should be free / trial length | [monetization-free-trial-vs-freemium](../monetization/monetization-free-trial-vs-freemium/SKILL.md) |
 | Need to get paid; Stripe not in your country; which provider | [monetization-payment-setup](../monetization/monetization-payment-setup/SKILL.md) |
 | Adding in-app purchases / subscriptions to an iOS or Android app | [monetization-in-app-purchase-setup](../monetization/monetization-in-app-purchase-setup/SKILL.md) |
+| Free repo or app; wants a Sponsor / Ko-fi button or "support this project" section | [monetization-open-source-funding](../monetization/monetization-open-source-funding/SKILL.md) |
 | Unsure what to charge | [monetization-pricing-strategy](../monetization/monetization-pricing-strategy/SKILL.md) |
 | Has a paywall, low conversion or rejected | [monetization-paywall-design](../monetization/monetization-paywall-design/SKILL.md) |
 | One plan, very different customers | [monetization-subscription-tiers](../monetization/monetization-subscription-tiers/SKILL.md) |

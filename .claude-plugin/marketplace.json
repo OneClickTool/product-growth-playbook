@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "product-growth-playbook",
-      "description": "49 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public), monetization (payment setup by country, in-app purchases) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
+      "description": "50 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,
       "skills": [
@@ -50,6 +50,7 @@
         "./skills/listing/listing-mac-app",
         "./skills/monetization/monetization-free-trial-vs-freemium",
         "./skills/monetization/monetization-in-app-purchase-setup",
+        "./skills/monetization/monetization-open-source-funding",
         "./skills/monetization/monetization-payment-setup",
         "./skills/monetization/monetization-paywall-design",
         "./skills/monetization/monetization-pricing-strategy",

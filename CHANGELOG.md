@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 ### Added
+- `monetization-open-source-funding`: a Sponsor button for a free repo or app in 30 minutes: `.github/FUNDING.yml`
+  (Ko-fi, GitHub Sponsors, Buy Me a Coffee, Polar, custom links), turning it on, a README badge and support section,
+  UTM links, one org-wide default, and the App Store / Google Play rules that keep tip links out of store apps.
 - README "Free apps": TapRec, a free Android screen recorder with a simple editor (APK + QR on its GitHub page).
 - `docs/subreddits/`: a wiki page per subreddit (13 Mac-related to start: r/macapps, r/MacOSApps, r/MacOS, r/apple,
   r/SideProject, r/SwiftUI, r/indiehackers, r/AppHookup, r/shortcuts, r/applehelp, r/mac, r/macbookpro, r/MacBook)

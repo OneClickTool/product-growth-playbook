@@ -19,7 +19,7 @@ The public roadmap is [ROADMAP.md](ROADMAP.md). All content is in English.
 - Scripts in `skills/**/scripts/` use the Python standard library only.
 - Maintainer products (ShotMatic, Markdown Viewer, OneClickTool) may be mentioned **only** in flows about managing
   projects/repos or Markdown files (currently: README, CONTRIBUTING, the area READMEs in
-  `skills/*/README.md`, `launch-pre-launch-checklist`, `research-doc-organization`, `playbooks/launch-a-product.md`). Screenshots live in `docs/images/`
+  `skills/*/README.md`, `launch-pre-launch-checklist`, `research-doc-organization`, `monetization-open-source-funding` (its live example), `playbooks/launch-a-product.md`). Screenshots live in `docs/images/`
   and must show only public repo content (no personal paths or private repos). Always disclose they're the maintainer's, keep it to 1–3 lines at the end of the
   section or skill, and tag links with `utm_source=github&utm_campaign=growth-playbook`. Never in the Prompt block.
 
