@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 ### Added
+- `case-study/`: a reading list of real launches taken apart, one page each. First: Shipfolks × GoViralDev, how a new
+  directory sells two flat-price ad slots from day one, and how to use a $100–150 sponsor slot as a launch channel
+  (stop rule, banner, matching landing, UTMs, day-30 decision).
 - `monetization-open-source-funding`: a Sponsor button for a free repo or app in 30 minutes: `.github/FUNDING.yml`
   (Ko-fi, GitHub Sponsors, Buy Me a Coffee, Polar, custom links), turning it on, a README badge and support section,
   UTM links, one org-wide default, and the App Store / Google Play rules that keep tip links out of store apps.

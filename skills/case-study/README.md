@@ -11,6 +11,8 @@ Learn from what already happened: your competitors' choices, other founders' pub
 
 **Suggested order:** competitor teardown → success stories → award-winning design (when you redesign onboarding, a paywall, the store page or a launch page) → (run your own experiment) → write your own case study.
 
+**Read real ones:** finished teardowns live in [case-study/](../../case-study/README.md) at the repo root.
+
 **Share your case study.** Real numbers from real products are the most valuable thing in this repo.
 Follow [case-study-write-your-own](case-study-write-your-own/SKILL.md) and open a pull request or an issue.
 

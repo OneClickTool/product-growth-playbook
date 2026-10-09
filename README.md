@@ -111,6 +111,8 @@ Before any channel: [measure first](skills/growth/action/01-measure-first.md), s
 | 💰 [Monetization](skills/monetization/) | [Free Trial vs Freemium](skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [Pricing Strategy](skills/monetization/monetization-pricing-strategy/SKILL.md) · [Payment Setup](skills/monetization/monetization-payment-setup/SKILL.md) · [In-App Purchase Setup](skills/monetization/monetization-in-app-purchase-setup/SKILL.md) · [Open-Source Funding](skills/monetization/monetization-open-source-funding/SKILL.md) · [Paywall Design](skills/monetization/monetization-paywall-design/SKILL.md) · [Subscription Tiers](skills/monetization/monetization-subscription-tiers/SKILL.md) |
 | 📧 [Email](skills/email/) | [List & Deliverability](skills/email/email-list-and-deliverability/SKILL.md) · [Segments & Tools](skills/email/email-segments-and-tools/SKILL.md) · [Beta Program](skills/email/email-beta-program/SKILL.md) · [Onboarding Sequence](skills/email/email-onboarding-sequence/SKILL.md) · [Trial Sequence](skills/email/email-trial-sequence/SKILL.md) · [Cold Email Outreach](skills/email/email-cold-outreach/SKILL.md) |
 
+**Case studies (real launches, taken apart):** [case-study/](case-study/README.md), starting with [Shipfolks × GoViralDev: a $150 directory sponsor slot](case-study/2026-10-shipfolks-goviraldev-directory-sponsor.md)
+
 **Playbooks:** [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · [Action plan: long-term users without ads](skills/growth/action/README.md) · **Roadmap:** [what's next](ROADMAP.md)
 
 ### 📖 Read the whole playbook as a map
