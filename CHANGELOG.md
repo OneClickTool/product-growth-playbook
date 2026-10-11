@@ -2,6 +2,19 @@
 
 ## [Unreleased]
 ### Added
+- `social-x`: one command for the X kit (`/social-x today · week · reply · profile · promo · talk · numbers ·
+  premium · risk`) that routes to the right X skill or doc. `social-x-daily`: today's two posts (one product slot at
+  most), first-reply UTM link, three reply sessions and an hourly checklist sized to 25/60/120 min, with a ramp-up.
+- `x-marketing/flow/a-day-on-x.md`: a day on X hour by hour for promoting 3–5 products while the rest of the posts
+  and replies earn reach, follows and trust; the weekly mix, ramp-up and what moves each goal.
+- `x-marketing/posts/`: `product-rotation.md` (5 products, 3 hooks each, demo shot lists, when a reply may link),
+  `talk-bank.md` (non-promo tips, questions, takes, build log, honest numbers, reply openers) and `week-02-mix.md`.
+  `templates/product-rotation.md` is the blank version. `posts/plan-30-days.md`: Oct 12 → Nov 8 day by day
+  (posts, reply split, link-drop days, follows, weekly checks, stop signs). `docs/06`: when to drop a product link
+  in "what are you building?" posts (6 checks). `reference/tips-and-tricks.md`: hashtags, and X's July 2026
+  statement that links are no longer penalized. `social-x` 1.1.0 adds `month`, `drop` and `check`.
+  `x-marketing/reference/fake-proof-and-scams.md`: how to check revenue screenshots and accounts, scams aimed at
+  indie devs on X, and keeping motivation from real numbers. `flow/tools.md` now links every outside tool.
 - `flow/README-product-growth-hack.md`: the order of operations from zero to the first sale in 10 phases with gates
   (free hook → email list → beta → list-first launch, traffic engine for product pages, planned gaps).
 - `x-marketing/flow/cross-channel-funnel.md`: every channel → X profile → free trial. Reddit → X → trial route,

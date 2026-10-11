@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "product-growth-hack",
-      "description": "53 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public, plus an X marketing kit: daily posts, replies, profile funnel, Premium plan), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
+      "description": "55 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public, plus an X marketing kit: one /social-x command, a daily plan, weekly posts, replies, profile funnel, Premium plan), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,
       "skills": [
@@ -66,6 +66,8 @@
         "./skills/strategy/strategy-product-as-funnel",
         "./skills/strategy/strategy-revenue-target",
         "./skills/strategy/strategy-spend-and-timing",
+        "./x-marketing/skills/social-x",
+        "./x-marketing/skills/social-x-daily",
         "./x-marketing/skills/social-x-growth",
         "./x-marketing/skills/social-x-profile-funnel",
         "./x-marketing/skills/social-x-reply"

@@ -68,6 +68,6 @@ Learned: {{one line}}
 
 ## Rules of thumb
 - First line must work alone in the feed.
-- One idea per post, at most one emoji, hashtags only if a community really uses one.
+- One idea per post, at most one emoji. Hashtags: 0, or 1 that a real community follows ([why](../reference/tips-and-tricks.md#hashtags)).
 - Six posts give, one asks. Never post the same text twice.
 - Every number true, dated, with its base. See [social-credible-posting](../../skills/social/social-credible-posting/SKILL.md).

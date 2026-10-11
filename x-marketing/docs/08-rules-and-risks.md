@@ -34,6 +34,10 @@ To lower the odds:
 - If reach still looks low after the label is removed, check X's **Under the Hood** report when it's available to you
   ([glossary](../reference/glossary.md)).
 
+## Fake proof and scams aimed at you
+Revenue screenshots you can't verify, "promotion" sellers, fake acquirers, phishing DMs: how to check each one in
+[reference/fake-proof-and-scams.md](../reference/fake-proof-and-scams.md).
+
 ## Honesty and disclosure ([FTC Endorsement Guides FAQ](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking))
 - Say it's your product when you recommend it ("I built this").
 - Disclose affiliate links, sponsorships and free products in the post itself.

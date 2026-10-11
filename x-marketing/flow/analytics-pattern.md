@@ -61,6 +61,34 @@ impressions / day   ▏ ~5         ▏ ~45          ▏ ~200 → ~850
 
 Daily steps: [daily-flow.md](daily-flow.md).
 
+## The one number to watch every day
+
+**Profile visits, last 7 days** (X analytics → range 7D → *Profile visits*). Read it every morning, write it down.
+
+Why this one: it sits in the middle of the chain (post → **profile visit** → link click → trial → paid). Impressions
+can rise from posts nobody cares about; likes barely move ranking; sales are too rare to read daily. A profile visit
+means someone wanted to know who made the post, and it's the number stuck at 7 in the baseline.
+
+| Week | Profile visits, last 7 days (target) | ≈ per day |
+|---|---|---|
+| 1 · Oct 12–18 | ≥ 5 | 0.7 |
+| 2 · Oct 19–25 | ≥ 8 | 1.1 |
+| 3 · Oct 26 – Nov 1 | ≥ 11 | 1.6 |
+| 4 · Nov 2–8 | ≥ 14 | 2 (→ ~50 in 28 days) |
+
+> Goals set from the baseline, not a forecast.
+
+How to read it:
+
+| What you see | Means | Do |
+|---|---|---|
+| Visits up | Posts and replies reach the right people | Keep going; on Sunday check link clicks (`utm_source=x`) |
+| Impressions up, visits flat | Reach, but the wrong people or nothing makes them curious | Reply to buyer accounts, not growth accounts; end posts with you ("I build Mac apps…") |
+| Both flat 3 days in a row | Not enough replies, or the replies add nothing | Back to 5–7 replies right after post 1, each with a fact or screenshot |
+| Visits drop sharply in a day | Possible reach label | Check notifications / Under the Hood; drop to week-1 volume |
+
+Once a week (Sunday), add one money check: link clicks on `utm_source=x` and installs / trials from them.
+
 ## Next 4 weeks: targets, not results
 
 > These are goals to work toward, set from the baseline above. They are not results and not a forecast.

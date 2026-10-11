@@ -18,6 +18,44 @@ Agent version with a prompt: [social-x-reply](../skills/social-x-reply/SKILL.md)
 5. Reply back to anyone who answers you.
 6. Log the count in [templates/weekly-numbers.md](../templates/weekly-numbers.md).
 
+## "What are you building?" posts: drop your link or not
+
+Posts like *"Hey founders, what are you building? 👇"* invite links, so a link there isn't rude. But they're
+not free reach either. What's true and what isn't:
+
+- **Who reads it:** other builders dropping their own links. Good for peers and follows, weak for buyers, unless the
+  post is aimed at your buyers.
+- **Where you land:** **Help** · Premium replies are placed higher in the conversation
+  ([About X Premium](https://help.x.com/en/using-x/x-premium)). Early + Premium = seen; reply #300 = not.
+- **Links:** X says posts with links aren't penalized anymore (Musk, July 2026: "We haven't for over a year",
+  [PPC Land](https://ppc.land/x-drops-year-old-link-penalty-musk-tells-zuckerberg-on-platform/)), and there's no
+  link penalty in the open code. The real cost is people: a bare link reads as spam, and a mute weighs −58.8.
+- **Rules:** coordinating to swap follows, likes or replies ("follow train", "drop your link and I'll follow back
+  everyone") is engagement spam under X's [Authenticity policy](https://help.x.com/en/rules-and-policies/authenticity).
+  Answering a real question with your product is not.
+
+**Pick the post: all 6 must be yes**
+
+| # | Check | Why |
+|---|---|---|
+| 1 | Under ~2 hours old | Posts leave For You after 48 h, and the first replies get read |
+| 2 | Under ~100 replies | Past that, nobody scrolls to you |
+| 3 | The author answers replies (look at their last 2–3 such posts) | A reply back = their audience sees you |
+| 4 | Its audience includes your buyers (devs, Mac users), not only "growth" accounts | Builders follow, buyers install |
+| 5 | No follow-back / "like + RT to join" / giveaway mechanics | Engagement-spam risk |
+| 6 | You haven't dropped a link today | One link reply a day, max |
+
+**Write it so it's worth reading without clicking**
+
+```text
+<the problem in their words>. Built <product> for it: <what it does in 1 line>. <Free / price as the store says>.
+[10 s clip or screenshot]
+```
+
+Then the link in a **second** reply to yourself, or not at all: people who care open your profile, where the bio
+link and pinned demo already sell. Answer whoever replies to you, look at what *they* build and reply there too.
+That's where the follows come from.
+
 ## Never
 - Automated replies, likes, follows or DMs ([X automation rules](https://help.x.com/en/rules-and-policies/x-automation)).
 - "Great post!", "This 👆", copy-paste replies across posts.

@@ -1,5 +1,7 @@
 # Tools for the daily X flow
 
+Which step of the day each tool is for: [a-day-on-x.md](a-day-on-x.md).
+
 Rule for every tool: it may help you **write, schedule, record and measure**. It may not reply, like, follow or DM
 for you, or script the X website ([X automation rules](https://help.x.com/en/rules-and-policies/x-automation)).
 Check each tool's current X support and price yourself; they change.
@@ -22,8 +24,11 @@ Source for tiers: [About X Premium](https://help.x.com/en/using-x/x-premium).
 
 | Need | Options | Note |
 |---|---|---|
-| Write with an agent | Claude Code / Codex + the skills in [../skills/](../skills/), [sergebulaev/x-skills](https://github.com/sergebulaev/x-skills) | Keep the approve-before-post step |
-| Schedule (if not using X's own) | Tools that post via the official X API (e.g. Buffer, Typefully) | Scheduling your own original posts is allowed; skip "auto-engage" features |
+| Write with an agent | [Claude Code](https://claude.com/claude-code) / [Codex](https://openai.com/codex/) + `/social-x` from [../skills/](../skills/), [sergebulaev/x-skills](https://github.com/sergebulaev/x-skills) | Keep the approve-before-post step |
+| Schedule (if not using X's own) | Tools that post via the official X API, e.g. [Buffer](https://buffer.com), [Typefully](https://typefully.com) | Scheduling your own original posts is allowed; skip "auto-engage" features |
+| Reply-target list | [X Lists](https://help.x.com/en/using-x/x-lists) (private), [X Pro](https://pro.x.com) columns (Premium+) | Open it at 08:05 and 17:35 |
+| Niche groups | [X Communities](https://help.x.com/en/using-x/communities) | Read the rules before posting |
+| Demo captions / trims | iMovie, [CapCut](https://www.capcut.com), [Descript](https://www.descript.com) | 10–30 s, captions burned in |
 | Screen recording (Mac) | ⇧⌘5 screenshot toolbar, QuickTime | 10–30 s, captions on |
 | Screen recording (iPhone / Android) | Built-in screen recorder | Crop status bar personal info |
 | UTM links | [Google Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) | Or follow the pattern in [resources/README.md](../resources/README.md) |

@@ -1,5 +1,7 @@
 # Daily X flow for an indie dev
 
+Hour-by-hour version with the promo / talk mix for 3–5 products: [a-day-on-x.md](a-day-on-x.md) (agent: `/social-x today`).
+
 Total: ~25 min a day + 30 min on Sunday + 30 min once a month. Tools for each step: [tools.md](tools.md).
 Bring people to the profile from Reddit, email signatures and stores: [cross-channel-funnel.md](cross-channel-funnel.md).
 Why it's worth it, with real numbers (impressions ~10× in 3 days of posts + replies): [analytics-pattern.md](analytics-pattern.md).

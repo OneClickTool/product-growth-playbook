@@ -81,6 +81,8 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Wants users from TikTok, Reels or Shorts; videos get few views | [social-short-video](../social/social-short-video/SKILL.md) |
 | Posts on X, Threads, Facebook or LinkedIn sound salesy or get ignored | [social-credible-posting](../social/social-credible-posting/SKILL.md) |
 | Building, wants an audience waiting on launch day | [social-build-in-public](../social/social-build-in-public/SKILL.md) |
+| Anything on X, or doesn't know which X skill to use | [social-x](../../x-marketing/skills/social-x/SKILL.md): `/social-x today · week · month · reply · drop · profile · promo · talk · numbers` |
+| Wants a plan for today on X: what to post, how much to promote vs. engage | [social-x-daily](../../x-marketing/skills/social-x-daily/SKILL.md) |
 | Wants daily X posts about shipped products, has X Premium, wants subscribers from X | [social-x-growth](../../x-marketing/skills/social-x-growth/SKILL.md) (full kit: [X Marketing](../../x-marketing/README-X-Marketing.md)) |
 | Wants better replies on X / to get noticed under bigger accounts | [social-x-reply](../../x-marketing/skills/social-x-reply/SKILL.md) |
 | X profile gets visits but no trials or sales | [social-x-profile-funnel](../../x-marketing/skills/social-x-profile-funnel/SKILL.md) |
