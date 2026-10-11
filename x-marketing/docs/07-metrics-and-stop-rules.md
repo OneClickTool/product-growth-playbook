@@ -14,6 +14,8 @@ Template: [templates/weekly-numbers.md](../templates/weekly-numbers.md). 10 minu
 | Trials / installs | App Store Connect, Play Console, checkout | ÷ landing visits = landing quality |
 | Paid | store / checkout | The only number that pays for Premium |
 
+A real 28-day baseline to compare with (2K impressions, 7 profile visits): [flow/analytics-pattern.md](../flow/analytics-pattern.md).
+
 ## Stop and fix rules
 - **Profile visits flat for 3 weeks:** change who you reply to, not how much you post.
 - **Visits up, clicks flat:** rewrite bio promise and pinned post.

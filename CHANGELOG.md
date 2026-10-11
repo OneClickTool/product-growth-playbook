@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 ### Added
+- `flow/README-product-growth-hack.md`: the order of operations from zero to the first sale in 10 phases with gates
+  (free hook → email list → beta → list-first launch, traffic engine for product pages, planned gaps).
+- `x-marketing/flow/cross-channel-funnel.md`: every channel → X profile → free trial. Reddit → X → trial route,
+  making the X profile convert, clean follower growth, search surfaces for an X account, synced email signatures per
+  address, a UTM map and a one-afternoon setup checklist.
+- `x-marketing/flow/analytics-pattern.md`: a real 28-day X analytics baseline (2K impressions, 7 profile visits,
+  ~10× impressions in 3 days of daily posts + replies), what it says, the safe routine and next targets.
 - `x-marketing/`: a self-contained X (Twitter) kit for indie devs. `README-X-Marketing.md`; `docs/` (strategy to the
   first paid subscriber, profile setup, how the ranker works, 30-day Premium plan, 7-day post formats, reply
   playbook, metrics and stop rules, rules and risks); `reference/` (research log, ranker weights and Premium facts
@@ -21,6 +28,12 @@
   with self-promotion rules, post format, voice, images, readers and sources, plus a ranked list for Mac apps.
 
 ### Changed
+- Renamed the plugin and display name to **Product Growth Hack** (`product-growth-hack`).
+- `x-marketing/templates/post-file.md` and `social-x-growth` (1.2.0): `link:` now says where the link goes
+  (`first-comment` / `bio` / `direct` / `none`) and the URL lives in `## Reply 1`, matching campaign tools that read
+  post files.
+- `x-marketing/docs/02-profile-setup.md`: what you can change without losing the checkmark.
+  `08-rules-and-risks.md`: the temporary reach label, with a real case and how to avoid it.
 - `research-source-finding` 1.1.0: verified competitor revenue from TrustMRR's public Markdown profiles
   (`/startup/<slug>.md`, slugs from the sitemap, fetch slowly), and reading a competitor's SEO plan from the URL
   patterns in its sitemap (`/vs/`, `/alternatives/`, `/uses/`).

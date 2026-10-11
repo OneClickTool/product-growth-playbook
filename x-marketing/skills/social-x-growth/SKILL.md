@@ -6,7 +6,7 @@ metadata:
   category: social
   difficulty: beginner
   time: "Setup 60 min · 30 min/week batching · 20 min/day replies"
-  version: 1.1.0
+  version: 1.2.0
   author: nvminhtu
 ---
 
@@ -83,7 +83,9 @@ and the caveats are in [reference/x-algorithm-and-premium-facts.md](../../refere
 
    At most **one** post in seven asks for money. The rest earn the right to ask.
 4. **Batch on one day (30 min/week).** Run the prompt with your fact bank, edit every draft in your own words, and
-   schedule them (X's own scheduler on web or a tool that uses the official API). Never post the same text twice or
+   schedule them (X's own scheduler on web or a tool that uses the official API). Want them as files in your repo?
+   Save one file per post in [templates/post-file.md](../../templates/post-file.md) format: `link: first-comment`,
+   the URL with UTM in `## Reply 1`, never in the frontmatter. Never post the same text twice or
    across several accounts: X's [automation rules](https://help.x.com/en/rules-and-policies/x-automation) forbid
    duplicate posts and scripted website automation.
 5. **Reply routine (20 min/day, the real Premium lever).** Keep a list of 20–30 accounts your buyers follow (bigger
@@ -93,7 +95,7 @@ and the caveats are in [reference/x-algorithm-and-premium-facts.md](../../refere
 6. **Answer everyone in the first hour** after your post. Replies are weighted 5 and the conversation keeps the post
    alive inside its 48-hour window.
 7. **Run the funnel and measure.** Bio and pinned links carry UTM tags; when you do link in a post, test link-in-post
-   vs link-in-first-reply for a month and keep what gets more landing visits. Weekly, write down: impressions, profile
+   vs link-in-first-reply for a month and keep what gets more landing visits (default: first reply). Weekly, write down: impressions, profile
    visits, link clicks, landing visits from `utm_source=x`, trials, paid. If profile visits grow but trials don't, fix
    the pinned post and landing, not the posting.
 8. **Use the Premium extras on purpose.** Longer posts for Saturday how-tos; edit (1 hour) to fix typos instead of
@@ -128,8 +130,9 @@ Rules for every post:
 1. First line works alone in the feed: a concrete claim, number or problem. No "Thread 🧵👇" openers.
 2. Under 280 characters unless it's Saturday; one idea per post; max 1 emoji; no hashtags unless a community uses one.
 3. Only Sunday may ask for money. Other days may mention the product once, at the end, if it's natural.
-4. Give each post: the text, the image/clip to attach, which product it's about, and the action it aims for
-   (reply / share / follow / profile visit).
+4. Give each post: the text, the image/clip to attach, which product it's about, the action it aims for
+   (reply / share / follow / profile visit), and where the link goes (first-comment / bio / none). Never put the
+   URL in the post body; if it needs one, write it separately as "Reply 1".
 5. Then write 10 reply openers I can adapt for big accounts in my niche: each adds a fact, example or counterpoint,
    never "Great post!".
 6. Finish with a checklist of every number and claim I must verify before scheduling.

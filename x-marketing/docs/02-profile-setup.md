@@ -2,6 +2,24 @@
 
 Run it once, then re-check monthly. Agent version with a prompt: [social-x-profile-funnel](../skills/social-x-profile-funnel/SKILL.md).
 
+## What you can change without losing the checkmark
+
+Source: [How to get the blue checkmark on X](https://help.x.com/en/managing-your-account/about-x-bluecheck) and
+[About X Premium](https://help.x.com/en/using-x/x-premium), checked 2026-10-11.
+
+| Change | Checkmark |
+|---|---|
+| Profile photo | ❌ Removed until X reviews the account again; no more photo / name / handle edits during review |
+| Display name | ❌ Same |
+| @handle | ❌ Same |
+| Banner, bio, link, location, pinned post | ✅ Change any time |
+
+The "Under review" label next to the checkmark is shown only to you, but **everyone else sees no checkmark** until
+the review ends (check it yourself logged out). X gives no fixed time. So: lock photo, name and handle once, refresh
+the profile with the banner, bio and pinned post, and never change the locked three in a launch week.
+
+## Checklist
+
 - [ ] **Photo:** your face or one clear logo. Set it now; changing it later removes the checkmark until re-review
       ([About X Premium](https://help.x.com/en/using-x/x-premium)).
 - [ ] **Name line:** name + what you make ("Alex · small Mac & iOS utilities").

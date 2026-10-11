@@ -1,6 +1,8 @@
 # Daily X flow for an indie dev
 
 Total: ~25 min a day + 30 min on Sunday + 30 min once a month. Tools for each step: [tools.md](tools.md).
+Bring people to the profile from Reddit, email signatures and stores: [cross-channel-funnel.md](cross-channel-funnel.md).
+Why it's worth it, with real numbers (impressions ~10× in 3 days of posts + replies): [analytics-pattern.md](analytics-pattern.md).
 
 ## Every day (≈25 min)
 
@@ -19,6 +21,7 @@ Total: ~25 min a day + 30 min on Sunday + 30 min once a month. Tools for each st
 3. **Targets (5 min):** drop 2 reply targets that never bring profile visits, add 2 new ones.
 
 ## Once a month (≈30 min)
+- Add a row to the 28-day log in [analytics-pattern.md](analytics-pattern.md) and compare with the targets.
 - Re-pin a fresh demo; check the bio offer still matches the store ([docs/02-profile-setup.md](../docs/02-profile-setup.md)).
 - Keep the 2 best post formats, drop the weakest.
 - Premium check: X revenue vs. tier cost ([docs/04-premium-30-day-plan.md](../docs/04-premium-30-day-plan.md)).

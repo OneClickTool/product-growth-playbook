@@ -110,7 +110,7 @@ the most common reason a launch gets traffic and no sales.
 |---|---|
 | Goal | A list of people who already tried the free hook before you announce anything |
 | Do | Put the free hook in the 3 places from Phase 1. Post 3–5 times a week about the build. Invite the most active users to a beta. Collect quotes and before/after screenshots |
-| Skills | [social-build-in-public](../skills/social/social-build-in-public/SKILL.md) · [social-credible-posting](../skills/social/social-credible-posting/SKILL.md) · X: [X Marketing kit](../x-marketing/README-X-Marketing.md) ([profile funnel](../x-marketing/skills/social-x-profile-funnel/SKILL.md), [daily flow](../x-marketing/flow/daily-flow.md)) · [email-list-and-deliverability](../skills/email/email-list-and-deliverability/SKILL.md) → [email-beta-program](../skills/email/email-beta-program/SKILL.md) · open source: [launch-github-repo-seeding](../skills/launch/launch-github-repo-seeding/SKILL.md) · B2B: [email-cold-outreach](../skills/email/email-cold-outreach/SKILL.md) |
+| Skills | [social-build-in-public](../skills/social/social-build-in-public/SKILL.md) · [social-credible-posting](../skills/social/social-credible-posting/SKILL.md) · X: [X Marketing kit](../x-marketing/README-X-Marketing.md) ([profile funnel](../x-marketing/skills/social-x-profile-funnel/SKILL.md), [daily flow](../x-marketing/flow/daily-flow.md), [real analytics pattern](../x-marketing/flow/analytics-pattern.md)) · [email-list-and-deliverability](../skills/email/email-list-and-deliverability/SKILL.md) → [email-beta-program](../skills/email/email-beta-program/SKILL.md) · open source: [launch-github-repo-seeding](../skills/launch/launch-github-repo-seeding/SKILL.md) · B2B: [email-cold-outreach](../skills/email/email-cold-outreach/SKILL.md) |
 | Output | Email list + beta testers + 3–5 real quotes or screenshots you're allowed to use |
 | Gate ✅ | A list big enough that your Phase 0 conversion guess gives you first buyers from the list alone |
 
@@ -137,6 +137,7 @@ to slowest-but-longest-lasting:
 | Type | Channel | Speed | Lasts | Skill |
 |---|---|---|---|---|
 | Owned | Email list, X / Threads / Facebook profile | Days | Forever | [email-segments-and-tools](../skills/email/email-segments-and-tools/SKILL.md) · [social-x-growth](../x-marketing/skills/social-x-growth/SKILL.md) |
+| Owned | Email signatures on every address, cross-links between all your profiles (Reddit, GitHub, stores, landing → X) | Days | Forever, small and steady | [cross-channel-funnel](../x-marketing/flow/cross-channel-funnel.md) |
 | Earned | Reddit, Hacker News, forums, Facebook groups | Same day | Days | [launch-reddit-posting](../skills/launch/launch-reddit-posting/SKILL.md) · [research-where-users-ask](../skills/research/research-where-users-ask/SKILL.md) |
 | Listed | Directories, alternative stores, AI / plugin marketplaces | Weeks | Months | [listing-free-directories](../skills/listing/listing-free-directories/SKILL.md) · [listing-ai-product](../skills/listing/listing-ai-product/SKILL.md) · [listing-dev-plugin](../skills/listing/listing-dev-plugin/SKILL.md) |
 | Store search | App Store / Google Play / Chrome Web Store search | Weeks | Months–years | [Playbook: ASO Optimization](../playbooks/aso-optimization.md) |
@@ -145,6 +146,10 @@ to slowest-but-longest-lasting:
 | Direct | Cold email to exact buyers (B2B) | Days | While you send | [email-cold-outreach](../skills/email/email-cold-outreach/SKILL.md) |
 
 Rule: **add one channel, measure 2–4 weeks, keep it or drop it.** Never start three at once.
+
+Route that ties them together: every channel points to your X profile (trust) and your landing (action), each link
+with its own UTM. Example: helpful Reddit answer → Reddit profile social link → X profile with pinned demo → bio link →
+free trial. Full route, signature template and UTM map: [cross-channel-funnel](../x-marketing/flow/cross-channel-funnel.md).
 
 ## Phase 7 · Convert and keep
 
@@ -160,6 +165,11 @@ Rule: **add one channel, measure 2–4 weeks, keep it or drop it.** Never start 
 1. Fill the week: visitors, sign-ups, trials, paid, revenue, by channel.
 2. Find the **one** weakest step (traffic? page? trial → paid?). Follow the arrow back in the diagram.
 3. Put next week's time and money there. Kill what didn't bring buyers in 4 weeks.
+
+Real example of reading the numbers (X, 28 days to 2026-10-11, the maintainer's account): 3 days of daily posts +
+replies took impressions from ~45 to ~850 a day, but 2K impressions gave only 7 profile visits. The weakest step was
+the profile, not reach, so the next fix is the bio and pinned post, not more posts.
+Full breakdown: [x-marketing/flow/analytics-pattern.md](../x-marketing/flow/analytics-pattern.md).
 
 Skill: [strategy-spend-and-timing](../skills/strategy/strategy-spend-and-timing/SKILL.md). Stuck on the same channels as
 everyone else? [strategy-contrarian-marketing](../skills/strategy/strategy-contrarian-marketing/SKILL.md).

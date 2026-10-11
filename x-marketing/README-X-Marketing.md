@@ -21,7 +21,7 @@ post / reply  →  profile visit  →  link click  →  landing  →  trial  →
 | [docs/](docs/) | The X marketing flow, one topic per file (below) |
 | [reference/](reference/) | Research log, raw facts on the ranker and Premium, tips by evidence level, [trends](reference/trends.md), articles, repos, glossary |
 | [skills/](skills/) | Agent Skills for X: [growth](skills/social-x-growth/SKILL.md) · [reply](skills/social-x-reply/SKILL.md) · [profile funnel](skills/social-x-profile-funnel/SKILL.md) |
-| [flow/](flow/) | The [daily / weekly / monthly routine](flow/daily-flow.md) and the [tools](flow/tools.md) to use (X's own, outside, and ones the maintainer builds) |
+| [flow/](flow/) | The [daily / weekly / monthly routine](flow/daily-flow.md), the [real analytics pattern](flow/analytics-pattern.md) it produced, the [cross-channel funnel](flow/cross-channel-funnel.md) (Reddit, email signatures, stores → X profile → free trial), and the [tools](flow/tools.md) to use (X's own, outside, and ones the maintainer builds) |
 | [resources/](resources/) | [Links ready to paste on X](resources/links.md): products, stores, extensions, articles, channels, videos |
 | [templates/](templates/) | [Fact bank](templates/fact-bank.md) · [post file](templates/post-file.md) · [weekly numbers](templates/weekly-numbers.md) · [reply targets](templates/reply-targets.md) |
 | [posts/](posts/) | Ready-to-copy weeks of posts. Add `week-02-….md` and so on |
