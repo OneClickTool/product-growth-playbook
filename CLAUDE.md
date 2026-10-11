@@ -4,7 +4,7 @@ Rules for AI agents working in this repository. [AGENTS.md](AGENTS.md) points he
 
 ## What this repo is
 A library of **growth skills** for people building digital products. Every skill is an Agent Skill
-(`skills/<area>/<name>/SKILL.md`) that a human can read on GitHub and an agent can install.
+(`skills/<area>/<name>/SKILL.md`, or `x-marketing/skills/<name>/SKILL.md` for the X kit) that a human can read on GitHub and an agent can install.
 The public roadmap is [ROADMAP.md](ROADMAP.md). All content is in English.
 
 ## Hard rules
@@ -19,7 +19,8 @@ The public roadmap is [ROADMAP.md](ROADMAP.md). All content is in English.
 - Scripts in `skills/**/scripts/` use the Python standard library only.
 - Maintainer products (ShotMatic, Markdown Viewer, OneClickTool) may be mentioned **only** in flows about managing
   projects/repos or Markdown files (currently: README, CONTRIBUTING, the area READMEs in
-  `skills/*/README.md`, `launch-pre-launch-checklist`, `research-doc-organization`, `monetization-open-source-funding` (its live example), `playbooks/launch-a-product.md`). Screenshots live in `docs/images/`
+  `skills/*/README.md`, `launch-pre-launch-checklist`, `research-doc-organization`, `monetization-open-source-funding` (its live example), `playbooks/launch-a-product.md`, and in `x-marketing/` only
+  `flow/tools.md`, `resources/` and `posts/`, whose links use `utm_source=x` because they are pasted on X). Screenshots live in `docs/images/`
   and must show only public repo content (no personal paths or private repos). Always disclose they're the maintainer's, keep it to 1–3 lines at the end of the
   section or skill, and tag links with `utm_source=github&utm_campaign=growth-playbook`. Never in the Prompt block.
 

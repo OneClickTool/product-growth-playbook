@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 ### Added
+- `x-marketing/`: a self-contained X (Twitter) kit for indie devs. `README-X-Marketing.md`; `docs/` (strategy to the
+  first paid subscriber, profile setup, how the ranker works, 30-day Premium plan, 7-day post formats, reply
+  playbook, metrics and stop rules, rules and risks); `reference/` (research log, ranker weights and Premium facts
+  from X's code and help pages, tips by evidence level, articles, repos, glossary); `skills/` with
+  `social-x-growth`, `social-x-reply` and `social-x-profile-funnel`; `flow/` (daily routine, tools); `resources/`
+  (live links to share, UTM pattern); `templates/` (fact bank, post file, weekly numbers, reply targets); `posts/`
+  (a starter week). The validator now also checks `x-marketing/skills/`.
 - `case-study/`: a reading list of real launches taken apart, one page each. First: Shipfolks × GoViralDev, how a new
   directory sells two flat-price ad slots from day one, and how to use a $100–150 sponsor slot as a launch channel
   (stop rule, banner, matching landing, UTMs, day-30 decision).
