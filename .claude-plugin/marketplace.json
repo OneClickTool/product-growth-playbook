@@ -1,5 +1,5 @@
 {
-  "name": "product-growth-playbook",
+  "name": "product-growth-hack",
   "owner": {
     "name": "Tu Nguyen",
     "url": "https://github.com/nvminhtu"
@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "product-growth-playbook",
+      "name": "product-growth-hack",
       "description": "53 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public, plus an X marketing kit: daily posts, replies, profile funnel, Premium plan), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,

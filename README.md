@@ -1,4 +1,4 @@
-# Product Growth Playbook
+# Product Growth Hack
 
 **100% free AI growth skills, research templates and a free Markdown app for people building apps, extensions, games, plugins, templates and AI tools: growth strategy, research, case studies, store listing by niche, ASO, launch, social, monetization and email.**
 
@@ -34,6 +34,7 @@ extensions**, especially if you're a builder, not a marketer.
 
 ## New here? Start in 3 steps
 1. **Find your situation** in the table below. Not sure? Start with [`growth`](skills/growth/SKILL.md): 4 questions, one next step.
+   Starting from zero and want the order of steps to the first sale? Follow the [Product Growth Hack flow](flow/README-product-growth-hack.md).
    Want the whole picture? The [Growth Map](playbooks/growth-map.md) lays out 9 chapters, each with its skills, research, tools, official references, templates and prompt.
 2. **Open the skill** and copy its *Prompt* block into your AI chat. Fill in the `{{ }}` parts.
 3. **Follow the steps** and save the result as a `.md` file in your project, so you can build on it later.
@@ -52,6 +53,7 @@ extensions**, especially if you're a builder, not a marketer.
 | Publish a small product: extension, Mac app, game, plugin, AI tool, Notion template | [Listing by niche](skills/listing/README.md#by-niche-small-products) |
 | List the app for free in more places | [Free Directories & Alternative Stores](skills/listing/listing-free-directories/SKILL.md) |
 | Post on Reddit: which subreddits for a Mac app, extension, game, SaaS… and their rules | [Reddit Posting by Product Type](skills/launch/launch-reddit-posting/SKILL.md) |
+| Everything is ready (Pro version, landing page, payments), but how do I get the first sale? | [Product Growth Hack flow](flow/README-product-growth-hack.md): free hook → email list → beta → list-first launch |
 | Launching soon | [Playbook: Launch a Product](playbooks/launch-a-product.md), a 6-week route |
 | Need downloads this week, with little time and no budget | [Quick Download Wins](skills/launch/launch-quick-download-wins/SKILL.md), 16 channels ranked by effort |
 | Get real stars and users for an open-source repo | [GitHub Repo Seeding](skills/launch/launch-github-repo-seeding/SKILL.md) |
@@ -114,7 +116,7 @@ Before any channel: [measure first](skills/growth/action/01-measure-first.md), s
 
 **Case studies (real launches, taken apart):** [case-study/](case-study/README.md), starting with [Shipfolks × GoViralDev: a $150 directory sponsor slot](case-study/2026-10-shipfolks-goviraldev-directory-sponsor.md)
 
-**Playbooks:** [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · [Action plan: long-term users without ads](skills/growth/action/README.md) · **Roadmap:** [what's next](ROADMAP.md)
+**Playbooks:** [Product Growth Hack flow (0 → first sale)](flow/README-product-growth-hack.md) · [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · [Action plan: long-term users without ads](skills/growth/action/README.md) · **Roadmap:** [what's next](ROADMAP.md)
 
 ### 📖 Read the whole playbook as a map
 
@@ -143,7 +145,7 @@ use most. It's read-only, and nothing leaves your computer.
 
 ```text
 /plugin marketplace add OneClickTool/product-growth-playbook
-/plugin install product-growth-playbook@product-growth-playbook
+/plugin install product-growth-hack@product-growth-hack
 ```
 
 Then just describe your problem ("my app gets no search traffic"). The matching skill loads on its own.

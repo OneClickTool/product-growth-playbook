@@ -1,6 +1,6 @@
 ---
 name: growth
-description: Entry point for the Product Growth Playbook. Asks what stage a digital product (app, SaaS, game, AI tool, website, browser extension) is at and routes to the right growth skill: strategy, research, listing, ASO, launch, social, monetization or email. Use when someone says "how do I grow my app", "get more users", "where do I start with marketing", "I just launched and nobody downloads it", "I want to make $X in N months", or is unsure which growth skill to use.
+description: Entry point for the Product Growth Hack. Asks what stage a digital product (app, SaaS, game, AI tool, website, browser extension) is at and routes to the right growth skill: strategy, research, listing, ASO, launch, social, monetization or email. Use when someone says "how do I grow my app", "get more users", "where do I start with marketing", "I just launched and nobody downloads it", "I want to make $X in N months", or is unsure which growth skill to use.
 license: MIT
 metadata:
   category: router
