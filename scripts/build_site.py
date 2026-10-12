@@ -51,6 +51,8 @@ HERO_IMAGES = {
     "marketing/tiktok-marketing/skills/social-tiktok-slideshow-loop/SKILL.md": "site/images/slideshow-loop.svg",
     "marketing/instagram-marketing/README-Instagram-Marketing.md": ["docs/images/illustrations/11-instagram-kit-hero.jpg",
                                                                     "site/images/instagram-carousel.svg"],
+    "marketing/reddit-marketing/README-Reddit-Marketing.md": ["docs/images/illustrations/14-reddit-kit-hero.jpg",
+                                                              "site/images/channel-map.svg"],
     "skills/growth/SKILL.md": ["docs/images/illustrations/13-skill-steps-hero.jpg", "site/images/funnel.svg"],
     "playbook-overview.md": "docs/images/illustrations/01-growth-hack-hero.jpg",
     "skills/launch/README.md": "docs/images/illustrations/02-free-hook-ladder.jpg",
@@ -265,10 +267,13 @@ def build_nav():
     n.append('  - "Marketing":')
     n.append(entry("marketing/README-marketing-social.md", 6, "Map: how channels link"))
     for kit, label in (("marketing/tiktok-marketing", "🎞️ TikTok"), ("marketing/instagram-marketing", "📸 Instagram"),
-                       ("marketing/x-marketing", "🐦 X (Twitter)")):
+                       ("marketing/x-marketing", "🐦 X (Twitter)"), ("marketing/reddit-marketing", "🟠 Reddit")):
         if (OUT / kit).exists():
             n.append(f"      - {q(label)}:")
             n += kit_nav(kit, 10)
+            if kit.endswith("reddit-marketing") and (OUT / "docs/subreddits").exists():
+                n.append('          - "Subreddit wiki":')
+                n += [entry(r, 14, "All subreddits" if r.endswith("README.md") else None) for r in md_files("docs/subreddits")]
 
     n.append('  - "Skills":')
     for area in sorted(p for p in (OUT / "skills").iterdir() if p.is_dir() and p.name != "growth"):

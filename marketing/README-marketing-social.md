@@ -18,6 +18,7 @@ Reddit · communities       bio link + UTM            directories · ASO        
 | 🐦 X (Twitter) | [x-marketing/](x-marketing/README-X-Marketing.md) | [`/social-x`](x-marketing/skills/social-x/SKILL.md) | Short post + reply | Makers, early adopters, dev tools | Live |
 | 📸 Instagram | [instagram-marketing/](instagram-marketing/README-Instagram-Marketing.md) | [`/social-instagram`](instagram-marketing/skills/social-instagram/SKILL.md) | Carousel, Reel, Story | Non-developer buyers, Mac / iPhone users, creators | Live |
 | 🎞️ TikTok slideshows | [tiktok-marketing/](tiktok-marketing/README-TikTok-Marketing.md) | [`social-tiktok-slideshow`](tiktok-marketing/skills/social-tiktok-slideshow/SKILL.md) | 6-image photo-mode post | Consumer apps with a visual result or an emotional moment | Live |
+| 🟠 Reddit | [reddit-marketing/](reddit-marketing/README-Reddit-Marketing.md) | [`/social-reddit`](reddit-marketing/skills/social-reddit/SKILL.md) | Answer (comment), then a post in the subreddit's format | Users asking for a tool like yours; Mac / dev / niche buyers | Live |
 | 📌 Pinterest | `pinterest-marketing/` | — | Pin → article / landing | Visual, evergreen search traffic | *planned* |
 
 Every kit has the same layout: `README-<Channel>-Marketing.md`, `docs/` (the method), `reference/` (sources and
@@ -32,7 +33,7 @@ flowchart LR
         IG["Instagram<br/>carousels · Reels"]
         X["X posts + replies"]
         SV["Short video<br/>TikTok · Reels · Shorts"]
-        RD["Reddit answers"]
+        RD["Reddit answers<br/>(reddit-marketing)"]
         CM["Communities<br/>Discord · IH · HN"]
         PH["Launch sites<br/>Product Hunt"]
         PI["Pinterest (planned)"]

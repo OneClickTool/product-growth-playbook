@@ -1,6 +1,14 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Reddit kit)
+- `marketing/reddit-marketing/`: Reddit kit for indie devs. Comments first, posts later, always disclosed. Docs
+  (strategy in 3 phases, profile setup with social links + UTM, how Reddit ranks, finding threads with search, F5Bot,
+  Google and Reddit Pro Trends, comment playbook with 6 answer shapes and a 5-check rule for mentioning your product,
+  10 post variants with templates, metrics and stop rules, rules and risks), a 15-minute daily flow, templates (post
+  file, comment file, thread tracker, weekly numbers), sourced facts, and two skills: `social-reddit` (router:
+  `/social-reddit today · find · reply · post · rules · profile · numbers · risk`) and `social-reddit-comment`.
+  Linked from the marketing hub, the site menu, the `growth` router and the root README.
 ### Changed (X kit)
 - X replies under 1,000 followers: 70% replies / 30% own posts, 20–30 niche accounts with notifications on, reply
   within ~15 minutes, ramp to 20–30 replies a day by week 4 (`docs/06-reply-playbook.md`, `docs/10-best-practices.md`,
