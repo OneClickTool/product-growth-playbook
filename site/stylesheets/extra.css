@@ -322,6 +322,16 @@ body {
 .n3 { background: var(--coral); transform: rotate(-1deg); } .n4 { background: var(--sky); transform: rotate(2deg); }
 .n5 { background: #F3ECDF; transform: rotate(-1.5deg); }
 
+.author { display: flex; align-items: center; gap: 2rem; background: var(--paper); border: 3px solid var(--line);
+  border-radius: 28px; box-shadow: var(--shadow-lg); padding: 1.8rem 2rem; }
+.author__avatar { width: 128px; height: 128px; flex: 0 0 128px; border-radius: 50%; border: 3px solid var(--line);
+  box-shadow: 5px 5px 0 var(--coral); object-fit: cover; background: var(--sun); transform: rotate(-3deg); }
+.author__text p { color: var(--ink-2); margin: 0 0 1rem; max-width: 40em; }
+.author__links { display: flex; flex-wrap: wrap; gap: .8rem; }
+.author__links .btn { display: inline-flex; align-items: center; gap: .5em; }
+.author__links svg { width: 1.1em; height: 1.1em; fill: currentColor; }
+@media (max-width: 620px) { .author { flex-direction: column; text-align: center; padding: 1.4rem; } .author__links { justify-content: center; } }
+
 .final { text-align: center; margin: 5rem 0 1rem; }
 .final h2 { font-family: var(--display); font-weight: 900; font-size: clamp(1.8rem, 3.6vw, 2.8rem); margin: 0 0 1.4rem; color: var(--ink); }
 .final p { margin-top: 1.2rem; color: var(--ink-2); }

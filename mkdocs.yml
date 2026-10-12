@@ -63,6 +63,18 @@ plugins:
 extra_css:
   - site/stylesheets/extra.css
 
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/lightstarvn
+      name: Tu Nguyen on X (@lightstarvn)
+    - icon: fontawesome/brands/github
+      link: https://github.com/tucarmd
+      name: Tu Nguyen on GitHub (@tucarmd)
+    - icon: fontawesome/solid/star
+      link: https://github.com/OneClickTool/product-growth-playbook
+      name: Star the playbook on GitHub
+
 validation:
   links:
     not_found: info
