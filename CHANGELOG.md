@@ -17,6 +17,12 @@
   indie devs on X, and keeping motivation from real numbers. `flow/tools.md` now links every outside tool.
 - `flow/README-product-growth-hack.md`: the order of operations from zero to the first sale in 10 phases with gates
   (free hook → email list → beta → list-first launch, traffic engine for product pages, planned gaps).
+- `x-marketing/docs/09-post-variants.md` + `templates/variants/`: 20 X post variants in 5 families (Show, Teach,
+  Prove, Talk, Sell), each with stage, link placement, media and a copy-ready post file; a week built from variants
+  and a real two-post comparison with a rewrite.
+- `x-marketing/docs/10-best-practices.md`: every posting rule on one page with its evidence label (Code, Help, Real,
+  Practice): hooks, banned openers, media, links, volume, first hour, replies, Communities, measuring by variant,
+  paid promotion, and a pre-post checklist.
 - `x-marketing/flow/cross-channel-funnel.md`: every channel → X profile → free trial. Reddit → X → trial route,
   making the X profile convert, clean follower growth, search surfaces for an X account, synced email signatures per
   address, a UTM map and a one-afternoon setup checklist.
@@ -42,6 +48,9 @@
 
 ### Changed
 - Renamed the plugin and display name to **Product Growth Hack** (`product-growth-hack`).
+- `social-x-growth` (1.3.0): the weekly rotation now picks from the 20 variants, the prompt returns a variant id
+  per post and bans ad-style openers; post files gain a `variant:` field. `reference/tips-and-tricks.md` adds the
+  **Real** evidence label.
 - `x-marketing/templates/post-file.md` and `social-x-growth` (1.2.0): `link:` now says where the link goes
   (`first-comment` / `bio` / `direct` / `none`) and the URL lives in `## Reply 1`, matching campaign tools that read
   post files.

@@ -55,7 +55,7 @@ Ready to copy: [5-product rotation with hooks and links](posts/product-rotation.
 | [skills/](skills/) | Agent Skills for X: [**social-x** (router)](skills/social-x/SKILL.md) · [daily](skills/social-x-daily/SKILL.md) · [growth](skills/social-x-growth/SKILL.md) · [reply](skills/social-x-reply/SKILL.md) · [profile funnel](skills/social-x-profile-funnel/SKILL.md) |
 | [flow/](flow/) | [A day on X, hour by hour](flow/a-day-on-x.md), the [daily / weekly / monthly routine](flow/daily-flow.md), the [real analytics pattern](flow/analytics-pattern.md) it produced, the [cross-channel funnel](flow/cross-channel-funnel.md) (Reddit, email signatures, stores → X profile → free trial), and the [tools](flow/tools.md) to use (X's own, outside, and ones the maintainer builds) |
 | [resources/](resources/) | [Links ready to paste on X](resources/links.md): products, stores, extensions, articles, channels, videos |
-| [templates/](templates/) | [Fact bank](templates/fact-bank.md) · [product rotation](templates/product-rotation.md) · [post file](templates/post-file.md) · [weekly numbers](templates/weekly-numbers.md) · [reply targets](templates/reply-targets.md) |
+| [templates/](templates/) | [Fact bank](templates/fact-bank.md) · [product rotation](templates/product-rotation.md) · [post file](templates/post-file.md) · [20 post variants](templates/variants/README.md) · [weekly numbers](templates/weekly-numbers.md) · [reply targets](templates/reply-targets.md) |
 | [posts/](posts/) | Ready to copy: [product rotation](posts/product-rotation.md), [talk bank](posts/talk-bank.md), [week 1](posts/week-01-starter.md), [week 2](posts/week-02-mix.md) |
 
 ## Docs, in reading order
@@ -67,6 +67,8 @@ Ready to copy: [5-product rotation with hooks and links](posts/product-rotation.
 6. [Reply playbook (the Premium lever)](docs/06-reply-playbook.md)
 7. [Metrics and stop rules](docs/07-metrics-and-stop-rules.md)
 8. [Rules and risks](docs/08-rules-and-risks.md)
+9. [Post variants: 20 kinds of post and when to use each](docs/09-post-variants.md)
+10. [Best practices, on one page](docs/10-best-practices.md)
 
 ## Five things to remember
 - Shares and replies move ranking; likes barely do. Mutes and reports cost far more than anything earns.

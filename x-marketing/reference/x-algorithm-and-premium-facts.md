@@ -56,7 +56,10 @@ Source: [About X Premium](https://help.x.com/en/using-x/x-premium).
 |---|---|---|
 | Basic | $3/mo · $32/yr | Edit post (1 hour), longer posts (up to 25,000 characters), longer video, reply prioritization, text formatting, bookmark folders, create a Community |
 | Premium | $8/mo · $84/yr | All Basic + blue checkmark (after review), **larger** reply prioritization, ~50% fewer ads, Media Studio, apply for Creator Subscriptions and Original Content Rewards, ID verification |
-| Premium+ | $40/mo · $395/yr | All Premium + **largest** reply prioritization, no ads in most places, Articles, Radar Search, X Pro, SuperGrok |
+| Premium+ | $40/mo · $395/yr | All Premium + **largest** reply prioritization, no ads in most places, Radar Search, X Pro, SuperGrok |
+
+Articles: listed under Premium+ on the help page when it was checked, but X opened them to all Premium tiers on
+2026-01-07 ([X Creators](https://x.com/XCreators/status/2012306734568849653)); check your own composer.
 
 Notes from the same page: prices are local and change; changing your photo, display name or @handle removes the
 checkmark until it's reviewed again; Original Content Rewards pay on qualified impressions from Premium users;

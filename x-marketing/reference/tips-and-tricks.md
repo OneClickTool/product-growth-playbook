@@ -5,6 +5,7 @@
 | **Code** | Follows from X's open-source ranker ([xai-org/x-algorithm](https://github.com/xai-org/x-algorithm)) |
 | **Help** | Stated on an official X help page |
 | **Statement** | Said publicly by X staff or its owner, not in code or help pages |
+| **Real** | Seen on the maintainer's own account ([flow/analytics-pattern.md](../flow/analytics-pattern.md)); small base, a direction not a law |
 | **Practice** | Common practice among builders; not proven, test it on your account |
 
 ## Writing
@@ -23,7 +24,13 @@
 - **Help** · Edit a post within 1 hour (original posts and quotes). Fix typos instead of deleting and losing replies.
 - **Help** · Media Studio (Premium and up) to store and reuse demo clips.
 - **Help** · Don't change photo, name or @handle often: the checkmark goes away until re-review.
-- **Help** · Articles are listed under Premium+ on the help page; check your tier before planning around them.
+- **Statement** · Articles (long-form, up to 25,000 characters, own tab on your profile) opened to every Premium
+  tier on 2026-01-07, not only Premium+ ([X Creators](https://x.com/XCreators/status/2012306734568849653),
+  [PPC Land](https://ppc.land/x-opens-articles-to-all-premium-users-ending-exclusive-pricing-tier/)).
+- **Practice** · An Article is seen like any post: in followers' feeds and possibly For You in the first ~48 hours,
+  then mostly through your profile's Articles tab, search and links. No public source says how For You ranks
+  Articles, and creators have complained of low reach. So always post a short teaser (the payoff + one image) that
+  links the Article, pin it for the week, and reuse it in replies where it answers a question.
 
 ## Links and selling
 - **Code** · Link clicks weigh 0.2. A link is fine; the post just has to earn reach without the click.

@@ -19,7 +19,7 @@ Why it's worth it, with real numbers (impressions ~10× in 3 days of posts + rep
 
 1. **Numbers (10 min):** fill [templates/weekly-numbers.md](../templates/weekly-numbers.md).
 2. **Batch next week (15 min):** run [social-x-growth](../skills/social-x-growth/SKILL.md) on the fact bank → 7
-   drafts → edit in your own words → schedule.
+   drafts (pick variants from [09-post-variants.md](../docs/09-post-variants.md), copy from [templates/variants/](../templates/variants/README.md)) → edit in your own words → schedule.
 3. **Targets (5 min):** drop 2 reply targets that never bring profile visits, add 2 new ones.
 
 ## Once a month (≈30 min)

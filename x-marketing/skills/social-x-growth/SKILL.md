@@ -1,12 +1,12 @@
 ---
 name: social-x-growth
-description: Grow on X (Twitter) as an indie developer and turn that attention into the first paying subscribers. Builds a product fact bank from what you already shipped, a 7-day post rotation you batch in 30 minutes a week, a reply routine that uses X Premium's reply prioritization, rules taken from X's open-source For You ranker (what the weights reward and punish, the 48-hour window, author diversity), a Premium 30-day plan, and a bio → pinned post → landing → trial funnel with UTM tracking. Also lists the best open-source X skills and repos to install. Use when someone asks "write my daily X posts", "what should I tweet about my app", "how does the X algorithm work", "is X Premium worth it", "how to use X Premium for growth", "get followers on X as an indie dev", "sell subscriptions from X", "first dollar from Twitter", "đăng X mỗi ngày", "tận dụng Premium X", or wants a copy-ready week of X posts.
+description: Grow on X (Twitter) as an indie developer and turn that attention into the first paying subscribers. Builds a product fact bank from what you already shipped, a 7-day post rotation built from 20 post variants (show, teach, prove, talk, sell) with a copy-ready template each, you batch in 30 minutes a week, a reply routine that uses X Premium's reply prioritization, rules taken from X's open-source For You ranker (what the weights reward and punish, the 48-hour window, author diversity), a Premium 30-day plan, and a bio → pinned post → landing → trial funnel with UTM tracking. Also lists the best open-source X skills and repos to install. Use when someone asks "write my daily X posts", "what should I tweet about my app", "how does the X algorithm work", "is X Premium worth it", "how to use X Premium for growth", "get followers on X as an indie dev", "sell subscriptions from X", "first dollar from Twitter", "đăng X mỗi ngày", "tận dụng Premium X", or wants a copy-ready week of X posts.
 license: MIT
 metadata:
   category: social
   difficulty: beginner
   time: "Setup 60 min · 30 min/week batching · 20 min/day replies"
-  version: 1.2.0
+  version: 1.3.0
   author: nvminhtu
 ---
 
@@ -82,6 +82,11 @@ and the caveats are in [reference/x-algorithm-and-premium-facts.md](../../refere
    | Sun | Weekly numbers / what shipped + soft offer | Profile visit → landing |
 
    At most **one** post in seven asks for money. The rest earn the right to ask.
+
+   Each day picks one of **20 variants** in 5 families (🎬 Show · 🧠 Teach · 📊 Prove · 💬 Talk · 💰 Sell), so the week
+   never repeats itself: [docs/09-post-variants.md](../../docs/09-post-variants.md). Every variant has a copy-ready
+   file in [templates/variants/](../../templates/variants/README.md). Don't reuse a variant for the same product two
+   weeks in a row, and tag each post file with `variant:` so you can compare them on Sunday.
 4. **Batch on one day (30 min/week).** Run the prompt with your fact bank, edit every draft in your own words, and
    schedule them (X's own scheduler on web or a tool that uses the official API). Want them as files in your repo?
    Save one file per post in [templates/post-file.md](../../templates/post-file.md) format: `link: first-comment`,
@@ -102,8 +107,11 @@ and the caveats are in [reference/x-algorithm-and-premium-facts.md](../../refere
    deleting; Media Studio for your demo clips; Articles if your tier has them. Creator Subscriptions and revenue
    payouts exist, but for a dev selling software they're a side bonus: your product is the subscription. The 30-day
    plan is in [docs/04-premium-30-day-plan.md](../../docs/04-premium-30-day-plan.md).
-9. **Review every 4 weeks.** Keep the 2 formats with the most profile visits and trials, drop the weakest, and refill
+9. **Review every 4 weeks.** Keep the 2 variants with the most profile visits and trials (read the `variant:` field), drop the weakest, try one new one, and refill
    the fact bank from what you shipped.
+
+Every rule for hooks, media, links, timing, Communities and paid promotion, with its evidence, is on one page:
+[docs/10-best-practices.md](../../docs/10-best-practices.md).
 
 ## Prompt (copy-paste)
 Works in Claude, ChatGPT, Gemini, Cursor. Replace everything in `{{ }}`.
@@ -121,21 +129,28 @@ Fact bank (true, dated facts per product):
 {{...}}
 Banned words: game-changer, revolutionary, unlock, supercharge, delve, "in today's fast-paced world", "🚀" spam.
 
-Write next week's 7 posts using this rotation:
-Mon demo (say what to record) · Tue number/lesson with context · Wed tip that works without my product ·
-Thu behind the scenes · Fri real question or poll · Sat long post or thread (payoff in the first 280 characters) ·
-Sun weekly numbers + one soft offer.
+Write next week's 7 posts. For each day pick ONE variant from its family:
+Mon Show: V01 demo clip · V02 before/after · V04 screenshot tour
+Tue Prove: V10 number with context · V12 user feedback (only if I gave you a real quote)
+Wed Teach: V05 tip without my product · V06 checklist · V08 honest comparison · V09 free resource
+Thu Talk: V14 behind the scenes · V15 failure/bug story · V17 contrarian take with my own proof
+Fri Talk: V16 question/poll · V13 community intro (if I named a Community I'm joining)
+Sat Teach: V07 how-to long post or thread (payoff in the first 280 characters)
+Sun Prove + Sell: V11 weekly numbers, with V19 offer in the first reply (V20 launch if I'm launching)
+Variants I used last week (don't repeat them for the same product): {{e.g. Mon V01 Clipnest, Wed V05}}
 
 Rules for every post:
 1. First line works alone in the feed: a concrete claim, number or problem. No "Thread 🧵👇" openers.
 2. Under 280 characters unless it's Saturday; one idea per post; max 1 emoji; no hashtags unless a community uses one.
 3. Only Sunday may ask for money. Other days may mention the product once, at the end, if it's natural.
-4. Give each post: the text, the image/clip to attach, which product it's about, the action it aims for
-   (reply / share / follow / profile visit), and where the link goes (first-comment / bio / none). Never put the
-   URL in the post body; if it needs one, write it separately as "Reply 1".
-5. Then write 10 reply openers I can adapt for big accounts in my niche: each adds a fact, example or counterpoint,
+4. Give each post: the variant id, the text, the image/clip to attach (it must show exactly what the text says),
+   which product it's about, the action it aims for (reply / share / follow / profile visit), and where the link
+   goes (first-comment / bio / none). Never put the URL in the post body; if it needs one, write it separately as
+   "Reply 1".
+5. Never open with "Ever wondered", "Here's the thing", "Stop reinventing the wheel", "🧵👇" or "👀".
+6. Then write 10 reply openers I can adapt for big accounts in my niche: each adds a fact, example or counterpoint,
    never "Great post!".
-6. Finish with a checklist of every number and claim I must verify before scheduling.
+7. Finish with a checklist of every number and claim I must verify before scheduling.
 ````
 
 ## Example output
@@ -165,6 +180,9 @@ Rules for every post:
 - **Engagement bait** ("Like if you agree", "Comment 'AI' and I'll DM you"). It earns likes (0.5) and risks mutes and reports.
 - **Auto-reply or auto-DM tools.** Banned by X's automation rules; it can get posts removed from search or the account suspended.
 - **Links without UTM.** You won't know whether X sent the buyers, so you can't decide whether to keep paying for Premium.
+- **Ad-style hooks with a mismatched image.** "Ever wondered how to…" plus a screenshot of something else got 4 views
+  where a first-person community intro got ~142 in the same hour (real, small base:
+  [docs/09-post-variants.md](../../docs/09-post-variants.md#a-real-comparison-two-posts-same-account-same-hour)).
 - **Copying viral templates word for word.** Readers recognise them. Use the structure, keep your own facts and voice.
 
 ## Related skills

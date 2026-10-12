@@ -11,6 +11,7 @@ date: {{YYYY-MM-DD HH:MM}}
 link: first-comment   # direct | first-comment | bio | none — WHERE the link goes, never the URL itself
 status: planned       # planned | posted YYYY-MM-DD <link to the post> | skipped | removed
 kind: post            # post | thread | long | reply
+variant: v01          # v01 … v20, see templates/variants/README.md
 day: tue              # mon … sun (7-day rotation)
 product: {{slug}}
 aim: reply            # reply | share | follow | visit
@@ -37,5 +38,6 @@ aim: reply            # reply | share | follow | visit
   ([08-rules-and-risks.md](../docs/08-rules-and-risks.md)).
 - `stage:` maps the 7-day rotation: demo / tip / behind the scenes → `share`, question → `discuss`, weekly numbers →
   `results`, the one offer of the week → `deal`, posts before the product is out → `warmup`.
-- `kind`, `day`, `product`, `aim` are extra fields for your own sorting.
+- `kind`, `variant`, `day`, `product`, `aim` are extra fields for your own sorting. `variant` lets you compare
+  results by post type every Sunday. A ready file per variant: [templates/variants/](variants/README.md).
 - For a thread, number each part `1/`, `2/` … on its own line inside the `text` block.

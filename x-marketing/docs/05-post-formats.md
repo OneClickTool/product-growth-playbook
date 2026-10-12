@@ -3,6 +3,8 @@
 One original post a day, rotating products. Agent version (writes all 7 from your fact bank):
 [social-x-growth](../skills/social-x-growth/SKILL.md). File format for Promo Desk or your repo:
 [templates/post-file.md](../templates/post-file.md).
+Want more than 7 kinds of post? The full set of 20 variants, grouped into Show / Teach / Prove / Talk / Sell, with a
+copy-ready file each: [09-post-variants.md](09-post-variants.md). Rules for all of them: [10-best-practices.md](10-best-practices.md).
 
 | Day | Format | Aims for |
 |---|---|---|

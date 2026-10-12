@@ -38,6 +38,7 @@ want install sources there. How to build more links: [README.md](README.md).
 | Dose Log | Log your dose. Know the next one. | Free core. Pro $3.99/month or $24.99/year. | `https://oneclicktool.app/apps/plain-dose?utm_source=x&utm_medium=post&utm_campaign=plain-dose` |
 | Draw animals for Kids | Can't read yet? Can still draw a cat. | Free with 10 drawings. Pro $3.99/month or $24.99/year, 7-day free trial. | `https://oneclicktool.app/apps/draw-animals?utm_source=x&utm_medium=post&utm_campaign=draw-animals` |
 | Capture Words | Snap it. Say it. | Free. No account, no ads. | `https://oneclicktool.app/apps/pagecards?utm_source=x&utm_medium=post&utm_campaign=pagecards` |
+| Haunts | Your life, wrapped. Every week. (iPhone) | Free to start. Pro $3.99/month or $24.99/year, 7-day free trial. | `https://oneclicktool.app/apps/haunts?utm_source=x&utm_medium=post&utm_campaign=haunts` |
 | Reel Desk | Script it. Hook it. Post it. | — | `https://oneclicktool.app/desktop/reeldesk?utm_source=x&utm_medium=post&utm_campaign=reeldesk` |
 
 Offers are copied from the product pages on oneclicktool.app; re-check the store before quoting a price in a post.
