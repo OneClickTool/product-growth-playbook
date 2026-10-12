@@ -1,6 +1,10 @@
 # Changelog
 
 ## [Unreleased]
+### Added (site)
+- The whole playbook as a website on GitHub Pages: https://oneclicktool.github.io/product-growth-playbook/ (MkDocs
+  Material, search, dark mode, Mermaid diagrams). `scripts/build_site.py` copies the Markdown into `.site-docs/`,
+  `mkdocs.yml` builds it, `.github/workflows/pages.yml` deploys on every push to `main`.
 ### Changed
 - Channel kits now live under `marketing/`: `x-marketing/` → `marketing/x-marketing/`, `instagram-marketing/` →
   `marketing/instagram-marketing/`, next to `marketing/tiktok-marketing/`. All links, `marketplace.json` paths and the

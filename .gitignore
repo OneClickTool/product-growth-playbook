@@ -12,3 +12,7 @@ __pycache__/
 
 # Raw generated images (processed copies live in docs/images/illustrations/)
 docs/images/raw/
+
+# GitHub Pages build (scripts/build_site.py + mkdocs build)
+.site-docs/
+_site/

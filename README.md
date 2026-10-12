@@ -6,6 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-8A2BE2)](https://agentskills.io)
+[![Website](https://img.shields.io/badge/read%20as-website-orange)](https://oneclicktool.github.io/product-growth-playbook/)
 
 You can build the product. This repo helps with the part after that: **finding out what users want, getting found,
 publishing on the stores, launching, growing an audience, and getting paid.** Every skill is a short, step-by-step guide with a copy-paste AI prompt. Follow it in
