@@ -72,7 +72,8 @@ def check_skill(path, errors):
 def main():
     errors = []
     skill_dirs = set()
-    for path in sorted([*(ROOT / "skills").rglob("SKILL.md"), *(ROOT / "x-marketing" / "skills").rglob("SKILL.md")]):
+    for path in sorted([*(ROOT / "skills").rglob("SKILL.md"), *(ROOT / "x-marketing" / "skills").rglob("SKILL.md"),
+                         *(ROOT / "instagram-marketing" / "skills").rglob("SKILL.md")]):
         d = check_skill(path, errors)
         if d:
             skill_dirs.add(d)

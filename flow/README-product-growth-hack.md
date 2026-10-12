@@ -142,6 +142,7 @@ to slowest-but-longest-lasting:
 | Listed | Directories, alternative stores, AI / plugin marketplaces | Weeks | Months | [listing-free-directories](../skills/listing/listing-free-directories/SKILL.md) · [listing-ai-product](../skills/listing/listing-ai-product/SKILL.md) · [listing-dev-plugin](../skills/listing/listing-dev-plugin/SKILL.md) |
 | Store search | App Store / Google Play / Chrome Web Store search | Weeks | Months–years | [Playbook: ASO Optimization](../playbooks/aso-optimization.md) |
 | Video | TikTok, Reels, Shorts | Days | Weeks | [social-short-video](../skills/social/social-short-video/SKILL.md) |
+| Owned | Instagram profile: carousels, Reels, Stories → bio link / Story link sticker | Days | Weeks per post, forever in Highlights | [Instagram kit](../instagram-marketing/README-Instagram-Marketing.md) · [image flow](../instagram-marketing/docs/04-image-flow.md) |
 | Side door | Free tool, free template, free repo that points to the paid product | Weeks | Years | [launch-open-source-funnel](../skills/launch/launch-open-source-funnel/SKILL.md) · [strategy-product-as-funnel](../skills/strategy/strategy-product-as-funnel/SKILL.md) |
 | Direct | Cold email to exact buyers (B2B) | Days | While you send | [email-cold-outreach](../skills/email/email-cold-outreach/SKILL.md) |
 

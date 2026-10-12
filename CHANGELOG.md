@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 ### Added
+- `instagram-marketing/`: an Instagram kit for indie devs, built around one goal: impressions from non-followers →
+  website visits. `docs/04-image-flow.md` takes one true fact to a finished post in 10 checkable steps (fact,
+  format, hook, slide script, design kit, visuals with real screenshots first, export, caption + alt text + ≤5
+  hashtags, link path, publish and measure). Other docs: strategy, profile setup (5 UTM bio links, Highlights,
+  pins), how Instagram ranks (from its own explainer and dated press reports), 12 post formats and the weekly
+  rotation, Stories and the link path, metrics per reach with stop rules, rules and risks. `flow/` (daily routine,
+  website funnel + UTM map + GA4 report), `templates/` (design kit, carousel brief, post file, Story sequence,
+  weekly numbers), `reference/` (facts with Official / Reported / Practice labels, research log), `posts/`
+  (6-product rotation, week 1, 30-day plan Oct 12 → Nov 10). Skills: `social-instagram` (router),
+  `social-instagram-image-flow`, `social-instagram-growth`. The validator now also checks `instagram-marketing/skills/`.
 - `social-x`: one command for the X kit (`/social-x today · week · reply · profile · promo · talk · numbers ·
   premium · risk`) that routes to the right X skill or doc. `social-x-daily`: today's two posts (one product slot at
   most), first-reply UTM link, three reply sessions and an hourly checklist sized to 25/60/120 min, with a ramp-up.

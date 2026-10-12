@@ -86,6 +86,9 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Wants daily X posts about shipped products, has X Premium, wants subscribers from X | [social-x-growth](../../x-marketing/skills/social-x-growth/SKILL.md) (full kit: [X Marketing](../../x-marketing/README-X-Marketing.md)) |
 | Wants better replies on X / to get noticed under bigger accounts | [social-x-reply](../../x-marketing/skills/social-x-reply/SKILL.md) |
 | X profile gets visits but no trials or sales | [social-x-profile-funnel](../../x-marketing/skills/social-x-profile-funnel/SKILL.md) |
+| Anything on Instagram, or doesn't know which Instagram skill to use | [social-instagram](../../instagram-marketing/skills/social-instagram/SKILL.md): `/social-instagram post · week · month · profile · story · numbers · risk` |
+| Needs one Instagram post (carousel, Reel, Story) that gets impressions and website visits | [social-instagram-image-flow](../../instagram-marketing/skills/social-instagram-image-flow/SKILL.md) |
+| Wants a weekly Instagram plan, a profile that converts, website traffic from Instagram | [social-instagram-growth](../../instagram-marketing/skills/social-instagram-growth/SKILL.md) (full kit: [Instagram Marketing](../../instagram-marketing/README-Instagram-Marketing.md)) |
 | **App store growth** | |
 | Few installs from store search | [aso-keyword-research](../aso/aso-keyword-research/SKILL.md) |
 | Has keywords, needs a better name / subtitle | [aso-title-subtitle-optimization](../aso/aso-title-subtitle-optimization/SKILL.md) |
