@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "repo": "product-growth-hack",
+  "preset": "doc-illustration",
+  "raw_dir": "docs/images/raw",
+  "style_lock": "Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.",
+  "jobs": [
+    {
+      "id": "14-reddit-kit-hero",
+      "file": "14-reddit-kit-hero.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: A friendly indie maker sits in a warm, busy town square that feels like a forum: small round tables, each with a different group of people chatting under hanging string lights and little hand-painted signboards with simple icons only (a laptop, a game controller, an apple-shaped fruit, a lightbulb). The maker leans in at one table, answering someone's question by showing a small glowing laptop screen. Behind them, a few people walk from the square up a short path to the maker's tiny shop with a gift box on its step. An orange-red hot-air balloon with a round friendly face-free basket floats above the square.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2. Tables spread across the lower two thirds, the maker's table slightly left of center, the shop on the upper right. Calm cream sky at the top for a title.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos, no Reddit alien mascot.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood, Reddit alien, Snoo.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood, Reddit alien, Snoo",
+      "dest": "docs/images/illustrations/14-reddit-kit-hero.jpg",
+      "use_in": "marketing/reddit-marketing/README-Reddit-Marketing.md"
+    }
+  ]
+}
