@@ -10,6 +10,22 @@ image post (carousel / Reel / single)  →  reach (non-followers)  →  send / s
         →  bio link or Story link sticker  →  landing (utm_source=instagram)  →  trial / email  →  paid
 ```
 
+## Two modes
+
+| | **Starter** (docs 01–08) | **Operator** ([docs/09 growth engine](docs/09-growth-engine.md)) |
+|---|---|---|
+| Accounts | 1 brand | brand + 2–4 disclosed niche accounts |
+| Output | 5 posts + 3 link Stories a week | 40–60 assets a week from a content factory |
+| Reach source | Your own posts | + hook lab (10–15 Trial Reels/week), creators, collabs, paid on winners |
+| Time / money | 2–3 h/week + 20 min/day · $0 | 12–15 h/week + 60–90 min/day · $0 / $500 / $2k a month |
+| Skill | [social-instagram-growth](skills/social-instagram-growth/SKILL.md) | [social-instagram-engine](skills/social-instagram-engine/SKILL.md) + [social-instagram-creators](skills/social-instagram-creators/SKILL.md) |
+
+Start in Starter for 2 weeks (the base: profile, link path, design kit), then follow the Operator ramp.
+
+```text
+1 CONTENT FACTORY → 2 HOOK LAB → 3 NICHE NETWORK → 4 CREATORS → 5 COLLABS → 6 DM + BROADCAST → 7 PAID ON WINNERS → 8 SEARCH
+```
+
 ## One command
 
 ```text
@@ -20,6 +36,10 @@ image post (carousel / Reel / single)  →  reach (non-followers)  →  send / s
 /social-instagram story <post>  → a 3-frame Story that sends a post's readers to your site
 /social-instagram numbers       → weekly numbers, the weakest step, what to fix
 /social-instagram risk          → what cuts reach (originality, watermarks, bait, automation)
+/social-instagram engine        → Operator mode: next week across 8 engines, budget, kill rules
+/social-instagram creators      → creator list, DMs, deals, brief, tracker
+/social-instagram hooks <idea>  → 3 hooks for the hook lab (pain · number · before/after)
+/social-instagram network       → niche accounts: topics, 14 first posts, bio disclosure
 ```
 
 Router skill: [social-instagram](skills/social-instagram/SKILL.md). Installed as a plugin the command is
@@ -50,10 +70,10 @@ Ten steps from one true fact to a post that earns impressions and website visits
 |---|---|
 | [docs/](docs/) | The Instagram flow, one topic per file (below) |
 | [reference/](reference/) | [Facts with sources and dates](reference/instagram-facts.md) · [research log 2026-10-12](reference/research-2026-10-12-instagram-survey.md) |
-| [skills/](skills/) | [**social-instagram** (router)](skills/social-instagram/SKILL.md) · [image flow](skills/social-instagram-image-flow/SKILL.md) · [growth](skills/social-instagram-growth/SKILL.md) |
+| [skills/](skills/) | [**social-instagram** (router)](skills/social-instagram/SKILL.md) · [image flow](skills/social-instagram-image-flow/SKILL.md) · [growth](skills/social-instagram-growth/SKILL.md) · [**engine** (Operator)](skills/social-instagram-engine/SKILL.md) · [creators](skills/social-instagram-creators/SKILL.md) |
 | [flow/](flow/) | [Daily / weekly / monthly routine](flow/daily-flow.md) · [Instagram → website funnel and UTM map](flow/website-funnel.md) |
-| [templates/](templates/) | [Design kit](templates/design-kit.md) · [carousel brief](templates/carousel-brief.md) · [post file](templates/post-file.md) · [Story sequence](templates/story-sequence.md) · [weekly numbers](templates/weekly-numbers.md) |
-| [posts/](posts/) | Ready to copy: [product rotation](posts/product-rotation.md), [week 1](posts/week-01-starter.md), [30-day plan](posts/plan-30-days.md) |
+| [templates/](templates/) | [Design kit](templates/design-kit.md) · [carousel brief](templates/carousel-brief.md) · [post file](templates/post-file.md) · [Story sequence](templates/story-sequence.md) · [weekly numbers](templates/weekly-numbers.md) · [hook tests](templates/hook-tests.md) · [creator brief](templates/creator-brief.md) · [creator tracker](templates/creator-tracker.md) |
+| [posts/](posts/) | Ready to copy: [product rotation](posts/product-rotation.md), [week 1](posts/week-01-starter.md), [30-day Operator sprint](posts/plan-30-days.md), [niche network](posts/niche-network.md), [hook tests](posts/hook-tests.md), [creator briefs](posts/creator-briefs.md) |
 
 ## Docs, in reading order
 1. [Strategy: why images, and what Instagram is for an indie dev](docs/01-strategy.md)
@@ -64,6 +84,9 @@ Ten steps from one true fact to a post that earns impressions and website visits
 6. [Stories and the link path to your website](docs/06-stories-and-links.md)
 7. [Metrics and stop rules](docs/07-metrics-and-stop-rules.md)
 8. [Rules and risks](docs/08-rules-and-risks.md)
+9. [**The growth engine: Operator mode, 8 engines**](docs/09-growth-engine.md)
+10. [Creator program](docs/10-creator-program.md)
+11. [Hook bank: 60 hooks](docs/11-hook-bank.md)
 
 ## Five things to remember
 - Watch time, likes and **sends** are the top signals; sends matter most for reaching people who don't follow you
@@ -72,6 +95,7 @@ Ten steps from one true fact to a post that earns impressions and website visits
 - Links in captions don't work. The path to your site is **bio link → Story link sticker → DM** (Official / Reported).
 - Five hashtags at most, and they help less than a clear caption with the words people search (Reported, Dec 2025).
 - UTM on every link, or you'll never know whether Instagram sends visitors.
+- Scale with other people's audiences (creators, collabs) and paid money **only on posts that already won**.
 
 ## Keep it current
 - Monthly: re-check [reference/instagram-facts.md](reference/instagram-facts.md) against

@@ -44,6 +44,22 @@ Instagram; test it. Features roll out unevenly by country and account: confirm i
 | `#` and `@` in the bio become tappable links | Official | [Hashtag & profile links in bio](https://about.instagram.com/blog/announcements/introducing-hashtag-and-profile-links-in-bio) |
 | You can write your own **alt text** (Advanced settings → Write alt text, or Edit after posting) | Official | [Edit alt text](https://help.instagram.com/503708446705527) |
 
+## Growth levers (checked 2026-10-12)
+
+| Fact | Label | Source |
+|---|---|---|
+| Posting frequency tracks follower growth with diminishing returns: weekly growth ≈ +0.12 % (1–2 posts/week), +0.26 % (3–5), +0.44 % (6–9), +0.66 % (10+); a week without posting lowers growth. Feed posts only, correlational, ~2 M posts / 100k accounts | Reported (study) | [Buffer](https://buffer.com/resources/how-often-to-post-on-instagram/) (Aug 2025) |
+| **Trial Reels** opened to creators with a **public** account and **≥ 1,000 followers** | Reported | [Social Media Today](https://www.socialmediatoday.com/news/instagram-expands-access-trial-reels/752895/) |
+| **Collab posts** appear on every collaborator's profile and in all their followers' feeds; engagement is pooled. Cap reported as 5 collaborators + author (older guides say 3) | Reported | [Sked Social](https://skedsocial.com/blog/instagram-collaboration-feature.md); confirm in the app |
+| Music can be added to **photo carousels** (≥ 2 photos, not when the carousel has video) | Reported | [PetaPixel](https://petapixel.com/2023/08/14/instagram-now-lets-users-add-music-to-photo-carousels) (Aug 2023) |
+| **Broadcast channels**: one-to-many messages to followers (text, photos, video, polls), global since Jun 2023 | Official | [Meta newsroom](https://about.fb.com/news//2023/02/instagram-broadcast-channels-creators-deepen-connections-with-followers/) |
+| **Partnership ads** (brand runs ads from a creator's post): Meta data relayed by press, on average **19 % lower CPA** and **13 % higher CTR** than standard brand ads | Reported | [eMarketer](https://www.emarketer.com/content/meta-expands-partnership-ads-turn-creator-content-performance) |
+| **Engagement custom audiences** include people who engaged with your content on Instagram; website custom audiences retarget site visitors (pixel); no custom audiences for under-18s | Official | [About engagement custom audiences](https://www.facebook.com/business/help/1090330204367211/?id=2469097953376494) · [Website custom audiences](https://www.facebook.com/business/help/610516375684216) |
+| Comment → DM flows: vendor benchmarks put link clicks around **18–25 %** of people who enter the flow; one benchmark shows the link in message 2 (after a button) converting better than in message 1 | Practice (vendor data) | [Inrō glossary](https://www.inro.social/glossary/dm-click-through-rate) |
+| Several accounts are fine (the app switches between up to 5); using accounts to **deceive people about who runs them** or to evade enforcement is banned | Official | [Switch accounts](https://help.instagram.com/1696686240613595/) · [Inauthentic Behavior policy](https://transparency.meta.com/policies/community-standards/inauthentic-behavior/) |
+| Paid / gifted creators must disclose the material connection clearly; fake reviews and fake endorsers count as endorsements under the 2023 FTC Endorsement Guides | Official (US) | [Manatt summary of the 2023 Guides](https://www.manatt.com/insights/newsletters/advertising-law/an-in-depth-look-at-the-ftcs-updates-to-the-endor) |
+| Cal AI (calorie app): growth driven by **250+ paid fitness creators** posting product demos, upfront multi-video deals, then influencer clips reused as Meta / TikTok ads; reported 20–30k downloads a day | Reported (founder interviews) | [Latka](https://getlatka.com/interviews/cal-ai-zach-yadegari-2025) · [Superframeworks](https://superframeworks.beehiiv.com/p/50m-exit-at-19-cal-ai) |
+
 ## What this kit does NOT claim
 - Best posting times by hour, "the algorithm hates links in bio", "post 3× a day", engagement-pod tricks: none of
   these come from Instagram. Where the kit suggests a time or a number, it is labelled **Practice**.

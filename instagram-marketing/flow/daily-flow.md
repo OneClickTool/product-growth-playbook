@@ -31,6 +31,11 @@ Total: **~20 min a day + 2–3 h batching on Sunday + 30 min once a month.** Pos
 - Check **Account Status** for recommendation limits.
 - Re-check [reference/instagram-facts.md](../reference/instagram-facts.md) and date any change.
 
+## Operator mode (60–90 min a day)
+Same as above on **every** account, plus: check yesterday's Trial Reels and share winners to followers · 10–20
+creator DMs · 10 real comments in the niche · one Story per niche account. Weekly shape:
+[docs/09, the operator week](../docs/09-growth-engine.md#the-operator-week--1215-h--daily-6090-min).
+
 ## Daily checklist (copy into your notes)
 ```text
 [ ] post live (post days) + bio link 1 = today's product

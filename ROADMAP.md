@@ -3,7 +3,7 @@
 What exists, what's next, and where you can help. Suggest changes in
 [Discussions](https://github.com/OneClickTool/product-growth-playbook/discussions) or with a *Skill request* issue.
 
-## Now: 9 areas, 59 skills
+## Now: 9 areas, 61 skills
 
 | Area | Skills |
 |---|---|
@@ -13,7 +13,7 @@ What exists, what's next, and where you can help. Suggest changes in
 | 📦 Listing | App Store · Google Play · by niche: browser extension, Mac app, indie game, plugin & dev tool, AI product, Notion/Gumroad template · free directories (each in 3 levels) |
 | 📱 ASO | keyword research · title & subtitle · screenshot strategy · reviews & ratings |
 | 🚀 Launch | pre-launch checklist · launch post writing · Reddit posting by product type · Product Hunt launch · quick download wins · first 100 users · GitHub repo seeding · open-source funnel (free repo → users) · growth stack setup (Firebase, AdMob, payments) |
-| 📣 Social | short video (TikTok, Reels, Shorts) · credible posting (X, Threads, Facebook, LinkedIn) · build in public · X marketing kit in [`x-marketing/`](x-marketing/README-X-Marketing.md) (daily posts, replies, profile funnel, ranker rules, Premium plan) · Instagram kit in [`instagram-marketing/`](instagram-marketing/README-Instagram-Marketing.md) (10-step image flow, weekly plan, Story link path) |
+| 📣 Social | short video (TikTok, Reels, Shorts) · credible posting (X, Threads, Facebook, LinkedIn) · build in public · X marketing kit in [`x-marketing/`](x-marketing/README-X-Marketing.md) (daily posts, replies, profile funnel, ranker rules, Premium plan) · Instagram kit in [`instagram-marketing/`](instagram-marketing/README-Instagram-Marketing.md) (10-step image flow, weekly plan, Story link path, 8-engine Operator mode, creator program) |
 | 💰 Monetization | free trial vs freemium · pricing strategy · payment setup (provider by country, verification, payouts) · in-app purchase setup (StoreKit 2, Play Billing, SDKs) · paywall design · subscription tiers |
 | 📧 Email | cold outreach (legal sources, separate domain, 3–4 email sequence) · list & deliverability (SPF/DKIM/DMARC, Gmail/Yahoo rules, consent) · segments & tools · beta program (TestFlight, Play testing, Chrome trusted testers) · onboarding sequence · free-trial sequence |
 

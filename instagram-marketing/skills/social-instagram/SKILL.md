@@ -1,6 +1,6 @@
 ---
 name: social-instagram
-description: One command for the Instagram marketing kit. Routes `/social-instagram post · week · month · profile · story · numbers · risk` to the right Instagram skill or doc - one image post built with the 10-step image flow, next week's 5 posts and 3 Story sequences, the 30-day plan, profile setup with UTM bio links and Highlights, a 3-frame Story with a link sticker, the Sunday numbers check, or what cuts reach. Use when someone types /social-instagram, says "Instagram", "IG", "Insta", "what do I post on Instagram today", "Instagram plan", "Instagram for my app", "đăng Instagram", "quy trình Instagram", "làm bài Instagram", or doesn't know which Instagram skill to use.
+description: One command for the Instagram marketing kit. Routes `/social-instagram post · week · month · profile · story · numbers · risk · engine · creators · hooks · network` to the right Instagram skill or doc - one image post built with the 10-step image flow, next week's 5 posts and 3 Story sequences, the 30-day plan, profile setup with UTM bio links and Highlights, a 3-frame Story with a link sticker, the Sunday numbers check, what cuts reach, the 8-engine Operator plan, the creator program, hook tests or the niche account network. Use when someone types /social-instagram, says "Instagram", "IG", "Insta", "what do I post on Instagram today", "Instagram plan", "Instagram for my app", "đăng Instagram", "quy trình Instagram", "làm bài Instagram", or doesn't know which Instagram skill to use.
 license: MIT
 metadata:
   category: social
@@ -12,10 +12,10 @@ metadata:
 
 # /social-instagram: One Command for Instagram
 
-> Type one word, get the right Instagram flow: a post, a week, a month, the profile, a Story, the numbers or the risks.
+> Type one word, get the right Instagram flow: a post, a week, a month, the profile, a Story, the numbers, the risks, or the Operator engine.
 
 ## Goal
-The Instagram kit has two skills and eight docs. This router reads the command (or the question), opens the right
+The Instagram kit has four skills and eleven docs. This router reads the command (or the question), opens the right
 one, asks only for the inputs that one needs, and returns a finished result in the same format every time.
 
 ## When to use
@@ -40,6 +40,10 @@ one, asks only for the inputs that one needs, and returns a finished result in t
    | `numbers` | [docs/07-metrics-and-stop-rules.md](../../docs/07-metrics-and-stop-rules.md) + [template](../../templates/weekly-numbers.md) | Filled weekly numbers, weakest arrow, one fix, keep/drop |
    | `risk` | [docs/08-rules-and-risks.md](../../docs/08-rules-and-risks.md) | What in the user's plan cuts reach, and the fix |
    | `flow` | [docs/04-image-flow.md](../../docs/04-image-flow.md) | The 10-step card |
+   | `engine` | [social-instagram-engine](../social-instagram-engine/SKILL.md) | Operator week across 8 engines, budget, kill rules |
+   | `creators` | [social-instagram-creators](../social-instagram-creators/SKILL.md) | Creator queries, DMs, deal tiers, brief, tracker |
+   | `hooks <idea>` | [docs/11-hook-bank.md](../../docs/11-hook-bank.md) + [templates/hook-tests.md](../../templates/hook-tests.md) | 3 hooks (pain / number / before-after) for one body |
+   | `network` | [docs/09, engine 3](../../docs/09-growth-engine.md#engine-3--owned-niche-network-24-accounts) | Niche account topics, bio disclosure, 14 first posts |
 
 2. **Ask only for missing inputs** of that route, in one message.
 3. **Run it** and return the result in the route's format. Every number must come from the user's facts or carry
@@ -50,7 +54,7 @@ one, asks only for the inputs that one needs, and returns a finished result in t
 Works in Claude, ChatGPT, Gemini, Cursor. Replace everything in `{{ }}`.
 
 ````text
-You run my Instagram kit. Command: {{post | week | month | profile | story | numbers | risk | flow}} {{argument}}.
+You run my Instagram kit. Command: {{post | week | month | profile | story | numbers | risk | flow | engine | creators | hooks | network}} {{argument}}.
 My products (pitch · who for · offer today · landing URL · slug): {{...}}
 Fact bank: {{...}}
 Rules: never invent numbers, users, reviews or results; no URL in captions (say "link in bio"); max 5 hashtags;
@@ -65,6 +69,11 @@ Do the command:
 - numbers: from my numbers {{...}}, the funnel reach → profile → link tap → landing → trial → paid, the
   weakest arrow, one fix, formats to keep / drop / try.
 - risk: what in my plan {{...}} could cut reach or the account, and what to do instead.
+- engine: next week across 8 engines (factory, hook lab, niche accounts, creators, collabs, DM, paid on winners,
+  search) for my budget and hours, with kill rules.
+- creators: queries to find micro-creators, DM 1 + follow-up, deal tiers, brief, tracker.
+- hooks: 3 hooks (pain / number / before-after, ≤ 8 words) for the same body.
+- network: 2-4 niche account topics, bio disclosure line, 14 first posts (80% value, 20% product).
 End with the next command I should run.
 ````
 

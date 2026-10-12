@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 ### Added
+- Instagram **Operator mode**: `docs/09-growth-engine.md` runs 8 engines in parallel (content factory 1 fact → 10
+  assets, hook lab of 10–15 Trial Reels a week, 2–4 disclosed niche accounts, creator engine, collab swaps, comment →
+  DM + broadcast channel, paid only on organic winners with partnership ads and retargeting, Instagram + Google
+  search), an operator week, a Sunday dashboard, budget tiers and a ramp. `docs/10-creator-program.md`,
+  `docs/11-hook-bank.md` (60 hooks), templates for hook tests, creator brief and tracker; `posts/` gains the
+  30-day Operator sprint, niche network, ready hook tests and creator briefs. New skills `social-instagram-engine`
+  and `social-instagram-creators`; the router adds `engine · creators · hooks · network`. Facts add Buffer's
+  posting-frequency study, Trial Reels eligibility, collabs, music carousels, broadcast channels, partnership ads,
+  custom audiences, multiple-account and FTC rules, and the Cal AI creator case.
 - `instagram-marketing/`: an Instagram kit for indie devs, built around one goal: impressions from non-followers →
   website visits. `docs/04-image-flow.md` takes one true fact to a finished post in 10 checkable steps (fact,
   format, hook, slide script, design kit, visuals with real screenshots first, export, caption + alt text + ≤5
