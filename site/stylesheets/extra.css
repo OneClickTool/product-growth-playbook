@@ -326,7 +326,8 @@ body {
   border-radius: 28px; box-shadow: var(--shadow-lg); padding: 1.8rem 2rem; }
 .author__avatar { width: 128px; height: 128px; flex: 0 0 128px; border-radius: 50%; border: 3px solid var(--line);
   box-shadow: 5px 5px 0 var(--coral); object-fit: cover; background: var(--sun); transform: rotate(-3deg); }
-.author__text p { color: var(--ink-2); margin: 0 0 1rem; max-width: 40em; }
+.author__text p { color: var(--ink-2); margin: 0 0 1rem; max-width: 40em; font-size: 1rem; line-height: 1.6; }
+.author__text p.kicker { font-size: .78rem; margin-bottom: .4rem; }
 .author__links { display: flex; flex-wrap: wrap; gap: .8rem; }
 .author__links .btn { display: inline-flex; align-items: center; gap: .5em; }
 .author__links svg { width: 1.1em; height: 1.1em; fill: currentColor; }
