@@ -9,6 +9,7 @@ This folder is the reading list; those are the how-to guides.
 
 | Date | Case | Channel | What you learn |
 |---|---|---|---|
+| 2026-10-12 | [Larry × Snugly: an AI agent posting TikTok slideshows](../marketing/tiktok-marketing/case-studies/2026-02-oliver-henry-larry-snugly.md) (lives in the [TikTok kit](../marketing/tiktok-marketing/case-studies/README.md)) | TikTok slideshows | The 6-slide loop, the person + doubt hook formula with real view counts, early failures, measuring to revenue |
 | 2026-10-09 | [Shipfolks × GoViralDev: a small directory and a $150 sponsor slot](2026-10-shipfolks-goviraldev-directory-sponsor.md) | Directories, sponsored placements | How a new directory makes money from day one, and how to buy a cheap sponsor slot as a launch channel without wasting it |
 
 ## Rules for this folder

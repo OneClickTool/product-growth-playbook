@@ -1,5 +1,7 @@
 # Product Growth Hack: from 0 to the first sale
 
+![A maker opens a garage door into the sunlight and follows a path of stepping stones to a shop](../docs/images/illustrations/01-growth-hack-hero.jpg)
+
 **Sales on opening day come from people who said "yes, I want this" before opening day.**
 You can have the Pro version, the landing page, payments and every subscription plan ready, and still sell nothing,
 because nobody is looking yet. This flow puts every step in order, from "nobody knows it exists" to "it sells every
@@ -19,6 +21,8 @@ attention  →  free value  →  email / account  →  activation  →  offer wi
 
 ## The answer first: everything is ready, what's step one?
 
+![Seven platforms: gift, envelope, campfire group, seedling, calendar, ribbon cutting, cheering crowd](../docs/images/illustrations/02-free-hook-ladder.jpg)
+
 You don't open sales first. **You give something away first, where your buyers already hang out, and collect a way to
 reach them again.** Then you open sales to that list with a reason to buy now.
 
@@ -26,7 +30,7 @@ reach them again.** Then you open sales to that list with a reason to buy now.
 |---|---|---|---|
 | 1 | **Pick the free hook** | A free trial, a free Lite version, or one free mini-tool that solves a small piece of the problem. It must give a result in under 5 minutes | [monetization-free-trial-vs-freemium](../skills/monetization/monetization-free-trial-vs-freemium/SKILL.md) · [strategy-product-as-funnel](../skills/strategy/strategy-product-as-funnel/SKILL.md) |
 | 2 | **Gate it with an email, not a card** | "Get the free version / early access" → email → download link. That email is the real asset, not the download | [email-list-and-deliverability](../skills/email/email-list-and-deliverability/SKILL.md) |
-| 3 | **Go where buyers already ask** | 3 places only: one subreddit, one Facebook group, X replies. Answer questions, show the result, link only when it fits the rules | [research-where-users-ask](../skills/research/research-where-users-ask/SKILL.md) → [launch-reddit-posting](../skills/launch/launch-reddit-posting/SKILL.md) · [social-credible-posting](../skills/social/social-credible-posting/SKILL.md) · [social-x-reply](../x-marketing/skills/social-x-reply/SKILL.md) |
+| 3 | **Go where buyers already ask** | 3 places only: one subreddit, one Facebook group, X replies. Answer questions, show the result, link only when it fits the rules | [research-where-users-ask](../skills/research/research-where-users-ask/SKILL.md) → [launch-reddit-posting](../skills/launch/launch-reddit-posting/SKILL.md) · [social-credible-posting](../skills/social/social-credible-posting/SKILL.md) · [social-x-reply](../marketing/x-marketing/skills/social-x-reply/SKILL.md) |
 | 4 | **Turn free users into beta testers** | Invite the most active 10–30 people to a private beta: they get the Pro version free, you get feedback, quotes and screenshots | [email-beta-program](../skills/email/email-beta-program/SKILL.md) |
 | 5 | **Warm the list for 7–14 days** | One email or post every few days: what you built, a 30-second demo, a tester's result. No selling yet | [social-build-in-public](../skills/social/social-build-in-public/SKILL.md) · [social-short-video](../skills/social/social-short-video/SKILL.md) |
 | 6 | **Open sales to the list first** | "Founding member" price or bonus, for a fixed number of days. The list hears it 24–48 h before the public | [monetization-pricing-strategy](../skills/monetization/monetization-pricing-strategy/SKILL.md) · [email-trial-sequence](../skills/email/email-trial-sequence/SKILL.md) |
@@ -110,7 +114,7 @@ the most common reason a launch gets traffic and no sales.
 |---|---|
 | Goal | A list of people who already tried the free hook before you announce anything |
 | Do | Put the free hook in the 3 places from Phase 1. Post 3–5 times a week about the build. Invite the most active users to a beta. Collect quotes and before/after screenshots |
-| Skills | [social-build-in-public](../skills/social/social-build-in-public/SKILL.md) · [social-credible-posting](../skills/social/social-credible-posting/SKILL.md) · X: [X Marketing kit](../x-marketing/README-X-Marketing.md) ([profile funnel](../x-marketing/skills/social-x-profile-funnel/SKILL.md), [daily flow](../x-marketing/flow/daily-flow.md), [real analytics pattern](../x-marketing/flow/analytics-pattern.md)) · [email-list-and-deliverability](../skills/email/email-list-and-deliverability/SKILL.md) → [email-beta-program](../skills/email/email-beta-program/SKILL.md) · open source: [launch-github-repo-seeding](../skills/launch/launch-github-repo-seeding/SKILL.md) · B2B: [email-cold-outreach](../skills/email/email-cold-outreach/SKILL.md) |
+| Skills | [social-build-in-public](../skills/social/social-build-in-public/SKILL.md) · [social-credible-posting](../skills/social/social-credible-posting/SKILL.md) · X: [X Marketing kit](../marketing/x-marketing/README-X-Marketing.md) ([profile funnel](../marketing/x-marketing/skills/social-x-profile-funnel/SKILL.md), [daily flow](../marketing/x-marketing/flow/daily-flow.md), [real analytics pattern](../marketing/x-marketing/flow/analytics-pattern.md)) · [email-list-and-deliverability](../skills/email/email-list-and-deliverability/SKILL.md) → [email-beta-program](../skills/email/email-beta-program/SKILL.md) · open source: [launch-github-repo-seeding](../skills/launch/launch-github-repo-seeding/SKILL.md) · B2B: [email-cold-outreach](../skills/email/email-cold-outreach/SKILL.md) |
 | Output | Email list + beta testers + 3–5 real quotes or screenshots you're allowed to use |
 | Gate ✅ | A list big enough that your Phase 0 conversion guess gives you first buyers from the list alone |
 
@@ -131,18 +135,20 @@ Gate ✅: first paid customers, and a log of **which channel brought buyers** (n
 
 ## Phase 6 · Traffic engine for product pages
 
+![A machine takes in colored pipes of people and delivers them to a shop door](../docs/images/illustrations/03-traffic-engine.jpg)
+
 After launch the spike drops. Build channels that keep sending people to the product page, one at a time, from fastest
 to slowest-but-longest-lasting:
 
 | Type | Channel | Speed | Lasts | Skill |
 |---|---|---|---|---|
-| Owned | Email list, X / Threads / Facebook profile | Days | Forever | [email-segments-and-tools](../skills/email/email-segments-and-tools/SKILL.md) · [social-x-growth](../x-marketing/skills/social-x-growth/SKILL.md) |
-| Owned | Email signatures on every address, cross-links between all your profiles (Reddit, GitHub, stores, landing → X) | Days | Forever, small and steady | [cross-channel-funnel](../x-marketing/flow/cross-channel-funnel.md) |
+| Owned | Email list, X / Threads / Facebook profile | Days | Forever | [email-segments-and-tools](../skills/email/email-segments-and-tools/SKILL.md) · [social-x-growth](../marketing/x-marketing/skills/social-x-growth/SKILL.md) |
+| Owned | Email signatures on every address, cross-links between all your profiles (Reddit, GitHub, stores, landing → X) | Days | Forever, small and steady | [cross-channel-funnel](../marketing/x-marketing/flow/cross-channel-funnel.md) |
 | Earned | Reddit, Hacker News, forums, Facebook groups | Same day | Days | [launch-reddit-posting](../skills/launch/launch-reddit-posting/SKILL.md) · [research-where-users-ask](../skills/research/research-where-users-ask/SKILL.md) |
 | Listed | Directories, alternative stores, AI / plugin marketplaces | Weeks | Months | [listing-free-directories](../skills/listing/listing-free-directories/SKILL.md) · [listing-ai-product](../skills/listing/listing-ai-product/SKILL.md) · [listing-dev-plugin](../skills/listing/listing-dev-plugin/SKILL.md) |
 | Store search | App Store / Google Play / Chrome Web Store search | Weeks | Months–years | [Playbook: ASO Optimization](../playbooks/aso-optimization.md) |
 | Video | TikTok, Reels, Shorts | Days | Weeks | [social-short-video](../skills/social/social-short-video/SKILL.md) |
-| Owned | Instagram profile: carousels, Reels, Stories → bio link / Story link sticker | Days | Weeks per post, forever in Highlights | [Instagram kit](../instagram-marketing/README-Instagram-Marketing.md) · [image flow](../instagram-marketing/docs/04-image-flow.md) |
+| Owned | Instagram profile: carousels, Reels, Stories → bio link / Story link sticker | Days | Weeks per post, forever in Highlights | [Instagram kit](../marketing/instagram-marketing/README-Instagram-Marketing.md) · [image flow](../marketing/instagram-marketing/docs/04-image-flow.md) |
 | Side door | Free tool, free template, free repo that points to the paid product | Weeks | Years | [launch-open-source-funnel](../skills/launch/launch-open-source-funnel/SKILL.md) · [strategy-product-as-funnel](../skills/strategy/strategy-product-as-funnel/SKILL.md) |
 | Direct | Cold email to exact buyers (B2B) | Days | While you send | [email-cold-outreach](../skills/email/email-cold-outreach/SKILL.md) |
 
@@ -150,7 +156,7 @@ Rule: **add one channel, measure 2–4 weeks, keep it or drop it.** Never start 
 
 Route that ties them together: every channel points to your X profile (trust) and your landing (action), each link
 with its own UTM. Example: helpful Reddit answer → Reddit profile social link → X profile with pinned demo → bio link →
-free trial. Full route, signature template and UTM map: [cross-channel-funnel](../x-marketing/flow/cross-channel-funnel.md).
+free trial. Full route, signature template and UTM map: [cross-channel-funnel](../marketing/x-marketing/flow/cross-channel-funnel.md).
 
 ## Phase 7 · Convert and keep
 
@@ -170,7 +176,7 @@ free trial. Full route, signature template and UTM map: [cross-channel-funnel](.
 Real example of reading the numbers (X, 28 days to 2026-10-11, the maintainer's account): 3 days of daily posts +
 replies took impressions from ~45 to ~850 a day, but 2K impressions gave only 7 profile visits. The weakest step was
 the profile, not reach, so the next fix is the bio and pinned post, not more posts.
-Full breakdown: [x-marketing/flow/analytics-pattern.md](../x-marketing/flow/analytics-pattern.md).
+Full breakdown: [x-marketing/flow/analytics-pattern.md](../marketing/x-marketing/flow/analytics-pattern.md).
 
 Skill: [strategy-spend-and-timing](../skills/strategy/strategy-spend-and-timing/SKILL.md). Stuck on the same channels as
 everyone else? [strategy-contrarian-marketing](../skills/strategy/strategy-contrarian-marketing/SKILL.md).

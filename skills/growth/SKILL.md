@@ -78,19 +78,22 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Open-source repo with few stars; want to seed it | [launch-github-repo-seeding](../launch/launch-github-repo-seeding/SKILL.md) |
 | Repo has stars but no business; wants a free repo to bring users to a product | [launch-open-source-funnel](../launch/launch-open-source-funnel/SKILL.md) |
 | **Audience & social** | |
+| Doesn't know which social channel to pick, or how X / Instagram / TikTok / listings / email connect | [Marketing & Social map](../../marketing/README-marketing-social.md) |
 | Wants users from TikTok, Reels or Shorts; videos get few views | [social-short-video](../social/social-short-video/SKILL.md) |
 | Posts on X, Threads, Facebook or LinkedIn sound salesy or get ignored | [social-credible-posting](../social/social-credible-posting/SKILL.md) |
 | Building, wants an audience waiting on launch day | [social-build-in-public](../social/social-build-in-public/SKILL.md) |
-| Anything on X, or doesn't know which X skill to use | [social-x](../../x-marketing/skills/social-x/SKILL.md): `/social-x today · week · month · reply · drop · profile · promo · talk · numbers` |
-| Wants a plan for today on X: what to post, how much to promote vs. engage | [social-x-daily](../../x-marketing/skills/social-x-daily/SKILL.md) |
-| Wants daily X posts about shipped products, has X Premium, wants subscribers from X | [social-x-growth](../../x-marketing/skills/social-x-growth/SKILL.md) (full kit: [X Marketing](../../x-marketing/README-X-Marketing.md)) |
-| Wants better replies on X / to get noticed under bigger accounts | [social-x-reply](../../x-marketing/skills/social-x-reply/SKILL.md) |
-| X profile gets visits but no trials or sales | [social-x-profile-funnel](../../x-marketing/skills/social-x-profile-funnel/SKILL.md) |
-| Anything on Instagram, or doesn't know which Instagram skill to use | [social-instagram](../../instagram-marketing/skills/social-instagram/SKILL.md): `/social-instagram post · week · month · profile · story · numbers · risk` |
-| Needs one Instagram post (carousel, Reel, Story) that gets impressions and website visits | [social-instagram-image-flow](../../instagram-marketing/skills/social-instagram-image-flow/SKILL.md) |
-| Wants to scale Instagram hard: volume, hook tests, niche accounts, creators, paid on winners | [social-instagram-engine](../../instagram-marketing/skills/social-instagram-engine/SKILL.md) |
-| Wants influencers / UGC creators for an app | [social-instagram-creators](../../instagram-marketing/skills/social-instagram-creators/SKILL.md) |
-| Wants a weekly Instagram plan, a profile that converts, website traffic from Instagram | [social-instagram-growth](../../instagram-marketing/skills/social-instagram-growth/SKILL.md) (full kit: [Instagram Marketing](../../instagram-marketing/README-Instagram-Marketing.md)) |
+| Anything on X, or doesn't know which X skill to use | [social-x](../../marketing/x-marketing/skills/social-x/SKILL.md): `/social-x today · week · month · reply · drop · profile · promo · talk · numbers` |
+| Wants a plan for today on X: what to post, how much to promote vs. engage | [social-x-daily](../../marketing/x-marketing/skills/social-x-daily/SKILL.md) |
+| Wants daily X posts about shipped products, has X Premium, wants subscribers from X | [social-x-growth](../../marketing/x-marketing/skills/social-x-growth/SKILL.md) (full kit: [X Marketing](../../marketing/x-marketing/README-X-Marketing.md)) |
+| Wants better replies on X / to get noticed under bigger accounts | [social-x-reply](../../marketing/x-marketing/skills/social-x-reply/SKILL.md) |
+| X profile gets visits but no trials or sales | [social-x-profile-funnel](../../marketing/x-marketing/skills/social-x-profile-funnel/SKILL.md) |
+| Wants TikTok slideshows / photo-mode carousels for an app, faceless TikTok posts, the "Larry" OpenClaw loop | [social-tiktok-slideshow](../../marketing/tiktok-marketing/skills/social-tiktok-slideshow/SKILL.md) (full kit: [TikTok Marketing](../../marketing/tiktok-marketing/README-TikTok-Marketing.md)) |
+| TikTok slideshows get views but no installs; which hook to repeat | [social-tiktok-slideshow-loop](../../marketing/tiktok-marketing/skills/social-tiktok-slideshow-loop/SKILL.md) |
+| Anything on Instagram, or doesn't know which Instagram skill to use | [social-instagram](../../marketing/instagram-marketing/skills/social-instagram/SKILL.md): `/social-instagram post · week · month · profile · story · numbers · risk` |
+| Needs one Instagram post (carousel, Reel, Story) that gets impressions and website visits | [social-instagram-image-flow](../../marketing/instagram-marketing/skills/social-instagram-image-flow/SKILL.md) |
+| Wants to scale Instagram hard: volume, hook tests, niche accounts, creators, paid on winners | [social-instagram-engine](../../marketing/instagram-marketing/skills/social-instagram-engine/SKILL.md) |
+| Wants influencers / UGC creators for an app | [social-instagram-creators](../../marketing/instagram-marketing/skills/social-instagram-creators/SKILL.md) |
+| Wants a weekly Instagram plan, a profile that converts, website traffic from Instagram | [social-instagram-growth](../../marketing/instagram-marketing/skills/social-instagram-growth/SKILL.md) (full kit: [Instagram Marketing](../../marketing/instagram-marketing/README-Instagram-Marketing.md)) |
 | **App store growth** | |
 | Few installs from store search | [aso-keyword-research](../aso/aso-keyword-research/SKILL.md) |
 | Has keywords, needs a better name / subtitle | [aso-title-subtitle-optimization](../aso/aso-title-subtitle-optimization/SKILL.md) |
@@ -123,7 +126,7 @@ focus on for the next two weeks, explain why in one sentence, and give me the fi
 Choose from: revenue target (work backward from $X in N months), spend and timing (what to pay for, when to push),
 contrarian marketing, products as a funnel to an owned audience, where users ask about software, competitor review mining, source finding,
 research doc organization, competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding, open-source funnel (free repo → users),
-Firebase + AdMob + payments setup, short video (TikTok / Reels / Shorts), credible social posts, build in public,
+Firebase + AdMob + payments setup, short video (TikTok / Reels / Shorts), TikTok slideshows (photo mode) and the weekly hook loop, credible social posts, build in public,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 payment setup (which provider works from my country), in-app purchase setup (StoreKit 2 / Play Billing / RevenueCat), pricing strategy, paywall design, subscription tiers,
 cold email outreach, email list & deliverability, email segments and tools, beta program by email, onboarding email sequence, free-trial email sequence.

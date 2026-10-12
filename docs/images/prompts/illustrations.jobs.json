@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "repo": "product-growth-hack",
+  "preset": "doc-illustration",
+  "raw_dir": "docs/images/raw",
+  "style_lock": "Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.",
+  "jobs": [
+    {
+      "id": "01-growth-hack-hero",
+      "file": "01-growth-hack-hero.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: A tiny indie maker pushes open a garage door from the inside and steps out into bright warm sunlight, carrying a small glowing box (the product). In front of them a winding path rises like a staircase of 10 flat stepping stones toward a hill, where a small shop with an open door glows. Little birds and paper planes fly along the path.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2 landscape. Garage and maker on the left third, the path curving to the shop on the upper right. Large calm cream sky in the top half so a title can be placed over it later.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/01-growth-hack-hero.jpg",
+      "use_in": "flow/README-product-growth-hack.md (top)"
+    },
+    {
+      "id": "02-free-hook-ladder",
+      "file": "02-free-hook-ladder.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: Seven floating platforms rising left to right like a gentle staircase. On each platform one simple object: a gift box, an envelope, a group of three people around a campfire, a small seedling being watered, a calendar page, a ribbon-cut opening, a crowd waving. A small maker climbs from the first platform; a warm glow comes from the top platform.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2. Platforms evenly spaced on a diagonal from bottom-left to top-right, objects large enough to read at small size.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/02-free-hook-ladder.jpg",
+      "use_in": "flow/README-product-growth-hack.md, section 'The answer first'"
+    },
+    {
+      "id": "03-traffic-engine",
+      "file": "03-traffic-engine.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: A friendly cream-and-terracotta machine with round gauges sits in the middle. Several colored pipes enter it from the left, each carrying small rounded people-shaped tokens: an orange pipe, a sage pipe, a blue pipe, a yellow pipe. On the right a single wide chute delivers the tokens onto the doorstep of a small product shop. A maker adjusts one valve with a wrench.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2. Machine centered, pipes fanning in from the left edge, shop on the right.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/03-traffic-engine.jpg",
+      "use_in": "flow/README-product-growth-hack.md, Phase 6"
+    },
+    {
+      "id": "04-x-kit-hero",
+      "file": "04-x-kit-hero.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: An indie maker sits at a cozy desk with a laptop and a phone. From the phone, speech bubbles and small post cards float upward like lanterns into an evening-to-morning gradient sky; some lanterns drift toward a lighthouse on a cliff (the profile) whose beam lights a path to a tiny storefront.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2. Desk bottom-left, lanterns rising diagonally, lighthouse upper-right.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/04-x-kit-hero.jpg",
+      "use_in": "marketing/x-marketing/README-X-Marketing.md (top)"
+    },
+    {
+      "id": "05-analytics-pattern",
+      "file": "05-analytics-pattern.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: Three flower pots on a windowsill, left to right: the first has only soil, the second a small sprout, the third a tall healthy plant with many leaves. Behind them, faint rounded bar shapes grow in height like a bar chart made of sunlight beams. A watering can with a small calendar tag rests next to the third pot.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2, the three pots evenly spaced, the third clearly the hero.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/05-analytics-pattern.jpg",
+      "use_in": "marketing/x-marketing/flow/analytics-pattern.md (top)"
+    },
+    {
+      "id": "06-cross-channel-funnel",
+      "file": "06-cross-channel-funnel.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: Three small streams flow down from hills on the left: one orange, one carrying floating envelopes, one carrying tiny shopping bags. They merge into a calm lake. In the lake stands a lighthouse (trust), and a wooden bridge leads from it to a bright shop door with a small gift box on the step (the free trial).\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2. Streams top-left, lighthouse center, shop door right.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/06-cross-channel-funnel.jpg",
+      "use_in": "marketing/x-marketing/flow/cross-channel-funnel.md (top)"
+    },
+    {
+      "id": "07-post-variants",
+      "file": "07-post-variants.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: Five friendly round characters standing in a row like a band, each holding one prop: a film clapperboard (Show), a glowing lightbulb (Teach), a small bar chart trophy (Prove), two speech bubbles (Talk), a price tag with a ribbon (Sell). Each character has its own color from the palette.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2, five characters evenly spaced across the middle, generous margins.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/07-post-variants.jpg",
+      "use_in": "marketing/x-marketing/docs/09-post-variants.md (top)"
+    },
+    {
+      "id": "08-best-practices",
+      "file": "08-best-practices.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: A maker at a desk holds a clipboard with a list of checkmarks, a pencil behind the ear. On the desk a large friendly round button glows softly, waiting to be pressed, next to a phone showing a blank post card and a small coffee cup.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2, maker left of center, the big button right of center.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/08-best-practices.jpg",
+      "use_in": "marketing/x-marketing/docs/10-best-practices.md (top)"
+    },
+    {
+      "id": "09-daily-flow",
+      "file": "09-daily-flow.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: A round clock face drawn as a sunrise-to-moon arc. Around the arc, small scenes: morning coffee and a phone (post), midday speech bubbles (replies), evening a notebook with a small chart (numbers), and a Sunday calendar page with a pencil (batching). A maker walks along the arc.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2, arc spans the width, scenes spaced along it.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/09-daily-flow.jpg",
+      "use_in": "marketing/x-marketing/flow/daily-flow.md (top)"
+    }
+  ]
+}

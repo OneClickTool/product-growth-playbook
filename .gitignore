@@ -9,3 +9,6 @@ __pycache__/
 # Private maintainer notes (never commit)
 .private/
 .claude/launch.json
+
+# Raw generated images (processed copies live in docs/images/illustrations/)
+docs/images/raw/

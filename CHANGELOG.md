@@ -1,7 +1,22 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Channel kits now live under `marketing/`: `x-marketing/` → `marketing/x-marketing/`, `instagram-marketing/` →
+  `marketing/instagram-marketing/`, next to `marketing/tiktok-marketing/`. All links, `marketplace.json` paths and the
+  validator were updated (it now checks `skills/` and `marketing/*/skills/`).
 ### Added
+- `marketing/README-marketing-social.md`: the hub for every channel kit with diagrams of how they link (reach → trust →
+  landing / store listing → email → paid), one fact repurposed per channel, which channel first, one UTM map, a week
+  across channels, the shared numbers and the rules that apply everywhere. Pinterest kit marked *planned*.
+- `marketing/`: a home for channel kits (`marketing/<channel>-marketing/`). First: `marketing/tiktok-marketing/`, the
+  TikTok slideshow (photo mode) process behind Oliver Henry's "Larry" OpenClaw agent. `docs/` 01–07 (what a slideshow
+  is and which products fit, the 10-step loop, hooks with real winners and flops, slide design and safe zones,
+  drafts → sound → publish, metrics and the decision table, rules on AI labels, promo disclosure, many accounts and
+  automation); `case-studies/` (Larry × Snugly, a 3-slide Quran app, other founders); `reference/` (research log,
+  TikTok photo-post API facts, skills/repos/tools checked on GitHub); `templates/` (hook bank, slideshow post,
+  post log CSV). Skills `social-tiktok-slideshow` and `social-tiktok-slideshow-loop` (with `slideshow_loop.py`).
+  The validator now also checks `marketing/*/skills/`.
 - Instagram **Operator mode**: `docs/09-growth-engine.md` runs 8 engines in parallel (content factory 1 fact → 10
   assets, hook lab of 10–15 Trial Reels a week, 2–4 disclosed niche accounts, creator engine, collab swaps, comment →
   DM + broadcast channel, paid only on organic winners with partnership ads and retargeting, Instagram + Google
