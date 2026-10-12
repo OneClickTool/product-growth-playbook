@@ -6,7 +6,7 @@ metadata:
   category: social
   difficulty: beginner
   time: "5 min to plan · 25–120 min to run"
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -51,12 +51,15 @@ build the audience the product posts land on.
    | 3 | after post 2 | buyer sources: reviewers, newsletters, communities | 5 |
 
    At most one reply with a product link all day, only where it answers the post, with "I built this".
-5. **Size to the time budget.** 25 min: post 1 + session 1. 60 min: everything. 120 min: same posts, more replies and
+5. **Set the clock to your buyers.** The times above are your buyers' local time. Living in Vietnam and selling to
+   the US? Post 1 lands around 19:00–21:00 ICT (US East Coast morning); check X analytics after 2 weeks.
+6. **Size to the time budget.** 25 min: post 1 + session 1. 60 min: everything. 120 min: same posts, more replies and
    record next week's demo; never more posts.
-6. **Apply the ramp-up.** Week 1: 1 post, 5 replies, ≤ 3 follows. Week 2: 1–2 posts, 8–10 replies. Week 3+: 2 posts,
-   13–15 replies. No profile photo / name / handle change during a ramp-up week
+7. **Apply the ramp-up.** Week 1: 1 post, 5 replies, ≤ 3 follows. Week 2: 1–2 posts, 8–10 replies. Week 3: 2 posts,
+   13–15 replies. Week 4+ and under 1,000 followers: 2 posts, 20–30 replies (about 70% of your X time on replies,
+   [06-reply-playbook.md](../../docs/06-reply-playbook.md#under-1000-followers-70-replies-30-posts)). No profile photo / name / handle change during a ramp-up week
    ([08-rules-and-risks.md](../../docs/08-rules-and-risks.md)).
-7. **Output the checklist** with times, and end with: "Tonight: answer replies, follow 3–5 people you replied to,
+8. **Output the checklist** with times, and end with: "Tonight: answer replies, follow 3–5 people you replied to,
    add one line to the fact bank."
 
 ## Prompt (copy-paste)
@@ -65,13 +68,15 @@ Works in Claude, ChatGPT, Gemini, Cursor. Replace everything in `{{ }}`.
 ````text
 Plan my day on X. I promote 3–5 products and want everything else to build reach, follows and trust.
 
-Today: {{weekday, date}} · time I have: {{25 / 60 / 120}} min · ramp-up week: {{1 / 2 / 3+}}
+Today: {{weekday, date}} · time I have: {{25 / 60 / 120}} min · ramp-up week: {{1 / 2 / 3 / 4+}}
+Followers: {{number}} · my timezone: {{e.g. ICT, UTC+7}} · my buyers' timezone: {{e.g. US Eastern}}
 My niche and buyers: {{...}}
 Products (slot · name · one line · offer exactly as the store says · link · posted this week? y/n): {{...}}
 Fact bank (true, dated): {{...}}
 Talk ideas I like: {{optional}}
 
 Rules: at most one product post today, and none already posted this week. Post 2 is never a product.
+Under 1,000 followers, about 70% of my time goes to replies; give post times in my timezone, timed for my buyers' morning.
 Product links only in the first reply, with utm_source=x&utm_medium=reply&utm_campaign=<slug>&utm_content={{date}}.
 Never invent numbers, users or features; leave <…> where I must add a real number. Under 280 characters unless it's
 a Saturday long post. No hashtags, em dashes, emoji chains or "game-changer".

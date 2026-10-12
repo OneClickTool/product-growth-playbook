@@ -16,3 +16,4 @@ docs/images/raw/
 # GitHub Pages build (scripts/build_site.py + mkdocs build)
 .site-docs/
 _site/
+_mkdocs.gen.yml

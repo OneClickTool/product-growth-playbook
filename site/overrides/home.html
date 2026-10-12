@@ -1,0 +1,135 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+{% set img = 'docs/images/illustrations/' %}
+<div class="home">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="kicker"><span class="dot"></span> Free · open source · 63 skills</p>
+      <h1>Grow the thing <em>you built.</em></h1>
+      <p class="hero__lead">Short, step-by-step growth skills for apps, extensions, games and AI tools.
+        Each one ends with something you can <mark>post, ship or send today</mark>, plus a copy-paste prompt for
+        Claude, ChatGPT or Gemini.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="{{ 'skills/growth/SKILL/' | url }}">Find my next step →</a>
+        <a class="btn" href="{{ 'marketing/README-marketing-social/' | url }}">See the marketing map</a>
+      </div>
+    </div>
+    <figure class="hero__art"><img src="{{ (img ~ '01-growth-hack-hero.jpg') | url }}" alt="An indie maker steps out of a garage toward a small glowing shop"></figure>
+  </section>
+
+  <!-- 3 STEPS -->
+  <section class="steps">
+    <div class="step"><span class="step__n">1</span><h3>Pick your problem</h3><p>"Nobody downloads it", "what do I post today", "trials don't pay"…</p></div>
+    <div class="step"><span class="step__n">2</span><h3>Open one skill</h3><p>Goal, steps, a prompt and a real example. 15–60 minutes.</p></div>
+    <div class="step"><span class="step__n">3</span><h3>Ship it, measure, repeat</h3><p>Every skill says what number to check and when to stop.</p></div>
+  </section>
+
+  <!-- PROBLEMS -->
+  <section class="block">
+    <h2 class="block__title">What's hurting right now?</h2>
+    <p class="block__sub">Tap the one that sounds like you. Each card opens one skill.</p>
+    <div class="cards">
+      <a class="card c-coral" href="{{ 'skills/launch/launch-quick-download-wins/SKILL/' | url }}"><span class="card__emoji">📉</span><b>Nobody downloads my app</b><span>Quick download wins this week</span></a>
+      <a class="card c-sun" href="{{ 'marketing/tiktok-marketing/skills/social-tiktok-slideshow/SKILL/' | url }}"><span class="card__emoji">🎞️</span><b>I want users from TikTok</b><span>Slideshows: cheap posts, many hooks</span></a>
+      <a class="card c-sky" href="{{ 'marketing/x-marketing/skills/social-x-daily/SKILL/' | url }}"><span class="card__emoji">🐦</span><b>What do I post on X today?</b><span>2 posts, replies, hour by hour</span></a>
+      <a class="card c-sage" href="{{ 'marketing/instagram-marketing/skills/social-instagram-image-flow/SKILL/' | url }}"><span class="card__emoji">📸</span><b>Instagram that sends site visits</b><span>One fact → one post, 10 steps</span></a>
+      <a class="card c-sun" href="{{ 'skills/aso/aso-screenshot-strategy/SKILL/' | url }}"><span class="card__emoji">📱</span><b>Store visitors don't install</b><span>Screenshots that sell</span></a>
+      <a class="card c-coral" href="{{ 'skills/launch/launch-pre-launch-checklist/SKILL/' | url }}"><span class="card__emoji">🚀</span><b>I launch soon</b><span>The pre-launch checklist</span></a>
+      <a class="card c-sage" href="{{ 'skills/email/email-trial-sequence/SKILL/' | url }}"><span class="card__emoji">⏳</span><b>Trials don't turn into paid</b><span>The trial email sequence</span></a>
+      <a class="card c-sky" href="{{ 'skills/monetization/monetization-pricing-strategy/SKILL/' | url }}"><span class="card__emoji">💰</span><b>What should I charge?</b><span>Pricing strategy</span></a>
+      <a class="card c-ink" href="{{ 'skills/strategy/strategy-revenue-target/SKILL/' | url }}"><span class="card__emoji">🎯</span><b>I want $X in N months</b><span>Work backward from the number</span></a>
+    </div>
+  </section>
+
+  <!-- THE PATH -->
+  <section class="block path">
+    <h2 class="block__title">Every channel is one path</h2>
+    <p class="block__sub">Strangers see you → they check you're real → they land somewhere → they pay. When views don't turn
+      into users, <mark>the break is one box to the right</mark>.</p>
+    <figure class="frame"><img src="{{ 'site/images/funnel.svg' | url }}" alt="Reach, trust, destination, money"></figure>
+  </section>
+
+  <!-- KITS -->
+  <section class="block">
+    <h2 class="block__title">Marketing kits, one per channel</h2>
+    <p class="block__sub">A full routine for each channel: docs, ready posts, templates, case studies and skills.</p>
+    <div class="kits">
+      <a class="kit" href="{{ 'marketing/tiktok-marketing/README-TikTok-Marketing/' | url }}">
+        <img src="{{ 'site/images/tiktok-slideshow.svg' | url }}" alt="">
+        <div class="kit__body"><span class="tag">New</span><h3>🎞️ TikTok slideshows</h3>
+          <p>The "Larry loop": 6 images, a person + doubt hook, drafts → sound → publish, keep the hook that brings installs.</p>
+          <span class="kit__go">Start the kit →</span></div></a>
+      <a class="kit" href="{{ 'marketing/instagram-marketing/README-Instagram-Marketing/' | url }}">
+        <img src="{{ 'site/images/instagram-carousel.svg' | url }}" alt="">
+        <div class="kit__body"><h3>📸 Instagram</h3>
+          <p>Carousels people send and save, a Story link to your site, and an Operator mode with 8 growth engines.</p>
+          <span class="kit__go">Start the kit →</span></div></a>
+      <a class="kit" href="{{ 'marketing/x-marketing/README-X-Marketing/' | url }}">
+        <img src="{{ (img ~ '04-x-kit-hero.jpg') | url }}" alt="">
+        <div class="kit__body"><h3>🐦 X (Twitter)</h3>
+          <p>Daily posts about what you shipped, replies that get noticed, a profile that turns visits into trials.</p>
+          <span class="kit__go">Start the kit →</span></div></a>
+    </div>
+    <p class="center"><a class="btn" href="{{ 'marketing/README-marketing-social/' | url }}">How the channels link together →</a></p>
+  </section>
+
+  <!-- CASE -->
+  <section class="block case">
+    <div class="case__text">
+      <p class="kicker"><span class="dot"></span> Case study</p>
+      <h2 class="block__title">Same app. Same images. One line changed.</h2>
+      <p>An indie dev's AI agent posted TikTok slideshows for a room-design app. The only real difference between
+        the winners and the flops was <mark>the line on slide 1</mark>.</p>
+      <a class="btn btn--primary" href="{{ 'marketing/tiktok-marketing/case-studies/2026-02-oliver-henry-larry-snugly/' | url }}">Read the Larry case →</a>
+      <p class="fine">Numbers self-reported by the founder, Feb 2026.</p>
+    </div>
+    <div class="bars">
+      <div class="bar"><div class="bar__label">"My landlord said I can't change anything so I showed her…"</div><div class="bar__track"><div class="bar__fill" style="--w:100%"></div></div><b>234,000 views</b></div>
+      <div class="bar"><div class="bar__label">"I showed my mum what AI thinks our living room could be."</div><div class="bar__track"><div class="bar__fill" style="--w:71%"></div></div><b>167,000</b></div>
+      <div class="bar bar--bad"><div class="bar__label">"The difference between $500 and $5000 taste"</div><div class="bar__track"><div class="bar__fill" style="--w:1.2%"></div></div><b>2,671</b></div>
+      <div class="bar bar--bad"><div class="bar__label">"See your room in 12+ styles before you commit"</div><div class="bar__track"><div class="bar__fill" style="--w:.4%"></div></div><b>879</b></div>
+    </div>
+  </section>
+
+  <!-- AREAS -->
+  <section class="block">
+    <h2 class="block__title">Learn by area</h2>
+    <div class="areas">
+      <a href="{{ 'skills/strategy/README/' | url }}"><span>🧭</span><b>Strategy</b><i>4 skills</i></a>
+      <a href="{{ 'skills/research/README/' | url }}"><span>🔎</span><b>Research</b><i>4 skills</i></a>
+      <a href="{{ 'skills/listing/README/' | url }}"><span>📦</span><b>Store listing</b><i>9 skills</i></a>
+      <a href="{{ 'skills/aso/README/' | url }}"><span>📱</span><b>ASO</b><i>4 skills</i></a>
+      <a href="{{ 'skills/launch/README/' | url }}"><span>🚀</span><b>Launch</b><i>9 skills</i></a>
+      <a href="{{ 'skills/social/README/' | url }}"><span>📣</span><b>Social</b><i>3 + 3 kits</i></a>
+      <a href="{{ 'skills/monetization/README/' | url }}"><span>💰</span><b>Money</b><i>7 skills</i></a>
+      <a href="{{ 'skills/email/README/' | url }}"><span>📧</span><b>Email</b><i>6 skills</i></a>
+      <a href="{{ 'skills/case-study/README/' | url }}"><span>🧪</span><b>Case studies</b><i>4 skills</i></a>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section class="block">
+    <h2 class="block__title">Five rules every skill follows</h2>
+    <div class="notes">
+      <div class="note n1"><b>Real numbers only.</b> Made-up examples are labelled.</div>
+      <div class="note n2"><b>One thing at a time.</b> One channel, one change, one week.</div>
+      <div class="note n3"><b>Measure to money.</b> Views are not the goal.</div>
+      <div class="note n4"><b>Say it's yours.</b> Disclose promotion, label AI images.</div>
+      <div class="note n5"><b>No fake engagement.</b> No bots, no bought views.</div>
+    </div>
+  </section>
+
+  <section class="final">
+    <h2>Pick one problem. Fix it this week.</h2>
+    <a class="btn btn--primary btn--big" href="{{ 'skills/growth/SKILL/' | url }}">Find my next step →</a>
+    <p><a href="https://github.com/OneClickTool/product-growth-playbook">★ Star on GitHub</a> · install as Agent Skills · free forever</p>
+  </section>
+</div>
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block footer %}{{ super() }}{% endblock %}

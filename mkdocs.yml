@@ -4,14 +4,23 @@ site_url: https://oneclicktool.github.io/product-growth-playbook/
 repo_url: https://github.com/OneClickTool/product-growth-playbook
 repo_name: OneClickTool/product-growth-playbook
 edit_uri: edit/main/
-# scripts/build_site.py copies the repo's Markdown here; the source of truth stays in the repo folders.
+# scripts/build_site.py copies the repo's Markdown here and writes _mkdocs.gen.yml (nav), which inherits this file.
+# Build: python3 scripts/build_site.py && mkdocs build -f _mkdocs.gen.yml
 docs_dir: .site-docs
 site_dir: _site
 use_directory_urls: true
 
 theme:
   name: material
+  custom_dir: site/overrides
+  font:
+    text: Figtree
+    code: JetBrains Mono
+  icon:
+    logo: material/rocket-launch
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - navigation.tracking
     - navigation.sections
@@ -23,11 +32,13 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep orange
+      primary: custom
+      accent: custom
       toggle: { icon: material/weather-night, name: Dark mode }
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
+      primary: custom
+      accent: custom
       toggle: { icon: material/weather-sunny, name: Light mode }
 
 markdown_extensions:
@@ -48,6 +59,9 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra_css:
+  - site/stylesheets/extra.css
 
 validation:
   links:

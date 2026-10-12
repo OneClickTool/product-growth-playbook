@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Channel map: social channels lead to profiles, then landing and store listing, then email and paid">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#1F2A44"/></marker></defs>
+  <rect width="960" height="480" rx="28" fill="#FAF6EE"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1F2A44" font-weight="700">
+    <text x="40" y="46" font-family="Georgia, serif" font-size="22">Borrowed reach</text>
+    <text x="330" y="46" font-family="Georgia, serif" font-size="22">Trust</text>
+    <text x="560" y="46" font-family="Georgia, serif" font-size="22">Destination</text>
+    <text x="800" y="46" font-family="Georgia, serif" font-size="22">Money</text>
+    <g font-size="17">
+      <g transform="translate(40 70)"><rect x="4" y="4" width="200" height="52" rx="26" fill="#1F2A44"/><rect width="200" height="52" rx="26" fill="#F08A5D" stroke="#1F2A44" stroke-width="3"/><text x="100" y="32" text-anchor="middle">🎞️ TikTok slideshows</text></g>
+      <g transform="translate(40 136)"><rect x="4" y="4" width="200" height="52" rx="26" fill="#1F2A44"/><rect width="200" height="52" rx="26" fill="#F08A5D" stroke="#1F2A44" stroke-width="3"/><text x="100" y="32" text-anchor="middle">📸 Instagram</text></g>
+      <g transform="translate(40 202)"><rect x="4" y="4" width="200" height="52" rx="26" fill="#1F2A44"/><rect width="200" height="52" rx="26" fill="#7EC8E3" stroke="#1F2A44" stroke-width="3"/><text x="100" y="32" text-anchor="middle">🐦 X posts + replies</text></g>
+      <g transform="translate(40 268)"><rect x="4" y="4" width="200" height="52" rx="26" fill="#1F2A44"/><rect width="200" height="52" rx="26" fill="#7EC8E3" stroke="#1F2A44" stroke-width="3"/><text x="100" y="32" text-anchor="middle">🟠 Reddit answers</text></g>
+      <g transform="translate(40 334)"><rect x="4" y="4" width="200" height="52" rx="26" fill="#1F2A44"/><rect width="200" height="52" rx="26" fill="#FAF6EE" stroke="#1F2A44" stroke-width="3" stroke-dasharray="8 6"/><text x="100" y="32" text-anchor="middle">📌 Pinterest (planned)</text></g>
+      <g transform="translate(300 110)"><rect x="5" y="5" width="190" height="96" rx="20" fill="#1F2A44"/><rect width="190" height="96" rx="20" fill="#8FB59A" stroke="#1F2A44" stroke-width="3"/><text x="95" y="42" text-anchor="middle">Social profile</text><text x="95" y="68" text-anchor="middle" font-weight="400" font-size="14">bio link + UTM</text></g>
+      <g transform="translate(300 236)"><rect x="5" y="5" width="190" height="96" rx="20" fill="#1F2A44"/><rect width="190" height="96" rx="20" fill="#8FB59A" stroke="#1F2A44" stroke-width="3"/><text x="95" y="42" text-anchor="middle">X profile</text><text x="95" y="68" text-anchor="middle" font-weight="400" font-size="14">the trust page</text></g>
+      <g transform="translate(540 110)"><rect x="5" y="5" width="190" height="96" rx="20" fill="#1F2A44"/><rect width="190" height="96" rx="20" fill="#F5C451" stroke="#1F2A44" stroke-width="3"/><text x="95" y="42" text-anchor="middle">Landing page</text><text x="95" y="68" text-anchor="middle" font-weight="400" font-size="14">free trial / version</text></g>
+      <g transform="translate(540 236)"><rect x="5" y="5" width="190" height="96" rx="20" fill="#1F2A44"/><rect width="190" height="96" rx="20" fill="#F5C451" stroke="#1F2A44" stroke-width="3"/><text x="95" y="42" text-anchor="middle">Store listing</text><text x="95" y="68" text-anchor="middle" font-weight="400" font-size="14">ASO · directories</text></g>
+      <g transform="translate(780 110)"><rect x="5" y="5" width="140" height="96" rx="20" fill="#1F2A44"/><rect width="140" height="96" rx="20" fill="#C8643F" stroke="#1F2A44" stroke-width="3"/><text x="70" y="42" text-anchor="middle" fill="#FAF6EE">Email</text><text x="70" y="68" text-anchor="middle" font-weight="400" font-size="14" fill="#FAF6EE">onboarding</text></g>
+      <g transform="translate(780 236)"><rect x="5" y="5" width="140" height="96" rx="20" fill="#1F2A44"/><rect width="140" height="96" rx="20" fill="#C8643F" stroke="#1F2A44" stroke-width="3"/><text x="70" y="42" text-anchor="middle" fill="#FAF6EE">Paid 💸</text><text x="70" y="68" text-anchor="middle" font-weight="400" font-size="14" fill="#FAF6EE">+ reviews</text></g>
+    </g>
+    <g stroke="#1F2A44" stroke-width="3" fill="none" marker-end="url(#a)">
+      <path d="M244 96 C 270 100, 280 140, 296 150"/><path d="M244 162 C 268 162, 280 160, 296 160"/>
+      <path d="M244 228 C 270 240, 280 270, 296 278"/><path d="M244 294 C 270 294, 280 290, 296 290"/>
+      <path d="M244 360 C 420 420, 560 400, 600 336" stroke-dasharray="8 6"/>
+      <path d="M494 158 h40"/><path d="M494 284 C 515 230, 520 190, 536 170"/><path d="M494 170 C 515 230, 520 260, 536 276"/>
+      <path d="M734 158 h40"/><path d="M734 284 C 755 230, 760 190, 776 170"/><path d="M850 210 v22"/>
+    </g>
+    <text x="480" y="456" text-anchor="middle" font-weight="400" font-size="15" fill="#C8643F">Views but no users? The break is almost always one box to the right: fix that before you post more.</text>
+  </g>
+</svg>

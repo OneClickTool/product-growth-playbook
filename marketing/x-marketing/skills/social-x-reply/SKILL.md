@@ -6,7 +6,7 @@ metadata:
   category: social
   difficulty: beginner
   time: "Setup 20 min · 20 min/day"
-  version: 1.0.0
+  version: 1.1.0
   author: nvminhtu
 ---
 
@@ -25,6 +25,7 @@ conversations are the cheapest reach a solo dev has, as long as each reply is wo
 ## When to use
 - You post on X and have under ~5,000 followers.
 - You pay for Premium and want to use the reply prioritization you bought.
+- You have under ~1,000 followers and your own posts get 20–30 views: spend ~70% of your X time here, 30% on posts.
 - Someone in your niche asked a question your product or experience can answer.
 - **Not for:** your own daily posts → [social-x-growth](../social-x-growth/SKILL.md). Profile and pinned post
   that turn visits into trials → [social-x-profile-funnel](../social-x-profile-funnel/SKILL.md).
@@ -37,8 +38,11 @@ conversations are the cheapest reach a solo dev has, as long as each reply is wo
 ## Steps
 1. **Build the target list (20 min, once).** Mix: 10 bigger builders in your niche, 10 accounts your buyers read
    (reviewers, newsletters, communities), 5–10 peers your size you reply to often (mutual follows get the reply boost).
-   Turn on notifications for 5 of them so you see posts in the first hour.
-2. **Daily session (20 min).** Open the list, pick 5–10 fresh posts (under ~2 hours old), reply with one of the shapes:
+   Turn on notifications for 5 of them so you see posts in the first hour (for all of them while you're under
+   1,000 followers).
+2. **Daily session (20 min).** Open the list, pick 5–10 fresh posts (under ~2 hours old; under ~15 minutes is best,
+   early replies get read), reply with one of the shapes. Under 1,000 followers, run 2–3 sessions a day and work up
+   to 20–30 replies over 3–4 weeks, following the ramp in [social-x-daily](../social-x-daily/SKILL.md):
 
    | Shape | Example opening |
    |---|---|

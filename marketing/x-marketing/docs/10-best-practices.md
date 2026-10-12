@@ -64,6 +64,8 @@ The first line is the whole post for most people scrolling. It must work alone.
 - **Real** · Going from ~1 to ~15 actions a day in 3 days took impressions ~10× and also drew a temporary label.
   Ramp up over 2–3 weeks ([flow/analytics-pattern.md](../flow/analytics-pattern.md)).
 - **Practice** · Post when *your buyers* are awake; check X analytics after 2 weeks instead of trusting "post at 9am".
+  Starting point when you live in Asia and sell to US users: post around **19:00–23:00 Vietnam time (ICT, UTC+7)**,
+  which is US East Coast morning (08:00–12:00 EDT; one hour earlier in winter).
 
 ## 7 · The first hour after posting
 - **Code** · Replies are weighted; a live conversation keeps the post going inside its 48 hours.
@@ -74,6 +76,9 @@ The first line is the whole post for most people scrolling. It must work alone.
 - **Real** · On the maintainer's account the days with the most replies were the days with the most reach.
 - **Practice** · 5–10 replies a day to accounts your buyers follow, each adding a number, example or screenshot. Quote
   posts (V18) only when you add something. Playbook: [06-reply-playbook.md](06-reply-playbook.md).
+- **Practice** · Under ~1,000 followers, split your time **70% replies, 30% own posts**. Follow 20–30 niche accounts
+  with notifications on, reply within ~15 minutes, and ramp up to 20–30 replies a day over 3–4 weeks
+  ([06-reply-playbook.md](06-reply-playbook.md#under-1000-followers-70-replies-30-posts)).
 
 ## 9 · X Communities
 - **Help** · Community posts are visible beyond members: in members' Home timelines, to your followers, in search and

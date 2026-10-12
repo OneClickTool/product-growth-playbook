@@ -10,6 +10,25 @@ Agent version with a prompt: [social-x-reply](../skills/social-x-reply/SKILL.md)
   ([03-how-x-ranks-posts.md](03-how-x-ranks-posts.md)).
 - Under a big post, a good reply is seen by that post's audience, which is usually far bigger than yours.
 
+## Under 1,000 followers: 70% replies, 30% posts
+
+**Practice** · Below ~1,000 followers your own posts reach mostly your followers, so 20–30 views a post is normal.
+Spend about **70% of your X time replying to bigger accounts** and 30% writing your own posts. People find you
+through your replies, then open your profile.
+
+- **Follow 20–30 accounts in your niche** (for a dev-tools maker: Claude Code, AI tools for devs, Mac apps, indie
+  hackers, build in public) and turn on post notifications for all of them while you're under 1,000.
+- **Reply within ~15 minutes of their post.** Early replies sit near the top and get read; reply #200 doesn't.
+  Every reply adds something real: a tip, a number, a screenshot. Never "Great post!".
+- **Work up to 20–30 replies a day**, not on day one. Follow the ramp in
+  [social-x-daily](../skills/social-x-daily/SKILL.md) (week 1: 5 → week 3: 13–15 → week 4+: 20–30). A sudden jump in
+  activity came right before a temporary reach label on the maintainer's account
+  ([08-rules-and-risks.md](08-rules-and-risks.md)).
+- **Your own posts (the 30%):** 1–2 a day, a native clip or screenshot instead of a link card, link in the first
+  reply, one post a day in a Community you joined ([10-best-practices.md](10-best-practices.md)).
+
+Move toward 50/50 once your own posts regularly beat ~500 views.
+
 ## The 20-minute session
 1. Open your target list (notifications on for 5 accounts).
 2. Pick 5–10 posts under ~2 hours old.

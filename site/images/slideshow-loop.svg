@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" role="img" aria-label="The slideshow loop: research, hook, slides, draft, publish, measure, decide">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#1F2A44"/></marker></defs>
+  <rect width="960" height="470" rx="28" fill="#FAF6EE"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1F2A44">
+    <circle cx="480" cy="235" r="165" fill="none" stroke="#1F2A44" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/>
+    <g transform="translate(480 235)">
+      <circle r="78" fill="#C8643F" stroke="#1F2A44" stroke-width="3"/>
+      <text y="-8" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#FAF6EE">The loop</text>
+      <text y="20" text-anchor="middle" font-size="14" fill="#FAF6EE">numbers pick</text>
+      <text y="38" text-anchor="middle" font-size="14" fill="#FAF6EE">the next hook</text>
+    </g>
+    <g font-size="16" font-weight="700">
+      <g transform="translate(480 70)"><rect x="-82" y="-28" width="168" height="56" rx="28" fill="#1F2A44"/><rect x="-86" y="-32" width="168" height="56" rx="28" fill="#F5C451" stroke="#1F2A44" stroke-width="3"/><text x="-2" y="2" text-anchor="middle">1 Research niche</text></g>
+      <g transform="translate(700 140)"><rect x="-82" y="-28" width="168" height="56" rx="28" fill="#1F2A44"/><rect x="-86" y="-32" width="168" height="56" rx="28" fill="#F08A5D" stroke="#1F2A44" stroke-width="3"/><text x="-2" y="2" text-anchor="middle">2 Write 10 hooks</text></g>
+      <g transform="translate(730 300)"><rect x="-82" y="-28" width="168" height="56" rx="28" fill="#1F2A44"/><rect x="-86" y="-32" width="168" height="56" rx="28" fill="#8FB59A" stroke="#1F2A44" stroke-width="3"/><text x="-2" y="2" text-anchor="middle">3 Make 6 slides</text></g>
+      <g transform="translate(560 405)"><rect x="-82" y="-28" width="168" height="56" rx="28" fill="#1F2A44"/><rect x="-86" y="-32" width="168" height="56" rx="28" fill="#7EC8E3" stroke="#1F2A44" stroke-width="3"/><text x="-2" y="2" text-anchor="middle">4 Draft to TikTok</text></g>
+      <g transform="translate(330 405)"><rect x="-92" y="-28" width="188" height="56" rx="28" fill="#1F2A44"/><rect x="-96" y="-32" width="188" height="56" rx="28" fill="#FAF6EE" stroke="#1F2A44" stroke-width="3"/><text x="-2" y="2" text-anchor="middle">5 Sound + publish 🙋</text></g>
+      <g transform="translate(220 290)"><rect x="-82" y="-28" width="168" height="56" rx="28" fill="#1F2A44"/><rect x="-86" y="-32" width="168" height="56" rx="28" fill="#F5C451" stroke="#1F2A44" stroke-width="3"/><text x="-2" y="2" text-anchor="middle">6 Log after 48 h</text></g>
+      <g transform="translate(250 135)"><rect x="-82" y="-28" width="168" height="56" rx="28" fill="#1F2A44"/><rect x="-86" y="-32" width="168" height="56" rx="28" fill="#C8643F" stroke="#1F2A44" stroke-width="3"/><text x="-2" y="2" text-anchor="middle" fill="#FAF6EE">7 Keep or drop</text></g>
+    </g>
+    <g stroke="#1F2A44" stroke-width="3" fill="none" marker-end="url(#a)">
+      <path d="M570 80 Q 630 90 655 108"/><path d="M745 172 Q 760 220 748 262"/><path d="M690 334 Q 660 380 640 392"/>
+      <path d="M470 410 h-30"/><path d="M262 386 Q 225 360 220 326"/><path d="M215 255 Q 210 200 230 168"/><path d="M330 112 Q 360 82 392 76"/>
+    </g>
+    <g font-size="13">
+      <text x="40" y="430">🙋 = the one step a human does (TikTok's API can't pick a sound)</text>
+      <text x="610" y="40" fill="#C8643F" font-weight="700">high views, no installs → fix CTA</text>
+      <text x="610" y="58" fill="#C8643F" font-weight="700">few views, good installs → fix hook</text>
+    </g>
+  </g>
+</svg>

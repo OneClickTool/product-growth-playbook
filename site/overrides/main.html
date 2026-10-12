@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set area = page.url.split('/')[0] if page and page.url else '' %}
+{% set kit = page.url.split('/')[1] if page and page.url and page.url.startswith('marketing/') else '' %}
+<div class="page" data-area="{{ area }}" data-kit="{{ kit }}">
+  {{ super() }}
+</div>
+{% endblock %}

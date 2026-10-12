@@ -177,3 +177,75 @@ Negative: text, letters, numbers, words, captions, watermark, signature, brand l
 
 - 1536×1024 (or 3:2), no letters or logos anywhere, same palette and line weight as the rest of the set.
 - Readable as a thumbnail on a phone (GitHub mobile).
+
+## 10-tiktok-kit-hero · marketing/tiktok-marketing/README-TikTok-Marketing.md (top)
+
+Goes in: `marketing/tiktok-marketing/README-TikTok-Marketing.md (top)`
+
+```text
+Subject: A tiny indie maker sits cross-legged on a giant phone lying flat like a stage. Above the phone six oversized photo cards fan out in an arc like a deck of playing cards, each showing the same small cozy room in a different color scheme. A small crowd of faceless viewers on the right leans in, one pointing excitedly at the fourth card. Little sparkles rise from the cards.
+
+Style: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.
+
+Composition: Wide 3:2. Phone and maker lower-left, card arc across the center, viewers on the right. Calm cream sky in the top quarter.
+
+Palette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.
+
+Spec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.
+
+Negative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.
+```
+
+## 11-instagram-kit-hero · marketing/instagram-marketing/README-Instagram-Marketing.md (top)
+
+Goes in: `marketing/instagram-marketing/README-Instagram-Marketing.md (top)`
+
+```text
+Subject: A maker pins square photo cards onto a long clothesline that runs from a small studio window to a little shop with an open door. People walking by stop, one takes a card to show a friend, another follows the clothesline toward the shop. A paper link-sticker shaped like a small flag hangs at the end of the line by the shop door.
+
+Style: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.
+
+Composition: Wide 3:2. Studio window left, clothesline curving gently to the shop on the right, walkers along the bottom.
+
+Palette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.
+
+Spec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.
+
+Negative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.
+```
+
+## 12-marketing-map-hero · marketing/README-marketing-social.md (top)
+
+Goes in: `marketing/README-marketing-social.md (top)`
+
+```text
+Subject: An aerial view of a small friendly town map. On the left edge, several colored roads start from little landmarks (a film reel tower, a camera kiosk, a bird-shaped weathervane, an orange speech-bubble cafe). All roads merge into a bridge (trust) that leads to a central square with a shop and a mailbox, and a tiny bank with a coin on its roof on the right. Small people walk along the roads.
+
+Style: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.
+
+Composition: Wide 3:2 map view from slightly above. Roads flow left to right, shop in the center-right, lots of cream ground between roads.
+
+Palette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.
+
+Spec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.
+
+Negative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.
+```
+
+## 13-skill-steps-hero · site home and skills/growth/SKILL.md
+
+Goes in: `site home and skills/growth/SKILL.md`
+
+```text
+Subject: A maker stands at a fork of stepping-stone paths in a garden; each path is marked by a small wooden signpost with a simple symbol (a magnifier, a rocket, a coin, an envelope, a phone). The maker holds a small open notebook. One path is lit by warm sunlight leading to a glowing shop.
+
+Style: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.
+
+Composition: Wide 3:2. Maker at the lower center, paths fanning upward, the lit path going to the upper right.
+
+Palette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.
+
+Spec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos.
+
+Negative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, X/Twitter logo, Reddit logo, Gmail logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.
+```

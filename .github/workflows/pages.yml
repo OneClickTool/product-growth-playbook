@@ -24,7 +24,7 @@ jobs:
           python-version: "3.12"
       - run: pip install "mkdocs<2" "mkdocs-material==9.*"
       - run: python3 scripts/build_site.py
-      - run: mkdocs build
+      - run: mkdocs build -f _mkdocs.gen.yml
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
