@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "repo": "product-growth-hack",
+  "preset": "doc-illustration",
+  "raw_dir": "docs/images/raw",
+  "style_lock": "Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.",
+  "jobs": [
+    {
+      "id": "15-pinterest-kit-hero",
+      "file": "15-pinterest-kit-hero.png",
+      "size": "1536x1024",
+      "format": "png",
+      "background": "opaque",
+      "text": "none",
+      "prompt": "Subject: A friendly indie maker stands at a large cork-style board on a warm studio wall, pinning a tall vertical card (2:3 shape) next to a neat grid of other tall cards showing simple pictures only: a planner page, a tidy desk with a laptop, a before-and-after split, a checklist with tick marks, a small phone screen. From several cards, thin dotted paths with tiny map-pin markers lead across the wall to three small friendly doors (helpful pages), and from one door a short path leads to the maker's tiny shop with a gift box on its step. A couple of small visitors follow the paths, holding a card they saved.\n\nStyle: Style lock: warm editorial flat illustration with soft grain, rounded friendly shapes, gentle long shadows, lots of breathing room, one clear focal point. Palette: cream background #FAF6EE, terracotta #C8643F, coral #F08A5D, deep navy #1F2A44, sage green #8FB59A, sunshine yellow #F5C451, small accents of sky blue #7EC8E3. Characters are a small cast of simple, faceless, gender-neutral indie makers drawn with 2-3 flat colors, no detailed faces. Same line weight, same palette and same lighting in every image of the set, so they read as one series. Optimistic, energetic, 'stepping into the light' mood.\n\nComposition: Wide 3:2. The board and the maker on the left two thirds, the doors and the shop on the right. Calm cream space at the top for a title.\n\nPalette: only the style-lock colors; cream background, terracotta and coral as main accents, navy for outlines and shadows.\n\nSpec: 1536x1024 PNG, landscape 3:2, opaque cream background, no text of any kind, no logos, no Pinterest logo.\n\nNegative: text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, Pinterest logo, red P logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood.",
+      "negative": "text, letters, numbers, words, captions, watermark, signature, brand logos, real company logos, Pinterest logo, red P logo, App Store logo, UI text, border, frame, collage, multiple panels, photorealistic faces, dark gloomy mood",
+      "dest": "docs/images/illustrations/15-pinterest-kit-hero.jpg",
+      "use_in": "marketing/pinterest-marketing/README-Pinterest-Marketing.md"
+    }
+  ]
+}

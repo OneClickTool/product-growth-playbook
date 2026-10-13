@@ -1,6 +1,33 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Pinterest kit)
+- `marketing/pinterest-marketing/`: Pinterest kit for indie devs. Pins link to a page on your own site, made fresh
+  each week, written for Pinterest search. Docs (strategy with a yes / test / no fit test, profile setup with a
+  claimed website, how Pinterest search works, keywords and boards from autocomplete and Pinterest Trends, pin design
+  at 2:3, 8 pin variants, metrics and stop rules, rules and risks), a weekly batch flow, templates (pin file, keyword
+  sheet, board plan, weekly numbers), sourced facts, and two skills: `social-pinterest` (router:
+  `/social-pinterest today · keywords · pin · boards · profile · numbers · fit · risk`) and `social-pinterest-pin`.
+  Linked from the marketing hub (no longer *planned*), the site menu, the `growth` router and the root README.
+### Added (Medium kit)
+- `marketing/medium-marketing/`: Medium kit for indie devs. A fit check first (good for dev tools, AI, SaaS and
+  tutorials; weak for games and consumer apps), then reader-first articles with the product mentioned once and
+  disclosed. Docs (strategy in 3 phases, profile, how distribution and Boost work, canonical links and importing,
+  8 article types, publications, metrics and stop rules, rules and risks), a weekly flow with a 15-minute mirror
+  mode, templates (article file, publication tracker, weekly numbers), sourced facts, and two skills:
+  `social-medium` (router: `/social-medium fit · start · write · mirror · pubs · profile · numbers · risk`) and
+  `social-medium-article`. Linked from the marketing hub, the site menu, the `growth` router and the root README.
+### Added (Instagram kit)
+- `social-instagram-dm`: comments → DMs → website visits. First-hour comment routine, a comment-keyword flow
+  (message 1 + button, message 2 with the promised thing and a `utm_medium=dm` link), saved replies, a Broadcast
+  channel plan, and Meta's messaging rules with sources (person starts the chat, 24-hour window, one private reply
+  within 7 days of a comment, official-API tools only). New template `templates/dm-flow.md`.
+- `/social-instagram today` and `/social-instagram dm <post>` (router 1.1.0); the router lists all 14 commands in
+  the kit README, the skills README, `skills/social/README.md` and the `growth` router.
+- `posts/week-02-mix.md`: week 2 of the 30-day sprint (Oct 19–25), post by post: 6 brand posts incl. a `LIST`
+  keyword post, hook lab S1 / H1, niche account posts 1–5, 30 creator DMs, collab #1 only with a real yes.
+- Instagram kit hero illustration (`docs/images/illustrations/11-instagram-kit-hero.jpg`) on the site.
+- Messaging facts added to `reference/instagram-facts.md` (checked 2026-10-13).
 ### Added (Reddit kit)
 - `marketing/reddit-marketing/`: Reddit kit for indie devs. Comments first, posts later, always disclosed. Docs
   (strategy in 3 phases, profile setup with social links + UTM, how Reddit ranks, finding threads with search, F5Bot,

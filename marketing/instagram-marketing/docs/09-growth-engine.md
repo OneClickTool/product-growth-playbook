@@ -114,8 +114,11 @@ Message 2 (on tap):    the checklist (real) + landing URL with utm_medium=dm&utm
 ```
 
 Vendor benchmarks: ~18–25 % of people entering the flow click; the link in message 2, after a button, beat
-message 1 (Practice, vendor data). Use a Meta-partner tool on the official API; the DM must give exactly what was
+message 1 (Practice, vendor data). A private reply to a comment is one message within 7 days of it, and automated
+messages stay inside 24 h of the person's last message (Official, Meta developer docs). Use a Meta-partner tool on the official API; the DM must give exactly what was
 promised. Opt-ins also build a list you can message later (inside Meta's messaging rules).
+
+Skill: [social-instagram-dm](../skills/social-instagram-dm/SKILL.md) · log: [templates/dm-flow.md](../templates/dm-flow.md).
 
 **Broadcast channel:** open one on the brand account; post launches, betas, discount windows. It's a free push to
 people who asked for it (Official).

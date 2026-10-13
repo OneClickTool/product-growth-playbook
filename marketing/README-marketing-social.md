@@ -19,7 +19,8 @@ Reddit · communities       bio link + UTM            directories · ASO        
 | 📸 Instagram | [instagram-marketing/](instagram-marketing/README-Instagram-Marketing.md) | [`/social-instagram`](instagram-marketing/skills/social-instagram/SKILL.md) | Carousel, Reel, Story | Non-developer buyers, Mac / iPhone users, creators | Live |
 | 🎞️ TikTok slideshows | [tiktok-marketing/](tiktok-marketing/README-TikTok-Marketing.md) | [`social-tiktok-slideshow`](tiktok-marketing/skills/social-tiktok-slideshow/SKILL.md) | 6-image photo-mode post | Consumer apps with a visual result or an emotional moment | Live |
 | 🟠 Reddit | [reddit-marketing/](reddit-marketing/README-Reddit-Marketing.md) | [`/social-reddit`](reddit-marketing/skills/social-reddit/SKILL.md) | Answer (comment), then a post in the subreddit's format | Users asking for a tool like yours; Mac / dev / niche buyers | Live |
-| 📌 Pinterest | `pinterest-marketing/` | — | Pin → article / landing | Visual, evergreen search traffic | *planned* |
+| ✍️ Medium | [medium-marketing/](medium-marketing/README-Medium-Marketing.md) | [`/social-medium`](medium-marketing/skills/social-medium/SKILL.md) | Long article (or your blog post, mirrored) | Dev tools, AI / SaaS / productivity; support channel, not for games | Live |
+| 📌 Pinterest | [pinterest-marketing/](pinterest-marketing/README-Pinterest-Marketing.md) | [`/social-pinterest`](pinterest-marketing/skills/social-pinterest/SKILL.md) | 2:3 pin → how-to page / landing | Planners: templates, study, design, home; evergreen search traffic | Live |
 
 Every kit has the same layout: `README-<Channel>-Marketing.md`, `docs/` (the method), `reference/` (sources and
 research log), `templates/`, `skills/`, plus `case-studies/`, `flow/` or `posts/` where the kit has them.
@@ -34,9 +35,10 @@ flowchart LR
         X["X posts + replies"]
         SV["Short video<br/>TikTok · Reels · Shorts"]
         RD["Reddit answers<br/>(reddit-marketing)"]
+        MD["Medium articles<br/>(medium-marketing)"]
         CM["Communities<br/>Discord · IH · HN"]
         PH["Launch sites<br/>Product Hunt"]
-        PI["Pinterest (planned)"]
+        PI["Pinterest pins<br/>(pinterest-marketing)"]
     end
     subgraph TRUST["Trust (they check you're real)"]
         PR["Social profiles<br/>bio · pinned demo"]
@@ -59,6 +61,7 @@ flowchart LR
     PI -.-> LP
     X --> XP
     RD --> XP
+    MD --> LP
     CM --> XP
     PR --> LP
     PR --> ST
@@ -99,9 +102,10 @@ flowchart TD
     F --> IA["Instagram: 6-slide carousel<br/>+ 3-frame link Story"]
     F --> TA["TikTok: 6-image slideshow<br/>person + doubt hook"]
     F --> RA["Reddit: a useful answer<br/>where someone asked"]
+    F --> MA["Medium: the long how-to<br/>product once, disclosed"]
     F --> LA["Store listing / landing:<br/>a screenshot caption"]
-    F -. planned .-> PA["Pinterest: a pin to a how-to page"]
-    XA & IA & TA & RA --> NUM["Weekly numbers<br/>per channel"]
+    F --> PA["Pinterest: 3–5 pins<br/>to a how-to page"]
+    XA & IA & TA & RA & MA & PA --> NUM["Weekly numbers<br/>per channel"]
     NUM -- "winner" --> F
 ```
 
@@ -148,9 +152,10 @@ Same pattern everywhere so one GA4 report compares channels: `utm_source=<channe
 | Instagram | `instagram` | `bio`, `story`, `dm` | Bio links, Story link sticker, DM |
 | TikTok | `tiktok` | `bio` | Bio only (caption links aren't clickable) |
 | Reddit | `reddit` | `comment`, `profile` | Profile social links, comments where allowed |
+| Medium | `medium` | `article`, `profile` | Last paragraph of an article, profile about page |
 | Email | `email` | `signature`, `onboarding`, `trial` | Signatures, sequences |
 | Directories / launch sites | `<site>` | `listing`, `launch` | The listing page |
-| Pinterest (planned) | `pinterest` | `pin` | The pin's destination link |
+| Pinterest | `pinterest` | `pin`, `profile` | The pin's destination link (`utm_content=<variant>`), profile website |
 
 App stores strip most UTMs. For iOS use App Store Connect campaign links (`ct=`), for Google Play the `referrer`
 parameter, and count installs per day per channel.
@@ -167,7 +172,7 @@ parameter, and count installs per day per channel.
 | Thu | same | Reddit answers | — |
 | Fri | same | X replies | Check email sequence opens |
 | Sat | batch next week's posts from the fact bank | — | — |
-| Sun | weekly numbers per channel: [X](x-marketing/templates/weekly-numbers.md) · [Instagram](instagram-marketing/templates/weekly-numbers.md) · [TikTok loop](tiktok-marketing/skills/social-tiktok-slideshow-loop/SKILL.md) | — | Installs, trials, paid by `utm_source` |
+| Sun | weekly numbers per channel: [X](x-marketing/templates/weekly-numbers.md) · [Instagram](instagram-marketing/templates/weekly-numbers.md) · [TikTok loop](tiktok-marketing/skills/social-tiktok-slideshow-loop/SKILL.md) · [Pinterest](pinterest-marketing/templates/weekly-numbers.md) | — | Installs, trials, paid by `utm_source` |
 
 ## 6 · Same numbers in every channel
 
@@ -200,7 +205,9 @@ marketing/
 ├── x-marketing/                    X: daily posts, replies, profile funnel, Premium
 ├── instagram-marketing/            Instagram: 10-step image flow, Stories, growth engine, creators
 ├── tiktok-marketing/               TikTok: photo-mode slideshows, the Larry loop, case studies
-└── pinterest-marketing/            (planned)
+├── reddit-marketing/               Reddit: answers first, posts later, subreddit wiki
+├── medium-marketing/               Medium: fit check, reader-first articles, canonical links, publications
+└── pinterest-marketing/            Pinterest: search-term boards, fresh pins to your pages
 
 skills/  (channel-neutral skills these kits link to)
 ├── social/     short video · credible posting · build in public

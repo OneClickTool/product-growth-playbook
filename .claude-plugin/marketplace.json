@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "product-growth-hack",
-      "description": "65 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public, plus an X marketing kit: one /social-x command, a daily plan, weekly posts, replies, profile funnel, Premium plan, and an Instagram kit: one /social-instagram command, a 10-step image flow for carousels, Reels and Stories that drive website visits, weekly plan, a Reddit kit: one /social-reddit command, comments first with a 5-check rule for mentioning your product, 10 post variants and a 15-minute daily flow, and a TikTok slideshow kit: 6-slide photo-mode posts with person + doubt hooks, draft → sound → publish, and a weekly loop that picks hooks by installs), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
+      "description": "70 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public, plus an X marketing kit: one /social-x command, a daily plan, weekly posts, replies, profile funnel, Premium plan, and an Instagram kit: one /social-instagram command, a 10-step image flow for carousels, Reels and Stories that drive website visits, weekly plan, comment → DM flows with tracked links, a Reddit kit: one /social-reddit command, comments first with a 5-check rule for mentioning your product, 10 post variants and a 15-minute daily flow, a Pinterest kit: one /social-pinterest command, search-term boards, 3–5 fresh 2:3 pins per page with UTM links and a weekly batch, a Medium kit: one /social-medium command, a fit check (worth it or not), reader-first articles with a 5-check product test, canonical links to your blog and publications before Boost, and a TikTok slideshow kit: 6-slide photo-mode posts with person + doubt hooks, draft → sound → publish, and a weekly loop that picks hooks by installs), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,
       "skills": [
@@ -78,8 +78,13 @@
         "./marketing/tiktok-marketing/skills/social-tiktok-slideshow-loop",
         "./marketing/instagram-marketing/skills/social-instagram-creators",
         "./marketing/instagram-marketing/skills/social-instagram-engine",
+        "./marketing/instagram-marketing/skills/social-instagram-dm",
         "./marketing/reddit-marketing/skills/social-reddit",
-        "./marketing/reddit-marketing/skills/social-reddit-comment"
+        "./marketing/reddit-marketing/skills/social-reddit-comment",
+        "./marketing/medium-marketing/skills/social-medium",
+        "./marketing/medium-marketing/skills/social-medium-article",
+        "./marketing/pinterest-marketing/skills/social-pinterest",
+        "./marketing/pinterest-marketing/skills/social-pinterest-pin"
       ]
     }
   ]

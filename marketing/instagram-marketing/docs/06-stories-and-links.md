@@ -30,6 +30,9 @@ put the sticker in the middle third, above the reply bar.
 - Answer by hand, or with a tool that uses Meta's official messaging API. The DM must contain **only** what was
   promised + the UTM link (`utm_medium=dm`). Don't promise a "free guide" you don't have.
 - Don't use it on every post; "comment to get" on everything reads as bait ([08](08-rules-and-risks.md)).
+- Meta's rules: one private reply per comment, within 7 days; automated messages only inside 24 h of the person's
+  last message (Official, [facts](../reference/instagram-facts.md#growth-levers-checked-2026-10-12)). Full flow,
+  saved replies and tracking: [social-instagram-dm](../skills/social-instagram-dm/SKILL.md) (`/social-instagram dm <post>`).
 
 ## Bio link rotation
 - Link 1 = the product of **today's** post. Change it when you publish; change it back to the hero product after

@@ -38,7 +38,6 @@ These skills are planned and nobody has claimed them yet. Comment on the issue o
 | `listing-shopify-app` | Listing |
 | `social-linkedin-outreach` | Social |
 | `social-facebook-groups` | Social |
-| `marketing/pinterest-marketing/` kit (pins → how-to pages and landing) | Social |
 
 ## Later (by demand)
 New areas open once people ask for them: SEO · content marketing (incl. newsletters) · conversion · retention ·

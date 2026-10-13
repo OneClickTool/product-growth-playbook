@@ -34,6 +34,7 @@ only; Redliner gets "building" posts to grow a waitlist.
 - **Gate:** every link tapped on a phone lands right with UTM. Baseline filled.
 
 ## Week 2 · Oct 19–25 · Hook lab + niche account 1 + creator list
+Post by post: [week-02-mix.md](week-02-mix.md).
 - Brand: 6 posts (Sweepy checklist, Sweepy before/after, Haunts privacy carousel, Edge Tabs tips, AgentBell Reel,
   Haunts card #2).
 - Hook lab: 2 ideas × 3 hooks from [hook-tests.md](hook-tests.md) (`S1`, `H1`). Under 1,000 followers → post the

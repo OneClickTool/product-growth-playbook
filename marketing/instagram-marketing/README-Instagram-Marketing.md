@@ -31,11 +31,13 @@ Start in Starter for 2 weeks (the base: profile, link path, design kit), then fo
 ## One command
 
 ```text
+/social-instagram today         → today's 20-minute checklist: post, bio link, replies, Story, comments
 /social-instagram post <fact>   → one post built with the 10-step image flow (slides, caption, alt text, link path)
 /social-instagram week          → next week's 5 posts + 3 Story sequences from your fact bank
 /social-instagram month         → the 30-day plan, day by day
 /social-instagram profile       → name field, bio, 5 links with UTM, highlights, 3 pinned posts
 /social-instagram story <post>  → a 3-frame Story that sends a post's readers to your site
+/social-instagram dm <post>     → comment keyword → DM with the promised thing + a tracked link, saved replies
 /social-instagram numbers       → weekly numbers, the weakest step, what to fix
 /social-instagram risk          → what cuts reach (originality, watermarks, bait, automation)
 /social-instagram engine        → Operator mode: next week across 8 engines, budget, kill rules
@@ -72,10 +74,10 @@ Ten steps from one true fact to a post that earns impressions and website visits
 |---|---|
 | [docs/](docs/) | The Instagram flow, one topic per file (below) |
 | [reference/](reference/) | [Facts with sources and dates](reference/instagram-facts.md) · [research log 2026-10-12](reference/research-2026-10-12-instagram-survey.md) |
-| [skills/](skills/) | [**social-instagram** (router)](skills/social-instagram/SKILL.md) · [image flow](skills/social-instagram-image-flow/SKILL.md) · [growth](skills/social-instagram-growth/SKILL.md) · [**engine** (Operator)](skills/social-instagram-engine/SKILL.md) · [creators](skills/social-instagram-creators/SKILL.md) |
+| [skills/](skills/) | [**social-instagram** (router)](skills/social-instagram/SKILL.md) · [image flow](skills/social-instagram-image-flow/SKILL.md) · [growth](skills/social-instagram-growth/SKILL.md) · [DM](skills/social-instagram-dm/SKILL.md) · [**engine** (Operator)](skills/social-instagram-engine/SKILL.md) · [creators](skills/social-instagram-creators/SKILL.md) |
 | [flow/](flow/) | [Daily / weekly / monthly routine](flow/daily-flow.md) · [Instagram → website funnel and UTM map](flow/website-funnel.md) |
-| [templates/](templates/) | [Design kit](templates/design-kit.md) · [carousel brief](templates/carousel-brief.md) · [post file](templates/post-file.md) · [Story sequence](templates/story-sequence.md) · [weekly numbers](templates/weekly-numbers.md) · [hook tests](templates/hook-tests.md) · [creator brief](templates/creator-brief.md) · [creator tracker](templates/creator-tracker.md) |
-| [posts/](posts/) | Ready to copy: [product rotation](posts/product-rotation.md), [week 1](posts/week-01-starter.md), [30-day Operator sprint](posts/plan-30-days.md), [niche network](posts/niche-network.md), [hook tests](posts/hook-tests.md), [creator briefs](posts/creator-briefs.md) |
+| [templates/](templates/) | [Design kit](templates/design-kit.md) · [carousel brief](templates/carousel-brief.md) · [post file](templates/post-file.md) · [Story sequence](templates/story-sequence.md) · [weekly numbers](templates/weekly-numbers.md) · [hook tests](templates/hook-tests.md) · [creator brief](templates/creator-brief.md) · [creator tracker](templates/creator-tracker.md) · [DM flow](templates/dm-flow.md) |
+| [posts/](posts/) | Ready to copy: [product rotation](posts/product-rotation.md), [week 1](posts/week-01-starter.md), [week 2](posts/week-02-mix.md), [30-day Operator sprint](posts/plan-30-days.md), [niche network](posts/niche-network.md), [hook tests](posts/hook-tests.md), [creator briefs](posts/creator-briefs.md) |
 
 ## Docs, in reading order
 1. [Strategy: why images, and what Instagram is for an indie dev](docs/01-strategy.md)
@@ -94,7 +96,8 @@ Ten steps from one true fact to a post that earns impressions and website visits
 - Watch time, likes and **sends** are the top signals; sends matter most for reaching people who don't follow you
   (Reported, Mosseri, Jan 2025). Make posts people DM to a friend: checklists, before/after, honest numbers.
 - Post your own work. Reposts, watermarks from other apps and "mostly text" Reels get less reach (Official).
-- Links in captions don't work. The path to your site is **bio link → Story link sticker → DM** (Official / Reported).
+- Links in captions don't work. The path to your site is **bio link → Story link sticker → DM** (Official / Reported);
+  one keyword post a week turns comments into DM clicks ([social-instagram-dm](skills/social-instagram-dm/SKILL.md)).
 - Five hashtags at most, and they help less than a clear caption with the words people search (Reported, Dec 2025).
 - UTM on every link, or you'll never know whether Instagram sends visitors.
 - Scale with other people's audiences (creators, collabs) and paid money **only on posts that already won**.

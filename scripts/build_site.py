@@ -53,6 +53,9 @@ HERO_IMAGES = {
                                                                     "site/images/instagram-carousel.svg"],
     "marketing/reddit-marketing/README-Reddit-Marketing.md": ["docs/images/illustrations/14-reddit-kit-hero.jpg",
                                                               "site/images/channel-map.svg"],
+    "marketing/medium-marketing/README-Medium-Marketing.md": "site/images/channel-map.svg",
+    "marketing/pinterest-marketing/README-Pinterest-Marketing.md": ["docs/images/illustrations/15-pinterest-kit-hero.jpg",
+                                                                    "site/images/channel-map.svg"],
     "skills/growth/SKILL.md": ["docs/images/illustrations/13-skill-steps-hero.jpg", "site/images/funnel.svg"],
     "playbook-overview.md": "docs/images/illustrations/01-growth-hack-hero.jpg",
     "skills/launch/README.md": "docs/images/illustrations/02-free-hook-ladder.jpg",
@@ -267,7 +270,8 @@ def build_nav():
     n.append('  - "Marketing":')
     n.append(entry("marketing/README-marketing-social.md", 6, "Map: how channels link"))
     for kit, label in (("marketing/tiktok-marketing", "🎞️ TikTok"), ("marketing/instagram-marketing", "📸 Instagram"),
-                       ("marketing/x-marketing", "🐦 X (Twitter)"), ("marketing/reddit-marketing", "🟠 Reddit")):
+                       ("marketing/x-marketing", "🐦 X (Twitter)"), ("marketing/reddit-marketing", "🟠 Reddit"),
+                       ("marketing/medium-marketing", "✍️ Medium"), ("marketing/pinterest-marketing", "📌 Pinterest")):
         if (OUT / kit).exists():
             n.append(f"      - {q(label)}:")
             n += kit_nav(kit, 10)
