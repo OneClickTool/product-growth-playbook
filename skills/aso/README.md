@@ -16,5 +16,5 @@ The full route, with a baseline and a monthly measurement loop, is in [playbooks
 
 **Open for contributors:** competitor ASO audit. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
-> 📖 Tip: see how these skills link to each other in [Markdown Viewer](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=aso)
+> 📖 Tip: see how these skills link to each other in [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=area-readme&utm_campaign=growth-playbook&utm_content=aso)
 > (free, Mac, made by the maintainer): map, table or Finder-style folders, plus ★ favorites.

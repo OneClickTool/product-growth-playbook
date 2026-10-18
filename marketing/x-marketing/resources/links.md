@@ -58,7 +58,7 @@ Offers are copied from the product pages on oneclicktool.app; re-check the store
 
 | App | Link |
 |---|---|
-| Markdown Viewer (Markdown Everywhere) | `https://github.com/nvminhtu/markdown-viewer#readme` |
+| Markdown Everywhere | `https://github.com/nvminhtu/markdown-viewer#readme` |
 | Server Hub | `https://github.com/nvminhtu/server-hub#readme` |
 | TapRec (Android) | `https://github.com/nvminhtu/taprec#readme` |
 

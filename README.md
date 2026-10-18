@@ -19,7 +19,7 @@ under an hour and you end up with something real: a keyword list, a launch plan,
 | 🧠 | **71 free AI growth skills** | Strategy, research, case studies, store listing by niche, ASO, launch, social, monetization and email, each with a copy-paste prompt for Claude, ChatGPT, Gemini or Cursor. Or follow the steps by hand. |
 | 🔎 | **A tidy research system** | Where to find trustworthy sources, where users ask for software (with links), how to mine competitor reviews, and templates to keep notes, sources and decisions organized in Markdown. |
 | 🗺️ | **Step-by-step playbooks** | A 6-week route from "almost ready" to your first 100 users, and a 4-week ASO route with a monthly measurement loop, built from the skills. |
-| 📖 | **A free app to read it all** | [Markdown Viewer](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac & Windows) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. Downloads and install steps: [GitHub](https://github.com/nvminhtu/markdown-viewer#readme). |
+| 📖 | **A free app to read it all** | [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=what-you-get) (Mac & Windows) shows this repo, or your own research folder, as a table, a link map or Finder-style folders. Downloads and install steps: [GitHub](https://github.com/nvminhtu/markdown-viewer#readme). |
 
 No sign-up, no paywall, no email list. MIT licensed: use it, fork it, teach with it.
 
@@ -131,11 +131,11 @@ Before any channel: [measure first](skills/growth/action/01-measure-first.md), s
 
 ### 📖 Read the whole playbook as a map
 
-50+ Markdown files link to each other here. Open the repo in **[Markdown Viewer](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook)**
+50+ Markdown files link to each other here. Open the repo in **[Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook)**
 (free, Mac) and you can see which skill leads to which, browse folders like in Finder, and ★ star the skills you
 use most. It's read-only, and nothing leaves your computer.
 
-[![This repo in Markdown Viewer: every skill and the links between them](docs/images/mv-map.png)](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=screenshot-map)
+[![This repo in Markdown Everywhere: every skill and the links between them](docs/images/mv-map.png)](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=screenshot-map)
 
 <details>
 <summary>More screenshots: table view · Finder-style folders + reader with Favorites</summary>
@@ -146,7 +146,7 @@ use most. It's read-only, and nothing leaves your computer.
 
 </details>
 
-<sub>I made Markdown Viewer. It's free, and it's how I keep this repo organized. → [Download Markdown Viewer](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook-cta) for Mac or Windows · [install steps](https://github.com/nvminhtu/markdown-viewer#install)</sub>
+<sub>I made Markdown Everywhere. It's free, and it's how I keep this repo organized. → [Download Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=skills-hook-cta) for Mac or Windows · [install steps](https://github.com/nvminhtu/markdown-viewer#install)</sub>
 
 ## Three ways to use a skill
 
@@ -170,7 +170,7 @@ npx skills add OneClickTool/product-growth-playbook
 Or copy a skill folder into your agent's skills directory (for example `~/.claude/skills/`).
 
 > **Tip:** every skill is a Markdown file, and most produce one (a checklist, a keyword sheet, a plan). To browse a folder
-> of them as a table or a map of links, try [Markdown Viewer](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=how-to-use) (free, Mac & Windows). I made it at
+> of them as a table or a map of links, try [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=how-to-use) (free, Mac & Windows). I made it at
 > [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook&utm_content=how-to-use).
 
 ## What makes a skill here
@@ -194,7 +194,7 @@ Maintained by [Tu Nguyen (@nvminhtu)](https://github.com/nvminhtu), who builds a
 at [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook).
 
 Two tools I made that fit this repo:
-- Reading lots of skills and Markdown files? [Markdown Viewer](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac & Windows) shows a whole folder at a glance. Downloads on [GitHub](https://github.com/nvminhtu/markdown-viewer#readme).
+- Reading lots of skills and Markdown files? [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (free, Mac & Windows) shows a whole folder at a glance. Downloads on [GitHub](https://github.com/nvminhtu/markdown-viewer#readme).
 - Running many projects with AI agents? [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=readme&utm_campaign=growth-playbook) (Mac) shows every repo's next steps, blockers and uncommitted changes on one screen, and reopens the right Claude session.
 
 ## Free apps
@@ -204,7 +204,7 @@ No account, no paywall. Source, downloads and install steps are on each GitHub p
 
 | App | Platform | What it does |
 |---|---|---|
-| [Markdown Viewer](https://github.com/nvminhtu/markdown-viewer#readme) | Mac & Windows | Opens a folder of Markdown files as a table, a link map or Finder-style folders, with a clean reader. |
+| [Markdown Everywhere](https://github.com/nvminhtu/markdown-viewer#readme) | Mac & Windows | Opens a folder of Markdown files as a table, a link map or Finder-style folders, with a clean reader. |
 | [Server Hub](https://github.com/nvminhtu/server-hub#readme) | macOS | Shows every localhost server on your Mac, checks whether each one actually answers, and lets you open, stop or start them in one click. |
 | [TapRec](https://github.com/nvminhtu/taprec#readme) | Android | Records your screen in one tap with mic or phone sound, pause/resume and a floating button, then cuts, mutes, crops or adds captions to the video. APK download with QR code. |
 

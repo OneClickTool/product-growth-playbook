@@ -44,4 +44,4 @@ Save each week's output as a Markdown file in a `growth/` folder next to your co
 *Tools I made for this (disclosure: I'm the maintainer, [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=playbook&utm_campaign=growth-playbook&utm_content=launch-a-product)):*
 - [ShotMatic](https://shotmatic.app/?utm_source=github&utm_medium=playbook&utm_campaign=growth-playbook&utm_content=launch-a-product) (Mac): all your product repos on one screen, with next steps, blockers,
   uncommitted changes, and the Claude session to resume.
-- [Markdown Viewer](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=playbook&utm_campaign=growth-playbook&utm_content=launch-a-product) (free, Mac & Windows): read the whole `growth/` folder as a table or a link map.
+- [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=playbook&utm_campaign=growth-playbook&utm_content=launch-a-product) (free, Mac & Windows): read the whole `growth/` folder as a table or a link map.

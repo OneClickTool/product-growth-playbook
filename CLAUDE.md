@@ -17,7 +17,7 @@ The public roadmap is [ROADMAP.md](ROADMAP.md). All content is in English.
   the router table in `skills/growth/SKILL.md` and the root README.
 - Never commit `.private/` (maintainer notes) or personal account details, emails or payment/tax info.
 - Scripts in `skills/**/scripts/` use the Python standard library only.
-- Maintainer products (ShotMatic, Markdown Viewer, OneClickTool) may be mentioned **only** in flows about managing
+- Maintainer products (ShotMatic, Markdown Everywhere, OneClickTool) may be mentioned **only** in flows about managing
   projects/repos or Markdown files (currently: README, CONTRIBUTING, the area READMEs in
   `skills/*/README.md`, `launch-pre-launch-checklist`, `research-doc-organization`, `monetization-open-source-funding` (its live example), `playbooks/launch-a-product.md`, and in `marketing/x-marketing/` only
   `flow/tools.md`, `resources/` and `posts/`, whose links use `utm_source=x` because they are pasted on X; in `marketing/instagram-marketing/` only `posts/`, whose links use `utm_source=instagram`). Screenshots live in `docs/images/`
