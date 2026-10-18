@@ -10,7 +10,7 @@
 | Slot | Product | Who on X | Offer (checked 2026-10-11) | Post day |
 |---|---|---|---|---|
 | Hero | [Sweepy](https://oneclicktool.app/macos/sweepy?utm_source=x&utm_medium=post&utm_campaign=sweepy) | Mac users with a messy Downloads / Desktop | Free for 2 folders. Pro $9.99 once (US price), in-app | Tue + Sun ask |
-| Hero 2 | [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-viewer?utm_source=x&utm_medium=post&utm_campaign=markdown-viewer) | Devs with folders of .md notes, docs, AI skill files | Free app. Pro: 14-day trial, then $9.99 once | Thu |
+| Hero 2 | [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=x&utm_medium=post&utm_campaign=markdown-viewer) | Devs with folders of .md notes, docs, AI skill files | Free app. Pro: 14-day trial, then $9.99 once | Thu |
 | Reach | [AgentBell](https://oneclicktool.app/macos/agentbell?utm_source=x&utm_medium=post&utm_campaign=agentbell) | Devs running Claude Code / Codex in a terminal | Free, every feature | Mon |
 | Reach 2 | [Edge Tabs](https://oneclicktool.app/macos/quickcheck?utm_source=x&utm_medium=post&utm_campaign=quickcheck) | Mac users who juggle small to-dos | Free, no ads, no in-app purchases | Wed |
 | Story | [Redliner](https://oneclicktool.app/macos/redliner?utm_source=x&utm_medium=post&utm_campaign=redliner) | Freelancers, people who sign contracts | In development. Planned: first 3 pages free, Pro $14.99 once | Sat |
@@ -213,7 +213,7 @@ Opening a random repo's docs folder to read it? The free Markdown Everywhere vie
 Mac & Windows, free.
 ```
 
-First reply: `https://oneclicktool.app/desktop/markdown-viewer?utm_source=x&utm_medium=reply&utm_campaign=markdown-viewer`
+First reply: `https://oneclicktool.app/desktop/markdown-everywhere?utm_source=x&utm_medium=reply&utm_campaign=markdown-viewer`
 
 **Link it in a reply when someone…** asks how to organize CLAUDE.md / skills / docs folders, or asks for a Markdown
 viewer that shows a whole folder.

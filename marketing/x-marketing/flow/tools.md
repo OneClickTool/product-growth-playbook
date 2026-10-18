@@ -43,6 +43,6 @@ Source for tiers: [About X Premium](https://help.x.com/en/using-x/x-premium).
 | Tool | Use in this flow | Status |
 |---|---|---|
 | [Promo Desk](https://oneclicktool.app/macos/promo-desk?utm_source=github&utm_campaign=growth-playbook&utm_content=x-marketing) | Mac app that reads your repo's launch posts as a checklist by date; an X tab (Today / Week / Replies / copy buttons) is planned | In development, $9.99 once |
-| [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_campaign=growth-playbook&utm_content=x-marketing) | Open this `x-marketing/` folder (and your post files) as a table to read and copy | Free, Mac & Windows |
+| [Markdown Everywhere](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_campaign=growth-playbook&utm_content=x-marketing) | Open this `x-marketing/` folder (and your post files) as a table to read and copy | Free, Mac & Windows |
 | [TapRec](https://github.com/nvminhtu/taprec#readme) | Record Android app demos for Monday posts, trim and caption them | Free, Android |
 | [Reel Desk](https://oneclicktool.app/desktop/reeldesk?utm_source=github&utm_campaign=growth-playbook&utm_content=x-marketing) | Script → hook → post for short videos you can reuse on X | In development |

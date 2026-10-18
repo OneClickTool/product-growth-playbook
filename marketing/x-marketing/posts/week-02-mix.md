@@ -27,7 +27,7 @@ Post texts: products → [product-rotation.md](product-rotation.md) · talk (IDs
 | Mon | `https://oneclicktool.app/macos/agentbell?utm_source=x&utm_medium=reply&utm_campaign=agentbell&utm_content=w02` |
 | Tue | `https://oneclicktool.app/macos/sweepy?utm_source=x&utm_medium=reply&utm_campaign=sweepy&utm_content=w02` |
 | Wed | `https://oneclicktool.app/macos/quickcheck?utm_source=x&utm_medium=reply&utm_campaign=quickcheck&utm_content=w02` |
-| Thu | `https://oneclicktool.app/desktop/markdown-viewer?utm_source=x&utm_medium=reply&utm_campaign=markdown-viewer&utm_content=w02` |
+| Thu | `https://oneclicktool.app/desktop/markdown-everywhere?utm_source=x&utm_medium=reply&utm_campaign=markdown-viewer&utm_content=w02` |
 | Sat | `https://oneclicktool.app/macos/redliner?utm_source=x&utm_medium=reply&utm_campaign=redliner&utm_content=w02` |
 | Sun | `https://oneclicktool.app/macos/sweepy?utm_source=x&utm_medium=reply&utm_campaign=sweepy&utm_content=w02-ask` |
 
