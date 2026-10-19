@@ -5,13 +5,13 @@
     "url": "https://github.com/nvminhtu"
   },
   "metadata": {
-    "description": "Free, open-source growth skills for people building digital products: strategy, research, case studies, store listing, ASO, launch, social, monetization, email and more.",
+    "description": "Free, open-source growth skills for people building digital products: strategy, research, analytics, case studies, store listing, ASO, launch, social, monetization, email and more.",
     "version": "0.13.0"
   },
   "plugins": [
     {
       "name": "product-growth-hack",
-      "description": "71 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting, GEO/AEO feature preview pages measured by daily traffic and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public, plus an X marketing kit: one /social-x command, a daily plan, weekly posts, replies, profile funnel, Premium plan, and an Instagram kit: one /social-instagram command, a 10-step image flow for carousels, Reels and Stories that drive website visits, weekly plan, comment → DM flows with tracked links, a Reddit kit: one /social-reddit command, comments first with a 5-check rule for mentioning your product, 10 post variants and a 15-minute daily flow, a Pinterest kit: one /social-pinterest command, search-term boards, 3–5 fresh 2:3 pins per page with UTM links and a weekly batch, a Medium kit: one /social-medium command, a fit check (worth it or not), reader-first articles with a 5-check product test, canonical links to your blog and publications before Boost, and a TikTok slideshow kit: 6-slide photo-mode posts with person + doubt hooks, draft → sound → publish, and a weekly loop that picks hooks by installs), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
+      "description": "77 free growth skills for apps, extensions, games, plugins, templates and AI products: strategy (revenue targets, spend and timing, contrarian marketing, products as funnels), research, analytics (GA4 setup, tracking plan with one UTM convention, reading GA4 and Search Console reports), case studies, store listing by niche, ASO, launch (incl. GitHub repo seeding, open-source funnels, Reddit posting, GEO/AEO feature preview pages measured by daily traffic and the Firebase + AdMob + payments setup), social (short video, credible posting, build in public, plus an X marketing kit: one /social-x command, a daily plan, weekly posts, replies, profile funnel, Premium plan, and an Instagram kit: one /social-instagram command, a 10-step image flow for carousels, Reels and Stories that drive website visits, weekly plan, comment → DM flows with tracked links, a Reddit kit: one /social-reddit command, comments first with a 5-check rule for mentioning your product, 10 post variants and a 15-minute daily flow, a Facebook kit: one /social-facebook command, groups first with a 5-check rule for mentioning your product, one rule-checked post per group a month, a Page and profile that look real and your own group later, a Pinterest kit: one /social-pinterest command, search-term boards, 3–5 fresh 2:3 pins per page with UTM links and a weekly batch, a Medium kit: one /social-medium command, a fit check (worth it or not), reader-first articles with a 5-check product test, canonical links to your blog and publications before Boost, and a TikTok slideshow kit: 6-slide photo-mode posts with person + doubt hooks, draft → sound → publish, and a weekly loop that picks hooks by installs), monetization (payment setup by country, in-app purchases, Sponsor button for free repos) and email (cold outreach, local leads from Google Maps, list & deliverability, segments and tools, onboarding and trial sequences, beta programs).",
       "source": "./",
       "strict": false,
       "skills": [
@@ -26,6 +26,7 @@
         "./skills/case-study/case-study-write-your-own",
         "./skills/email/email-beta-program",
         "./skills/email/email-cold-outreach",
+        "./skills/email/email-google-maps-leads",
         "./skills/email/email-list-and-deliverability",
         "./skills/email/email-onboarding-sequence",
         "./skills/email/email-segments-and-tools",
@@ -85,7 +86,12 @@
         "./marketing/medium-marketing/skills/social-medium",
         "./marketing/medium-marketing/skills/social-medium-article",
         "./marketing/pinterest-marketing/skills/social-pinterest",
-        "./marketing/pinterest-marketing/skills/social-pinterest-pin"
+        "./marketing/pinterest-marketing/skills/social-pinterest-pin",
+        "./marketing/facebook-marketing/skills/social-facebook",
+        "./marketing/facebook-marketing/skills/social-facebook-groups",
+        "./skills/analytics/analytics-ga4-setup",
+        "./skills/analytics/analytics-tracking-plan",
+        "./skills/analytics/analytics-ga4-reports-101"
       ]
     }
   ]

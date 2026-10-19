@@ -31,7 +31,7 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 ## Steps
 1. Ask the questions above and wait for the answer.
 2. Match the answer against the table below. Pick **one** skill (two at most) and give the reason in one sentence.
-3. If nothing in the table fits (SEO, retention, analytics…), say the repo doesn't cover it yet, give the 3–5 most
+3. If nothing in the table fits (SEO, retention…), say the repo doesn't cover it yet, give the 3–5 most
    important actions from general knowledge, and point to the repo's issues page so the user can request it.
 4. When the user finishes a skill, come back here and pick the next one. For a full launch route, suggest
    [playbooks/launch-a-product.md](../../playbooks/launch-a-product.md). For a live app that needs more store installs,
@@ -52,6 +52,10 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Want to know what users hate about competitors | [research-review-mining](../research/research-review-mining/SKILL.md) |
 | Need facts or sources you can trust | [research-source-finding](../research/research-source-finding/SKILL.md) |
 | Research is scattered across tabs and chats | [research-doc-organization](../research/research-doc-organization/SKILL.md) |
+| **Analytics (website, landing page, blog, web app)** | |
+| No GA4 yet, or GA4 installed but never checked; own visits counted; Search Console not linked | [analytics-ga4-setup](../analytics/analytics-ga4-setup/SKILL.md) |
+| Which events / key events to track; UTM links; traffic shows as Unassigned or Direct | [analytics-tracking-plan](../analytics/analytics-tracking-plan/SKILL.md) |
+| GA4 is confusing; where traffic comes from; which pages bring visitors; what Search Console numbers mean | [analytics-ga4-reports-101](../analytics/analytics-ga4-reports-101/SKILL.md) |
 | **Pre-launch** | |
 | Has mockups but no code; wants to promote features first and judge demand by daily traffic; GEO / AEO; get cited by ChatGPT or AI Overviews | [launch-geo-aeo-feature-preview](../launch/launch-geo-aeo-feature-preview/SKILL.md) |
 | Launch is weeks away, not sure what's missing | [launch-pre-launch-checklist](../launch/launch-pre-launch-checklist/SKILL.md) |
@@ -96,6 +100,8 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Wants one Medium article from a real question, with the product mentioned the right way | [social-medium-article](../../marketing/medium-marketing/skills/social-medium-article/SKILL.md) |
 | Anything on Pinterest: is it worth it, search terms, boards, pins for a page, link blocked | [social-pinterest](../../marketing/pinterest-marketing/skills/social-pinterest/SKILL.md): `/social-pinterest today · keywords · pin · boards · profile · numbers · fit · risk` (full kit: [Pinterest Marketing](../../marketing/pinterest-marketing/README-Pinterest-Marketing.md)) |
 | Has one page (how-to, template, landing) and wants Pinterest pins that link to it | [social-pinterest-pin](../../marketing/pinterest-marketing/skills/social-pinterest-pin/SKILL.md) |
+| Anything on Facebook: is it worth it, which groups, can I mention my app, Page setup, post declined, own group | [social-facebook](../../marketing/facebook-marketing/skills/social-facebook/SKILL.md): `/social-facebook today · groups · reply · post · page · own-group · numbers · fit · risk` (full kit: [Facebook Marketing](../../marketing/facebook-marketing/README-Facebook-Marketing.md)) |
+| Wants users from Facebook groups: find groups, answer a thread, one post that admins approve | [social-facebook-groups](../../marketing/facebook-marketing/skills/social-facebook-groups/SKILL.md) |
 | Anything on Instagram, or doesn't know which Instagram skill to use | [social-instagram](../../marketing/instagram-marketing/skills/social-instagram/SKILL.md): `/social-instagram today · post · week · month · profile · story · dm · numbers · risk · engine · creators · hooks · network` |
 | Needs one Instagram post (carousel, Reel, Story) that gets impressions and website visits | [social-instagram-image-flow](../../marketing/instagram-marketing/skills/social-instagram-image-flow/SKILL.md) |
 | Instagram posts get comments but no website visits; wants "comment a word, get the link" DMs or a Broadcast channel | [social-instagram-dm](../../marketing/instagram-marketing/skills/social-instagram-dm/SKILL.md) |
@@ -122,6 +128,7 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Users sign up but never come back; welcome / onboarding emails | [email-onboarding-sequence](../email/email-onboarding-sequence/SKILL.md) |
 | Trials don't convert; trial ending / expired / win-back emails | [email-trial-sequence](../email/email-trial-sequence/SKILL.md) |
 | B2B product, no inbound; wants to email exact buyers; cold email / outbound; where to find emails | [email-cold-outreach](../email/email-cold-outreach/SKILL.md) |
+| Sells to local businesses; find leads in one area on Google Maps; email local shops, salons, clinics | [email-google-maps-leads](../email/email-google-maps-leads/SKILL.md) |
 
 ## Prompt (copy-paste)
 For chat assistants that can't install skills:
@@ -133,11 +140,11 @@ rough weekly users and revenue, and what feels most broken. Then recommend ONE g
 focus on for the next two weeks, explain why in one sentence, and give me the first 3 concrete steps.
 Choose from: revenue target (work backward from $X in N months), spend and timing (what to pay for, when to push),
 contrarian marketing, products as a funnel to an owned audience, where users ask about software, competitor review mining, source finding,
-research doc organization, GEO/AEO feature preview pages (promote features before building, judged by daily traffic), competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding, open-source funnel (free repo → users),
-Firebase + AdMob + payments setup, short video (TikTok / Reels / Shorts), TikTok slideshows (photo mode) and the weekly hook loop, Instagram image posts and comment → DM flows, Pinterest pins to how-to pages, credible social posts, build in public,
+research doc organization, GA4 setup, GA4 tracking plan and UTM convention, reading GA4 and Search Console reports, GEO/AEO feature preview pages (promote features before building, judged by daily traffic), competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding, open-source funnel (free repo → users),
+Firebase + AdMob + payments setup, short video (TikTok / Reels / Shorts), TikTok slideshows (photo mode) and the weekly hook loop, Instagram image posts and comment → DM flows, Pinterest pins to how-to pages, Facebook groups (answers first, rule-checked posts), credible social posts, build in public,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 payment setup (which provider works from my country), in-app purchase setup (StoreKit 2 / Play Billing / RevenueCat), pricing strategy, paywall design, subscription tiers,
-cold email outreach, email list & deliverability, email segments and tools, beta program by email, onboarding email sequence, free-trial email sequence.
+cold email outreach, local leads from Google Maps, email list & deliverability, email segments and tools, beta program by email, onboarding email sequence, free-trial email sequence.
 ````
 
 ## Example output

@@ -9,8 +9,9 @@ Reach new buyers with cold email, collect emails the legal way, land in the inbo
 | [email-onboarding-sequence](email-onboarding-sequence/SKILL.md) | 5–6 welcome/onboarding emails built around one activation event, with branches and exit rules | Beginner | 45–60 min |
 | [email-trial-sequence](email-trial-sequence/SKILL.md) | 6–8 trial emails (started → ending → ended → win-back) for 7/14/30-day trials, with a fair billing reminder | Intermediate | 45–60 min |
 | [email-cold-outreach](email-cold-outreach/SKILL.md) | A narrow B2B target list from allowed sources, a warmed-up separate sending domain, a 3–4 email sequence, and a reply-rate sheet per segment | Intermediate | 2–3 h + 2 weeks warm-up |
+| [email-google-maps-leads](email-google-maps-leads/SKILL.md) | 30 local businesses in one area found on Google Maps (by hand, within Google's terms), contacts from their own sites, the email rule for their country (US, UK, EU, Vietnam), a 3-email sequence and a weekly scorecard | Intermediate | 60 min + 90 min per 30 leads |
 | [email-beta-program](email-beta-program/SKILL.md) | A tester sheet, invite flow for TestFlight / Play testing / Chrome trusted testers, 5 beta emails, beta → paid plan | Intermediate | 2 h + 2–6 weeks |
 
-**Suggested order:** list & deliverability (before the first send) → beta program (pre-launch) → onboarding sequence (at launch) → trial sequence (once paid plans are live) → segments & tools (once you have 200+ contacts or 2+ products). B2B product with no inbound yet? Run cold outreach in parallel, on its own domain.
+**Suggested order:** list & deliverability (before the first send) → beta program (pre-launch) → onboarding sequence (at launch) → trial sequence (once paid plans are live) → segments & tools (once you have 200+ contacts or 2+ products). B2B product with no inbound yet? Run cold outreach in parallel, on its own domain. Selling to local businesses (salons, clinics, restaurants)? Use Google Maps leads with the same domain.
 
 **Not covered yet:** newsletters and content marketing, transactional email design. See [CONTRIBUTING.md](../../CONTRIBUTING.md).

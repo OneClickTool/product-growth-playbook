@@ -26,6 +26,9 @@ Rules look scary because each subreddit has its own. Treat them as a checklist, 
 - [ ] **Find on-target groups**: users of your platform, the job your product does, your users' profession.
 - [ ] Follow each group's rules; ask an admin before the first product post.
 - [ ] Tone: [social-credible-posting](../../social/social-credible-posting/SKILL.md).
+- [ ] Full method (find and score groups, the 5-check answer test, one post per group a month, your own group):
+      [Facebook Marketing kit](../../../marketing/facebook-marketing/README-Facebook-Marketing.md) ·
+      [social-facebook-groups](../../../marketing/facebook-marketing/skills/social-facebook-groups/SKILL.md).
 
 ## X
 - [ ] With few followers, own posts get little reach. Spend the time on **replies with substance** under larger

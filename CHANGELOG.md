@@ -1,6 +1,16 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Analytics, new area)
+- `skills/analytics/` 📊, phase 1 of [docs/plan-analytics-ga4.md](docs/plan-analytics-ga4.md):
+  `analytics-ga4-setup` (web stream, enhanced measurement, internal-traffic filter Testing → Active, cross-domain and
+  unwanted referrals, 14-month retention, consent mode, Search Console link + publishing its collection; checklist
+  with official links, limits and waiting times in `references/setup-checklist.md`), `analytics-tracking-plan`
+  (5–8 events with recommended names, 1–3 key events, custom dimensions, test checklist; template in `assets/`;
+  `references/utm-convention.md` maps the channel kits' UTM values to GA4 channels and fixes "Unassigned" with a
+  custom channel group) and `analytics-ga4-reports-101` (6 GA4 reports + Search Console Performance, a metrics
+  glossary with Data API names, a 7-lesson path, a 5-number weekly snapshot with API names, a baseline-note prompt).
+  Every skill has a read-only **agent mode** (GA4 / Search Console MCP). Examples are illustrative. Linked from the `growth` router, the root README, the roadmap and the marketplace.
 ### Added (Launch)
 - `launch-geo-aeo-feature-preview`: GEO & AEO for features that aren't built yet. A learning guide (`references/geo-aeo-learning-guide.md`)
   from Google, OpenAI, Perplexity, Anthropic and Bing docs, the KDD 2024 GEO paper and the FTC reviews rule; an honest
@@ -8,6 +18,23 @@
   "AI assistants" channel setup; a daily log (`assets/`) and `scripts/traffic_trend.py` (7-day baseline vs latest,
   search / AI / social split, sign-ups per 100 visits, build / rework / drop at day 28). Linked from the launch
   README, the `growth` router, the root README and the roadmap.
+### Added (Email)
+- `email-google-maps-leads`: find local businesses in one area on Google Maps by hand, take contacts from their own
+  websites (no scraping, per Google's Maps and Maps Platform terms), check the email rule for their country (US, UK,
+  EU, Vietnam Decree 91/2020), send a 3-email sequence and score each niche + area weekly. Lead sheet in `assets/`.
+### Added (plan)
+- `marketing/README-marketing-101-plan.md`: plan for a *101* page in every channel kit (one-line daily tips with a
+  confidence label and source). Planned only; linked from the marketing hub and the roadmap.
+### Added (Facebook kit)
+- `marketing/facebook-marketing/`: Facebook kit for indie devs, groups first. Docs (strategy with a yes / test / no
+  fit test, profile and Page setup incl. Meta's link-limit test, how Feed distribution works from Meta's
+  Transparency Center, the groups playbook with a 5-check test before mentioning your product, 8 post formats, your
+  own group, metrics and stop rules, rules and risks from Meta's spam policy), a daily 20-minute flow, templates
+  (group tracker, post file, weekly numbers), sourced facts, and two skills: `social-facebook` (router:
+  `/social-facebook today · groups · reply · post · page · own-group · numbers · fit · risk`) and
+  `social-facebook-groups` (was *planned* in the roadmap). Linked from the marketing hub, the site menu, the
+  `growth` router, the community-posting action step and the root README. Hero illustration job in
+  `docs/images/prompts/facebook.jobs.json`.
 ### Added (Pinterest kit)
 - `marketing/pinterest-marketing/`: Pinterest kit for indie devs. Pins link to a page on your own site, made fresh
   each week, written for Pinterest search. Docs (strategy with a yes / test / no fit test, profile setup with a

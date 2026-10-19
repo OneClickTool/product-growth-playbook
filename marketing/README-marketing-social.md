@@ -20,10 +20,14 @@ Reddit · communities       bio link + UTM            directories · ASO        
 | 🎞️ TikTok slideshows | [tiktok-marketing/](tiktok-marketing/README-TikTok-Marketing.md) | [`social-tiktok-slideshow`](tiktok-marketing/skills/social-tiktok-slideshow/SKILL.md) | 6-image photo-mode post | Consumer apps with a visual result or an emotional moment | Live |
 | 🟠 Reddit | [reddit-marketing/](reddit-marketing/README-Reddit-Marketing.md) | [`/social-reddit`](reddit-marketing/skills/social-reddit/SKILL.md) | Answer (comment), then a post in the subreddit's format | Users asking for a tool like yours; Mac / dev / niche buyers | Live |
 | ✍️ Medium | [medium-marketing/](medium-marketing/README-Medium-Marketing.md) | [`/social-medium`](medium-marketing/skills/social-medium/SKILL.md) | Long article (or your blog post, mirrored) | Dev tools, AI / SaaS / productivity; support channel, not for games | Live |
+| 📘 Facebook | [facebook-marketing/](facebook-marketing/README-Facebook-Marketing.md) | [`/social-facebook`](facebook-marketing/skills/social-facebook/SKILL.md) | Group answer, then one rule-checked post a month | Non-tech, local and hobby buyers; local-language markets | Live |
 | 📌 Pinterest | [pinterest-marketing/](pinterest-marketing/README-Pinterest-Marketing.md) | [`/social-pinterest`](pinterest-marketing/skills/social-pinterest/SKILL.md) | 2:3 pin → how-to page / landing | Planners: templates, study, design, home; evergreen search traffic | Live |
 
 Every kit has the same layout: `README-<Channel>-Marketing.md`, `docs/` (the method), `reference/` (sources and
 research log), `templates/`, `skills/`, plus `case-studies/`, `flow/` or `posts/` where the kit has them.
+
+*Planned:* a **101** page per kit: one-line daily tips ("don't change your X profile photo on Premium"), each
+labelled by how sure we are. See [the 101 plan](README-marketing-101-plan.md).
 
 ## 1 · The whole map
 
@@ -39,6 +43,7 @@ flowchart LR
         CM["Communities<br/>Discord · IH · HN"]
         PH["Launch sites<br/>Product Hunt"]
         PI["Pinterest pins<br/>(pinterest-marketing)"]
+        FB["Facebook groups<br/>(facebook-marketing)"]
     end
     subgraph TRUST["Trust (they check you're real)"]
         PR["Social profiles<br/>bio · pinned demo"]
@@ -59,6 +64,7 @@ flowchart LR
     IG --> PR
     SV --> PR
     PI -.-> LP
+    FB --> PR
     X --> XP
     RD --> XP
     MD --> LP
@@ -83,7 +89,7 @@ post, a CTA slide, a store URL), always with a UTM tag ([UTM map](#4--one-utm-ma
 
 | Layer | Its only job | Kits / skills |
 |---|---|---|
-| **Reach** | Make strangers stop and care | TikTok, Instagram, X kits · [short video](../skills/social/social-short-video/SKILL.md) · [Reddit](../skills/launch/launch-reddit-posting/SKILL.md) · [Product Hunt](../skills/launch/launch-product-hunt-launch/SKILL.md) · [first 100 users](../skills/launch/launch-get-first-100-users/SKILL.md) |
+| **Reach** | Make strangers stop and care | TikTok, Instagram, X, [Facebook](facebook-marketing/README-Facebook-Marketing.md) kits · [short video](../skills/social/social-short-video/SKILL.md) · [Reddit](../skills/launch/launch-reddit-posting/SKILL.md) · [Product Hunt](../skills/launch/launch-product-hunt-launch/SKILL.md) · [first 100 users](../skills/launch/launch-get-first-100-users/SKILL.md) |
 | **Trust** | Prove you're real and the product works | [X profile funnel](x-marketing/skills/social-x-profile-funnel/SKILL.md) · Instagram [profile setup](instagram-marketing/docs/02-profile-setup.md) · [credible posting](../skills/social/social-credible-posting/SKILL.md) · [build in public](../skills/social/social-build-in-public/SKILL.md) · [GitHub seeding](../skills/launch/launch-github-repo-seeding/SKILL.md) |
 | **Destination** | One clear next step | [Store listing by niche](../skills/listing/README.md) · [free directories](../skills/listing/listing-free-directories/SKILL.md) · [ASO](../skills/aso/README.md) · [screenshots](../skills/aso/aso-screenshot-strategy/SKILL.md) |
 | **Capture → money** | Keep them and turn them into paid | [Email list](../skills/email/email-list-and-deliverability/SKILL.md) · [onboarding](../skills/email/email-onboarding-sequence/SKILL.md) · [trial emails](../skills/email/email-trial-sequence/SKILL.md) · [paywall](../skills/monetization/monetization-paywall-design/SKILL.md) |
@@ -105,7 +111,8 @@ flowchart TD
     F --> MA["Medium: the long how-to<br/>product once, disclosed"]
     F --> LA["Store listing / landing:<br/>a screenshot caption"]
     F --> PA["Pinterest: 3–5 pins<br/>to a how-to page"]
-    XA & IA & TA & RA & MA & PA --> NUM["Weekly numbers<br/>per channel"]
+    F --> FA["Facebook: a group answer<br/>or how-to, local language"]
+    XA & IA & TA & RA & MA & PA & FA --> NUM["Weekly numbers<br/>per channel"]
     NUM -- "winner" --> F
 ```
 
@@ -124,12 +131,13 @@ TikTok [slideshow post](tiktok-marketing/templates/slideshow-post.md) and [hook 
 ```mermaid
 flowchart TD
     Q1{"Who buys?"} -->|"Developers / makers"| XQ["X + GitHub + Reddit<br/>→ x-marketing"]
+    Q1 -->|"Non-tech, local or hobby buyers"| FBQ["Facebook groups<br/>→ facebook-marketing"]
     Q1 -->|"Businesses"| B2B["Cold email + LinkedIn<br/>→ skills/email"]
     Q1 -->|"Consumers"| Q2{"Can a still image<br/>show the value?"}
     Q2 -->|"Yes: result, face, room, quote"| TTQ["TikTok slideshows<br/>→ tiktok-marketing"]
     Q2 -->|"Yes, and they're on Instagram<br/>(Mac / iPhone users, creators)"| IGQ["Instagram<br/>→ instagram-marketing"]
     Q2 -->|"No, it must be seen moving"| SVQ["Short video<br/>→ social-short-video"]
-    XQ & B2B & TTQ & IGQ & SVQ --> L["Then: listing + landing + email<br/>must be ready before you scale"]
+    XQ & B2B & TTQ & IGQ & SVQ & FBQ --> L["Then: listing + landing + email<br/>must be ready before you scale"]
 ```
 
 Rules of thumb:
@@ -155,6 +163,7 @@ Same pattern everywhere so one GA4 report compares channels: `utm_source=<channe
 | Medium | `medium` | `article`, `profile` | Last paragraph of an article, profile about page |
 | Email | `email` | `signature`, `onboarding`, `trial` | Signatures, sequences |
 | Directories / launch sites | `<site>` | `listing`, `launch` | The listing page |
+| Facebook | `facebook` | `group`, `page`, `profile`, `messenger` | Group answers and posts where links are allowed (`utm_campaign=<group-slug>`), Page website, profile featured link |
 | Pinterest | `pinterest` | `pin`, `profile` | The pin's destination link (`utm_content=<variant>`), profile website |
 
 App stores strip most UTMs. For iOS use App Store Connect campaign links (`ct=`), for Google Play the `referrer`
@@ -172,7 +181,7 @@ parameter, and count installs per day per channel.
 | Thu | same | Reddit answers | — |
 | Fri | same | X replies | Check email sequence opens |
 | Sat | batch next week's posts from the fact bank | — | — |
-| Sun | weekly numbers per channel: [X](x-marketing/templates/weekly-numbers.md) · [Instagram](instagram-marketing/templates/weekly-numbers.md) · [TikTok loop](tiktok-marketing/skills/social-tiktok-slideshow-loop/SKILL.md) · [Pinterest](pinterest-marketing/templates/weekly-numbers.md) | — | Installs, trials, paid by `utm_source` |
+| Sun | weekly numbers per channel: [X](x-marketing/templates/weekly-numbers.md) · [Instagram](instagram-marketing/templates/weekly-numbers.md) · [TikTok loop](tiktok-marketing/skills/social-tiktok-slideshow-loop/SKILL.md) · [Pinterest](pinterest-marketing/templates/weekly-numbers.md) · [Facebook](facebook-marketing/templates/weekly-numbers.md) | — | Installs, trials, paid by `utm_source` |
 
 ## 6 · Same numbers in every channel
 
@@ -207,7 +216,8 @@ marketing/
 ├── tiktok-marketing/               TikTok: photo-mode slideshows, the Larry loop, case studies
 ├── reddit-marketing/               Reddit: answers first, posts later, subreddit wiki
 ├── medium-marketing/               Medium: fit check, reader-first articles, canonical links, publications
-└── pinterest-marketing/            Pinterest: search-term boards, fresh pins to your pages
+├── pinterest-marketing/            Pinterest: search-term boards, fresh pins to your pages
+└── facebook-marketing/             Facebook: groups first, 5-check answers, a real Page, your own group
 
 skills/  (channel-neutral skills these kits link to)
 ├── social/     short video · credible posting · build in public

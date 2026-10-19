@@ -154,6 +154,7 @@ Rateline LLC, <postal address> · Reply "no" and I won't email again.
 - **Adding cold contacts to your newsletter.** They didn't sign up. Only people who replied yes can be invited.
 
 ## Related skills
+- [email-google-maps-leads](../email-google-maps-leads/SKILL.md): the same method for local businesses found on Google Maps.
 - [research-where-users-ask](../../research/research-where-users-ask/SKILL.md): find people asking for what you built.
 - [research-review-mining](../../research/research-review-mining/SKILL.md): find the competitor pain to open with.
 - [email-list-and-deliverability](../email-list-and-deliverability/SKILL.md): SPF, DKIM, DMARC for the sending domain.

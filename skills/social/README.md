@@ -1,6 +1,6 @@
 # 📣 Social
 
-Channel kits (X, Instagram, TikTok, Reddit, Medium, Pinterest) live in [`marketing/`](../../marketing/README-marketing-social.md), with a map of how every channel links to listings, email and paid.
+Channel kits (X, Instagram, TikTok, Reddit, Medium, Pinterest, Facebook) live in [`marketing/`](../../marketing/README-marketing-social.md), with a map of how every channel links to listings, email and paid.
 
 Grow an audience on short video and social feeds with fewer, better posts, without hype, fake proof or bought engagement.
 
@@ -23,6 +23,8 @@ Grow an audience on short video and social feeds with fewer, better posts, witho
 | [social-medium-article](../../marketing/medium-marketing/skills/social-medium-article/SKILL.md) | One reader-first article from a real question: 8 types, title + first lines, a 5-check product test, topics, canonical link, one UTM link | Beginner | 2–3 h/article |
 | [social-pinterest](../../marketing/pinterest-marketing/skills/social-pinterest/SKILL.md) | One command for Pinterest: `/social-pinterest today`, `keywords`, `pin`, `boards`, `profile`, `numbers`, `fit`, `risk`; starts with whether Pinterest fits your product. Part of the [Pinterest Marketing kit](../../marketing/pinterest-marketing/README-Pinterest-Marketing.md) | Beginner | 1 min |
 | [social-pinterest-pin](../../marketing/pinterest-marketing/skills/social-pinterest-pin/SKILL.md) | 3–5 different 2:3 pins for one page: search terms, image brief, title in the first 40 characters, description, board, UTM link per variant | Beginner | 20 min/page |
+| [social-facebook](../../marketing/facebook-marketing/skills/social-facebook/SKILL.md) | One command for Facebook: `/social-facebook today`, `groups`, `reply`, `post`, `page`, `own-group`, `numbers`, `fit`, `risk`; groups first, starts with whether Facebook fits your product. Part of the [Facebook Marketing kit](../../marketing/facebook-marketing/README-Facebook-Marketing.md) | Beginner | 1 min |
+| [social-facebook-groups](../../marketing/facebook-marketing/skills/social-facebook-groups/SKILL.md) | 10–20 groups scored on fit and rules, answers with a 5-check test before any product mention, one rule-checked post per group a month, admin message, UTM per group | Beginner | 1 h + 15–20 min/day |
 | [social-build-in-public](social-build-in-public/SKILL.md) | A share/keep-private list, a 30-minute weekly update template, milestone and countdown posts, followers → email list | Beginner | 30 min/week |
 
 **Suggested order:** credible posting (the rules) → build in public (the habit) → X growth (the daily system, once you post on X) → short video (the reach engine, once
