@@ -53,6 +53,7 @@ Ask these, **one message, at most 4 questions**. Skip any the user already answe
 | Need facts or sources you can trust | [research-source-finding](../research/research-source-finding/SKILL.md) |
 | Research is scattered across tabs and chats | [research-doc-organization](../research/research-doc-organization/SKILL.md) |
 | **Pre-launch** | |
+| Has mockups but no code; wants to promote features first and judge demand by daily traffic; GEO / AEO; get cited by ChatGPT or AI Overviews | [launch-geo-aeo-feature-preview](../launch/launch-geo-aeo-feature-preview/SKILL.md) |
 | Launch is weeks away, not sure what's missing | [launch-pre-launch-checklist](../launch/launch-pre-launch-checklist/SKILL.md) |
 | App needs Firebase analytics, Crashlytics, AdMob, consent and payments set up and verified | [launch-growth-stack-setup](../launch/launch-growth-stack-setup/SKILL.md) |
 | Need launch posts for HN / Reddit / X / LinkedIn | [launch-post-writing](../launch/launch-post-writing/SKILL.md) |
@@ -132,7 +133,7 @@ rough weekly users and revenue, and what feels most broken. Then recommend ONE g
 focus on for the next two weeks, explain why in one sentence, and give me the first 3 concrete steps.
 Choose from: revenue target (work backward from $X in N months), spend and timing (what to pay for, when to push),
 contrarian marketing, products as a funnel to an owned audience, where users ask about software, competitor review mining, source finding,
-research doc organization, competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding, open-source funnel (free repo → users),
+research doc organization, GEO/AEO feature preview pages (promote features before building, judged by daily traffic), competitor teardown, success story analysis, award-winning design study, writing a case study, App Store listing, Google Play listing, browser extension / Mac app / indie game / plugin / AI product / Notion template listing, free directories, pre-launch checklist, launch post writing, Reddit posting by product type, Product Hunt launch, quick download wins, getting the first 100 users, GitHub repo seeding, open-source funnel (free repo → users),
 Firebase + AdMob + payments setup, short video (TikTok / Reels / Shorts), TikTok slideshows (photo mode) and the weekly hook loop, Instagram image posts and comment → DM flows, Pinterest pins to how-to pages, credible social posts, build in public,
 ASO keyword research, ASO title & subtitle, ASO screenshots, ratings & reviews, free trial vs freemium,
 payment setup (which provider works from my country), in-app purchase setup (StoreKit 2 / Play Billing / RevenueCat), pricing strategy, paywall design, subscription tiers,

@@ -1,6 +1,13 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Launch)
+- `launch-geo-aeo-feature-preview`: GEO & AEO for features that aren't built yet. A learning guide (`references/geo-aeo-learning-guide.md`)
+  from Google, OpenAI, Perplexity, Anthropic and Bing docs, the KDD 2024 GEO paper and the FTC reviews rule; an honest
+  preview page template (status line, labelled mockups, design decisions, waitlist only); robots.txt and GA4
+  "AI assistants" channel setup; a daily log (`assets/`) and `scripts/traffic_trend.py` (7-day baseline vs latest,
+  search / AI / social split, sign-ups per 100 visits, build / rework / drop at day 28). Linked from the launch
+  README, the `growth` router, the root README and the roadmap.
 ### Added (Pinterest kit)
 - `marketing/pinterest-marketing/`: Pinterest kit for indie devs. Pins link to a page on your own site, made fresh
   each week, written for Pinterest search. Docs (strategy with a yes / test / no fit test, profile setup with a
