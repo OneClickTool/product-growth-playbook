@@ -1,6 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Marketing)
+- `marketing/x-marketing/docs/00-101-tips.md`: X 101, 100 one-line tips in the 8 sections of the
+  [101 plan](marketing/README-marketing-101-plan.md) (profile, posting, reach, replies, links, paid, rules, myths), each
+  labelled Code / Help / Statement / Real / Practice. Help tips re-checked on 2026-10-21 (Lists, Spaces, How to Post,
+  follow limits, Authenticity). `reference/tips-and-tricks.md` is now a pointer; links to it were moved.
 ### Added (Playbooks)
 - `playbooks/ai-search-visibility.md`: SEO, AEO, AIO (Google AI Overviews) and GEO as one four-layer stack, 2026
   click-through evidence (randomized study, Ahrefs, Seer, SparkToro), which engine reads which index, a common

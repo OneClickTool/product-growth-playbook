@@ -1,7 +1,7 @@
 # Trends on X: what people copy, and whether you should
 
 Patterns that spread on X. Each entry says what it is, why people do it, and whether it fits an indie dev.
-Labels follow [tips-and-tricks.md](tips-and-tricks.md): **Code**, **Help**, **Practice**.
+Labels follow [00-101-tips.md](../docs/00-101-tips.md): **Code**, **Help**, **Practice**.
 
 Add a new trend as a new `##` section with the date you saw it. Remove it when it fades.
 

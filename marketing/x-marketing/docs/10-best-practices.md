@@ -3,7 +3,7 @@
 ![A maker with a checklist next to a big glowing Post button](../../../docs/images/illustrations/08-best-practices.jpg)
 
 Everything the kit says about posting, in the order you use it. Each rule carries its evidence label from
-[reference/tips-and-tricks.md](../reference/tips-and-tricks.md): **Code** (X's open-source ranker), **Help** (an
+[00-101-tips.md](00-101-tips.md): **Code** (X's open-source ranker), **Help** (an
 official X help page), **Real** (the maintainer's own account, small base), **Practice** (common among builders, test
 it yourself).
 
@@ -53,7 +53,7 @@ The first line is the whole post for most people scrolling. It must work alone.
 ## 5 · Links
 - **Code** · Link clicks weigh 0.2. The post must earn reach without the click.
 - **Practice** · Default: link in the first reply (`link: first-comment`) or the bio. Test link-in-post for a month
-  if you want; keep what brings more landing visits ([tips](../reference/tips-and-tricks.md#links-and-selling)).
+  if you want; keep what brings more landing visits ([tips](00-101-tips.md#5--links--selling)).
 - **Practice** · UTM on every link: `utm_source=x&utm_medium=bio|pinned|reply|post&utm_campaign=<product>`.
 - **Real** · The same URL in many posts and replies, during a sudden activity spike, came right before a temporary
   reach label ([08-rules-and-risks.md](08-rules-and-risks.md)). Vary, and keep links few.

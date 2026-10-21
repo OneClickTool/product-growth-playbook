@@ -1,7 +1,7 @@
 # Plan: a "101" tips page for every channel kit
 
-> **Status: planned.** Nothing on this page exists yet except the X seed
-> ([x-marketing/reference/tips-and-tricks.md](x-marketing/reference/tips-and-tricks.md)). Back to the
+> **Status: in progress.** The X page exists ([x-marketing/docs/00-101-tips.md](x-marketing/docs/00-101-tips.md),
+> 100 tips); the other kits are planned. Back to the
 > [marketing hub](README-marketing-social.md).
 
 ## Why
@@ -64,7 +64,7 @@ already explains links to that doc instead of repeating it.
 | Order | Page | Seed | Notes |
 |---|---|---|---|
 | 1 · **urgent** | **Short video 101** (TikTok · YouTube Shorts · Instagram Reels · Facebook Reels) | [social-short-video](../skills/social/social-short-video/SKILL.md), [tiktok-marketing/](tiktok-marketing/README-TikTok-Marketing.md) docs and case studies, Reels notes in the [Instagram](instagram-marketing/README-Instagram-Marketing.md) and [Facebook](facebook-marketing/README-Facebook-Marketing.md) kits | First because short vertical video is the channel closest to money for **apps and games**: video → profile → link → store → install → paid. One page, not four (see below) |
-| 2 | X | [reference/tips-and-tricks.md](x-marketing/reference/tips-and-tricks.md) | Move into `docs/00-101-tips.md` in the new sections; leave the old file as a one-line pointer so links don't break |
+| 2 | X ✅ | [docs/00-101-tips.md](x-marketing/docs/00-101-tips.md) | Done 2026-10-21: 100 tips in the 8 sections; `reference/tips-and-tricks.md` is now a one-line pointer |
 | 3 | Instagram (non-Reels: carousels, Stories, DMs) | `docs/`, research survey | Reels tips live in Short video 101; link to it |
 | 4 | Reddit | `docs/`, subreddit rules | Most tips are "Rules & bans": karma, self-promo ratio, shadowban signs |
 | 5 | Facebook (groups, Page) | `docs/04-groups-playbook.md` | Reels tips live in Short video 101; link to it |
@@ -128,7 +128,7 @@ the platform's help page and the date it was checked. Any number from a case stu
 | Kit | 101 page |
 |---|---|
 | Short video (TikTok · Shorts · Reels · FB Reels) | planned · **next, urgent** |
-| X | planned (seed exists) |
+| X | ✅ [100 tips](x-marketing/docs/00-101-tips.md) |
 | Instagram (non-Reels) | planned |
 | Reddit | planned |
 | Facebook (groups, Page) | planned |

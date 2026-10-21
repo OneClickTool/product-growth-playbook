@@ -9,7 +9,7 @@ Filled-in version for real products (posts, hooks, links, demo shot lists):
 [posts/talk-bank.md](../posts/talk-bank.md) · a full week mixing both: [posts/week-02-mix.md](../posts/week-02-mix.md).
 
 Labels: **Code** = X's open-source ranker, **Help** = X help page, **Practice** = common practice, test it
-([reference/tips-and-tricks.md](../reference/tips-and-tricks.md)).
+([docs/00-101-tips.md](../docs/00-101-tips.md)).
 
 ## The mix (the one rule this page is built on)
 
@@ -56,7 +56,7 @@ First: write down **profile visits, last 7 days** from X analytics ([the one num
 ### 08:00 · Post 1 of the day (2 min)
 - Mon–Sat: the **product slot** of the day *or* the strongest talk post. Sunday: weekly numbers + one offer.
 - Product post: link in the **first reply** or in the post; X said in July 2026 it no longer penalizes links
-  ([tips](../reference/tips-and-tricks.md#links-and-selling)). **Practice** · test both for a month. **Code** · a link
+  ([tips](../docs/00-101-tips.md#5--links--selling)). **Practice** · test both for a month. **Code** · a link
   click weighs 0.2, far less than a reply or share, so the post must earn reach without it.
 - Stay 15 minutes after posting if you can, so you answer early replies fast (**Practice**).
 
@@ -67,7 +67,7 @@ First: write down **profile visits, last 7 days** from X analytics ([the one num
 - Every reply adds one thing: a number, a counter-example, a screenshot, a 2-step how-to, or an honest question.
 - Product link only when the post literally asks for a tool like yours, or a "what are you building?" post that
   passes the [6 checks](../docs/06-reply-playbook.md#what-are-you-building-posts-drop-your-link-or-not). Say "I built this". Max once a day.
-- No hashtags unless a real community uses one ([why](../reference/tips-and-tricks.md#hashtags)).
+- No hashtags unless a real community uses one ([why](../docs/00-101-tips.md#8--stop-believing)).
 - Agent help to draft (you post by hand): [social-x-reply](../skills/social-x-reply/SKILL.md).
 
 ### 12:30 · Lunch check (10 min)

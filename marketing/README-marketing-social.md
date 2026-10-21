@@ -26,8 +26,9 @@ Reddit · communities       bio link + UTM            directories · ASO        
 Every kit has the same layout: `README-<Channel>-Marketing.md`, `docs/` (the method), `reference/` (sources and
 research log), `templates/`, `skills/`, plus `case-studies/`, `flow/` or `posts/` where the kit has them.
 
-*Planned:* a **101** page per kit: one-line daily tips ("don't change your X profile photo on Premium"), each
-labelled by how sure we are. See [the 101 plan](README-marketing-101-plan.md).
+A **101** page per kit: one-line daily tips ("don't change your X profile photo on Premium"), each labelled by how
+sure we are. Live: [X 101, 100 tips](x-marketing/docs/00-101-tips.md); the other kits are *planned*. See
+[the 101 plan](README-marketing-101-plan.md).
 
 ## 1 · The whole map
 

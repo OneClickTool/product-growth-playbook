@@ -7,6 +7,8 @@
 **Post daily about what you built, use X Premium on purpose, and turn profile visits into the first paying
 subscribers.** Everything here is either from X's own code and help pages, or labelled as practice to test.
 
+**New here? Read the 101 first:** [100 one-line tips you can use today](docs/00-101-tips.md), each labelled by how sure we are.
+
 ```text
 post / reply  →  profile visit  →  link click  →  landing  →  trial  →  paid
 ```
@@ -55,7 +57,7 @@ Ready to copy: [5-product rotation with hooks and links](posts/product-rotation.
 | Folder | What's inside |
 |---|---|
 | [docs/](docs/) | The X marketing flow, one topic per file (below) |
-| [reference/](reference/) | [Fake revenue screenshots and scams: how to check](reference/fake-proof-and-scams.md), research log, raw facts on the ranker and Premium, tips by evidence level, [trends](reference/trends.md), articles, repos, glossary |
+| [reference/](reference/) | [Fake revenue screenshots and scams: how to check](reference/fake-proof-and-scams.md), research log, raw facts on the ranker and Premium, [trends](reference/trends.md), articles, repos, glossary |
 | [skills/](skills/) | Agent Skills for X: [**social-x** (router)](skills/social-x/SKILL.md) · [daily](skills/social-x-daily/SKILL.md) · [growth](skills/social-x-growth/SKILL.md) · [reply](skills/social-x-reply/SKILL.md) · [profile funnel](skills/social-x-profile-funnel/SKILL.md) |
 | [flow/](flow/) | [A day on X, hour by hour](flow/a-day-on-x.md), the [daily / weekly / monthly routine](flow/daily-flow.md), the [real analytics pattern](flow/analytics-pattern.md) it produced, the [cross-channel funnel](flow/cross-channel-funnel.md) (Reddit, email signatures, stores → X profile → free trial), and the [tools](flow/tools.md) to use (X's own, outside, and ones the maintainer builds) |
 | [resources/](resources/) | [Links ready to paste on X](resources/links.md): products, stores, extensions, articles, channels, videos |
@@ -63,6 +65,7 @@ Ready to copy: [5-product rotation with hooks and links](posts/product-rotation.
 | [posts/](posts/) | Ready to copy: [product rotation](posts/product-rotation.md), [talk bank](posts/talk-bank.md), [week 1](posts/week-01-starter.md), [week 2](posts/week-02-mix.md) |
 
 ## Docs, in reading order
+0. [X 101: 100 tips you can use today](docs/00-101-tips.md)
 1. [Strategy: zero followers → first paid subscriber](docs/01-strategy-first-dollar.md)
 2. [Profile setup checklist](docs/02-profile-setup.md)
 3. [How X ranks posts, in plain words](docs/03-how-x-ranks-posts.md)
