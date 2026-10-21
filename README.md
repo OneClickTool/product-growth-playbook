@@ -76,6 +76,7 @@ extensions**, especially if you're a builder, not a marketer.
 | Send the right emails to free, paying and lapsed users; pick an email tool | [Email Segments and Tools](skills/email/email-segments-and-tools/SKILL.md) |
 | Launched, but nobody's using it | [Get Your First 100 Users](skills/launch/launch-get-first-100-users/SKILL.md) |
 | Get more installs from App Store / Google Play search | [ASO Keyword Research](skills/aso/aso-keyword-research/SKILL.md), or the full [Playbook: ASO Optimization](playbooks/aso-optimization.md) |
+| Show up in Google AI Overviews and get named by ChatGPT | [Playbook: AI Search Visibility](playbooks/ai-search-visibility.md), then [GEO & AEO feature preview](skills/launch/launch-geo-aeo-feature-preview/SKILL.md) |
 | Get paid (Stripe not in your country? Vietnam, etc.) | [Payment Setup](skills/monetization/monetization-payment-setup/SKILL.md): which provider works, what to prepare, how long it takes |
 | Add in-app purchases: StoreKit 2, Play Billing or RevenueCat? | [In-App Purchase Setup](skills/monetization/monetization-in-app-purchase-setup/SKILL.md) |
 | Free repo or app: add a Sponsor / Ko-fi button | [Open-Source Funding](skills/monetization/monetization-open-source-funding/SKILL.md): FUNDING.yml, README support section, what stores allow |
@@ -131,7 +132,7 @@ Before any channel: [measure first](skills/growth/action/01-measure-first.md), s
 
 **Case studies (real launches, taken apart):** [case-study/](case-study/README.md), starting with [Shipfolks × GoViralDev: a $150 directory sponsor slot](case-study/2026-10-shipfolks-goviraldev-directory-sponsor.md)
 
-**Playbooks:** [Product Growth Hack flow (0 → first sale)](flow/README-product-growth-hack.md) · [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · [Action plan: long-term users without ads](skills/growth/action/README.md) · **Roadmap:** [what's next](ROADMAP.md)
+**Playbooks:** [Product Growth Hack flow (0 → first sale)](flow/README-product-growth-hack.md) · [Growth Map](playbooks/growth-map.md) · [Launch a Product](playbooks/launch-a-product.md) · [ASO Optimization](playbooks/aso-optimization.md) · [AI Search Visibility (SEO, AEO, AIO, GEO)](playbooks/ai-search-visibility.md) · [Action plan: long-term users without ads](skills/growth/action/README.md) · **Roadmap:** [what's next](ROADMAP.md)
 
 ### 📖 Read the whole playbook as a map
 

@@ -1,6 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Playbooks)
+- `playbooks/ai-search-visibility.md`: SEO, AEO, AIO (Google AI Overviews) and GEO as one four-layer stack, 2026
+  click-through evidence (randomized study, Ahrefs, Seer, SparkToro), which engine reads which index, a common
+  checklist reviewed item by item with 2026 corrections, an evidence-strength table, measurement per layer, myths and
+  the order for a small product. Links to the GEO & AEO learning guide and the skills for each step.
 ### Added (Analytics, new area)
 - `skills/analytics/` 📊, phase 1 of [docs/plan-analytics-ga4.md](docs/plan-analytics-ga4.md):
   `analytics-ga4-setup` (web stream, enhanced measurement, internal-traffic filter Testing → Active, cross-domain and
