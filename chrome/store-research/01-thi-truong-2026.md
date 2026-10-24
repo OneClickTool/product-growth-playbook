@@ -25,6 +25,8 @@ công cụ AI giúp làm extension nhanh hơn là một phần lý do.
 
 ## Ý nghĩa với người làm extension nhỏ
 
+![Bậc thang users](../../site/images/chrome-user-ladder.svg)
+
 | Thực tế | Nghĩa là |
 |---|---|
 | Mỗi quý thêm hàng chục nghìn extension mới | Ra mắt rồi chờ người tự tìm thấy thì gần như không ai thấy. Phải có kênh kéo người (bài viết, cộng đồng, SEO listing) |

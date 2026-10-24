@@ -64,6 +64,12 @@ HERO_IMAGES = {
     "skills/strategy/README.md": "docs/images/illustrations/03-traffic-engine.jpg",
     "skills/social/README.md": "docs/images/illustrations/06-cross-channel-funnel.jpg",
     "playbooks/growth-map.md": "site/images/funnel.svg",
+    "chrome/README.md": "site/images/chrome-bucket.svg",
+    "chrome/dev-analytics/01-doc-dashboard.md": "site/images/chrome-dashboard-map.svg",
+    "chrome/dev-analytics/02-installs-uninstalls.md": "site/images/chrome-bucket.svg",
+    "chrome/dev-analytics/03-region-language-os.md": "site/images/chrome-three-lenses.svg",
+    "chrome/dev-analytics/04-suc-khoe-extension.md": "site/images/chrome-health-light.svg",
+    "chrome/dev-analytics/06-extension-tot-bao-nhieu-users.md": "site/images/chrome-user-ladder.svg",
 }
 
 

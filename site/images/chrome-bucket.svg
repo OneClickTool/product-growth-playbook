@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Cái xô: installs đổ vào, uninstalls chảy ra, weekly users là mực nước">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#1F2A44"/></marker></defs>
+  <rect width="960" height="480" rx="28" fill="#FAF6EE"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1F2A44">
+    <rect x="125" y="65" width="360" height="34" rx="10" fill="#1F2A44"/>
+    <rect x="120" y="60" width="360" height="34" rx="10" fill="#8FB59A" stroke="#1F2A44" stroke-width="3"/>
+    <rect x="446" y="60" width="34" height="74" rx="8" fill="#8FB59A" stroke="#1F2A44" stroke-width="3"/>
+    <text x="285" y="83" text-anchor="middle" font-size="17" fill="#1F2A44" font-weight="700">INSTALLS · người mới đến</text>
+    <rect x="452" y="134" width="22" height="122" fill="#7EC8E3" stroke="#1F2A44" stroke-width="2"/>
+    <polygon points="305,166 645,166 615,436 335,436" fill="#1F2A44"/>
+    <polygon points="300,160 640,160 610,430 330,430" fill="#FAF6EE" stroke="#1F2A44" stroke-width="4"/>
+    <polygon points="310,250 630,250 610,430 330,430" fill="#7EC8E3" stroke="#1F2A44" stroke-width="3"/>
+    <path d="M314 250 q20 -10 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0" stroke="#1F2A44" stroke-width="3" fill="none"/>
+    <text x="470" y="330" text-anchor="middle" font-size="28" fill="#1F2A44" font-weight="700" font-family="Georgia, 'Times New Roman', serif">WEEKLY USERS</text>
+    <text x="470" y="360" text-anchor="middle" font-size="17" fill="#1F2A44">mực nước = người đang ở lại</text>
+    <circle cx="326" cy="392" r="9" fill="#C8643F" stroke="#1F2A44" stroke-width="3"/>
+    <circle cx="302" cy="408" r="7" fill="#7EC8E3" stroke="#1F2A44" stroke-width="2"/>
+    <circle cx="288" cy="432" r="6" fill="#7EC8E3" stroke="#1F2A44" stroke-width="2"/>
+    <circle cx="278" cy="456" r="5" fill="#7EC8E3" stroke="#1F2A44" stroke-width="2"/>
+    <text x="258" y="430" text-anchor="end" font-size="22" fill="#1F2A44" font-weight="700" font-family="Georgia, 'Times New Roman', serif">UNINSTALLS</text>
+    <text x="258" y="454" text-anchor="end" font-size="15" fill="#1F2A44">lỗ thủng = người bỏ đi</text>
+    <g transform="translate(690 50)"><rect x="5" y="5" width="240" height="96" rx="20" fill="#1F2A44"/><rect width="240" height="96" rx="20" fill="#8FB59A" stroke="#1F2A44" stroke-width="3"/><text x="120.0" y="46" text-anchor="middle" font-size="18" font-weight="700">Vào nhiều hơn ra</text><text x="120.0" y="67" text-anchor="middle" font-size="15">→ xô đầy dần: tăng trưởng</text></g>
+    <g transform="translate(690 166)"><rect x="5" y="5" width="240" height="96" rx="20" fill="#1F2A44"/><rect width="240" height="96" rx="20" fill="#F08A5D" stroke="#1F2A44" stroke-width="3"/><text x="120.0" y="46" text-anchor="middle" font-size="18" font-weight="700">Lỗ thủng to</text><text x="120.0" y="67" text-anchor="middle" font-size="15">→ đổ thêm nước cũng phí</text></g>
+    <g transform="translate(690 282)"><rect x="5" y="5" width="240" height="96" rx="20" fill="#1F2A44"/><rect width="240" height="96" rx="20" fill="#F5C451" stroke="#1F2A44" stroke-width="3"/><text x="120.0" y="46" text-anchor="middle" font-size="18" font-weight="700">Nhìn mực nước</text><text x="120.0" y="67" text-anchor="middle" font-size="15">Weekly users mới là số đếm</text></g>
+    <text x="810" y="420" text-anchor="middle" font-size="16" fill="#C8643F" font-weight="700">Vá lỗ trước, mở vòi sau.</text>
+  </g>
+</svg>

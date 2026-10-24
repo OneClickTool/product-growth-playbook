@@ -19,6 +19,8 @@ nhất là so với chính bạn tháng trước.
 **Tổng điểm:** 9–12 🟢 **Khỏe** · 5–8 🟡 **Cần theo dõi** · 0–4 🔴 **Đáng lo**. Chỉ số nào chưa có dữ liệu thì bỏ, tính
 theo phần trăm số điểm tối đa còn lại.
 
+Cần chi tiết từng bậc users và ví dụ thật: [Extension tốt có bao nhiêu users](06-extension-tot-bao-nhieu-users.md).
+
 Điểm thấp ở dòng nào thì xem lại đúng phần đó: dòng 1 là **kênh**, dòng 2–4 là **sản phẩm / onboarding**, dòng 5 là
 **chất lượng + chăm sóc user**, dòng 6 là **listing**.
 
@@ -32,6 +34,8 @@ Chrome Web Store rất "đuôi dài": phần lớn extension gần như không c
 | Extension ở giữa (median) có | **14 users** | Exstats, báo cáo Q2/2026 |
 | Extension có ≤ 100 users | **70,4%** store | Exstats, 3/2026 |
 | Extension có > 10.000 users | **2,63%** store | Exstats, 3/2026 |
+
+![Bậc thang users](../../site/images/chrome-user-ladder.svg)
 
 Từ đó ra **thang vị trí** (dùng con số "users" công khai trên trang listing của bạn):
 

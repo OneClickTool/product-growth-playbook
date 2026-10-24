@@ -30,6 +30,8 @@ kể 30–40% người cài gỡ ngay, và họ cho là do bắt đăng ký tài
 
 ## 7 tình huống khi so installs với uninstalls
 
+![7 tình huống khi so installs với uninstalls](../../site/images/chrome-scenarios.svg)
+
 | # | Installs | Uninstalls | Nghĩa là | Làm gì |
 |---|---|---|---|---|
 | 1 | ↑ | ↔ hoặc ↓ | **Tăng trưởng thật.** Kênh mới hiệu quả và sản phẩm giữ được người | Tìm kênh nào mang người về và đổ thêm sức vào đó |

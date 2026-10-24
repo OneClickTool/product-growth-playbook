@@ -5,6 +5,8 @@
 Mở Developer Dashboard của Chrome Web Store, thấy "68 installs, +25.93%", rồi sao nữa? Tốt hay xấu? Extension của
 mình đang đứng ở đâu so với cả store? Chuyên mục này trả lời hai câu đó, để bạn không phải đi hỏi từng thông số một.
 
+Nhớ một hình là đủ: **installs** là vòi nước, **uninstalls** là lỗ thủng, **weekly users** là mực nước trong xô.
+
 | Phần | Trả lời câu hỏi | Bắt đầu |
 |---|---|---|
 | 📊 **Chrome Dev Analytics** | Từng biểu đồ trong dashboard nghĩa là gì, so installs với uninstalls thế nào, extension có khỏe không | [Đọc dashboard](dev-analytics/01-doc-dashboard.md) |
@@ -17,7 +19,8 @@ mình đang đứng ở đâu so với cả store? Chuyên mục này trả lờ
 3. [Region, language, OS](dev-analytics/03-region-language-os.md): user ở đâu, nói tiếng gì, dùng máy gì, và ưu tiên cái nào.
 4. [Sức khỏe extension](dev-analytics/04-suc-khoe-extension.md): bảng chấm điểm 5 phút mỗi tuần.
 5. [Export CSV](dev-analytics/05-export-csv.md): vì sao nên tải về, và script tự chấm điểm.
-6. Phụ lục: [Thị trường 2026](store-research/01-thi-truong-2026.md) · [Danh mục cài nhiều nhất](store-research/02-danh-muc-cai-nhieu-nhat.md) · [Danh mục dễ trả tiền](store-research/03-danh-muc-de-tra-tien.md).
+6. [Extension tốt có bao nhiêu users](dev-analytics/06-extension-tot-bao-nhieu-users.md): 6 bậc từ 100 tới 1 triệu users, installs mỗi ngày cần có, ví dụ thật.
+7. Phụ lục: [Thị trường 2026](store-research/01-thi-truong-2026.md) · [Danh mục cài nhiều nhất](store-research/02-danh-muc-cai-nhieu-nhat.md) · [Danh mục dễ trả tiền](store-research/03-danh-muc-de-tra-tien.md).
 
 ## Liên quan trong playbook
 
