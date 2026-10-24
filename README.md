@@ -50,6 +50,7 @@ extensions**, especially if you're a builder, not a marketer.
 | Learn from competitors ("learn from the enemy") | [Competitor Teardown](skills/case-study/case-study-competitor-teardown/SKILL.md) → [Success Story Analysis](skills/case-study/case-study-success-story-analysis/SKILL.md) |
 | Learn design from Apple Design Award, Google Play Best of and Product Hunt winners | [Award-Winning Design Study](skills/case-study/case-study-award-winning-design/SKILL.md) |
 | Learn Google Analytics 4 and Search Console: set it up right, track the few things that matter, read where traffic comes from | [GA4 Setup](skills/analytics/analytics-ga4-setup/SKILL.md) → [Tracking Plan](skills/analytics/analytics-tracking-plan/SKILL.md) → [Reports 101](skills/analytics/analytics-ga4-reports-101/SKILL.md) |
+| Read the Chrome Web Store dashboard (installs vs uninstalls, region, language, OS, health score, CSV export) and the 2026 extension market, in Vietnamese | [Chrome section](chrome/README.md): [Dev Analytics](chrome/dev-analytics/README.md) · [Store Research](chrome/store-research/README.md) |
 | Find facts you can trust | [Source Finding](skills/research/research-source-finding/SKILL.md) |
 | Stop losing research in tabs and chats | [Research Doc Organization](skills/research/research-doc-organization/SKILL.md) |
 | Publish on the App Store / Google Play, step by step | [App Store Listing](skills/listing/listing-app-store/SKILL.md) · [Google Play Listing](skills/listing/listing-google-play/SKILL.md) |

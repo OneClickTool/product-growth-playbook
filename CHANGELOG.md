@@ -1,6 +1,14 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Chrome, new section, Vietnamese)
+- `chrome/`: a **Chrome** tab on the site, written in Vietnamese at the maintainer's request. `dev-analytics/`
+  explains every Chrome Web Store Developer Dashboard chart (installs, uninstalls, weekly users, enabled vs disabled,
+  region / language / OS / item version, impressions, the store-managed GA4 property), 7 install-vs-uninstall
+  scenarios, a 6-signal health score with a store-position ladder (Exstats medians), why to export CSV, and
+  `scripts/chrome_health.py` (stdlib; scores exported CSVs). `store-research/` holds the market pages surveyed on
+  2026-10-24: store size and growth, most-installed categories, categories with the highest paid share. Thresholds
+  are labelled as rules of thumb; market numbers cite third-party crawlers. Nav built in `scripts/build_site.py`.
 ### Added (Marketing)
 - `marketing/x-marketing/docs/00-101-tips.md`: X 101, 100 one-line tips in the 8 sections of the
   [101 plan](marketing/README-marketing-101-plan.md) (profile, posting, reach, replies, links, paid, rules, myths), each
