@@ -358,7 +358,8 @@ body {
 }
 
 /* Big warning line at the top of a section (chrome/README.md) */
-.md-typeset .pgp-shout {
+/* doubled class beats ".md-typeset h1 + .hero-img + p" */
+.md-typeset p.pgp-shout.pgp-shout {
   font-size: clamp(1.6rem, 5vw, 2.6rem);
   font-weight: 800;
   line-height: 1.15;
@@ -366,4 +367,4 @@ body {
   color: #d32f2f;
   margin: .2em 0 .8em;
 }
-[data-md-color-scheme="slate"] .md-typeset .pgp-shout { color: #ff6b6b; }
+[data-md-color-scheme="slate"] .md-typeset p.pgp-shout.pgp-shout { color: #ff6b6b; }
