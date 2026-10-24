@@ -5,7 +5,7 @@ Rules for AI agents working in this repository. [AGENTS.md](AGENTS.md) points he
 ## What this repo is
 A library of **growth skills** for people building digital products. Every skill is an Agent Skill
 (`skills/<area>/<name>/SKILL.md`, or `marketing/<channel>-marketing/skills/<name>/SKILL.md` for the channel kits: X, Instagram, TikTok, Reddit, Medium, Pinterest, Facebook; the hub with every channel and how they link is [marketing/README-marketing-social.md](marketing/README-marketing-social.md)) that a human can read on GitHub and an agent can install.
-The public roadmap is [ROADMAP.md](ROADMAP.md). All content is in English.
+The public roadmap is [ROADMAP.md](ROADMAP.md). All content is in English, except `chrome/` (the Chrome tab), which the maintainer asked to be in Vietnamese.
 
 ## Hard rules
 - Follow [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md) exactly: frontmatter, section order, four-backtick prompt fence.
