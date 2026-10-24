@@ -9,6 +9,7 @@ Mọi bảng thống kê của riêng Chrome Web Store, giải thích bằng ti�
 | 03 | [Region, language, OS](03-region-language-os.md) | Chọn thị trường, ngôn ngữ dịch listing và nền tảng cần test trước |
 | 04 | [Sức khỏe extension](04-suc-khoe-extension.md) | Chấm điểm 🟢 🟡 🔴 trong 5 phút mỗi tuần |
 | 05 | [Export CSV](05-export-csv.md) | Giữ lịch sử số liệu và chấm điểm tự động bằng script |
+| 06 | [Extension tốt có bao nhiêu users](06-extension-tot-bao-nhieu-users.md) | Biết mốc users "tốt", installs mỗi ngày cần có, kèm ví dụ thật |
 
 **Vì sao cần chuyên mục này:** dashboard chỉ đưa số, không đưa kết luận. Không có mốc so sánh thì 68 installs có
 thể là tốt (extension mới 2 tháng, không quảng cáo) hoặc rất tệ (extension 3 năm, đang mất user). Các trang dưới đây

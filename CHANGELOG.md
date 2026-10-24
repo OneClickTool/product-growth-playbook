@@ -1,6 +1,14 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Chrome)
+- `chrome/dev-analytics/06-extension-tot-bao-nhieu-users.md`: what a "good" extension looks like in numbers. It has the
+  store-wide user distribution (Backlinko / Chrome-Stats, 5/2026), a 6-step ladder (≥ 100 users is top ~25%, ≥ 1,000 is
+  top ~10%, ≥ 10,000 is top ~3%), an installs-per-day estimate labelled illustrative, what "active users" can and
+  cannot mean in the dashboard, and 6 real, self-reported examples with sources.
+- 6 diagrams in `site/images/chrome-*.svg`, in the site's existing style: the bucket (installs, uninstalls, weekly
+  users), the dashboard map, region / language / OS, the health traffic light, the user ladder and the 7 scenarios.
+  They are used as page heroes (`HERO_IMAGES`) and inline.
 ### Added (Chrome, new section, Vietnamese)
 - `chrome/`: a **Chrome** tab on the site, written in Vietnamese at the maintainer's request. `dev-analytics/`
   explains every Chrome Web Store Developer Dashboard chart (installs, uninstalls, weekly users, enabled vs disabled,

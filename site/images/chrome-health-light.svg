@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" role="img" aria-label="Đèn sức khỏe: xanh khỏe, vàng theo dõi, đỏ đáng lo">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#1F2A44"/></marker></defs>
+  <rect width="960" height="450" rx="28" fill="#FAF6EE"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1F2A44">
+    <rect x="85" y="45" width="150" height="350" rx="40" fill="#1F2A44"/>
+    <rect x="80" y="40" width="150" height="350" rx="40" fill="#2E3B5C" stroke="#1F2A44" stroke-width="3"/>
+    <circle cx="155" cy="105" r="42" fill="#8FB59A" stroke="#FAF6EE" stroke-width="4"/>
+    <circle cx="155" cy="215" r="42" fill="#F5C451" stroke="#FAF6EE" stroke-width="4"/>
+    <circle cx="155" cy="325" r="42" fill="#F08A5D" stroke="#FAF6EE" stroke-width="4"/>
+    <path d="M205 105 h70" stroke="#1F2A44" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <g transform="translate(285 65)"><rect x="5" y="5" width="380" height="80" rx="20" fill="#1F2A44"/><rect width="380" height="80" rx="20" fill="#8FB59A" stroke="#1F2A44" stroke-width="3"/><text x="190.0" y="38" text-anchor="middle" font-size="20" font-weight="700" font-family="Georgia, 'Times New Roman', serif">9–12 điểm · Khỏe</text><text x="190.0" y="60" text-anchor="middle" font-size="15">Kéo thêm người: đổ sức vào kênh đang chạy</text></g>
+    <path d="M205 215 h70" stroke="#1F2A44" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <g transform="translate(285 175)"><rect x="5" y="5" width="380" height="80" rx="20" fill="#1F2A44"/><rect width="380" height="80" rx="20" fill="#F5C451" stroke="#1F2A44" stroke-width="3"/><text x="190.0" y="38" text-anchor="middle" font-size="20" font-weight="700" font-family="Georgia, 'Times New Roman', serif">5–8 điểm · Cần theo dõi</text><text x="190.0" y="60" text-anchor="middle" font-size="15">Sửa đúng dòng có điểm thấp nhất</text></g>
+    <path d="M205 325 h70" stroke="#1F2A44" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <g transform="translate(285 285)"><rect x="5" y="5" width="380" height="80" rx="20" fill="#1F2A44"/><rect width="380" height="80" rx="20" fill="#F08A5D" stroke="#1F2A44" stroke-width="3"/><text x="190.0" y="38" text-anchor="middle" font-size="20" font-weight="700" font-family="Georgia, 'Times New Roman', serif">0–4 điểm · Đáng lo</text><text x="190.0" y="60" text-anchor="middle" font-size="15">Ngừng kéo người, vá lỗ thủng trước</text></g>
+    <g transform="translate(710 65)"><rect width="220" height="300" rx="20" fill="#FAF6EE" stroke="#1F2A44" stroke-width="3" stroke-dasharray="8 6"/><text x="110.0" y="88" text-anchor="middle" font-size="20" font-weight="700" font-family="Georgia, 'Times New Roman', serif">6 chỉ số</text><text x="110.0" y="110" text-anchor="middle" font-size="15">installs 30 ngày</text><text x="110.0" y="130" text-anchor="middle" font-size="15">uninstall / install</text><text x="110.0" y="150" text-anchor="middle" font-size="15">weekly users</text><text x="110.0" y="171" text-anchor="middle" font-size="15">enabled %</text><text x="110.0" y="191" text-anchor="middle" font-size="15">rating + review mới</text><text x="110.0" y="211" text-anchor="middle" font-size="15">xem trang → cài</text><text x="110.0" y="230" text-anchor="middle" font-size="14" font-weight="700">mỗi dòng 0 · 1 · 2</text></g>
+    <text x="480" y="425" text-anchor="middle" font-size="16" fill="#C8643F" font-weight="700">5 phút mỗi tuần, cùng một ngày, khung 30 ngày.</text>
+  </g>
+</svg>
