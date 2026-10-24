@@ -3,6 +3,9 @@
 **Installs** cho biết bao nhiêu người mới đến (acquisition). **Uninstalls** cho biết bao nhiêu người bỏ đi (churn).
 Nhìn riêng một số thì không kết luận được gì; phải đặt hai số cạnh nhau.
 
+![Trang Installs & uninstalls trong Developer Dashboard](../../docs/images/chrome/cws-02-installs-uninstalls.png)
+*Ảnh: [Google, Analyze your store listing](https://developer.chrome.com/docs/webstore/metrics), CC BY 4.0. Số trong ảnh là dữ liệu mẫu của Google, không phải extension thật. Con số to (18.6K) và mũi tên xanh (↑ 10.00%) là chỗ đọc "tăng trưởng installs" ở bảng dưới.*
+
 ## Ba con số cần tính
 
 | Con số | Cách tính | Ý nghĩa |

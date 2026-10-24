@@ -3,6 +3,9 @@
 Mỗi biểu đồ trong Analytics có nút **Export to CSV**
 ([Google](https://developer.chrome.com/blog/cws-analytics-revamp)). Bấm mất 2 giây, nhưng nhiều người không bao giờ bấm.
 
+![Mỗi khối biểu đồ có nút Export to CSV riêng ngay bên dưới](../../docs/images/chrome/cws-04-users.png)
+*Ảnh: [Google, Analyze your store listing](https://developer.chrome.com/docs/webstore/metrics), CC BY 4.0. Nút **Export to CSV** nằm dưới **từng** khối, không có nút tải tất cả một lần. Số trong ảnh là dữ liệu mẫu của Google, không phải extension thật.*
+
 ## 6 lợi ích
 
 | # | Lợi ích | Vì sao quan trọng |

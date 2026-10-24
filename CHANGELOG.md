@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 ### Added (Chrome)
+- 18 screenshots from Google's own Chrome Web Store docs (CC BY 4.0, source under each image) in
+  `docs/images/chrome/`, placed in every Chrome page: the Analytics menu, the Installs & uninstalls, Impressions and
+  Users pages, the 2022 before/after region charts, page views by UTM campaign, the GA4 opt-in, localized listing
+  assets, the store home page, publisher badges, publisher page, spotlight and payments & distribution. Each caption
+  says the chart numbers are Google's sample data. Credits in `chrome/README.md`.
+### Added (Chrome)
 - `chrome/dev-analytics/06-extension-tot-bao-nhieu-users.md`: what a "good" extension looks like in numbers. It has the
   store-wide user distribution (Backlinko / Chrome-Stats, 5/2026), a 6-step ladder (≥ 100 users is top ~25%, ≥ 1,000 is
   top ~10%, ≥ 10,000 is top ~3%), an installs-per-day estimate labelled illustrative, what "active users" can and

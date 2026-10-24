@@ -66,6 +66,9 @@ liệu đo được):
 Một extension khỏe: **Weekly users tăng đều qua các tháng**, Enabled cao, và (nếu có đo) số người dùng tính năng chính
 mỗi tuần tăng theo.
 
+![Trang Users: Weekly users over time và Enabled vs disabled](../../docs/images/chrome/cws-04-users.png)
+*Ảnh: [Google, Analyze your store listing](https://developer.chrome.com/docs/webstore/metrics), CC BY 4.0. Hai chỗ cần nhìn: đường **Weekly users over time** (đi lên đều là khỏe) và vòng **Enabled vs disabled**. Số trong ảnh là dữ liệu mẫu của Google, không phải extension thật.*
+
 ## Ví dụ thật
 
 Đều là số do developer tự kể hoặc bên thứ ba đưa tin, không phải số Google xác nhận.

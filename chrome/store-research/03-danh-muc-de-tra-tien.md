@@ -18,6 +18,11 @@
 Hai nguồn đếm khác nhau (ExtScope đếm "có ưu đãi trả phí hoặc premium", DebugBear đếm "hỗ trợ thanh toán") nên số
 lệch nhau. Điều chung: **Social, Shopping, Developer Tools, Workflow & Planning** luôn nằm nhóm trên.
 
+Extension có thu phí phải khai trong dashboard: chọn **Contains in-app purchases** thì listing hiện huy hiệu "in-app purchases" (ảnh dưới là giao diện cũ, mục nay tên **Distribution**):
+
+![Mục Payments & distribution: Free hoặc Contains in-app purchases, và Visibility](../../docs/images/chrome/cws-14-payments-distribution.png)
+*Ảnh: [Google, Set up distribution](https://developer.chrome.com/docs/webstore/cws-dashboard-distribution), CC BY 4.0.*
+
 ## Thu tiền được bao nhiêu
 
 | Số liệu | Nguồn |

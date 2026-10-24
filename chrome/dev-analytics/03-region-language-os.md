@@ -3,6 +3,19 @@
 Ba biểu đồ phân nhóm cùng một tập user theo ba cách. Dashboard hiện **top nhóm dưới dạng % tổng installs** trong kỳ
 ([Google](https://developer.chrome.com/blog/cws-analytics-revamp)), phần còn lại gộp vào **Other**.
 
+Từ 2022 Google bỏ kiểu biểu đồ cũ (hàng chục đường chồng nhau, không đọc nổi) và chuyển sang thanh ngang %:
+
+![Trước: biểu đồ đường installs theo region, hàng chục đường chồng lên nhau](../../docs/images/chrome/cws-06-truoc-khi-doi.png)
+*Ảnh: [Google, Revamping Analytics (2022)](https://developer.chrome.com/blog/cws-analytics-revamp), CC BY 4.0.*
+
+![Sau: ba biểu đồ thanh ngang Installs by Region, Language, OS](../../docs/images/chrome/cws-07-sau-khi-doi.png)
+*Ảnh: [Google, Revamping Analytics (2022)](https://developer.chrome.com/blog/cws-analytics-revamp), CC BY 4.0.*
+
+Ở trang **Users** cũng có đủ ba biểu đồ này, cộng thêm **item version** và **Enabled vs Disabled**:
+
+![Weekly users theo region, language, OS, item version và enabled vs disabled](../../docs/images/chrome/cws-05-users-region-language-os.png)
+*Ảnh: [Google, Revamping Analytics (2022)](https://developer.chrome.com/blog/cws-analytics-revamp), CC BY 4.0. Số trong ảnh là dữ liệu mẫu của Google, không phải extension thật. Ví dụ đọc: USA 33%, Windows 33%, Mac OS 20%, Chrome OS 15%.*
+
 ## Installs by region: user ở quốc gia nào
 
 **Là gì:** tỷ lệ % installs theo quốc gia của người cài.
@@ -29,6 +42,14 @@ Anh sẽ tính là English (United States). English (United States) và English 
   ≥ 5–10% installs mà listing chưa có bản tiếng đó, dịch nó là việc rẻ nhất để tăng installs.
 - **Viết listing đúng giọng.** 71% English (US) → viết "color", "organize", ví dụ bằng đô la.
 - **So với region.** Region Nhật nhưng language English? User Nhật đó dùng Chrome tiếng Anh, chưa cần dịch.
+
+**Dịch ở đâu:** trong tab **Store listing**, chọn ngôn ngữ ở đầu trang rồi điền mô tả, và tải **ảnh chụp riêng cho ngôn ngữ đó** (tối đa 5 ảnh, 1280×800 hoặc 640×400) ([Google](https://developer.chrome.com/docs/webstore/cws-dashboard-listing)):
+
+![Ô chọn ngôn ngữ trong tab Store listing](../../docs/images/chrome/cws-13-chon-ngon-ngu-listing.png)
+*Ảnh: [Google, Complete your listing information](https://developer.chrome.com/docs/webstore/cws-dashboard-listing), CC BY 4.0.*
+
+![Localized assets: video và ảnh chụp riêng cho từng ngôn ngữ](../../docs/images/chrome/cws-12-anh-theo-ngon-ngu.png)
+*Ảnh: [Google, Complete your listing information](https://developer.chrome.com/docs/webstore/cws-dashboard-listing), CC BY 4.0.*
 
 ## Installs by OS: user dùng máy gì
 

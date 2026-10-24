@@ -29,3 +29,11 @@ Nhớ một hình là đủ: **installs** là vòi nước, **uninstalls** là l
 - Viết listing cho extension: [listing-browser-extension](../skills/listing/listing-browser-extension/SKILL.md).
 - Gắn GA4 cho website / landing page: [analytics-ga4-setup](../skills/analytics/analytics-ga4-setup/SKILL.md).
 - Có 100 user đầu tiên: [launch-get-first-100-users](../skills/launch/launch-get-first-100-users/SKILL.md).
+
+## Nguồn ảnh
+
+Ảnh chụp dashboard và store trong `docs/images/chrome/` lấy từ tài liệu chính thức của Google trên
+[developer.chrome.com](https://developer.chrome.com/docs/webstore), giấy phép
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Mỗi ảnh ghi trang gốc ngay bên dưới. Số trên các biểu đồ là
+dữ liệu mẫu của Google, không phải số của một extension thật. Ảnh đã được đổi tên, thu nhỏ còn tối đa 1600 px, không sửa
+nội dung.

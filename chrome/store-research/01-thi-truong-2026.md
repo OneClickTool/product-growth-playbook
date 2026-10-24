@@ -108,6 +108,22 @@ nhóm. Một bài trên [DEV Community](https://dev.to/extensionbooster/the-chro
 cho rằng năm 2026 weekly users được tính nặng hơn tổng installs; chưa kiểm chứng được. Điểm chung của cả hai:
 **giữ chân user** (weekly users) ảnh hưởng tới thứ hạng, nên uninstall cao không chỉ mất user mà còn mất vị trí.
 
+### Huy hiệu và trang publisher: thứ Google công bố rõ
+
+Khác thuật toán, các huy hiệu thì Google ghi rõ điều kiện ([Google](https://developer.chrome.com/docs/webstore/discovery)). Trên thẻ listing, người xem thấy cùng lúc: tên publisher, huy hiệu **Established Publisher** (dấu tích xanh), huy hiệu **Featured**, điểm sao và **số lượt đánh giá**.
+
+![Google Translate với huy hiệu Established Publisher, Featured và 44.4K ratings](../../docs/images/chrome/store-02-huy-hieu-publisher.png)
+*Ảnh: [Google, Discovery on Chrome Web Store](https://developer.chrome.com/docs/webstore/discovery), CC BY 4.0.*
+
+- **Established Publisher:** tự cấp khi publisher **đã xác minh danh tính** và có lịch sử tuân thủ chính sách tốt.
+- **Publisher page:** publisher là tổ chức, đã xác minh trader và có huy hiệu trên, thì bấm vào tên sẽ mở trang gom mọi extension của họ. Bạn chọn một extension làm **Spotlight** ở mục Account của dashboard.
+
+![Trang publisher trên Chrome Web Store](../../docs/images/chrome/store-03-trang-publisher.png)
+*Ảnh: [Google, Discovery on Chrome Web Store](https://developer.chrome.com/docs/webstore/discovery), CC BY 4.0.*
+
+![Chọn Spotlight item trong Developer Dashboard](../../docs/images/chrome/store-04-spotlight.png)
+*Ảnh: [Google, Discovery on Chrome Web Store](https://developer.chrome.com/docs/webstore/discovery), CC BY 4.0.*
+
 ## Nguồn
 
 - [Exstats: Browser Extension Market Q2 2026](https://exstats.com/blog/state-of-browser-extensions-q2-2026)

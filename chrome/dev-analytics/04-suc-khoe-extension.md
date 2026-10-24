@@ -19,6 +19,11 @@ nhất là so với chính bạn tháng trước.
 **Tổng điểm:** 9–12 🟢 **Khỏe** · 5–8 🟡 **Cần theo dõi** · 0–4 🔴 **Đáng lo**. Chỉ số nào chưa có dữ liệu thì bỏ, tính
 theo phần trăm số điểm tối đa còn lại.
 
+Chỉ số 3 và 4 nằm cùng một trang **Users**: đường weekly users ở trên, vòng tròn **Enabled vs disabled** ở góc dưới phải.
+
+![Trang Users: weekly users và vòng tròn enabled vs disabled](../../docs/images/chrome/cws-04-users.png)
+*Ảnh: [Google, Analyze your store listing](https://developer.chrome.com/docs/webstore/metrics), CC BY 4.0. Số trong ảnh là dữ liệu mẫu của Google, không phải extension thật.*
+
 Cần chi tiết từng bậc users và ví dụ thật: [Extension tốt có bao nhiêu users](06-extension-tot-bao-nhieu-users.md).
 
 Điểm thấp ở dòng nào thì xem lại đúng phần đó: dòng 1 là **kênh**, dòng 2–4 là **sản phẩm / onboarding**, dòng 5 là

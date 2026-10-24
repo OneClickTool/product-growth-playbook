@@ -14,6 +14,16 @@ Từ bản thiết kế lại của store, danh mục chia làm 3 nhóm lớn:
 
 Mỗi extension chọn **một** danh mục. Chọn đúng danh mục là chọn "kệ hàng" bạn được trưng.
 
+Trang chủ store đưa vài danh mục lên mục **Top categories** ngay dưới banner:
+
+![Trang chủ Chrome Web Store với banner và Top categories](../../docs/images/chrome/store-01-trang-chu.jpg)
+*Ảnh: [Google, Discovery on Chrome Web Store](https://developer.chrome.com/docs/webstore/discovery), CC BY 4.0.*
+
+Danh mục chọn ở ô **Category** trong tab Store listing của dashboard:
+
+![Tab Store listing: ô Description và ô Category](../../docs/images/chrome/cws-11-tab-store-listing.png)
+*Ảnh: [Google, Complete your listing information](https://developer.chrome.com/docs/webstore/cws-dashboard-listing), CC BY 4.0.*
+
 ## Tổng users theo danh mục
 
 Theo [ExtScope](https://extscope.org/categories) (theo dõi ~295.000 extension, 18 danh mục; xem 10/2026):
