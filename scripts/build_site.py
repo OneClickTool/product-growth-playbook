@@ -6,7 +6,7 @@ Standard library only. Usage (from anywhere):
 
 What it does, so the site is easier to learn from than the raw Markdown:
 - copies every public .md / image / csv / py file into .site-docs/ (source of truth stays in the repo)
-- uses site/home.md as the landing page and the root README as "playbook-overview"
+- uses site/home.md as the landing page (site/home-vi.md as its Vietnamese copy at /vi/) and the root README as "playbook-overview"
 - adds a "skill card" (summary, level, time, area) under the title of every SKILL.md
 - wraps key sections in coloured boxes: Goal, Example output, Common mistakes, "Five things to remember",
   "Illustrative example" quotes
@@ -82,6 +82,8 @@ def copy_tree():
         shutil.copy2(path, dest)
     # site-only assets: landing page, styles, images
     shutil.copy2(SITE / "home.md", OUT / "index.md")
+    (OUT / "vi").mkdir(exist_ok=True)
+    shutil.copy2(SITE / "home-vi.md", OUT / "vi" / "index.md")  # Vietnamese landing page at /vi/
     for sub in ("stylesheets", "images", "javascripts"):
         if (SITE / sub).exists():
             shutil.copytree(SITE / sub, OUT / "site" / sub)
@@ -189,7 +191,7 @@ def add_hero(text, rel, image):
 def transform_all():
     for path in OUT.rglob("*.md"):
         rel = path.relative_to(OUT).as_posix()
-        if rel == "index.md":
+        if rel in ("index.md", "vi/index.md"):
             continue
         text = path.read_text(encoding="utf-8")
         meta, body = frontmatter(text)

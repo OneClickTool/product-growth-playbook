@@ -1,0 +1,150 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+{% set img = 'docs/images/illustrations/' %}
+<div class="home" lang="vi">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="kicker"><span class="dot"></span> Miễn phí · mã nguồn mở · 63 skill · <a href="../" hreflang="en">English</a></p>
+      <h1>Phát triển thứ <em>bạn đã làm ra.</em></h1>
+      <p class="hero__lead">Các skill tăng trưởng ngắn gọn, từng bước, cho app, extension, game và công cụ AI.
+        Mỗi skill kết thúc bằng một thứ bạn có thể <mark>đăng, ra mắt hoặc gửi đi ngay hôm nay</mark>, kèm một prompt
+        copy-paste cho Claude, ChatGPT hoặc Gemini.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="{{ 'skills/growth/SKILL/' | url }}">Tìm bước tiếp theo của tôi →</a>
+        <a class="btn" href="{{ 'marketing/README-marketing-social/' | url }}">Xem bản đồ marketing</a>
+      </div>
+    </div>
+    <figure class="hero__art"><img src="{{ (img ~ '01-growth-hack-hero.jpg') | url }}" alt="Một indie maker bước ra khỏi gara, đi về phía một cửa hàng nhỏ đang sáng đèn"></figure>
+  </section>
+
+  <!-- 3 BƯỚC -->
+  <section class="steps">
+    <div class="step"><span class="step__n">1</span><h3>Chọn vấn đề của bạn</h3><p>"Không ai tải về", "hôm nay đăng gì", "dùng thử xong không trả tiền"…</p></div>
+    <div class="step"><span class="step__n">2</span><h3>Mở một skill</h3><p>Mục tiêu, các bước, một prompt và một ví dụ thật. 15–60 phút.</p></div>
+    <div class="step"><span class="step__n">3</span><h3>Làm, đo, lặp lại</h3><p>Mỗi skill đều nói cần xem con số nào và khi nào thì dừng.</p></div>
+  </section>
+
+  <!-- VẤN ĐỀ -->
+  <section class="block">
+    <h2 class="block__title">Lúc này điều gì đang làm bạn đau đầu?</h2>
+    <p class="block__sub">Chọn cái nghe giống bạn nhất. Mỗi thẻ mở ra một skill.</p>
+    <div class="cards">
+      <a class="card c-coral" href="{{ 'skills/launch/launch-quick-download-wins/SKILL/' | url }}"><span class="card__emoji">📉</span><b>Không ai tải app của tôi</b><span>Tăng lượt tải nhanh ngay tuần này</span></a>
+      <a class="card c-sun" href="{{ 'marketing/tiktok-marketing/skills/social-tiktok-slideshow/SKILL/' | url }}"><span class="card__emoji">🎞️</span><b>Tôi muốn có người dùng từ TikTok</b><span>Slideshow: bài đăng rẻ, nhiều hook</span></a>
+      <a class="card c-sky" href="{{ 'marketing/x-marketing/skills/social-x-daily/SKILL/' | url }}"><span class="card__emoji">🐦</span><b>Hôm nay đăng gì lên X?</b><span>2 bài đăng, trả lời, theo từng giờ</span></a>
+      <a class="card c-sage" href="{{ 'marketing/instagram-marketing/skills/social-instagram-image-flow/SKILL/' | url }}"><span class="card__emoji">📸</span><b>Instagram kéo được người vào web</b><span>Một sự thật → một bài đăng, 10 bước</span></a>
+      <a class="card c-sun" href="{{ 'skills/aso/aso-screenshot-strategy/SKILL/' | url }}"><span class="card__emoji">📱</span><b>Khách vào store mà không cài</b><span>Ảnh chụp màn hình biết bán hàng</span></a>
+      <a class="card c-coral" href="{{ 'skills/launch/launch-pre-launch-checklist/SKILL/' | url }}"><span class="card__emoji">🚀</span><b>Tôi sắp ra mắt</b><span>Checklist trước khi ra mắt</span></a>
+      <a class="card c-sage" href="{{ 'skills/email/email-trial-sequence/SKILL/' | url }}"><span class="card__emoji">⏳</span><b>Dùng thử không chuyển thành trả phí</b><span>Chuỗi email cho giai đoạn dùng thử</span></a>
+      <a class="card c-sky" href="{{ 'skills/monetization/monetization-pricing-strategy/SKILL/' | url }}"><span class="card__emoji">💰</span><b>Tôi nên bán giá bao nhiêu?</b><span>Chiến lược định giá</span></a>
+      <a class="card c-ink" href="{{ 'skills/strategy/strategy-revenue-target/SKILL/' | url }}"><span class="card__emoji">🎯</span><b>Tôi muốn có $X trong N tháng</b><span>Tính ngược từ con số mục tiêu</span></a>
+    </div>
+  </section>
+
+  <!-- CON ĐƯỜNG -->
+  <section class="block path">
+    <h2 class="block__title">Kênh nào cũng là một con đường</h2>
+    <p class="block__sub">Người lạ thấy bạn → họ kiểm tra bạn có thật không → họ đến một nơi nào đó → họ trả tiền. Khi lượt xem
+      không thành người dùng, <mark>chỗ gãy nằm ở ô ngay bên phải</mark>.</p>
+    <figure class="frame"><img src="{{ 'site/images/funnel.svg' | url }}" alt="Tiếp cận, niềm tin, điểm đến, tiền"></figure>
+  </section>
+
+  <!-- BỘ KIT -->
+  <section class="block">
+    <h2 class="block__title">Bộ kit marketing, mỗi kênh một bộ</h2>
+    <p class="block__sub">Một quy trình đầy đủ cho từng kênh: tài liệu, bài đăng soạn sẵn, template, case study và skill.</p>
+    <div class="kits">
+      <a class="kit" href="{{ 'marketing/tiktok-marketing/README-TikTok-Marketing/' | url }}">
+        <img src="{{ 'site/images/tiktok-slideshow.svg' | url }}" alt="">
+        <div class="kit__body"><span class="tag">Mới</span><h3>🎞️ Slideshow TikTok</h3>
+          <p>"Vòng lặp Larry": 6 ảnh, hook có một người + một nghi ngờ, bản nháp → nhạc → đăng, giữ lại hook mang về lượt cài.</p>
+          <span class="kit__go">Bắt đầu bộ kit →</span></div></a>
+      <a class="kit" href="{{ 'marketing/instagram-marketing/README-Instagram-Marketing/' | url }}">
+        <img src="{{ 'site/images/instagram-carousel.svg' | url }}" alt="">
+        <div class="kit__body"><h3>📸 Instagram</h3>
+          <p>Carousel mà người ta gửi cho nhau và lưu lại, link trong Story dẫn về web của bạn, và chế độ Operator với 8 động cơ tăng trưởng.</p>
+          <span class="kit__go">Bắt đầu bộ kit →</span></div></a>
+      <a class="kit" href="{{ 'marketing/x-marketing/README-X-Marketing/' | url }}">
+        <img src="{{ (img ~ '04-x-kit-hero.jpg') | url }}" alt="">
+        <div class="kit__body"><h3>🐦 X (Twitter)</h3>
+          <p>Bài đăng hằng ngày về những gì bạn vừa làm xong, trả lời sao cho được chú ý, và một profile biến lượt ghé thăm thành lượt dùng thử.</p>
+          <span class="kit__go">Bắt đầu bộ kit →</span></div></a>
+    </div>
+    <p class="center"><a class="btn" href="{{ 'marketing/README-marketing-social/' | url }}">Các kênh nối với nhau thế nào →</a></p>
+  </section>
+
+  <!-- CASE -->
+  <section class="block case">
+    <div class="case__text">
+      <p class="kicker"><span class="dot"></span> Case study</p>
+      <h2 class="block__title">Cùng app. Cùng ảnh. Chỉ đổi một dòng.</h2>
+      <p>AI agent của một indie dev đăng slideshow TikTok cho một app thiết kế phòng. Khác biệt thật sự duy nhất giữa
+        bài thắng và bài flop là <mark>dòng chữ trên slide 1</mark>.</p>
+      <a class="btn btn--primary" href="{{ 'marketing/tiktok-marketing/case-studies/2026-02-oliver-henry-larry-snugly/' | url }}">Đọc case Larry →</a>
+      <p class="fine">Số liệu do founder tự công bố, tháng 2/2026. Hook giữ nguyên tiếng Anh như bản gốc đã đăng.</p>
+    </div>
+    <div class="bars">
+      <div class="bar"><div class="bar__label">"My landlord said I can't change anything so I showed her…"<br>(Chủ nhà bảo tôi không được sửa gì nên tôi cho bà ấy xem…)</div><div class="bar__track"><div class="bar__fill" style="--w:100%"></div></div><b>234.000 lượt xem</b></div>
+      <div class="bar"><div class="bar__label">"I showed my mum what AI thinks our living room could be."<br>(Tôi cho mẹ xem AI nghĩ phòng khách nhà mình có thể trông thế nào.)</div><div class="bar__track"><div class="bar__fill" style="--w:71%"></div></div><b>167.000</b></div>
+      <div class="bar bar--bad"><div class="bar__label">"The difference between $500 and $5000 taste"<br>(Khác biệt giữa gu $500 và gu $5000)</div><div class="bar__track"><div class="bar__fill" style="--w:1.2%"></div></div><b>2.671</b></div>
+      <div class="bar bar--bad"><div class="bar__label">"See your room in 12+ styles before you commit"<br>(Xem phòng bạn với hơn 12 phong cách trước khi quyết định)</div><div class="bar__track"><div class="bar__fill" style="--w:.4%"></div></div><b>879</b></div>
+    </div>
+  </section>
+
+  <!-- LĨNH VỰC -->
+  <section class="block">
+    <h2 class="block__title">Học theo lĩnh vực</h2>
+    <div class="areas">
+      <a href="{{ 'skills/strategy/README/' | url }}"><span>🧭</span><b>Chiến lược</b><i>4 skill</i></a>
+      <a href="{{ 'skills/research/README/' | url }}"><span>🔎</span><b>Nghiên cứu</b><i>4 skill</i></a>
+      <a href="{{ 'skills/listing/README/' | url }}"><span>📦</span><b>Listing trên store</b><i>9 skill</i></a>
+      <a href="{{ 'skills/aso/README/' | url }}"><span>📱</span><b>ASO</b><i>4 skill</i></a>
+      <a href="{{ 'skills/launch/README/' | url }}"><span>🚀</span><b>Ra mắt</b><i>9 skill</i></a>
+      <a href="{{ 'skills/social/README/' | url }}"><span>📣</span><b>Mạng xã hội</b><i>3 skill + 3 kit</i></a>
+      <a href="{{ 'skills/monetization/README/' | url }}"><span>💰</span><b>Kiếm tiền</b><i>7 skill</i></a>
+      <a href="{{ 'skills/email/README/' | url }}"><span>📧</span><b>Email</b><i>6 skill</i></a>
+      <a href="{{ 'skills/case-study/README/' | url }}"><span>🧪</span><b>Case study</b><i>4 skill</i></a>
+    </div>
+  </section>
+
+  <!-- QUY TẮC -->
+  <section class="block">
+    <h2 class="block__title">Năm quy tắc mọi skill đều tuân theo</h2>
+    <div class="notes">
+      <div class="note n1"><b>Chỉ dùng số liệu thật.</b> Ví dụ bịa đều được ghi nhãn.</div>
+      <div class="note n2"><b>Mỗi lần một việc.</b> Một kênh, một thay đổi, một tuần.</div>
+      <div class="note n3"><b>Đo tới tận tiền.</b> Lượt xem không phải là mục tiêu.</div>
+      <div class="note n4"><b>Nói rõ là của bạn.</b> Công khai khi quảng bá, ghi nhãn ảnh AI.</div>
+      <div class="note n5"><b>Không tương tác giả.</b> Không bot, không mua view.</div>
+    </div>
+  </section>
+
+  <!-- TÁC GIẢ -->
+  <section class="block author">
+    <img class="author__avatar" src="https://github.com/nvminhtu.png?size=240" alt="Tu Nguyen" loading="lazy">
+    <div class="author__text">
+      <p class="kicker"><span class="dot"></span> Thực hiện bởi</p>
+      <h2 class="block__title">Tu Nguyen</h2>
+      <p>Indie maker làm ra các app, game và công cụ AI nhỏ, và ghi lại những gì thật sự mang về người dùng.
+        Có câu hỏi, ý tưởng hay một case muốn thêm vào? Cứ nhắn nhé.</p>
+      <div class="author__links">
+        <a class="btn" href="https://x.com/lightstarvn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.2 8.2L23 22h-6.6l-5.2-6.8L5.3 22H2.2l7.7-8.8L1.8 2h6.7l4.7 6.2zm-1.1 18h1.7L7.3 3.9H5.5z"/></svg> @lightstarvn</a>
+        <a class="btn" href="https://github.com/nvminhtu" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17 4.8 18 5.1 18 5.1c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg> @nvminhtu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <h2>Chọn một vấn đề. Sửa nó ngay tuần này.</h2>
+    <a class="btn btn--primary btn--big" href="{{ 'skills/growth/SKILL/' | url }}">Tìm bước tiếp theo của tôi →</a>
+    <p><a href="https://github.com/OneClickTool/product-growth-playbook">★ Star trên GitHub</a> · cài như Agent Skills · miễn phí mãi mãi</p>
+  </section>
+</div>
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block footer %}{{ super() }}{% endblock %}
