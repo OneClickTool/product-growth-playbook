@@ -46,6 +46,22 @@ desktop toàn cầu Windows ~56,6%, macOS ~16,4% (OS X 11,89% + macOS 4,48%), Li
 | **ChromeOS** | Chromebook phổ biến ở trường học và doanh nghiệp | Extension của bạn có thể đang được dùng ở lớp học / văn phòng: danh mục Education, cài hàng loạt qua admin |
 | **Linux** | Nhỏ, chủ yếu dân kỹ thuật | Hợp với extension Developer Tools; user này hay báo lỗi chi tiết và góp code |
 
+**Trên dashboard trông thế nào:** một biểu đồ thanh ngang, mỗi thanh là một OS, ghi % installs trong khung ngày bạn
+chọn. Chỉ hiện vài OS lớn nhất, còn lại gộp vào **Other**.
+
+> **Illustrative example.** Hai extension giả định, cùng 30 ngày, đọc biểu đồ OS như sau:
+>
+> | OS | Extension A (chụp màn hình web) | Extension B (luyện gõ phím) | Mốc StatCounter |
+> |---|---|---|---|
+> | Windows | 52% | 31% | ~56,6% |
+> | macOS | 38% | 6% | ~16,4% |
+> | ChromeOS | 3% | **58%** | ~1,2% |
+> | Linux | 7% | 5% | ~4,4% |
+>
+> - **A:** macOS gấp hơn 2 lần mốc chung → nhiều designer / dev dùng Mac. Chụp ảnh listing trên Mac, ghi phím tắt ⌘.
+> - **B:** ChromeOS 58%, gấp ~50 lần mốc chung → gần như chắc là học sinh dùng Chromebook ở trường. Viết listing cho
+>   giáo viên, thêm danh mục Education, và tìm xem trường nào đang dùng để liên hệ.
+
 **Ưu tiên thế nào:** test và sửa lỗi trên OS chiếm nhiều installs nhất trước. Nếu ChromeOS chiếm phần lớn bất
 thường, đó là tín hiệu lớn: có thể một trường hoặc một công ty đang dùng, nên liên hệ họ.
 

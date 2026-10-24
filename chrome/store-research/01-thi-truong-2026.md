@@ -37,16 +37,40 @@ công cụ AI giúp làm extension nhanh hơn là một phần lý do.
 
 ## Ví dụ Privacy: chợ nhiều sạp, ít khách
 
-**Privacy & Security** là danh mục của các extension chặn quảng cáo, chặn theo dõi, VPN, quản lý mật khẩu, xóa cookie.
-Theo [Exstats](https://exstats.com/blog/browser-extension-category-opportunity-map-2026), trong 90 ngày gần nhất:
+### Privacy là ngách gì?
 
-- **Số extension** trong danh mục tăng **47,7%**: cứ 100 extension thì thêm 48 cái mới.
-- **Tổng lượt cài** của cả danh mục chỉ tăng **8,5%**: cứ 100 lượt cài thì chỉ thêm 8–9 lượt.
+**Privacy & Security** là một danh mục trên Chrome Web Store. Trong đó là các extension giúp người dùng **giấu mình
+khi lướt web** hoặc **chặn thứ làm phiền**, ví dụ:
 
-Hình dung một **cái chợ**: 3 tháng trước có 100 sạp bán rau, mỗi ngày 1.000 khách. Bây giờ có 148 sạp, nhưng khách chỉ
-tăng lên 1.085. Rau không đổi, khách gần như không đổi, chỉ có thêm người bán. **Mỗi sạp tự nhiên bán ít đi.**
+| Loại extension | Làm gì cho user | Tên quen thuộc (để hình dung) |
+|---|---|---|
+| Chặn quảng cáo | Ẩn banner, popup, quảng cáo video | uBlock Origin Lite, AdBlock |
+| Chặn theo dõi | Không cho web ghi lại bạn đã xem gì | Privacy Badger, Ghostery |
+| VPN / proxy | Đổi IP, giả vờ đang ở nước khác | các extension VPN miễn phí |
+| Quản lý mật khẩu | Lưu và tự điền mật khẩu | Bitwarden |
+| Xóa cookie / lịch sử | Tự dọn dấu vết sau khi đóng tab | các extension cookie cleaner |
 
-> **Illustrative example.** Phép tính từ hai con số trên, giả sử danh mục bắt đầu với 100 extension và 100.000 lượt cài:
+### Chuyện gì đang xảy ra?
+
+Theo [Exstats](https://exstats.com/blog/browser-extension-category-opportunity-map-2026), trong 90 ngày gần nhất có
+hai con số đi ngược nhau:
+
+- **Số extension** trong danh mục tăng **47,7%**: cứ 100 extension cũ thì có thêm **48 cái mới** ra đời.
+- **Tổng lượt cài** của cả danh mục chỉ tăng **8,5%**: cứ 100 lượt cài thì chỉ thêm **8–9 lượt**.
+
+Nói gọn: **người làm extension Privacy tăng rất nhanh, người cài extension Privacy gần như đứng yên.**
+
+### Vì sao điều đó xấu cho người mới vào?
+
+Hình dung một **cái chợ rau**:
+
+- 3 tháng trước: **100 sạp**, mỗi ngày **1.000 khách** → trung bình mỗi sạp **10 khách**.
+- Bây giờ: **148 sạp**, nhưng khách chỉ lên **1.085** → mỗi sạp còn khoảng **7 khách**.
+
+Rau không ngon hơn, khách không đông hơn, chỉ có thêm người bán. Mỗi sạp **tự nhiên bán ít đi**, dù chẳng ai làm gì sai.
+Sạp mới mở thì còn tệ hơn: khách quen đã có sạp ruột (ai cài uBlock rồi thì không cài thêm cái chặn quảng cáo thứ hai).
+
+> **Illustrative example.** Cùng phép tính đó với số tròn, giả sử danh mục bắt đầu với 100 extension và 100.000 lượt cài:
 >
 > | | 3 tháng trước | Bây giờ |
 > |---|---|---|
@@ -54,7 +78,14 @@ tăng lên 1.085. Rau không đổi, khách gần như không đổi, chỉ có 
 > | Tổng lượt cài | 100.000 | 108.500 (+8,5%) |
 > | **Trung bình mỗi extension** | **1.000** | **~733 (giảm ~27%)** |
 >
-> Mỗi extension trong danh mục trung bình mất khoảng **1/4 lượt cài**, dù chẳng ai làm gì sai.
+> Mỗi extension trong danh mục trung bình mất khoảng **1/4 lượt cài** chỉ vì có thêm đối thủ.
+
+### Vậy nếu bạn định làm một extension chặn quảng cáo?
+
+1. **Đừng làm "thêm một cái chặn quảng cáo nữa".** User đã có uBlock, AdBlock; họ không có lý do đổi.
+2. **Tìm một việc hẹp mà các ông lớn bỏ qua.** Ví dụ: chỉ chặn một thứ cụ thể trên một trang cụ thể (ẩn Shorts trên
+   YouTube, ẩn mục "Gợi ý" trên LinkedIn). Đây vẫn là Privacy/UI nhưng có ít đối thủ và người tìm biết rõ mình cần gì.
+3. **Viết listing bằng đúng câu người ta gõ.** "hide youtube shorts" dễ đứng top hơn "best ad blocker".
 
 **Bài học:** trước khi chọn ngách, so **tốc độ tăng của đối thủ** với **tốc độ tăng của khách**:
 
