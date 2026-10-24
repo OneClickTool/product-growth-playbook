@@ -356,3 +356,14 @@ body {
   .steps, .cards, .kits, .notes { grid-template-columns: 1fr; }
   .case { padding: 1.4rem; }
 }
+
+/* Big warning line at the top of a section (chrome/README.md) */
+.md-typeset .pgp-shout {
+  font-size: clamp(1.6rem, 5vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+  color: #d32f2f;
+  margin: .2em 0 .8em;
+}
+[data-md-color-scheme="slate"] .md-typeset .pgp-shout { color: #ff6b6b; }

@@ -1,5 +1,7 @@
 # Chrome: đọc số và hiểu thị trường extension
 
+<p class="pgp-shout">ĐỪNG ĐỌC NẾU BẠN KHÔNG LÀM CHROME EXTENSION</p>
+
 > Chuyên mục này viết bằng **tiếng Việt** (phần còn lại của playbook là tiếng Anh). Cập nhật lần cuối: **24/10/2026**.
 
 Mở Developer Dashboard của Chrome Web Store, thấy "68 installs, +25.93%", rồi sao nữa? Tốt hay xấu? Extension của
