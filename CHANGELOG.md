@@ -1,6 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Research)
+- `skills/research/research-gap-source-scoring`: score every place to look for product gaps (search, Q&A, app stores,
+  review sites, money evidence, feature-request boards, freelance jobs, own Search Console) on 6 criteria, with a fixed
+  rule (build a collector / check by hand / drop), a terms-of-service checklist and 12 gap-finding methods. Sources and
+  example checked 2026-10-26.
 ### Added (Chrome)
 - 18 screenshots from Google's own Chrome Web Store docs (CC BY 4.0, source under each image) in
   `docs/images/chrome/`, placed in every Chrome page: the Analytics menu, the Installs & uninstalls, Impressions and

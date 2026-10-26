@@ -9,6 +9,7 @@ Then keep your research in tidy Markdown files that you, your team and your AI a
 | [research-doc-organization](research-doc-organization/SKILL.md) | A `research/` folder: index, sources, decision log, note template | Beginner | 30 min |
 | [research-where-users-ask](research-where-users-ask/SKILL.md) | A map of the places people ask for software, with links, search queries and alerts | Beginner | 45–60 min |
 | [research-review-mining](research-review-mining/SKILL.md) | Competitor pain points, opportunities and user phrases from 100+ reviews | Beginner | 60 min |
+| [research-gap-source-scoring](research-gap-source-scoring/SKILL.md) | Every gap source scored on 6 criteria: build a collector, check by hand, or drop | Intermediate | 2–4 h |
 
 **Next step:** turn research into lessons with [Case Study](../case-study/) skills, e.g. a competitor teardown.
 
