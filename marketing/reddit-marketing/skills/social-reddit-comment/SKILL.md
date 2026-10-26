@@ -101,6 +101,8 @@ need image search."*
 - **DMing the person afterwards.** Unsolicited messages are spam. Let them come to your profile.
 
 ## Related skills
+- [09-comment-guide.md](../../docs/09-comment-guide.md): the full guide this skill follows (sorting, hidden
+  filters, worked examples, checklist).
 - [social-reddit](../social-reddit/SKILL.md): the router for every Reddit job.
 - [launch-reddit-posting](../../../../skills/launch/launch-reddit-posting/SKILL.md): posts, subreddits by product
   type, the rules script.

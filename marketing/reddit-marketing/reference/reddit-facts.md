@@ -18,6 +18,9 @@ community posts; treat as a hint and verify before relying on it.
 | Fact | Source | Type |
 |---|---|---|
 | The archived "hot" sort: log10 of the vote score plus the post's age term (seconds / 45,000). So votes count on a log scale and age pushes posts down on a fixed clock. Current ranking isn't published | [reddit-archive/reddit](https://github.com/reddit-archive/reddit) (`r2/r2/lib/db/_sorts.pyx`) · explained in [socialboostdigital, 2026](https://socialboostdigital.com/blog/reddit-ranking-algorithm-2026) | Code (archived) |
+| The "Best" comment sort (2009) ranks by the lower bound of the Wilson confidence interval on the upvote share: few votes = low confidence = stays low | [Evan Miller](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html) · [Salihefendic](https://medium.com/hacking-and-gonzo/how-reddit-ranking-algorithms-work-ef111e33d0d9) · `_sorts.pyx` (`confidence`) | Secondary + Code |
+| Moderators can filter by Contributor Quality Score (since Sep 2023): 5 tiers from signals such as past account actions and account verification | r/modnews announcement, read via [mirror](https://lr.vern.cc/r/modnews/comments/16is6dh/contributor_quality_score_available_to_all/) | Secondary |
+| Reddit Answers (test from Dec 2024) summarizes Reddit conversations and links back to them | [Engadget](https://www.engadget.com/social-media/reddit-introduces-ai-powered-reddit-answers-search-feature-140028655.html) | Secondary |
 
 ## Karma
 

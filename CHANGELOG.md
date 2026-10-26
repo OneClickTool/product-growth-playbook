@@ -1,6 +1,12 @@
 # Changelog
 
 ## [Unreleased]
+### Added (Reddit)
+- `marketing/reddit-marketing/docs/09-comment-guide.md`: one page on Reddit comments: what commenting does and
+  doesn't bring, how the "Best" sort and hidden filters (AutoModerator, Contributor Quality Score, Crowd Control)
+  decide who sees a comment, thread picking, anatomy of a top comment, six shapes with worked (illustrative)
+  examples, product mentions and the 1-in-10 ratio, after-posting steps, metrics and a pre-reply checklist. Linked
+  from the kit README, 05, `social-reddit-comment` and `reddit-facts.md`. Sources checked 2026-10-26.
 ### Added (Research)
 - `skills/research/research-gap-source-scoring`: score every place to look for product gaps (search, Q&A, app stores,
   review sites, money evidence, feature-request boards, freelance jobs, own Search Console) on 6 criteria, with a fixed

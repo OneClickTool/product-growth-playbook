@@ -35,7 +35,8 @@ Router skill: [social-reddit](skills/social-reddit/SKILL.md). Installed as a plu
    → [docs/02-profile-setup.md](docs/02-profile-setup.md).
 2. **This week (15 min a day):** comments only. Find 2–3 threads a day where someone asks for what you know, and
    answer without a link → [flow/daily-flow.md](flow/daily-flow.md) ·
-   [social-reddit-comment](skills/social-reddit-comment/SKILL.md).
+   [social-reddit-comment](skills/social-reddit-comment/SKILL.md). Does commenting actually help, and how to write
+   one that ends up on top: [docs/09-comment-guide.md](docs/09-comment-guide.md).
 3. **From week 3:** one post a week, one subreddit at a time, easiest first →
    [docs/06-post-variants.md](docs/06-post-variants.md) and the per-subreddit pages in
    [docs/subreddits](../../docs/subreddits/README.md).
@@ -64,6 +65,7 @@ script, title and body formulas) · [docs/subreddits](../../docs/subreddits/READ
 6. [Post variants: 10 kinds of Reddit post](docs/06-post-variants.md)
 7. [Metrics and stop rules](docs/07-metrics-and-stop-rules.md)
 8. [Rules and risks](docs/08-rules-and-risks.md)
+9. [Reddit comments: the complete guide](docs/09-comment-guide.md): everything about answering in one page
 
 ## Five things to remember
 - Each subreddit is its own country with its own rules. Read them before every first post there.

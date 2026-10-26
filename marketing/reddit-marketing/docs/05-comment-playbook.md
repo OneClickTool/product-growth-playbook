@@ -2,7 +2,8 @@
 
 Comments are 80% of the work on Reddit and most of the trust. Agent version with a prompt:
 [social-reddit-comment](../skills/social-reddit-comment/SKILL.md). File format to keep them:
-[templates/comment-file.md](../templates/comment-file.md).
+[templates/comment-file.md](../templates/comment-file.md). The long version, with what comments bring, how Reddit
+sorts them, hidden filters and worked examples: [09-comment-guide.md](09-comment-guide.md).
 
 ## Six answer shapes
 
