@@ -1,6 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+### Changed (Monetization)
+- `monetization-payment-setup/references/payment-providers-by-country.md`: payouts re-checked 2026-10-31. Lemon
+  Squeezy now has its $50 minimum, 13-day hold and payout fees; Polar its $10 default minimum, manual withdrawals and
+  7-day settlement delay; Polar paid plans added. New note: the lowest minimum payout, and a labelled illustrative
+  example showing that a fixed payout fee (Creem: at least $7) can outweigh a lower per-sale fee on small payouts.
 ### Added (Reddit)
 - `marketing/reddit-marketing/docs/09-comment-guide.md`: one page on Reddit comments: what commenting does and
   doesn't bring, how the "Best" sort and hidden filters (AutoModerator, Contributor Quality Score, Crowd Control)

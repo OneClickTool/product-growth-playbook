@@ -1,7 +1,7 @@
 # Payment providers by country: research notes
 
 The source file behind [monetization-payment-setup](../SKILL.md). Every fact links to the provider's own page.
-**Checked 2026-10-01.** "Unconfirmed" means no official page confirmed it. Re-check before you rely on it, and
+**Checked 2026-10-01; payouts (§2) re-checked 2026-10-31.** "Unconfirmed" means no official page confirmed it. Re-check before you rely on it, and
 update this file (with the date) when something changes.
 
 ## 1. Web checkout: merchants of record and processors
@@ -12,7 +12,7 @@ update this file (with the date) when something changes.
 | [Stripe Managed Payments](https://stripe.com/managed-payments) | MoR | Stripe fees + 3.5% | ❌ | None. Only US, CA, EU/EEA, GB, CH, NO, LI, AU, HK, JP, SG ([eligibility](https://docs.stripe.com/payments/managed-payments/eligibility)) |
 | [Paddle](https://www.paddle.com/pricing) | MoR | 5% + 50¢; custom pricing under $10 | ⚠️ Not on the blocked list, not confirmed ([countries](https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle)) | None of the five blocked |
 | [Lemon Squeezy](https://www.lemonsqueezy.com/pricing) | MoR (Stripe-owned) | 5% + 50¢, extra fees in some cases | ✅ Bank payouts ([countries](https://docs.lemonsqueezy.com/help/getting-started/supported-countries)) | ID, PH, PK, NG bank; IN PayPal only |
-| [Polar](https://polar.sh/docs/merchant-of-record/fees) | MoR | Orgs from 27 May 2026: 5% + 50¢, +1.5% non-US cards. Older orgs: 4% + 40¢ (+0.5% subs) | ✅ ([countries](https://polar.sh/docs/merchant-of-record/supported-countries)) | All five |
+| [Polar](https://polar.sh/docs/merchant-of-record/fees) | MoR | Orgs from 27 May 2026: Starter 5% + 50¢ (paid plans from $20/mo: 3.8% + 40¢), +1.5% non-US cards; disputes $15. Older orgs: 4% + 40¢ (+0.5% subs) | ✅ ([countries](https://polar.sh/docs/merchant-of-record/supported-countries)) | All five |
 | [Creem](https://www.creem.io/pricing) | MoR | 3.9% + 40¢ | ✅ ([countries](https://docs.creem.io/merchant-of-record/supported-countries)) | All five (PK: bank-partner limits) |
 | [Dodo Payments](https://dodopayments.com/pricing) | MoR | 4% + 40¢ US; +1.5% intl, +0.5% subs, +3% PayPal/BNPL | ✅ ([countries](https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories)) | IN, ID, PH yes; PK not listed; NG existing accounts only |
 | [Gumroad](https://gumroad.com/pricing) | MoR since 1 Jan 2025 | 10% + 50¢ direct; 30% via Discover | ✅ VND to local bank ([getting paid](https://gumroad.com/help/article/13-getting-paid)) | All five, local bank |
@@ -25,13 +25,24 @@ update this file (with the date) when something changes.
 | Provider | Methods | Minimum · schedule | Source |
 |---|---|---|---|
 | Paddle | Wire, Payoneer, Wise-style bank details (PayPal unconfirmed) | $100 · created on the 1st, sent by the 15th; $15 SWIFT fee in some countries | [how you get paid](https://www.paddle.com/help/manage/get-paid/when-and-how-do-i-get-paid) |
-| Lemon Squeezy | Bank or PayPal | Unconfirmed | [countries](https://docs.lemonsqueezy.com/help/getting-started/supported-countries) |
-| Polar | Stripe Connect Express | Not stated · Stripe payout fees passed on: $2/month with payouts, 0.25% + $0.25 per payout, 0.25–1% cross-border | [fees](https://polar.sh/docs/merchant-of-record/fees) |
+| Lemon Squeezy | Bank via Stripe (free US, 1% outside US) or PayPal ($0.50 US, 3% capped at $30 outside US) | $50 · created on the 1st and 15th; sales held 13 days; under $50 stays Pending and rolls over | [getting paid](https://docs.lemonsqueezy.com/help/getting-started/getting-paid), [fees](https://docs.lemonsqueezy.com/help/getting-started/fees) |
+| Polar | Stripe Connect Express (bank in your own country and currency) | **$10** default (EUR $13, GBP $15, some currencies $40; VND not listed, so the default should apply) · you request it any time; 7-day settlement delay for orgs from 12 May 2026; 4–7 business days to arrive · Stripe fees passed on: $2/month with payouts, 0.25% + $0.25 per payout, 0.25–1% cross-border | [payouts](https://polar.sh/docs/features/finance/payouts), [fees](https://polar.sh/docs/merchant-of-record/fees) |
 | Gumroad | Local bank (local currency) or PayPal USD (2%); no Payoneer/Wise/wire | $100 · daily, weekly, monthly or quarterly; sales held ≥ 7 days on non-daily schedules | [getting paid](https://gumroad.com/help/article/13-getting-paid) |
-| Creem | Bank (7 USD/EUR or 1%, whichever is higher) or USDC on Polygon (2%) | $50 · 1st and 15th | [payouts](https://docs.creem.io/merchant-of-record/finance/payouts) |
+| Creem | Bank (7 USD/EUR or 1%, whichever is higher) or USDC on Polygon (2%); no PayPal | $50 · 1st and 15th; funds clear in 7–12 days | [payouts](https://docs.creem.io/merchant-of-record/finance/payouts) |
 | Dodo | Bank; free normally, $5 under $1,000, $25 USD SWIFT | $50 (fixed) · twice a month | [payout structure](https://docs.dodopayments.com/features/payouts/payout-structure) |
 | FastSpring | Wire, PayPal, ACH, check (Hyperwallet portal) | You set it | [payouts portal](https://developer.fastspring.com/docs/fastspring-payouts-portal) |
 | Payhip | Straight to your PayPal/Stripe after each sale | — | [pricing](https://payhip.com/pricing) |
+
+**Lowest minimum among the MoRs above: Polar ($10).** Payhip has no threshold because it never holds your money, but it
+is not a full MoR (see §1). Paddle, Gumroad (until verified) and Google Play sit at $100; Lemon Squeezy, Creem and Dodo at $50.
+
+**Small payouts change which provider is cheapest.** A low per-sale fee can be eaten by a fixed payout fee. Compare
+the total for one payout cycle, not the headline rate.
+
+> **Illustrative example.** A $9.99 one-time sale to a non-US card, seller paid to a bank outside the US.
+> Lemon Squeezy: 5% + 50¢ + 1.5% intl ≈ $1.15 per sale; payout 1%. Creem: 3.9% + 40¢ ≈ $0.79 per sale; payout
+> max($7, 1%). Creem saves about $0.36 per sale but costs up to $6.50 more per payout, so it only wins once a single
+> payout is above roughly $140 (about 16 sales per half-month). Below that, Lemon Squeezy keeps more.
 
 ## 3. Verification: what they ask for and how long it takes
 
@@ -115,6 +126,7 @@ requires you to say you are the seller and publish terms of sale ([policy](https
 - How to declare income from foreign MoRs (Gumroad, Polar, Creem…) as an individual: **unconfirmed**; ask a local accountant.
 
 ## Notable changes 2024–2026
+- Polar added a 7-day settlement delay for organizations created from 12 May 2026 ([payouts](https://polar.sh/docs/features/finance/payouts)).
 - Stripe bought Lemon Squeezy (July 2024). In January 2026 its CEO wrote that support is slower, updates are fewer,
   and migration to Stripe Managed Payments is the goal ([2026 update](https://www.lemonsqueezy.com/blog/2026-update)).
 - Gumroad became merchant of record on 1 Jan 2025.
