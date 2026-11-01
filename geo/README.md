@@ -16,6 +16,19 @@ không, còn **prompt check** cho biết AI có *nhắc tên* bạn không. Cầ
 3. [Search Console và Bing](03-search-console-bing.md): bài nào được Google / Copilot đưa ra, cho câu hỏi nào.
 4. [Theo dõi hằng tuần](04-theo-doi-hang-tuan.md): 15 phút mỗi tuần, cách đọc số mà không tự lừa mình, khi nào sửa bài.
 
+## Bản tiếng Việt của các bài GEO trong playbook
+
+Các bài gốc tiếng Anh về SEO · AEO · GEO, dịch đủ sang tiếng Việt. Nếu hai bản lệch nhau, theo bản tiếng Anh.
+
+5. [Hiện diện trên AI search](05-ai-search-visibility.md): bốn tầng SEO, AEO, AIO, GEO, bằng chứng tới đâu, làm theo thứ
+   tự nào. Gốc: [AI Search Visibility](../playbooks/ai-search-visibility.md).
+6. [Hướng dẫn học GEO & AEO](06-huong-dan-hoc-geo-aeo.md): AI chọn nguồn thế nào, tài liệu chính thức, nghiên cứu, ba
+   trụ cột, robots.txt, kế hoạch 4 tuần. Gốc: [GEO & AEO learning guide](../skills/launch/launch-geo-aeo-feature-preview/references/geo-aeo-learning-guide.md).
+7. [Skill trang preview tính năng](07-skill-trang-preview-tinh-nang.md): làm trang preview cho tính năng chưa code, đo 28
+   ngày rồi quyết định làm / sửa / bỏ. Gốc: [launch-geo-aeo-feature-preview](../skills/launch/launch-geo-aeo-feature-preview/SKILL.md).
+8. [Mẫu trang preview tính năng](08-mau-trang-preview-tinh-nang.md): khung trang chép dùng ngay và checklist trước khi
+   đăng. Gốc: [Feature preview page: template](../skills/launch/launch-geo-aeo-feature-preview/references/feature-preview-page-template.md).
+
 ## Ba con số cần nhớ
 
 | Con số | Lấy ở đâu | Trả lời câu hỏi |

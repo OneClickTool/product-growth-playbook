@@ -1,5 +1,7 @@
 # Feature preview page: template
 
+> 🇻🇳 Vietnamese version: [đọc bản tiếng Việt](../../../../geo/08-mau-trang-preview-tinh-nang.md).
+
 > One page per feature you are designing but haven't built. Honest status, real mockups, answer-first sections,
 > one clear action. Copy it into your site (Markdown, MDX, CMS) and replace everything in `{{ }}`.
 

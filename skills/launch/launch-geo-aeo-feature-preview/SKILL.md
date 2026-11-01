@@ -14,6 +14,8 @@ metadata:
 
 > In an afternoon you will have 1–3 honest preview pages for features you're designing, set up so search and AI
 > engines can cite them, plus a daily log that tells you after 28 days which feature to build.
+>
+> 🇻🇳 Vietnamese version: [đọc bản tiếng Việt](../../../geo/07-skill-trang-preview-tinh-nang.md).
 
 ## Goal
 Find out which features people want **before** you build them, by publishing one preview page per feature (problem,

@@ -1,5 +1,7 @@
 # Playbook: AI Search Visibility (SEO, AEO, AIO, GEO)
 
+> 🇻🇳 Vietnamese version: [đọc bản tiếng Việt](../geo/05-ai-search-visibility.md).
+
 What the four acronyms mean, how they stack, what still works in 2026, how strong the evidence is, and the order to
 do it in for a small product. It's a research and knowledge doc: read it once, then use the skills linked at the end.
 

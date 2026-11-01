@@ -1,5 +1,7 @@
 # GEO & AEO: a learning guide
 
+> 🇻🇳 Vietnamese version: [đọc bản tiếng Việt](../../../../geo/06-huong-dan-hoc-geo-aeo.md).
+
 > Read this once, top to bottom (about 40 minutes). Then use [the skill](../SKILL.md) to apply it to one feature.
 > Last checked: 18 Oct 2026. AI search changes fast: re-check the official pages in [Sources](#sources) every quarter.
 
