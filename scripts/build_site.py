@@ -298,6 +298,10 @@ def build_nav():
             pages = sorted(md_files(folder), key=lambda r: not r.endswith("README.md"))
             n += [entry(r, 10, "Mục lục" if r.endswith("README.md") else title_of(r).split(":")[0]) for r in pages]
 
+    if (OUT / "geo").exists():
+        n += ['  - "GEO":', entry("geo/README.md", 6, "Tổng quan")]
+        n += [entry(r, 6, title_of(r).split(":")[0]) for r in md_files("geo") if not r.endswith("README.md")]
+
     n.append('  - "Skills":')
     for area in sorted(p for p in (OUT / "skills").iterdir() if p.is_dir() and p.name != "growth"):
         rel = f"skills/{area.name}/README.md"

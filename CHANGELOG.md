@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Added (GEO)
+- `geo/`: new Vietnamese tab on measuring GEO / LLM results for a blog: 01 exclude yourself (opt-out add-on, `traffic_type: internal`, IP filter), Vietnam and bots from GA4; 02 the GA4 *AI Assistant* channel, per-assistant sources by regex, a custom channel and why the AI number is a floor; 03 Search Console, Bing AI Performance and AI bots in robots.txt; 04 a 15-minute weekly check with 5 fixed prompts, a log template (illustrative numbers) and what to do after 4 weeks. Added to the site nav in `scripts/build_site.py`. Sources checked 2026-11-01.
 ### Changed (Monetization)
 - `monetization-payment-setup/references/payment-providers-by-country.md`: payouts re-checked 2026-10-31. Lemon
   Squeezy now has its $50 minimum, 13-day hold and payout fees; Polar its $10 default minimum, manual withdrawals and
